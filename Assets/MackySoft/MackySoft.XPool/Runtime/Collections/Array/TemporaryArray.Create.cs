@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace MackySoft.XPool.Collections
-{
+namespace MackySoft.XPool.Collections {
+
+	// Static TemporaryArray create methods
 	public partial struct TemporaryArray<T> {
 
 		/// <summary>
