@@ -34,11 +34,7 @@ jobs:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-
-      - uses: webfactory/ssh-agent@v0.5.2
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+      
       # Build
       - name: Build
         uses: game-ci/unity-builder@v2
@@ -46,7 +42,6 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE_2020 }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-          sshAgent: ${{ env.SSH_AUTH_SOCK }}
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
