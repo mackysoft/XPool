@@ -53,11 +53,7 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\TemporaryArray.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Internal\RuntimeHelpers.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolUtility.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPool.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />
