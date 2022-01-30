@@ -43,4 +43,15 @@ namespace MackySoft.XPool.Collections
 		}
 
 	}
+
+	public static class TemporaryArrayExtensions {
+
+		/// <summary>
+		/// Create a temporary array from the elements of <see cref="IEnumerable{T}"/>.
+		/// </summary>
+		public static TemporaryArray<T> ToTemporaryArray<T> (this IEnumerable<T> source) {
+			return TemporaryArray<T>.From(source);
+		}
+
+	}
 }
