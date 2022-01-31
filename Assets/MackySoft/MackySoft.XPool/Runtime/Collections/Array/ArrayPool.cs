@@ -102,6 +102,13 @@ namespace MackySoft.XPool.Collections {
 			Return(array,clearArray);
 			array = null;
 		}
+
+		/// <summary>
+		/// Clear the pool of this type.
+		/// </summary>
+		public void Clear () {
+			Array.Clear(m_Pool,0,m_Pool.Length);
+		}
 		
 		static int CalculateArraySize (int size) {
 			size--;
