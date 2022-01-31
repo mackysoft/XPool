@@ -112,8 +112,8 @@ namespace MackySoft.XPool.Collections {
 			size |= size >> 16;
 			size += 1;
 
-			if (size < 8) {
-				size = 8;
+			if (size < ArrayPoolUtility.kMinArraySize) {
+				size = ArrayPoolUtility.kMinArraySize;
 			}
 			return size;
 		}
