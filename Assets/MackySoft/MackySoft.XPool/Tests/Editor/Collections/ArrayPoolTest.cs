@@ -42,10 +42,10 @@ namespace MackySoft.XPool.Collections.Tests {
 
 		[Test, TestCaseSource(nameof(kArraySizes))]
 		public void Returned_array_size_is_next_power_of_two (int powerOfTwoSize) {
-			// 7 -> 8
+			// 8 -> 8
 			Assert.AreEqual(powerOfTwoSize,m_Pool.Rent(powerOfTwoSize).Length);
 
-			// 8 -> 8
+			// 7 -> 8
 			Assert.AreEqual(powerOfTwoSize,m_Pool.Rent(powerOfTwoSize - 1).Length);
 
 			// 9 -> 16
