@@ -53,9 +53,9 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ArrayPoolTest.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ListPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\Unit.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ListPoolTest.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ArrayPoolTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\MackySoft.XPool.Tests.Editor.asmdef" />
