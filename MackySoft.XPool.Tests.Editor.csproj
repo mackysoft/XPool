@@ -56,6 +56,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\Unit.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ListPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ArrayPoolTest.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\StackPoolTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\MackySoft.XPool.Tests.Editor.asmdef" />
