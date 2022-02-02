@@ -23,6 +23,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "wzTEO67YlafC8uEG7iYiiDW1ywwFcu5sxNtIiLCMpfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "1q1fO7/YyPEGJ89UlRVsP2/QXB8oQ3/9CvSsb1tfrWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
@@ -39,7 +63,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6m+/uOVNi1EBm888U3wOgde6F9nQLIJTo5YkOIqud6M="
+          "hash": "RZq3qxnEgLfBx3XcQfJK2Sg7OnDqyM38nLLmAwhJt40="
         }
       },
       "is_incremental": false,
@@ -60,7 +84,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
