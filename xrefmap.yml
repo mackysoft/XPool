@@ -1,3 +1,1128 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: MackySoft.XPool.Collections
+  name: MackySoft.XPool.Collections
+  href: api/MackySoft.XPool.Collections.html
+  commentId: N:MackySoft.XPool.Collections
+  fullName: MackySoft.XPool.Collections
+  nameWithType: MackySoft.XPool.Collections
+- uid: MackySoft.XPool.Collections.ArrayPool`1
+  name: ArrayPool<T>
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html
+  commentId: T:MackySoft.XPool.Collections.ArrayPool`1
+  name.vb: ArrayPool(Of T)
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T)
+  nameWithType: ArrayPool<T>
+  nameWithType.vb: ArrayPool(Of T)
+- uid: MackySoft.XPool.Collections.ArrayPool`1.#ctor
+  name: ArrayPool()
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1__ctor
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.#ctor
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.ArrayPool()
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ArrayPool()
+  nameWithType: ArrayPool<T>.ArrayPool()
+  nameWithType.vb: ArrayPool(Of T).ArrayPool()
+- uid: MackySoft.XPool.Collections.ArrayPool`1.#ctor*
+  name: ArrayPool
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.ArrayPool
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ArrayPool
+  nameWithType: ArrayPool<T>.ArrayPool
+  nameWithType.vb: ArrayPool(Of T).ArrayPool
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Clear
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.Clear
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Clear()
+  nameWithType: ArrayPool<T>.Clear()
+  nameWithType.vb: ArrayPool(Of T).Clear()
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Clear
+  nameWithType: ArrayPool<T>.Clear
+  nameWithType.vb: ArrayPool(Of T).Clear
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Rent(System.Int32)
+  name: Rent(Int32)
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Rent_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.Rent(System.Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Rent(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Rent(System.Int32)
+  nameWithType: ArrayPool<T>.Rent(Int32)
+  nameWithType.vb: ArrayPool(Of T).Rent(Int32)
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Rent
+  nameWithType: ArrayPool<T>.Rent
+  nameWithType.vb: ArrayPool(Of T).Rent
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Return(`0[],System.Boolean)
+  name: Return(T[], Boolean)
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Return__0___System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.Return(`0[],System.Boolean)
+  name.vb: Return(T(), Boolean)
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Return(T[], System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Return(T(), System.Boolean)
+  nameWithType: ArrayPool<T>.Return(T[], Boolean)
+  nameWithType.vb: ArrayPool(Of T).Return(T(), Boolean)
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Return(`0[]@,System.Boolean)
+  name: Return(ref T[], Boolean)
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Return__0____System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.Return(`0[]@,System.Boolean)
+  name.vb: Return(ByRef T(), Boolean)
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Return(ref T[], System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Return(ByRef T(), System.Boolean)
+  nameWithType: ArrayPool<T>.Return(ref T[], Boolean)
+  nameWithType.vb: ArrayPool(Of T).Return(ByRef T(), Boolean)
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Return_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Return
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Return
+  nameWithType: ArrayPool<T>.Return
+  nameWithType.vb: ArrayPool(Of T).Return
+- uid: MackySoft.XPool.Collections.ArrayPool`1.Shared
+  name: Shared
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Shared
+  commentId: F:MackySoft.XPool.Collections.ArrayPool`1.Shared
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Shared
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Shared
+  nameWithType: ArrayPool<T>.Shared
+  nameWithType.vb: ArrayPool(Of T).Shared
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions
+  name: ArrayPoolExtensions
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html
+  commentId: T:MackySoft.XPool.Collections.ArrayPoolExtensions
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions
+  nameWithType: ArrayPoolExtensions
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool*
+  name: ToArrayFromPool
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool
+  nameWithType: ArrayPoolExtensions.ToArrayFromPool
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToArrayFromPool<T>(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>)
+  nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  name: ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>)
+  nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T))
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
+  name: ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>, out Int32)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__System_Int32__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
+  name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T), ByRef Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>, out System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T), ByRef System.Int32)
+  nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>, out Int32)
+  nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T), ByRef Int32)
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},System.Int32@)
+  name: ToArrayFromPool<T>(IEnumerable<T>, out Int32)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__System_Int32__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},System.Int32@)
+  name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ByRef Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, out System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), ByRef System.Int32)
+  nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, out Int32)
+  nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ByRef Int32)
+- uid: MackySoft.XPool.Collections.ArrayPoolUtility
+  name: ArrayPoolUtility
+  href: api/MackySoft.XPool.Collections.ArrayPoolUtility.html
+  commentId: T:MackySoft.XPool.Collections.ArrayPoolUtility
+  fullName: MackySoft.XPool.Collections.ArrayPoolUtility
+  nameWithType: ArrayPoolUtility
+- uid: MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity*
+  name: EnsureCapacity
+  href: api/MackySoft.XPool.Collections.ArrayPoolUtility.html#MackySoft_XPool_Collections_ArrayPoolUtility_EnsureCapacity_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity
+  nameWithType: ArrayPoolUtility.EnsureCapacity
+- uid: MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity``1(``0[]@,System.Int32)
+  name: EnsureCapacity<T>(ref T[], Int32)
+  href: api/MackySoft.XPool.Collections.ArrayPoolUtility.html#MackySoft_XPool_Collections_ArrayPoolUtility_EnsureCapacity__1___0____System_Int32_
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity``1(``0[]@,System.Int32)
+  name.vb: EnsureCapacity(Of T)(ByRef T(), Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity<T>(ref T[], System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolUtility.EnsureCapacity(Of T)(ByRef T(), System.Int32)
+  nameWithType: ArrayPoolUtility.EnsureCapacity<T>(ref T[], Int32)
+  nameWithType.vb: ArrayPoolUtility.EnsureCapacity(Of T)(ByRef T(), Int32)
+- uid: MackySoft.XPool.Collections.ArrayPoolUtility.kMinArraySize
+  name: kMinArraySize
+  href: api/MackySoft.XPool.Collections.ArrayPoolUtility.html#MackySoft_XPool_Collections_ArrayPoolUtility_kMinArraySize
+  commentId: F:MackySoft.XPool.Collections.ArrayPoolUtility.kMinArraySize
+  fullName: MackySoft.XPool.Collections.ArrayPoolUtility.kMinArraySize
+  nameWithType: ArrayPoolUtility.kMinArraySize
+- uid: MackySoft.XPool.Collections.HashSetPool`1
+  name: HashSetPool<T>
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html
+  commentId: T:MackySoft.XPool.Collections.HashSetPool`1
+  name.vb: HashSetPool(Of T)
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T)
+  nameWithType: HashSetPool<T>
+  nameWithType.vb: HashSetPool(Of T)
+- uid: MackySoft.XPool.Collections.HashSetPool`1.#ctor
+  name: HashSetPool()
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1__ctor
+  commentId: M:MackySoft.XPool.Collections.HashSetPool`1.#ctor
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.HashSetPool()
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).HashSetPool()
+  nameWithType: HashSetPool<T>.HashSetPool()
+  nameWithType.vb: HashSetPool(Of T).HashSetPool()
+- uid: MackySoft.XPool.Collections.HashSetPool`1.#ctor*
+  name: HashSetPool
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.HashSetPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.HashSetPool
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).HashSetPool
+  nameWithType: HashSetPool<T>.HashSetPool
+  nameWithType.vb: HashSetPool(Of T).HashSetPool
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Clear
+  commentId: M:MackySoft.XPool.Collections.HashSetPool`1.Clear
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Clear()
+  nameWithType: HashSetPool<T>.Clear()
+  nameWithType.vb: HashSetPool(Of T).Clear()
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.HashSetPool`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Clear
+  nameWithType: HashSetPool<T>.Clear
+  nameWithType.vb: HashSetPool(Of T).Clear
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Rent
+  commentId: M:MackySoft.XPool.Collections.HashSetPool`1.Rent
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Rent()
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Rent()
+  nameWithType: HashSetPool<T>.Rent()
+  nameWithType.vb: HashSetPool(Of T).Rent()
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Collections.HashSetPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Rent
+  nameWithType: HashSetPool<T>.Rent
+  nameWithType.vb: HashSetPool(Of T).Rent
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Return(HashSet{`0})
+  name: Return(HashSet<T>)
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Return_HashSet__0__
+  commentId: M:MackySoft.XPool.Collections.HashSetPool`1.Return(HashSet{`0})
+  name.vb: Return(HashSet(Of T))
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Return(HashSet<T>)
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Return(HashSet(Of T))
+  nameWithType: HashSetPool<T>.Return(HashSet<T>)
+  nameWithType.vb: HashSetPool(Of T).Return(HashSet(Of T))
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Return(HashSet{`0}@)
+  name: Return(ref HashSet<T>)
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Return_HashSet__0___
+  commentId: M:MackySoft.XPool.Collections.HashSetPool`1.Return(HashSet{`0}@)
+  name.vb: Return(ByRef HashSet(Of T))
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Return(ref HashSet<T>)
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Return(ByRef HashSet(Of T))
+  nameWithType: HashSetPool<T>.Return(ref HashSet<T>)
+  nameWithType.vb: HashSetPool(Of T).Return(ByRef HashSet(Of T))
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Return_
+  commentId: Overload:MackySoft.XPool.Collections.HashSetPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Return
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Return
+  nameWithType: HashSetPool<T>.Return
+  nameWithType.vb: HashSetPool(Of T).Return
+- uid: MackySoft.XPool.Collections.HashSetPool`1.Shared
+  name: Shared
+  href: api/MackySoft.XPool.Collections.HashSetPool-1.html#MackySoft_XPool_Collections_HashSetPool_1_Shared
+  commentId: F:MackySoft.XPool.Collections.HashSetPool`1.Shared
+  fullName: MackySoft.XPool.Collections.HashSetPool<T>.Shared
+  fullName.vb: MackySoft.XPool.Collections.HashSetPool(Of T).Shared
+  nameWithType: HashSetPool<T>.Shared
+  nameWithType.vb: HashSetPool(Of T).Shared
+- uid: MackySoft.XPool.Collections.ListPool`1
+  name: ListPool<T>
+  href: api/MackySoft.XPool.Collections.ListPool-1.html
+  commentId: T:MackySoft.XPool.Collections.ListPool`1
+  name.vb: ListPool(Of T)
+  fullName: MackySoft.XPool.Collections.ListPool<T>
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T)
+  nameWithType: ListPool<T>
+  nameWithType.vb: ListPool(Of T)
+- uid: MackySoft.XPool.Collections.ListPool`1.#ctor
+  name: ListPool()
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1__ctor
+  commentId: M:MackySoft.XPool.Collections.ListPool`1.#ctor
+  fullName: MackySoft.XPool.Collections.ListPool<T>.ListPool()
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).ListPool()
+  nameWithType: ListPool<T>.ListPool()
+  nameWithType.vb: ListPool(Of T).ListPool()
+- uid: MackySoft.XPool.Collections.ListPool`1.#ctor*
+  name: ListPool
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.ListPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ListPool<T>.ListPool
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).ListPool
+  nameWithType: ListPool<T>.ListPool
+  nameWithType.vb: ListPool(Of T).ListPool
+- uid: MackySoft.XPool.Collections.ListPool`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Clear
+  commentId: M:MackySoft.XPool.Collections.ListPool`1.Clear
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Clear()
+  nameWithType: ListPool<T>.Clear()
+  nameWithType.vb: ListPool(Of T).Clear()
+- uid: MackySoft.XPool.Collections.ListPool`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.ListPool`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Clear
+  nameWithType: ListPool<T>.Clear
+  nameWithType.vb: ListPool(Of T).Clear
+- uid: MackySoft.XPool.Collections.ListPool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Rent
+  commentId: M:MackySoft.XPool.Collections.ListPool`1.Rent
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Rent()
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Rent()
+  nameWithType: ListPool<T>.Rent()
+  nameWithType.vb: ListPool(Of T).Rent()
+- uid: MackySoft.XPool.Collections.ListPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Collections.ListPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Rent
+  nameWithType: ListPool<T>.Rent
+  nameWithType.vb: ListPool(Of T).Rent
+- uid: MackySoft.XPool.Collections.ListPool`1.Return(System.Collections.Generic.List{`0})
+  name: Return(List<T>)
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Return_System_Collections_Generic_List__0__
+  commentId: M:MackySoft.XPool.Collections.ListPool`1.Return(System.Collections.Generic.List{`0})
+  name.vb: Return(List(Of T))
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Return(System.Collections.Generic.List<T>)
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Return(System.Collections.Generic.List(Of T))
+  nameWithType: ListPool<T>.Return(List<T>)
+  nameWithType.vb: ListPool(Of T).Return(List(Of T))
+- uid: MackySoft.XPool.Collections.ListPool`1.Return(System.Collections.Generic.List{`0}@)
+  name: Return(ref List<T>)
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Return_System_Collections_Generic_List__0___
+  commentId: M:MackySoft.XPool.Collections.ListPool`1.Return(System.Collections.Generic.List{`0}@)
+  name.vb: Return(ByRef List(Of T))
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Return(ref System.Collections.Generic.List<T>)
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Return(ByRef System.Collections.Generic.List(Of T))
+  nameWithType: ListPool<T>.Return(ref List<T>)
+  nameWithType.vb: ListPool(Of T).Return(ByRef List(Of T))
+- uid: MackySoft.XPool.Collections.ListPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Return_
+  commentId: Overload:MackySoft.XPool.Collections.ListPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Return
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Return
+  nameWithType: ListPool<T>.Return
+  nameWithType.vb: ListPool(Of T).Return
+- uid: MackySoft.XPool.Collections.ListPool`1.Shared
+  name: Shared
+  href: api/MackySoft.XPool.Collections.ListPool-1.html#MackySoft_XPool_Collections_ListPool_1_Shared
+  commentId: F:MackySoft.XPool.Collections.ListPool`1.Shared
+  fullName: MackySoft.XPool.Collections.ListPool<T>.Shared
+  fullName.vb: MackySoft.XPool.Collections.ListPool(Of T).Shared
+  nameWithType: ListPool<T>.Shared
+  nameWithType.vb: ListPool(Of T).Shared
+- uid: MackySoft.XPool.Collections.QueuePool`1
+  name: QueuePool<T>
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html
+  commentId: T:MackySoft.XPool.Collections.QueuePool`1
+  name.vb: QueuePool(Of T)
+  fullName: MackySoft.XPool.Collections.QueuePool<T>
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T)
+  nameWithType: QueuePool<T>
+  nameWithType.vb: QueuePool(Of T)
+- uid: MackySoft.XPool.Collections.QueuePool`1.#ctor
+  name: QueuePool()
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1__ctor
+  commentId: M:MackySoft.XPool.Collections.QueuePool`1.#ctor
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.QueuePool()
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).QueuePool()
+  nameWithType: QueuePool<T>.QueuePool()
+  nameWithType.vb: QueuePool(Of T).QueuePool()
+- uid: MackySoft.XPool.Collections.QueuePool`1.#ctor*
+  name: QueuePool
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.QueuePool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.QueuePool
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).QueuePool
+  nameWithType: QueuePool<T>.QueuePool
+  nameWithType.vb: QueuePool(Of T).QueuePool
+- uid: MackySoft.XPool.Collections.QueuePool`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Clear
+  commentId: M:MackySoft.XPool.Collections.QueuePool`1.Clear
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Clear()
+  nameWithType: QueuePool<T>.Clear()
+  nameWithType.vb: QueuePool(Of T).Clear()
+- uid: MackySoft.XPool.Collections.QueuePool`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.QueuePool`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Clear
+  nameWithType: QueuePool<T>.Clear
+  nameWithType.vb: QueuePool(Of T).Clear
+- uid: MackySoft.XPool.Collections.QueuePool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Rent
+  commentId: M:MackySoft.XPool.Collections.QueuePool`1.Rent
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Rent()
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Rent()
+  nameWithType: QueuePool<T>.Rent()
+  nameWithType.vb: QueuePool(Of T).Rent()
+- uid: MackySoft.XPool.Collections.QueuePool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Collections.QueuePool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Rent
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Rent
+  nameWithType: QueuePool<T>.Rent
+  nameWithType.vb: QueuePool(Of T).Rent
+- uid: MackySoft.XPool.Collections.QueuePool`1.Return(System.Collections.Generic.Queue{`0})
+  name: Return(Queue<T>)
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Return_System_Collections_Generic_Queue__0__
+  commentId: M:MackySoft.XPool.Collections.QueuePool`1.Return(System.Collections.Generic.Queue{`0})
+  name.vb: Return(Queue(Of T))
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Return(System.Collections.Generic.Queue<T>)
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Return(System.Collections.Generic.Queue(Of T))
+  nameWithType: QueuePool<T>.Return(Queue<T>)
+  nameWithType.vb: QueuePool(Of T).Return(Queue(Of T))
+- uid: MackySoft.XPool.Collections.QueuePool`1.Return(System.Collections.Generic.Queue{`0}@)
+  name: Return(ref Queue<T>)
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Return_System_Collections_Generic_Queue__0___
+  commentId: M:MackySoft.XPool.Collections.QueuePool`1.Return(System.Collections.Generic.Queue{`0}@)
+  name.vb: Return(ByRef Queue(Of T))
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Return(ref System.Collections.Generic.Queue<T>)
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Return(ByRef System.Collections.Generic.Queue(Of T))
+  nameWithType: QueuePool<T>.Return(ref Queue<T>)
+  nameWithType.vb: QueuePool(Of T).Return(ByRef Queue(Of T))
+- uid: MackySoft.XPool.Collections.QueuePool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Return_
+  commentId: Overload:MackySoft.XPool.Collections.QueuePool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Return
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Return
+  nameWithType: QueuePool<T>.Return
+  nameWithType.vb: QueuePool(Of T).Return
+- uid: MackySoft.XPool.Collections.QueuePool`1.Shared
+  name: Shared
+  href: api/MackySoft.XPool.Collections.QueuePool-1.html#MackySoft_XPool_Collections_QueuePool_1_Shared
+  commentId: F:MackySoft.XPool.Collections.QueuePool`1.Shared
+  fullName: MackySoft.XPool.Collections.QueuePool<T>.Shared
+  fullName.vb: MackySoft.XPool.Collections.QueuePool(Of T).Shared
+  nameWithType: QueuePool<T>.Shared
+  nameWithType.vb: QueuePool(Of T).Shared
+- uid: MackySoft.XPool.Collections.StackPool`1
+  name: StackPool<T>
+  href: api/MackySoft.XPool.Collections.StackPool-1.html
+  commentId: T:MackySoft.XPool.Collections.StackPool`1
+  name.vb: StackPool(Of T)
+  fullName: MackySoft.XPool.Collections.StackPool<T>
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T)
+  nameWithType: StackPool<T>
+  nameWithType.vb: StackPool(Of T)
+- uid: MackySoft.XPool.Collections.StackPool`1.#ctor
+  name: StackPool()
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1__ctor
+  commentId: M:MackySoft.XPool.Collections.StackPool`1.#ctor
+  fullName: MackySoft.XPool.Collections.StackPool<T>.StackPool()
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).StackPool()
+  nameWithType: StackPool<T>.StackPool()
+  nameWithType.vb: StackPool(Of T).StackPool()
+- uid: MackySoft.XPool.Collections.StackPool`1.#ctor*
+  name: StackPool
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.StackPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.StackPool<T>.StackPool
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).StackPool
+  nameWithType: StackPool<T>.StackPool
+  nameWithType.vb: StackPool(Of T).StackPool
+- uid: MackySoft.XPool.Collections.StackPool`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Clear
+  commentId: M:MackySoft.XPool.Collections.StackPool`1.Clear
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Clear()
+  nameWithType: StackPool<T>.Clear()
+  nameWithType.vb: StackPool(Of T).Clear()
+- uid: MackySoft.XPool.Collections.StackPool`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.StackPool`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Clear
+  nameWithType: StackPool<T>.Clear
+  nameWithType.vb: StackPool(Of T).Clear
+- uid: MackySoft.XPool.Collections.StackPool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Rent
+  commentId: M:MackySoft.XPool.Collections.StackPool`1.Rent
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Rent()
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Rent()
+  nameWithType: StackPool<T>.Rent()
+  nameWithType.vb: StackPool(Of T).Rent()
+- uid: MackySoft.XPool.Collections.StackPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Collections.StackPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Rent
+  nameWithType: StackPool<T>.Rent
+  nameWithType.vb: StackPool(Of T).Rent
+- uid: MackySoft.XPool.Collections.StackPool`1.Return(System.Collections.Generic.Stack{`0})
+  name: Return(Stack<T>)
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Return_System_Collections_Generic_Stack__0__
+  commentId: M:MackySoft.XPool.Collections.StackPool`1.Return(System.Collections.Generic.Stack{`0})
+  name.vb: Return(Stack(Of T))
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Return(System.Collections.Generic.Stack<T>)
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Return(System.Collections.Generic.Stack(Of T))
+  nameWithType: StackPool<T>.Return(Stack<T>)
+  nameWithType.vb: StackPool(Of T).Return(Stack(Of T))
+- uid: MackySoft.XPool.Collections.StackPool`1.Return(System.Collections.Generic.Stack{`0}@)
+  name: Return(ref Stack<T>)
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Return_System_Collections_Generic_Stack__0___
+  commentId: M:MackySoft.XPool.Collections.StackPool`1.Return(System.Collections.Generic.Stack{`0}@)
+  name.vb: Return(ByRef Stack(Of T))
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Return(ref System.Collections.Generic.Stack<T>)
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Return(ByRef System.Collections.Generic.Stack(Of T))
+  nameWithType: StackPool<T>.Return(ref Stack<T>)
+  nameWithType.vb: StackPool(Of T).Return(ByRef Stack(Of T))
+- uid: MackySoft.XPool.Collections.StackPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Return_
+  commentId: Overload:MackySoft.XPool.Collections.StackPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Return
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Return
+  nameWithType: StackPool<T>.Return
+  nameWithType.vb: StackPool(Of T).Return
+- uid: MackySoft.XPool.Collections.StackPool`1.Shared
+  name: Shared
+  href: api/MackySoft.XPool.Collections.StackPool-1.html#MackySoft_XPool_Collections_StackPool_1_Shared
+  commentId: F:MackySoft.XPool.Collections.StackPool`1.Shared
+  fullName: MackySoft.XPool.Collections.StackPool<T>.Shared
+  fullName.vb: MackySoft.XPool.Collections.StackPool(Of T).Shared
+  nameWithType: StackPool<T>.Shared
+  nameWithType.vb: StackPool(Of T).Shared
+- uid: MackySoft.XPool.Collections.TemporaryArray`1
+  name: TemporaryArray<T>
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html
+  commentId: T:MackySoft.XPool.Collections.TemporaryArray`1
+  name.vb: TemporaryArray(Of T)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T)
+  nameWithType: TemporaryArray<T>
+  nameWithType.vb: TemporaryArray(Of T)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.#ctor(`0[],System.Int32)
+  name: TemporaryArray(T[], Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1__ctor__0___System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.#ctor(`0[],System.Int32)
+  name.vb: TemporaryArray(T(), Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.TemporaryArray(T[], System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).TemporaryArray(T(), System.Int32)
+  nameWithType: TemporaryArray<T>.TemporaryArray(T[], Int32)
+  nameWithType.vb: TemporaryArray(Of T).TemporaryArray(T(), Int32)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.#ctor*
+  name: TemporaryArray
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.TemporaryArray
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).TemporaryArray
+  nameWithType: TemporaryArray<T>.TemporaryArray
+  nameWithType.vb: TemporaryArray(Of T).TemporaryArray
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Add(`0)
+  name: Add(T)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Add__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.Add(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Add(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Add(T)
+  nameWithType: TemporaryArray<T>.Add(T)
+  nameWithType.vb: TemporaryArray(Of T).Add(T)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Add*
+  name: Add
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Add_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Add
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Add
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Add
+  nameWithType: TemporaryArray<T>.Add
+  nameWithType.vb: TemporaryArray(Of T).Add
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Array
+  name: Array
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Array
+  commentId: P:MackySoft.XPool.Collections.TemporaryArray`1.Array
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Array
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Array
+  nameWithType: TemporaryArray<T>.Array
+  nameWithType.vb: TemporaryArray(Of T).Array
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Array*
+  name: Array
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Array_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Array
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Array
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Array
+  nameWithType: TemporaryArray<T>.Array
+  nameWithType.vb: TemporaryArray(Of T).Array
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Capacity
+  commentId: P:MackySoft.XPool.Collections.TemporaryArray`1.Capacity
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Capacity
+  nameWithType: TemporaryArray<T>.Capacity
+  nameWithType.vb: TemporaryArray(Of T).Capacity
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Capacity_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Capacity
+  nameWithType: TemporaryArray<T>.Capacity
+  nameWithType.vb: TemporaryArray(Of T).Capacity
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Clear(System.Boolean)
+  name: Clear(Boolean)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Clear_System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.Clear(System.Boolean)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Clear(System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Clear(System.Boolean)
+  nameWithType: TemporaryArray<T>.Clear(Boolean)
+  nameWithType.vb: TemporaryArray(Of T).Clear(Boolean)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Clear
+  nameWithType: TemporaryArray<T>.Clear
+  nameWithType.vb: TemporaryArray(Of T).Clear
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Create(System.Int32)
+  name: Create(Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Create_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.Create(System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Create(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Create(System.Int32)
+  nameWithType: TemporaryArray<T>.Create(Int32)
+  nameWithType.vb: TemporaryArray(Of T).Create(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Create*
+  name: Create
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Create_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Create
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Create
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Create
+  nameWithType: TemporaryArray<T>.Create
+  nameWithType.vb: TemporaryArray(Of T).Create
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList(System.Int32)
+  name: CreateAsList(Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_CreateAsList_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList(System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.CreateAsList(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).CreateAsList(System.Int32)
+  nameWithType: TemporaryArray<T>.CreateAsList(Int32)
+  nameWithType.vb: TemporaryArray(Of T).CreateAsList(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList*
+  name: CreateAsList
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_CreateAsList_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.CreateAsList
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).CreateAsList
+  nameWithType: TemporaryArray<T>.CreateAsList
+  nameWithType.vb: TemporaryArray(Of T).CreateAsList
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Dispose
+  name: Dispose()
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Dispose
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.Dispose
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Dispose()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Dispose()
+  nameWithType: TemporaryArray<T>.Dispose()
+  nameWithType.vb: TemporaryArray(Of T).Dispose()
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Dispose_System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.Dispose(System.Boolean)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Dispose(System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Dispose(System.Boolean)
+  nameWithType: TemporaryArray<T>.Dispose(Boolean)
+  nameWithType.vb: TemporaryArray(Of T).Dispose(Boolean)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Dispose*
+  name: Dispose
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Dispose_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Dispose
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Dispose
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Dispose
+  nameWithType: TemporaryArray<T>.Dispose
+  nameWithType.vb: TemporaryArray(Of T).Dispose
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(MackySoft.XPool.Collections.TemporaryArray{`0})
+  name: From(TemporaryArray<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_MackySoft_XPool_Collections_TemporaryArray__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(MackySoft.XPool.Collections.TemporaryArray{`0})
+  name.vb: From(TemporaryArray(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(MackySoft.XPool.Collections.TemporaryArray<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(MackySoft.XPool.Collections.TemporaryArray(Of T))
+  nameWithType: TemporaryArray<T>.From(TemporaryArray<T>)
+  nameWithType.vb: TemporaryArray(Of T).From(TemporaryArray(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0})
+  name: From(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_System_Collections_Generic_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0})
+  name.vb: From(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryArray<T>.From(IEnumerable<T>)
+  nameWithType.vb: TemporaryArray(Of T).From(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.From*
+  name: From
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.From
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From
+  nameWithType: TemporaryArray<T>.From
+  nameWithType.vb: TemporaryArray(Of T).From
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_GetEnumerator
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.GetEnumerator()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).GetEnumerator()
+  nameWithType: TemporaryArray<T>.GetEnumerator()
+  nameWithType.vb: TemporaryArray(Of T).GetEnumerator()
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_GetEnumerator_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.GetEnumerator
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).GetEnumerator
+  nameWithType: TemporaryArray<T>.GetEnumerator
+  nameWithType.vb: TemporaryArray(Of T).GetEnumerator
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Item_System_Int32_
+  commentId: P:MackySoft.XPool.Collections.TemporaryArray`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Item[System.Int32]
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Item(System.Int32)
+  nameWithType: TemporaryArray<T>.Item[Int32]
+  nameWithType.vb: TemporaryArray(Of T).Item(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Item*
+  name: Item
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Item_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Item
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Item
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Item
+  nameWithType: TemporaryArray<T>.Item
+  nameWithType.vb: TemporaryArray(Of T).Item
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Length
+  name: Length
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Length
+  commentId: P:MackySoft.XPool.Collections.TemporaryArray`1.Length
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Length
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Length
+  nameWithType: TemporaryArray<T>.Length
+  nameWithType.vb: TemporaryArray(Of T).Length
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.Length*
+  name: Length
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Length_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.Length
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.Length
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Length
+  nameWithType: TemporaryArray<T>.Length
+  nameWithType.vb: TemporaryArray(Of T).Length
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt(System.Int32)
+  name: RemoveAt(Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_RemoveAt_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt(System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.RemoveAt(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).RemoveAt(System.Int32)
+  nameWithType: TemporaryArray<T>.RemoveAt(Int32)
+  nameWithType.vb: TemporaryArray(Of T).RemoveAt(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt*
+  name: RemoveAt
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_RemoveAt_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.RemoveAt
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).RemoveAt
+  nameWithType: TemporaryArray<T>.RemoveAt
+  nameWithType.vb: TemporaryArray(Of T).RemoveAt
+- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions
+  name: TemporaryArrayExtensions
+  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html
+  commentId: T:MackySoft.XPool.Collections.TemporaryArrayExtensions
+  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions
+  nameWithType: TemporaryArrayExtensions
+- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray*
+  name: ToTemporaryArray
+  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray
+  nameWithType: TemporaryArrayExtensions.ToTemporaryArray
+- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToTemporaryArray<T>(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToTemporaryArray(Of T)(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>)
+  nameWithType.vb: TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.Tests
+  name: MackySoft.XPool.Collections.Tests
+  href: api/MackySoft.XPool.Collections.Tests.html
+  commentId: N:MackySoft.XPool.Collections.Tests
+  fullName: MackySoft.XPool.Collections.Tests
+  nameWithType: MackySoft.XPool.Collections.Tests
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest
+  name: ArrayPoolTest
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.ArrayPoolTest
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest
+  nameWithType: ArrayPoolTest
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init()
+  nameWithType: ArrayPoolTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Init
+  nameWithType: ArrayPoolTest.Init
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate
+  name: Rent_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Rent_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate()
+  nameWithType: ArrayPoolTest.Rent_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate*
+  name: Rent_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Rent_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Rent_does_not_allocate
+  nameWithType: ArrayPoolTest.Rent_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate
+  name: Return_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate()
+  nameWithType: ArrayPoolTest.Return_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate*
+  name: Return_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_does_not_allocate
+  nameWithType: ArrayPoolTest.Return_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero
+  name: Return_empty_array_if_required_size_is_zero()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_empty_array_if_required_size_is_zero
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero()
+  nameWithType: ArrayPoolTest.Return_empty_array_if_required_size_is_zero()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero*
+  name: Return_empty_array_if_required_size_is_zero
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_empty_array_if_required_size_is_zero_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_empty_array_if_required_size_is_zero
+  nameWithType: ArrayPoolTest.Return_empty_array_if_required_size_is_zero
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  name: Return_minimum_size_array_if_required_size_less_than_minimum_array_size()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size()
+  nameWithType: ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size*
+  name: Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Return_minimum_size_array_if_required_size_less_than_minimum_array_size_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+  nameWithType: ArrayPoolTest.Return_minimum_size_array_if_required_size_less_than_minimum_array_size
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two(System.Int32)
+  name: Returned_array_size_is_next_power_of_two(Int32)
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Returned_array_size_is_next_power_of_two_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two(System.Int32)
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two(System.Int32)
+  nameWithType: ArrayPoolTest.Returned_array_size_is_next_power_of_two(Int32)
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two*
+  name: Returned_array_size_is_next_power_of_two
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Returned_array_size_is_next_power_of_two_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Returned_array_size_is_next_power_of_two
+  nameWithType: ArrayPoolTest.Returned_array_size_is_next_power_of_two
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative
+  name: Throw_if_required_size_is_negative()
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Throw_if_required_size_is_negative
+  commentId: M:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative()
+  nameWithType: ArrayPoolTest.Throw_if_required_size_is_negative()
+- uid: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative*
+  name: Throw_if_required_size_is_negative
+  href: api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html#MackySoft_XPool_Collections_Tests_ArrayPoolTest_Throw_if_required_size_is_negative_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ArrayPoolTest.Throw_if_required_size_is_negative
+  nameWithType: ArrayPoolTest.Throw_if_required_size_is_negative
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest
+  name: HashSetPoolTest
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.HashSetPoolTest
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest
+  nameWithType: HashSetPoolTest
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init()
+  nameWithType: HashSetPoolTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Init
+  nameWithType: HashSetPoolTest.Init
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate
+  name: Rent_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Rent_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate()
+  nameWithType: HashSetPoolTest.Rent_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate*
+  name: Rent_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Rent_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Rent_does_not_allocate
+  nameWithType: HashSetPoolTest.Rent_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate
+  name: Return_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Return_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate()
+  nameWithType: HashSetPoolTest.Return_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate*
+  name: Return_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html#MackySoft_XPool_Collections_Tests_HashSetPoolTest_Return_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.HashSetPoolTest.Return_does_not_allocate
+  nameWithType: HashSetPoolTest.Return_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest
+  name: ListPoolTest
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.ListPoolTest
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest
+  nameWithType: ListPoolTest
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.ListPoolTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Init()
+  nameWithType: ListPoolTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ListPoolTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Init
+  nameWithType: ListPoolTest.Init
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate
+  name: Rent_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Rent_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate()
+  nameWithType: ListPoolTest.Rent_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate*
+  name: Rent_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Rent_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Rent_does_not_allocate
+  nameWithType: ListPoolTest.Rent_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate
+  name: Return_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Return_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate()
+  nameWithType: ListPoolTest.Return_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate*
+  name: Return_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.ListPoolTest.html#MackySoft_XPool_Collections_Tests_ListPoolTest_Return_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.ListPoolTest.Return_does_not_allocate
+  nameWithType: ListPoolTest.Return_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest
+  name: QueuePoolTest
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.QueuePoolTest
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest
+  nameWithType: QueuePoolTest
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.QueuePoolTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Init()
+  nameWithType: QueuePoolTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.QueuePoolTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Init
+  nameWithType: QueuePoolTest.Init
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate
+  name: Rent_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Rent_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate()
+  nameWithType: QueuePoolTest.Rent_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate*
+  name: Rent_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Rent_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate
+  nameWithType: QueuePoolTest.Rent_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate
+  name: Return_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Return_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate()
+  nameWithType: QueuePoolTest.Return_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate*
+  name: Return_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html#MackySoft_XPool_Collections_Tests_QueuePoolTest_Return_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate
+  nameWithType: QueuePoolTest.Return_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest
+  name: StackPoolTest
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.StackPoolTest
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest
+  nameWithType: StackPoolTest
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.StackPoolTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Init()
+  nameWithType: StackPoolTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.StackPoolTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Init
+  nameWithType: StackPoolTest.Init
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate
+  name: Rent_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Rent_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate()
+  nameWithType: StackPoolTest.Rent_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate*
+  name: Rent_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Rent_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Rent_does_not_allocate
+  nameWithType: StackPoolTest.Rent_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate
+  name: Return_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Return_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate()
+  nameWithType: StackPoolTest.Return_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate*
+  name: Return_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.StackPoolTest.html#MackySoft_XPool_Collections_Tests_StackPoolTest_Return_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.StackPoolTest.Return_does_not_allocate
+  nameWithType: StackPoolTest.Return_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.Unit
+  name: Unit
+  href: api/MackySoft.XPool.Collections.Tests.Unit.html
+  commentId: T:MackySoft.XPool.Collections.Tests.Unit
+  fullName: MackySoft.XPool.Collections.Tests.Unit
+  nameWithType: Unit
+- uid: MackySoft.XPool.Collections.Tests.Unit.Default
+  name: Default
+  href: api/MackySoft.XPool.Collections.Tests.Unit.html#MackySoft_XPool_Collections_Tests_Unit_Default
+  commentId: F:MackySoft.XPool.Collections.Tests.Unit.Default
+  fullName: MackySoft.XPool.Collections.Tests.Unit.Default
+  nameWithType: Unit.Default

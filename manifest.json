@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://mackysoft.github.io/XPool/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,222 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ArrayPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ArrayPool-1.html",
+          "hash": "R1A6IhCIClCh7++SikZZBDmPOP3Nis8YJy9FIkBgbtw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ArrayPoolExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolExtensions.html",
+          "hash": "bd02MDovm1rnthki/MVixTbOoTzBDvg8duKb9yqfXng="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ArrayPoolUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolUtility.html",
+          "hash": "iVBqLKuULcQ9GTrFd3xnhqSjzJ1MwBlcjRY9r1QIE+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.HashSetPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.HashSetPool-1.html",
+          "hash": "quz38TE5rRTS6Cz9X/JdCxfK3ObfWCjMYOTL6+LUIVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ListPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ListPool-1.html",
+          "hash": "rgYyypfoMyEa86VhQT59B6cWjaFm1sgyIyiEWX2D7v4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.QueuePool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.QueuePool-1.html",
+          "hash": "9bj56OK9Z/xEtst8NFb9bZ1AZPxdcfuIi249WBs0/Lw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.StackPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.StackPool-1.html",
+          "hash": "mRS2U2kV3M0S3i9xA7Pn6fxCmdqw+SWRRs64bOKrigY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.TemporaryArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.TemporaryArray-1.html",
+          "hash": "6UTtbNarwQ8jg/E5kKOEVBccCSGpynoSX0RWlcMZk98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.TemporaryArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html",
+          "hash": "Rv4drDWa5ZN/dND1C8IpiG0Joz4VrcB4mF9fEwBtoso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html",
+          "hash": "tWSy99P9AxTNbU6jqCoii291NsiansenYqRnP2MHJYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html",
+          "hash": "edQanC7eVz0tD0TbubO2pmlDEd0lVuXrY6+ITbv3v1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html",
+          "hash": "ZSq4l+rn8KepiC9PwcmprUGSb+nWHTKwpddYgMcu0kg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html",
+          "hash": "wflv98AeHBWfr8peZ27gw1NOvfHy8+l7QeEj+bM6u88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.StackPoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.StackPoolTest.html",
+          "hash": "Ux2PeLuftAHrpWViirFW6jSJPsd/CymyDrKb2skPXAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.Unit.html",
+          "hash": "lhhTbYvKEYEyTcpkH60pODlILkRHguzlwQN64h7J25E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.html",
+          "hash": "NvjlFXy1StexGROHGAgM4qrW3pYPdHoNctlcWNclW1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.html",
+          "hash": "Bpj+yY413qAfnLsPEUOldPWq0GjxuEdJCp5guZ3CJm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "FpOVyakIUqkb5hFFsM1+BciD/ElwEuqRaSnl4ZDV3fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -63,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "RZq3qxnEgLfBx3XcQfJK2Sg7OnDqyM38nLLmAwhJt40="
+          "hash": "N6ost1dMjqP+df+vuqC89TLwOFuY+y7YoPtnrj3y58k="
         }
       },
       "is_incremental": false,
@@ -85,6 +302,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 17,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
