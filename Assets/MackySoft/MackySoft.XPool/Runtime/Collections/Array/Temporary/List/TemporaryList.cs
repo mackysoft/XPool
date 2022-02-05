@@ -45,6 +45,12 @@ namespace MackySoft.XPool.Collections {
 			m_Count = 0;
 		}
 
+		internal TemporaryList (ArrayPool<T> pool,T[] array,int count) {
+			m_Pool = pool;
+			m_Array = array;
+			m_Count = count;
+		}
+
 		/// <summary>
 		/// Set item to current length and increase length.
 		/// </summary>
