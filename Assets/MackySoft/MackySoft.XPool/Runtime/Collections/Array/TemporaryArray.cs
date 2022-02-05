@@ -14,6 +14,7 @@ namespace MackySoft.XPool.Collections {
 
 		T[] m_Array;
 		int m_Length;
+		ArrayPool<T> m_Pool;
 
 		public int Length => m_Length;
 
@@ -29,49 +30,44 @@ namespace MackySoft.XPool.Collections {
 		public T[] Array => m_Array;
 
 		public T this[int index] {
-			get => index >= 0 && index < m_Length ? m_Array[index] : throw new IndexOutOfRangeException();
-			set => m_Array[index] = value;
+			get {
+				return index >= 0 && index < m_Length ? m_Array[index] : throw new ArgumentOutOfRangeException(nameof(index));
+			}
+			set {
+				if (index < 0 && index >= m_Length) {
+					throw new ArgumentOutOfRangeException(nameof(index));
+				}
+				m_Array[index] = value;
+			}
 		}
 
-		public TemporaryArray (T[] array,int length) {
+		public TemporaryArray (ArrayPool<T> pool,int length) {
+			m_Array = pool.Rent(length);
+			m_Length = length;
+			m_Pool = pool;
+
+		}
+
+		internal TemporaryArray (ArrayPool<T> pool,T[] array,int length) {
 			m_Array = array;
 			m_Length = length;
+			m_Pool = pool;
 		}
 
 		/// <summary>
-		/// Set item to current length and increase length.
+		/// Return the internal array to the pool.
 		/// </summary>
-		public void Add (T item) {
-			ArrayPoolUtility.EnsureCapacity(ref m_Array,m_Length);
-			m_Array[m_Length] = item;
-			m_Length++;
-		}
-
-		public bool RemoveAt (int index) {
-			if (index >= m_Length) {
-				return false;
-			}
-			m_Length--;
-			for (int i = index;i < m_Length;i++) {
-				m_Array[i] = m_Array[i + 1];
-			}
-			return true;
-		}
-
-		public void Clear (bool clearArray = false) {
-			ArrayPool<T>.Shared.Return(m_Array,clearArray);
-
-			m_Array = ArrayPool<T>.Shared.Rent(0);
-			m_Length = 0;
-		}
-
 		public void Dispose () {
 			Dispose(!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 		}
 
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
 		public void Dispose (bool clearArray) {
-			ArrayPool<T>.Shared.Return(ref m_Array,clearArray);
+			m_Pool.Return(ref m_Array,clearArray);
 			m_Length = 0;
+			m_Pool = null;
 		}
 
 		public IEnumerator<T> GetEnumerator () {
