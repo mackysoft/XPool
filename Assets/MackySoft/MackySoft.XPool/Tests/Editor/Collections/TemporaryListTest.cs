@@ -38,6 +38,9 @@ namespace MackySoft.XPool.Collections.Tests {
 		public void Add_does_not_allocate () {
 			var list = TemporaryList<Unit>.Create(8,m_Pool);
 
+			// Warm up
+			list.Add(Unit.Default);
+
 			Assert.That(() => {
 				list.Add(Unit.Default);
 			},Is.Not.AllocatingGCMemory());
