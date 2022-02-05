@@ -30,8 +30,15 @@ namespace MackySoft.XPool.Collections {
 		public T[] Array => m_Array;
 
 		public T this[int index] {
-			get => index >= 0 && index < m_Length ? m_Array[index] : throw new IndexOutOfRangeException();
-			set => m_Array[index] = value;
+			get {
+				return index >= 0 && index < m_Length ? m_Array[index] : throw new ArgumentOutOfRangeException(nameof(index));
+			}
+			set {
+				if (index < 0 && index >= m_Length) {
+					throw new ArgumentOutOfRangeException(nameof(index));
+				}
+				m_Array[index] = value;
+			}
 		}
 
 		public TemporaryArray (ArrayPool<T> pool,int length) {
