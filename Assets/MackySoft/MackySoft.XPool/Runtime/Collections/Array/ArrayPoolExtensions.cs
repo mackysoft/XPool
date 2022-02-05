@@ -63,7 +63,7 @@ namespace MackySoft.XPool.Collections {
 			T[] array = pool.Rent(32);
 			count = 0;
 			foreach (T item in source) {
-				ArrayPoolUtility.EnsureCapacity(ref array,count);
+				ArrayPoolUtility.EnsureCapacity(ref array,count,pool);
 				array[count] = item;
 				count++;
 			}
