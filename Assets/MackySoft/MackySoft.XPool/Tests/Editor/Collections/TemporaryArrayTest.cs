@@ -14,6 +14,13 @@ namespace MackySoft.XPool.Collections.Tests {
 		}
 
 		[Test]
+		public void Create_method_return_expected_array () {
+			var array = TemporaryArray<Unit>.Create(6,m_Pool);
+			Assert.AreEqual(6,array.Length);
+			Assert.AreEqual(8,array.Capacity);
+		}
+
+		[Test]
 		public void Array_is_null_when_disposed () {
 			var array = TemporaryArray<Unit>.Create(0,m_Pool);
 			array.Dispose();
@@ -25,6 +32,14 @@ namespace MackySoft.XPool.Collections.Tests {
 			var collection = new int[] { 1,2,3 };
 			var array = TemporaryArray<int>.From(collection,ArrayPool<int>.Shared);
 			CollectionAssert.AreEqual(collection,array);
+		}
+
+		[Test]
+		public void Same_as_copied_temporary_array () {
+			var collection = new int[] { 1,2,3 };
+			var sourceArray = TemporaryArray<int>.From(collection);
+			var copiedArray = TemporaryArray<int>.From(sourceArray);
+			CollectionAssert.AreEqual(sourceArray,copiedArray);
 		}
 
 	}
