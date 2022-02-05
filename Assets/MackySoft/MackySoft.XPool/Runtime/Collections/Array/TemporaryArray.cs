@@ -54,10 +54,16 @@ namespace MackySoft.XPool.Collections {
 			m_Pool = pool;
 		}
 
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
 		public void Dispose () {
 			Dispose(!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 		}
 
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
 		public void Dispose (bool clearArray) {
 			m_Pool.Return(ref m_Array,clearArray);
 			m_Length = 0;
