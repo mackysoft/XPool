@@ -112,12 +112,12 @@
   <h3 id="constructors">Constructors
   </h3>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1__ctor_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.#ctor*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1__ctor__0___System_Int32_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.#ctor(`0[],System.Int32)">TemporaryArray(T[], Int32)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1__ctor_MackySoft_XPool_Collections_ArrayPool__0__System_Int32_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.#ctor(MackySoft.XPool.Collections.ArrayPool{`0},System.Int32)">TemporaryArray(ArrayPool&lt;T&gt;, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TemporaryArray(T[] array, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public TemporaryArray(ArrayPool&lt;T&gt; pool, int length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,8 +130,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
+        <td><a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html">ArrayPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
         <td></td>
       </tr>
       <tr>
@@ -257,57 +257,6 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="MackySoft_XPool_Collections_TemporaryArray_1_Add_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Add*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Add__0_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Add(`0)">Add(T)</h4>
-  <div class="markdown level1 summary"><p>Set item to current length and increase length.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(T item)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryArray_1_Clear_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Clear*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Clear_System_Boolean_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Clear(System.Boolean)">Clear(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear(bool clearArray = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">clearArray</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1_Create_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Create*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Create_System_Int32_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Create(System.Int32)">Create(Int32)</h4>
   <div class="markdown level1 summary"><p>Create a temporary array of the specified length.</p>
@@ -349,15 +298,29 @@
       </tr>
     </tbody>
   </table>
-  <a id="MackySoft_XPool_Collections_TemporaryArray_1_CreateAsList_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_CreateAsList_System_Int32_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.CreateAsList(System.Int32)">CreateAsList(Int32)</h4>
-  <div class="markdown level1 summary"><p> Create a temporary array with a length of 0. </p>
-<p> The length can be increased by using the <a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_Add__0_">Add(T)</a>. </p>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryArray_1_Create_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Create*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Create_System_Int32_MackySoft_XPool_Collections_ArrayPool__0__" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Create(System.Int32,MackySoft.XPool.Collections.ArrayPool{`0})">Create(Int32, ArrayPool&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a temporary array of the specified length.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TemporaryArray&lt;T&gt; CreateAsList(int prepare)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TemporaryArray&lt;T&gt; Create(int length, ArrayPool&lt;T&gt; pool)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -371,9 +334,13 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">prepare</span></td>
-        <td><p>Length of the internal array to be prepared. </p>
-</td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html">ArrayPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -392,9 +359,29 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1_Dispose_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Dispose*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Dispose" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Return the internal array to the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -402,7 +389,8 @@
   </div>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1_Dispose_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Dispose*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_Dispose_System_Boolean_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Return the internal array to the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -427,7 +415,8 @@
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1_From_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_From_MackySoft_XPool_Collections_TemporaryArray__0__" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From(MackySoft.XPool.Collections.TemporaryArray{`0})">From(TemporaryArray&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a temporary array from the elements of <a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray&lt;T&gt;</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -461,6 +450,71 @@
     <tbody>
       <tr>
         <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryArray_1_From_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_From_MackySoft_XPool_Collections_TemporaryArray__0__MackySoft_XPool_Collections_ArrayPool__0__" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From(MackySoft.XPool.Collections.TemporaryArray{`0},MackySoft.XPool.Collections.ArrayPool{`0})">From(TemporaryArray&lt;T&gt;, ArrayPool&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a temporary array from the elements of <a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TemporaryArray&lt;T&gt; From(TemporaryArray&lt;T&gt; source, ArrayPool&lt;T&gt; pool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray</a>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html">ArrayPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -521,6 +575,67 @@
       </tr>
     </tbody>
   </table>
+  <a id="MackySoft_XPool_Collections_TemporaryArray_1_From_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_From_System_Collections_Generic_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})">From(IEnumerable&lt;T&gt;, ArrayPool&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a temporary array from the elements of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TemporaryArray&lt;T&gt; From(IEnumerable&lt;T&gt; source, ArrayPool&lt;T&gt; pool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html">ArrayPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryArray-1.html">TemporaryArray</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MackySoft_XPool_Collections_TemporaryArray_1_GetEnumerator_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_GetEnumerator" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.GetEnumerator">GetEnumerator()</h4>
   <div class="markdown level1 summary"></div>
@@ -540,46 +655,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryArray_1_RemoveAt_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryArray_1_RemoveAt_System_Int32_" data-uid="MackySoft.XPool.Collections.TemporaryArray`1.RemoveAt(System.Int32)">RemoveAt(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RemoveAt(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
