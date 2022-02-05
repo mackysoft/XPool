@@ -39,9 +39,9 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
-		public TemporaryList (ArrayPool<T> pool) {
+		public TemporaryList (ArrayPool<T> pool,int minimumCapacity) {
 			m_Pool = pool;
-			m_Array = pool.Rent(0);
+			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 		}
 

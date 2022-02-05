@@ -10,17 +10,35 @@ namespace MackySoft.XPool.Collections {
 		/// Create an empty temporay list using <see cref="ArrayPool{T}.Shared"/>.
 		/// </summary>
 		public static TemporaryList<T> Create () {
-			return new TemporaryList<T>(ArrayPool<T>.Shared);
+			return new TemporaryList<T>(ArrayPool<T>.Shared,0);
 		}
 
 		/// <summary>
-		/// Create empty temporay list.
+		/// Create an empty temporay list.
 		/// </summary>
 		public static TemporaryList<T> Create (ArrayPool<T> pool) {
 			if (pool == null) {
 				throw new ArgumentNullException(nameof(pool));
 			}
 			return Create();
+		}
+
+		/// <summary>
+		/// Create an empty temporary list with the specified initial capacity.
+		/// </summary>
+		public static TemporaryList<T> Create (int minimumCapacity) {
+			return Create(minimumCapacity,ArrayPool<T>.Shared);
+		}
+
+		/// <summary>
+		/// Create an empty temporary list with the specified initial capacity.
+		/// </summary>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static TemporaryList<T> Create (int minimumCapacity,ArrayPool<T> pool) {
+			if (pool == null) {
+				throw new ArgumentNullException(nameof(pool));
+			}
+			return new TemporaryList<T>(pool,minimumCapacity);
 		}
 
 		/// <summary>
