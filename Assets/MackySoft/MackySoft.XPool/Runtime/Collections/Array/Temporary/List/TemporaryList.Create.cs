@@ -10,7 +10,7 @@ namespace MackySoft.XPool.Collections {
 		/// Create an empty temporay list using <see cref="ArrayPool{T}.Shared"/>.
 		/// </summary>
 		public static TemporaryList<T> Create () {
-			return new TemporaryList<T>(ArrayPool<T>.Shared,0);
+			return Create(ArrayPool<T>.Shared);
 		}
 
 		/// <summary>
@@ -20,7 +20,7 @@ namespace MackySoft.XPool.Collections {
 			if (pool == null) {
 				throw new ArgumentNullException(nameof(pool));
 			}
-			return Create();
+			return new TemporaryList<T>(pool,0);
 		}
 
 		/// <summary>
