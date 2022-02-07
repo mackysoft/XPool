@@ -132,6 +132,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.TemporaryList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.TemporaryList-1.html",
+          "hash": "zbxP4Cd1AMy5/DpL/C1tcv4nv5epdUxdCgbSDgNN04o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.TemporaryListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.TemporaryListExtensions.html",
+          "hash": "hbGGLdE7+oLRsQZKsgEUpm+nfHpEcDTlDSJL4zQEUk4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.yml",
       "output": {
         ".html": {
@@ -204,6 +228,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryListTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html",
+          "hash": "mFYfSXGwuPNtIeYDBsl51EDMeF4uFV4Ih7sp6ding8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.XPool.Collections.Tests.Unit.yml",
       "output": {
         ".html": {
@@ -220,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.html",
-          "hash": "aLHh0swqbrHBmJZ687slUBRVx9HHbJgD750AXO8OwPM="
+          "hash": "nwn0E9YpkBdfsYO5+OnKswkhA5CfCAU7uGnuCrclQpw="
         }
       },
       "is_incremental": false,
@@ -232,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.html",
-          "hash": "Bpj+yY413qAfnLsPEUOldPWq0GjxuEdJCp5guZ3CJm0="
+          "hash": "SHNGMOk2IuycXCVkmhdNcJdS5K3oeKZw8YfNyFqGp94="
         }
       },
       "is_incremental": false,
@@ -244,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LcRjWuItXfcsSMaJPO/htmv+9Kag/1rkn+j7YtrNiXc="
+          "hash": "gjzHXwjyjicKXZ7DC22Jw8rf7MbmX7eqiLl6Tsk02j0="
         }
       },
       "is_incremental": false,
@@ -319,7 +355,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 18,
+          "total_file_count": 21,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

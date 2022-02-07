@@ -799,6 +799,777 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>, ArrayPool<T>)
   nameWithType.vb: TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T), ArrayPool(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1
+  name: TemporaryList<T>
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html
+  commentId: T:MackySoft.XPool.Collections.TemporaryList`1
+  name.vb: TemporaryList(Of T)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T)
+  nameWithType: TemporaryList<T>
+  nameWithType.vb: TemporaryList(Of T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.#ctor(MackySoft.XPool.Collections.ArrayPool{`0},System.Int32)
+  name: TemporaryList(ArrayPool<T>, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1__ctor_MackySoft_XPool_Collections_ArrayPool__0__System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.#ctor(MackySoft.XPool.Collections.ArrayPool{`0},System.Int32)
+  name.vb: TemporaryList(ArrayPool(Of T), Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TemporaryList(MackySoft.XPool.Collections.ArrayPool<T>, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TemporaryList(MackySoft.XPool.Collections.ArrayPool(Of T), System.Int32)
+  nameWithType: TemporaryList<T>.TemporaryList(ArrayPool<T>, Int32)
+  nameWithType.vb: TemporaryList(Of T).TemporaryList(ArrayPool(Of T), Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.#ctor*
+  name: TemporaryList
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1__ctor_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TemporaryList
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TemporaryList
+  nameWithType: TemporaryList<T>.TemporaryList
+  nameWithType.vb: TemporaryList(Of T).TemporaryList
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Add(`0)
+  name: Add(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Add__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Add(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Add(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Add(T)
+  nameWithType: TemporaryList<T>.Add(T)
+  nameWithType.vb: TemporaryList(Of T).Add(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Add*
+  name: Add
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Add_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Add
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Add
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Add
+  nameWithType: TemporaryList<T>.Add
+  nameWithType.vb: TemporaryList(Of T).Add
+- uid: MackySoft.XPool.Collections.TemporaryList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
+  name: AddRange(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_AddRange_System_Collections_Generic_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
+  name.vb: AddRange(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.AddRange(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).AddRange(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryList<T>.AddRange(IEnumerable<T>)
+  nameWithType.vb: TemporaryList(Of T).AddRange(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.AddRange*
+  name: AddRange
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_AddRange_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.AddRange
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.AddRange
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).AddRange
+  nameWithType: TemporaryList<T>.AddRange
+  nameWithType.vb: TemporaryList(Of T).AddRange
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Array
+  name: Array
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Array
+  commentId: P:MackySoft.XPool.Collections.TemporaryList`1.Array
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Array
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Array
+  nameWithType: TemporaryList<T>.Array
+  nameWithType.vb: TemporaryList(Of T).Array
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Array*
+  name: Array
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Array_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Array
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Array
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Array
+  nameWithType: TemporaryList<T>.Array
+  nameWithType.vb: TemporaryList(Of T).Array
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0)
+  name: BinarySearch(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(T)
+  nameWithType: TemporaryList<T>.BinarySearch(T)
+  nameWithType.vb: TemporaryList(Of T).BinarySearch(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
+  name: BinarySearch(T, IComparer<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch__0_System_Collections_Generic_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
+  name.vb: BinarySearch(T, IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(T, System.Collections.Generic.IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(T, System.Collections.Generic.IComparer(Of T))
+  nameWithType: TemporaryList<T>.BinarySearch(T, IComparer<T>)
+  nameWithType.vb: TemporaryList(Of T).BinarySearch(T, IComparer(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
+  name: BinarySearch(Int32, Int32, T, IComparer<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch_System_Int32_System_Int32__0_System_Collections_Generic_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
+  name.vb: BinarySearch(Int32, Int32, T, IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(System.Int32, System.Int32, T, System.Collections.Generic.IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(System.Int32, System.Int32, T, System.Collections.Generic.IComparer(Of T))
+  nameWithType: TemporaryList<T>.BinarySearch(Int32, Int32, T, IComparer<T>)
+  nameWithType.vb: TemporaryList(Of T).BinarySearch(Int32, Int32, T, IComparer(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch*
+  name: BinarySearch
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch
+  nameWithType: TemporaryList<T>.BinarySearch
+  nameWithType.vb: TemporaryList(Of T).BinarySearch
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Capacity
+  commentId: P:MackySoft.XPool.Collections.TemporaryList`1.Capacity
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Capacity
+  nameWithType: TemporaryList<T>.Capacity
+  nameWithType.vb: TemporaryList(Of T).Capacity
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Capacity_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Capacity
+  nameWithType: TemporaryList<T>.Capacity
+  nameWithType.vb: TemporaryList(Of T).Capacity
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Clear
+  name: Clear()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Clear
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Clear
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Clear()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Clear()
+  nameWithType: TemporaryList<T>.Clear()
+  nameWithType.vb: TemporaryList(Of T).Clear()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Clear*
+  name: Clear
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Clear_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Clear
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Clear
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Clear
+  nameWithType: TemporaryList<T>.Clear
+  nameWithType.vb: TemporaryList(Of T).Clear
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Contains(`0)
+  name: Contains(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Contains__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Contains(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Contains(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Contains(T)
+  nameWithType: TemporaryList<T>.Contains(T)
+  nameWithType.vb: TemporaryList(Of T).Contains(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Contains*
+  name: Contains
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Contains_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Contains
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Contains
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Contains
+  nameWithType: TemporaryList<T>.Contains
+  nameWithType.vb: TemporaryList(Of T).Contains
+- uid: MackySoft.XPool.Collections.TemporaryList`1.CopyTo(`0[])
+  name: CopyTo(T[])
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_CopyTo__0___
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.CopyTo(`0[])
+  name.vb: CopyTo(T())
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.CopyTo(T[])
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).CopyTo(T())
+  nameWithType: TemporaryList<T>.CopyTo(T[])
+  nameWithType.vb: TemporaryList(Of T).CopyTo(T())
+- uid: MackySoft.XPool.Collections.TemporaryList`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_CopyTo__0___System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.CopyTo(T[], System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).CopyTo(T(), System.Int32)
+  nameWithType: TemporaryList<T>.CopyTo(T[], Int32)
+  nameWithType.vb: TemporaryList(Of T).CopyTo(T(), Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name: CopyTo(Int32, T[], Int32, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_CopyTo_System_Int32__0___System_Int32_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)
+  name.vb: CopyTo(Int32, T(), Int32, Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.CopyTo(System.Int32, T[], System.Int32, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).CopyTo(System.Int32, T(), System.Int32, System.Int32)
+  nameWithType: TemporaryList<T>.CopyTo(Int32, T[], Int32, Int32)
+  nameWithType.vb: TemporaryList(Of T).CopyTo(Int32, T(), Int32, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.CopyTo*
+  name: CopyTo
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_CopyTo_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.CopyTo
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.CopyTo
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).CopyTo
+  nameWithType: TemporaryList<T>.CopyTo
+  nameWithType.vb: TemporaryList(Of T).CopyTo
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Count
+  name: Count
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Count
+  commentId: P:MackySoft.XPool.Collections.TemporaryList`1.Count
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Count
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Count
+  nameWithType: TemporaryList<T>.Count
+  nameWithType.vb: TemporaryList(Of T).Count
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Count_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Count
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Count
+  nameWithType: TemporaryList<T>.Count
+  nameWithType.vb: TemporaryList(Of T).Count
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Create
+  name: Create()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Create
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Create
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Create()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Create()
+  nameWithType: TemporaryList<T>.Create()
+  nameWithType.vb: TemporaryList(Of T).Create()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Create(MackySoft.XPool.Collections.ArrayPool{`0})
+  name: Create(ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Create_MackySoft_XPool_Collections_ArrayPool__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Create(MackySoft.XPool.Collections.ArrayPool{`0})
+  name.vb: Create(ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Create(MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Create(MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: TemporaryList<T>.Create(ArrayPool<T>)
+  nameWithType.vb: TemporaryList(Of T).Create(ArrayPool(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Create(System.Int32)
+  name: Create(Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Create_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Create(System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Create(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Create(System.Int32)
+  nameWithType: TemporaryList<T>.Create(Int32)
+  nameWithType.vb: TemporaryList(Of T).Create(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Create(System.Int32,MackySoft.XPool.Collections.ArrayPool{`0})
+  name: Create(Int32, ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Create_System_Int32_MackySoft_XPool_Collections_ArrayPool__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Create(System.Int32,MackySoft.XPool.Collections.ArrayPool{`0})
+  name.vb: Create(Int32, ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Create(System.Int32, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Create(System.Int32, MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: TemporaryList<T>.Create(Int32, ArrayPool<T>)
+  nameWithType.vb: TemporaryList(Of T).Create(Int32, ArrayPool(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Create*
+  name: Create
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Create_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Create
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Create
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Create
+  nameWithType: TemporaryList<T>.Create
+  nameWithType.vb: TemporaryList(Of T).Create
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Dispose
+  name: Dispose()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Dispose
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Dispose
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Dispose()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Dispose()
+  nameWithType: TemporaryList<T>.Dispose()
+  nameWithType.vb: TemporaryList(Of T).Dispose()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Dispose_System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Dispose(System.Boolean)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Dispose(System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Dispose(System.Boolean)
+  nameWithType: TemporaryList<T>.Dispose(Boolean)
+  nameWithType.vb: TemporaryList(Of T).Dispose(Boolean)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Dispose*
+  name: Dispose
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Dispose_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Dispose
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Dispose
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Dispose
+  nameWithType: TemporaryList<T>.Dispose
+  nameWithType.vb: TemporaryList(Of T).Dispose
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Exists(System.Predicate{`0})
+  name: Exists(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Exists_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Exists(System.Predicate{`0})
+  name.vb: Exists(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Exists(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Exists(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.Exists(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).Exists(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Exists*
+  name: Exists
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Exists_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Exists
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Exists
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Exists
+  nameWithType: TemporaryList<T>.Exists
+  nameWithType.vb: TemporaryList(Of T).Exists
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Find(System.Predicate{`0})
+  name: Find(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Find_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Find(System.Predicate{`0})
+  name.vb: Find(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Find(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Find(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.Find(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).Find(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Find*
+  name: Find
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Find_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Find
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Find
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Find
+  nameWithType: TemporaryList<T>.Find
+  nameWithType.vb: TemporaryList(Of T).Find
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindAll(System.Predicate{`0})
+  name: FindAll(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindAll_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindAll(System.Predicate{`0})
+  name.vb: FindAll(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindAll(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindAll(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindAll(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindAll(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindAll*
+  name: FindAll
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindAll_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.FindAll
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindAll
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindAll
+  nameWithType: TemporaryList<T>.FindAll
+  nameWithType.vb: TemporaryList(Of T).FindAll
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})
+  name: FindIndex(Int32, Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Int32_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})
+  name.vb: FindIndex(Int32, Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, System.Int32, System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, System.Int32, System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindIndex(Int32, Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Predicate{`0})
+  name: FindIndex(Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Predicate{`0})
+  name.vb: FindIndex(Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindIndex(Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Predicate{`0})
+  name: FindIndex(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Predicate{`0})
+  name.vb: FindIndex(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindIndex(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindIndex(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex*
+  name: FindIndex
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.FindIndex
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex
+  nameWithType: TemporaryList<T>.FindIndex
+  nameWithType.vb: TemporaryList(Of T).FindIndex
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLast(System.Predicate{`0})
+  name: FindLast(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLast_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLast(System.Predicate{`0})
+  name.vb: FindLast(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLast(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLast(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLast(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLast(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLast*
+  name: FindLast
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLast_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.FindLast
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLast
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLast
+  nameWithType: TemporaryList<T>.FindLast
+  nameWithType.vb: TemporaryList(Of T).FindLast
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})
+  name: FindLastIndex(Int32, Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Int32_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})
+  name.vb: FindLastIndex(Int32, Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, System.Int32, System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, System.Int32, System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Predicate{`0})
+  name: FindLastIndex(Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Predicate{`0})
+  name.vb: FindLastIndex(Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Predicate{`0})
+  name: FindLastIndex(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Predicate{`0})
+  name.vb: FindLastIndex(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLastIndex(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*
+  name: FindLastIndex
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex
+  nameWithType: TemporaryList<T>.FindLastIndex
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex
+- uid: MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0})
+  name: From(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_System_Collections_Generic_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0})
+  name.vb: From(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryList<T>.From(IEnumerable<T>)
+  nameWithType.vb: TemporaryList(Of T).From(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+  name: From(IEnumerable<T>, ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_System_Collections_Generic_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+  name.vb: From(IEnumerable(Of T), ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: TemporaryList<T>.From(IEnumerable<T>, ArrayPool<T>)
+  nameWithType.vb: TemporaryList(Of T).From(IEnumerable(Of T), ArrayPool(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.From*
+  name: From
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.From
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From
+  nameWithType: TemporaryList<T>.From
+  nameWithType.vb: TemporaryList(Of T).From
+- uid: MackySoft.XPool.Collections.TemporaryList`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_GetEnumerator
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.GetEnumerator
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.GetEnumerator()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).GetEnumerator()
+  nameWithType: TemporaryList<T>.GetEnumerator()
+  nameWithType.vb: TemporaryList(Of T).GetEnumerator()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_GetEnumerator_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.GetEnumerator
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.GetEnumerator
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).GetEnumerator
+  nameWithType: TemporaryList<T>.GetEnumerator
+  nameWithType.vb: TemporaryList(Of T).GetEnumerator
+- uid: MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0)
+  name: IndexOf(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_IndexOf__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.IndexOf(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).IndexOf(T)
+  nameWithType: TemporaryList<T>.IndexOf(T)
+  nameWithType.vb: TemporaryList(Of T).IndexOf(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0,System.Int32)
+  name: IndexOf(T, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_IndexOf__0_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.IndexOf(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).IndexOf(T, System.Int32)
+  nameWithType: TemporaryList<T>.IndexOf(T, Int32)
+  nameWithType.vb: TemporaryList(Of T).IndexOf(T, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0,System.Int32,System.Int32)
+  name: IndexOf(T, Int32, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_IndexOf__0_System_Int32_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.IndexOf(`0,System.Int32,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.IndexOf(T, System.Int32, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).IndexOf(T, System.Int32, System.Int32)
+  nameWithType: TemporaryList<T>.IndexOf(T, Int32, Int32)
+  nameWithType.vb: TemporaryList(Of T).IndexOf(T, Int32, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.IndexOf*
+  name: IndexOf
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_IndexOf_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.IndexOf
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.IndexOf
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).IndexOf
+  nameWithType: TemporaryList<T>.IndexOf
+  nameWithType.vb: TemporaryList(Of T).IndexOf
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Insert(System.Int32,`0)
+  name: Insert(Int32, T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Insert_System_Int32__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Insert(System.Int32,`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Insert(System.Int32, T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Insert(System.Int32, T)
+  nameWithType: TemporaryList<T>.Insert(Int32, T)
+  nameWithType.vb: TemporaryList(Of T).Insert(Int32, T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Insert*
+  name: Insert
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Insert_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Insert
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Insert
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Insert
+  nameWithType: TemporaryList<T>.Insert
+  nameWithType.vb: TemporaryList(Of T).Insert
+- uid: MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  name: InsertRange(Int32, IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  name.vb: InsertRange(Int32, IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.InsertRange(System.Int32, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).InsertRange(System.Int32, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryList<T>.InsertRange(Int32, IEnumerable<T>)
+  nameWithType.vb: TemporaryList(Of T).InsertRange(Int32, IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.InsertRange*
+  name: InsertRange
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_InsertRange_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.InsertRange
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.InsertRange
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).InsertRange
+  nameWithType: TemporaryList<T>.InsertRange
+  nameWithType.vb: TemporaryList(Of T).InsertRange
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Item_System_Int32_
+  commentId: P:MackySoft.XPool.Collections.TemporaryList`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Item[System.Int32]
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Item(System.Int32)
+  nameWithType: TemporaryList<T>.Item[Int32]
+  nameWithType.vb: TemporaryList(Of T).Item(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Item*
+  name: Item
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Item_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Item
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Item
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Item
+  nameWithType: TemporaryList<T>.Item
+  nameWithType.vb: TemporaryList(Of T).Item
+- uid: MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0)
+  name: LastIndexOf(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_LastIndexOf__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.LastIndexOf(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).LastIndexOf(T)
+  nameWithType: TemporaryList<T>.LastIndexOf(T)
+  nameWithType.vb: TemporaryList(Of T).LastIndexOf(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0,System.Int32)
+  name: LastIndexOf(T, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_LastIndexOf__0_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.LastIndexOf(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).LastIndexOf(T, System.Int32)
+  nameWithType: TemporaryList<T>.LastIndexOf(T, Int32)
+  nameWithType.vb: TemporaryList(Of T).LastIndexOf(T, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0,System.Int32,System.Int32)
+  name: LastIndexOf(T, Int32, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_LastIndexOf__0_System_Int32_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf(`0,System.Int32,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.LastIndexOf(T, System.Int32, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).LastIndexOf(T, System.Int32, System.Int32)
+  nameWithType: TemporaryList<T>.LastIndexOf(T, Int32, Int32)
+  nameWithType.vb: TemporaryList(Of T).LastIndexOf(T, Int32, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf*
+  name: LastIndexOf
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_LastIndexOf_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.LastIndexOf
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.LastIndexOf
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).LastIndexOf
+  nameWithType: TemporaryList<T>.LastIndexOf
+  nameWithType.vb: TemporaryList(Of T).LastIndexOf
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Remove(`0)
+  name: Remove(T)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Remove__0_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Remove(`0)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Remove(T)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Remove(T)
+  nameWithType: TemporaryList<T>.Remove(T)
+  nameWithType.vb: TemporaryList(Of T).Remove(T)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Remove*
+  name: Remove
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Remove_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Remove
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Remove
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Remove
+  nameWithType: TemporaryList<T>.Remove
+  nameWithType.vb: TemporaryList(Of T).Remove
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(System.Predicate{`0})
+  name: RemoveAll(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(System.Predicate{`0})
+  name.vb: RemoveAll(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAll(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAll(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.RemoveAll(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).RemoveAll(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAll*
+  name: RemoveAll
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.RemoveAll
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAll
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAll
+  nameWithType: TemporaryList<T>.RemoveAll
+  nameWithType.vb: TemporaryList(Of T).RemoveAll
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAt(System.Int32)
+  name: RemoveAt(Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAt_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.RemoveAt(System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAt(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAt(System.Int32)
+  nameWithType: TemporaryList<T>.RemoveAt(Int32)
+  nameWithType.vb: TemporaryList(Of T).RemoveAt(Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAt*
+  name: RemoveAt
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAt_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.RemoveAt
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAt
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAt
+  nameWithType: TemporaryList<T>.RemoveAt
+  nameWithType.vb: TemporaryList(Of T).RemoveAt
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveRange(System.Int32,System.Int32)
+  name: RemoveRange(Int32, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveRange_System_Int32_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.RemoveRange(System.Int32,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveRange(System.Int32, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveRange(System.Int32, System.Int32)
+  nameWithType: TemporaryList<T>.RemoveRange(Int32, Int32)
+  nameWithType.vb: TemporaryList(Of T).RemoveRange(Int32, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveRange*
+  name: RemoveRange
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveRange_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.RemoveRange
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveRange
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveRange
+  nameWithType: TemporaryList<T>.RemoveRange
+  nameWithType.vb: TemporaryList(Of T).RemoveRange
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Reverse
+  name: Reverse()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Reverse
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Reverse
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Reverse()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Reverse()
+  nameWithType: TemporaryList<T>.Reverse()
+  nameWithType.vb: TemporaryList(Of T).Reverse()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Reverse(System.Int32,System.Int32)
+  name: Reverse(Int32, Int32)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Reverse_System_Int32_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Reverse(System.Int32,System.Int32)
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Reverse(System.Int32, System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Reverse(System.Int32, System.Int32)
+  nameWithType: TemporaryList<T>.Reverse(Int32, Int32)
+  nameWithType.vb: TemporaryList(Of T).Reverse(Int32, Int32)
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Reverse*
+  name: Reverse
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Reverse_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Reverse
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Reverse
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Reverse
+  nameWithType: TemporaryList<T>.Reverse
+  nameWithType.vb: TemporaryList(Of T).Reverse
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort
+  name: Sort()
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort()
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort()
+  nameWithType: TemporaryList<T>.Sort()
+  nameWithType.vb: TemporaryList(Of T).Sort()
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Collections.Generic.IComparer{`0})
+  name: Sort(IComparer<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_System_Collections_Generic_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Collections.Generic.IComparer{`0})
+  name.vb: Sort(IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(System.Collections.Generic.IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(System.Collections.Generic.IComparer(Of T))
+  nameWithType: TemporaryList<T>.Sort(IComparer<T>)
+  nameWithType.vb: TemporaryList(Of T).Sort(IComparer(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})
+  name: Sort(Int32, Int32, IComparer<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_System_Int32_System_Int32_System_Collections_Generic_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})
+  name.vb: Sort(Int32, Int32, IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer(Of T))
+  nameWithType: TemporaryList<T>.Sort(Int32, Int32, IComparer<T>)
+  nameWithType.vb: TemporaryList(Of T).Sort(Int32, Int32, IComparer(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort*
+  name: Sort
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.Sort
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort
+  nameWithType: TemporaryList<T>.Sort
+  nameWithType.vb: TemporaryList(Of T).Sort
+- uid: MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(System.Predicate{`0})
+  name: TrueForAll(Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_System_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(System.Predicate{`0})
+  name.vb: TrueForAll(Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TrueForAll(System.Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TrueForAll(System.Predicate(Of T))
+  nameWithType: TemporaryList<T>.TrueForAll(Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).TrueForAll(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.TrueForAll*
+  name: TrueForAll
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryList`1.TrueForAll
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TrueForAll
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TrueForAll
+  nameWithType: TemporaryList<T>.TrueForAll
+  nameWithType.vb: TemporaryList(Of T).TrueForAll
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions
+  name: TemporaryListExtensions
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html
+  commentId: T:MackySoft.XPool.Collections.TemporaryListExtensions
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions
+  nameWithType: TemporaryListExtensions
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList*
+  name: ToTemporaryList
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList_
+  commentId: Overload:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList
+  nameWithType: TemporaryListExtensions.ToTemporaryList
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToTemporaryList<T>(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToTemporaryList(Of T)(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>)
+  nameWithType.vb: TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  name: ToTemporaryList<T>(IEnumerable<T>, ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  name.vb: ToTemporaryList(Of T)(IEnumerable(Of T), ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>, ArrayPool<T>)
+  nameWithType.vb: TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.Tests
   name: MackySoft.XPool.Collections.Tests
   href: api/MackySoft.XPool.Collections.Tests.html
@@ -1153,6 +1924,77 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Collections.Tests.TemporaryArrayTest.Same_as_copied_temporary_array
   nameWithType: TemporaryArrayTest.Same_as_copied_temporary_array
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest
+  name: TemporaryListTest
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html
+  commentId: T:MackySoft.XPool.Collections.Tests.TemporaryListTest
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest
+  nameWithType: TemporaryListTest
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate
+  name: Add_does_not_allocate()
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Add_does_not_allocate
+  commentId: M:MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate()
+  nameWithType: TemporaryListTest.Add_does_not_allocate()
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate*
+  name: Add_does_not_allocate
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Add_does_not_allocate_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Add_does_not_allocate
+  nameWithType: TemporaryListTest.Add_does_not_allocate
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed
+  name: Array_is_null_when_disposed()
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Array_is_null_when_disposed
+  commentId: M:MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed()
+  nameWithType: TemporaryListTest.Array_is_null_when_disposed()
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed*
+  name: Array_is_null_when_disposed
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Array_is_null_when_disposed_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Array_is_null_when_disposed
+  nameWithType: TemporaryListTest.Array_is_null_when_disposed
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list
+  name: Create_method_return_expected_list()
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Create_method_return_expected_list
+  commentId: M:MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list()
+  nameWithType: TemporaryListTest.Create_method_return_expected_list()
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list*
+  name: Create_method_return_expected_list
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Create_method_return_expected_list_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Create_method_return_expected_list
+  nameWithType: TemporaryListTest.Create_method_return_expected_list
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Init
+  name: Init()
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Init
+  commentId: M:MackySoft.XPool.Collections.Tests.TemporaryListTest.Init
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Init()
+  nameWithType: TemporaryListTest.Init()
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Init*
+  name: Init
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Init_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.TemporaryListTest.Init
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Init
+  nameWithType: TemporaryListTest.Init
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection
+  name: Same_as_copied_collection()
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Same_as_copied_collection
+  commentId: M:MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection()
+  nameWithType: TemporaryListTest.Same_as_copied_collection()
+- uid: MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection*
+  name: Same_as_copied_collection
+  href: api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html#MackySoft_XPool_Collections_Tests_TemporaryListTest_Same_as_copied_collection_
+  commentId: Overload:MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection
+  nameWithType: TemporaryListTest.Same_as_copied_collection
 - uid: MackySoft.XPool.Collections.Tests.Unit
   name: Unit
   href: api/MackySoft.XPool.Collections.Tests.Unit.html
