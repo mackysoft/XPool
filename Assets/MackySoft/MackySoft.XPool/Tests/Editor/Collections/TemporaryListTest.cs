@@ -15,35 +15,43 @@ namespace MackySoft.XPool.Collections.Tests {
 
 		[Test]
 		public void Create_method_return_expected_list () {
-			var array = TemporaryList<Unit>.Create(6,m_Pool);
-			Assert.AreEqual(0,array.Count);
-			Assert.AreEqual(8,array.Capacity);
+			using (var list = TemporaryList<Unit>.Create(m_Pool)) {
+				Assert.AreEqual(0,list.Count);
+				Assert.AreEqual(0,list.Capacity);
+			}
+			using (var list = TemporaryList<Unit>.Create(6,m_Pool)) {
+				Assert.AreEqual(0,list.Count);
+				Assert.AreEqual(8,list.Capacity);
+			}
 		}
 
 		[Test]
 		public void Array_is_null_when_disposed () {
-			var array = TemporaryList<Unit>.Create(m_Pool);
-			array.Dispose();
-			Assert.IsNull(array.Array);
+			var list = TemporaryList<Unit>.Create(m_Pool);
+			Assert.IsNotNull(list.Array);
+
+			list.Dispose();
+			Assert.IsNull(list.Array);
 		}
 
 		[Test]
 		public void Same_as_copied_collection () {
 			var collection = new int[] { 1,2,3 };
-			var array = TemporaryList<int>.From(collection);
-			CollectionAssert.AreEqual(collection,array);
+			using (var list = TemporaryList<int>.From(collection)) {
+				CollectionAssert.AreEqual(collection,list);
+			}
 		}
 
 		[Test]
 		public void Add_does_not_allocate () {
-			var list = TemporaryList<Unit>.Create(8,m_Pool);
-
-			// Warm up
-			list.Add(Unit.Default);
-
-			Assert.That(() => {
+			using (var list = TemporaryList<Unit>.Create(8,m_Pool)) {
+				// Warm up
 				list.Add(Unit.Default);
-			},Is.Not.AllocatingGCMemory());
+
+				Assert.That(() => {
+					list.Add(Unit.Default);
+				},Is.Not.AllocatingGCMemory());
+			}
 		}
 
 	}
