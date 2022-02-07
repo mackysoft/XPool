@@ -59,6 +59,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\Unit.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\StackPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\HashSetPoolTest.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\TemporaryListTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\TemporaryArrayTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ListPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ArrayPoolTest.cs" />
