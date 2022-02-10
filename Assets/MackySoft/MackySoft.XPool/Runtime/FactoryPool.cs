@@ -68,7 +68,7 @@ namespace MackySoft.XPool {
 		/// <summary>
 		/// Return instance to the pool. If the capacity is exceeded, the instance will not be returned to the pool.
 		/// </summary>
-		/// <exception cref="ArgumentNullException"
+		/// <exception cref="ArgumentNullException"></exception>
 		public void Return (T instance) {
 			if (instance == null) {
 				throw new ArgumentNullException(nameof(instance));
