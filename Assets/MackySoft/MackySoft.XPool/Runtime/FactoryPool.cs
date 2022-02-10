@@ -20,7 +20,7 @@ namespace MackySoft.XPool {
 #endif
 
 		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent,Action<T> onReturn) {
-			if (capacity < 0) {
+			if (capacity <= 0) {
 				throw new ArgumentOutOfRangeException(nameof(capacity));
 			}
 
