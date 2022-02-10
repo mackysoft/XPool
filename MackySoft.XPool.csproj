@@ -61,11 +61,11 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolUtility.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\QueuePool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\FactoryPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Stack\StackPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\List\ListPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\FactoryPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />
