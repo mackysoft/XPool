@@ -19,6 +19,15 @@ namespace MackySoft.XPool {
 		readonly HashSet<T> m_InPool;
 #endif
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="capacity"> The pool capacity. If less than or equal to 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <param name="onCreate"> Method that create new instance. If is null, <see cref="ArgumentNullException"/> will be thrown. This method is must return not null. If returns null, <see cref="Rent"/> throw <see cref="NullReferenceException"/>. </param>
+		/// <param name="onRent"> Callback that is called when <see cref="Rent"/> is successful. </param>
+		/// <param name="onReturn"> Callback that is called when <see cref="Return(T)"/> is successful. </param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentNullException"></exception>
 		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent = null,Action<T> onReturn = null) {
 			if (capacity <= 0) {
 				throw new ArgumentOutOfRangeException(nameof(capacity));
@@ -36,6 +45,10 @@ namespace MackySoft.XPool {
 #endif
 		}
 
+		/// <summary>
+		/// Return the pooled instance. If pool is empty, create new instance and returns it.
+		/// </summary>
+		/// <exception cref="NullReferenceException"></exception>
 		public T Rent () {
 			T instance;
 			if (m_Pool.Count > 0) {
@@ -52,6 +65,10 @@ namespace MackySoft.XPool {
 			return instance;
 		}
 
+		/// <summary>
+		/// Return instance to the pool. If the capacity is exceeded, the instance will not be returned to the pool.
+		/// </summary>
+		/// <exception cref="ArgumentNullException"
 		public void Return (T instance) {
 			if (instance == null) {
 				throw new ArgumentNullException(nameof(instance));
