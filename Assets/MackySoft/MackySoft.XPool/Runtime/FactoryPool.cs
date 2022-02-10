@@ -19,7 +19,7 @@ namespace MackySoft.XPool {
 		readonly HashSet<T> m_InPool;
 #endif
 
-		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent,Action<T> onReturn) {
+		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent = null,Action<T> onReturn = null) {
 			if (capacity <= 0) {
 				throw new ArgumentOutOfRangeException(nameof(capacity));
 			}
