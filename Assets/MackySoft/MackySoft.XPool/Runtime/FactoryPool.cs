@@ -38,7 +38,7 @@ namespace MackySoft.XPool {
 
 		public T Rent () {
 			T instance;
-			if (m_InPool.Count > 0) {
+			if (m_Pool.Count > 0) {
 				instance = m_Pool.Dequeue();
 #if !XPOOL_OPTIMIZE
 				m_InPool.Remove(instance);
