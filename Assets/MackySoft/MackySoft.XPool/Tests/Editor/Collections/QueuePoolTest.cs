@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools.Constraints;
+using MackySoft.XPool.Tests;
 using Is = UnityEngine.TestTools.Constraints.Is;
 
 namespace MackySoft.XPool.Collections.Tests {

@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\Unit.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Unit.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\StackPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\HashSetPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\TemporaryListTest.cs" />

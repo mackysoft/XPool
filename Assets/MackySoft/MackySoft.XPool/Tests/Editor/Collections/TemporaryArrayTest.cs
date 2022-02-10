@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using MackySoft.XPool.Tests;
 
 namespace MackySoft.XPool.Collections.Tests {
 	public class TemporaryArrayTest {
