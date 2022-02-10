@@ -72,7 +72,7 @@
   "api/MackySoft.XPool.Collections.Tests.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.html",
     "title": "Namespace MackySoft.XPool.Collections.Tests | XPool",
-    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest HashSetPoolTest ListPoolTest QueuePoolTest StackPoolTest TemporaryArrayTest TemporaryListTest Unit"
+    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest HashSetPoolTest ListPoolTest QueuePoolTest StackPoolTest TemporaryArrayTest TemporaryListTest"
   },
   "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html",
@@ -99,10 +99,30 @@
     "title": "Class TemporaryListTest | XPool",
     "keywords": "Class TemporaryListTest Inheritance Object TemporaryListTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class TemporaryListTest Methods Add_does_not_allocate() Declaration public void Add_does_not_allocate() Array_is_null_when_disposed() Declaration public void Array_is_null_when_disposed() Create_method_return_expected_list() Declaration public void Create_method_return_expected_list() Init() Declaration public void Init() Same_as_copied_collection() Declaration public void Same_as_copied_collection()"
   },
-  "api/MackySoft.XPool.Collections.Tests.Unit.html": {
-    "href": "api/MackySoft.XPool.Collections.Tests.Unit.html",
+  "api/MackySoft.XPool.FactoryPool-1.html": {
+    "href": "api/MackySoft.XPool.FactoryPool-1.html",
+    "title": "Class FactoryPool<T> | XPool",
+    "keywords": "Class FactoryPool<T> Pool that create an instance from a custom factory method. Inheritance Object FactoryPool<T> Namespace : MackySoft.XPool Assembly : cs.temp.dll.dll Syntax public sealed class FactoryPool<T> Type Parameters Name Description T Constructors FactoryPool(Int32, Func<T>, Action<T>, Action<T>) Declaration public FactoryPool(int capacity, Func<T> onCreate, Action<T> onRent = null, Action<T> onReturn = null) Parameters Type Name Description Int32 capacity The pool capacity. If less than or equal to 0, ArgumentOutOfRangeException will be thrown. Func <T> onCreate Method that create new instance. If is null, ArgumentNullException will be thrown. This method is must return not null. If returns null, Rent() throw NullReferenceException . Action <T> onRent Callback that is called when Rent() is successful. Action <T> onReturn Callback that is called when Return(T) is successful. Exceptions Type Condition ArgumentOutOfRangeException ArgumentNullException Methods Rent() Return the pooled instance. If pool is empty, create new instance and returns it. Declaration public T Rent() Returns Type Description T Exceptions Type Condition NullReferenceException Return(T) Return instance to the pool. If the capacity is exceeded, the instance will not be returned to the pool. Declaration public void Return(T instance) Parameters Type Name Description T instance Exceptions Type Condition ArgumentNullException"
+  },
+  "api/MackySoft.XPool.html": {
+    "href": "api/MackySoft.XPool.html",
+    "title": "Namespace MackySoft.XPool | XPool",
+    "keywords": "Namespace MackySoft.XPool Classes FactoryPool<T> Pool that create an instance from a custom factory method."
+  },
+  "api/MackySoft.XPool.Tests.FactoryPoolTest.html": {
+    "href": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",
+    "title": "Class FactoryPoolTest | XPool",
+    "keywords": "Class FactoryPoolTest Inheritance Object FactoryPoolTest Namespace : MackySoft.XPool.Tests Assembly : cs.temp.dll.dll Syntax public class FactoryPoolTest Methods Not_return_instance_to_pool_if_capacity_is_exceeded() Declaration public void Not_return_instance_to_pool_if_capacity_is_exceeded() onRent_is_called_if_Rent_suceeded() Declaration public void onRent_is_called_if_Rent_suceeded() onReturn_is_called_if_Return_suceeded() Declaration public void onReturn_is_called_if_Return_suceeded() Rent_returned_new_instance_if_first_Rent() Declaration public void Rent_returned_new_instance_if_first_Rent() Rent_returned_pooled_instance() Declaration public void Rent_returned_pooled_instance() Throw_ArgumentNullException_if_onCreate_is_null() Declaration public void Throw_ArgumentNullException_if_onCreate_is_null() Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero() Declaration public void Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero() Throw_NullReferenceException_if_OnCreate_returned_null() Declaration public void Throw_NullReferenceException_if_OnCreate_returned_null()"
+  },
+  "api/MackySoft.XPool.Tests.html": {
+    "href": "api/MackySoft.XPool.Tests.html",
+    "title": "Namespace MackySoft.XPool.Tests | XPool",
+    "keywords": "Namespace MackySoft.XPool.Tests Classes FactoryPoolTest Unit"
+  },
+  "api/MackySoft.XPool.Tests.Unit.html": {
+    "href": "api/MackySoft.XPool.Tests.Unit.html",
     "title": "Class Unit | XPool",
-    "keywords": "Class Unit Inheritance Object Unit Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class Unit Fields Default Declaration public static readonly Unit Default Field Value Type Description Unit"
+    "keywords": "Class Unit Inheritance Object Unit Namespace : MackySoft.XPool.Tests Assembly : cs.temp.dll.dll Syntax public class Unit Fields Default Declaration public static readonly Unit Default Field Value Type Description Unit"
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",

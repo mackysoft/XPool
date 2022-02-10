@@ -240,23 +240,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.Unit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MackySoft.XPool.Collections.Tests.Unit.html",
-          "hash": "lhhTbYvKEYEyTcpkH60pODlILkRHguzlwQN64h7J25E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.XPool.Collections.Tests.yml",
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.html",
-          "hash": "nwn0E9YpkBdfsYO5+OnKswkhA5CfCAU7uGnuCrclQpw="
+          "hash": "jBCV5dzUd6zI7t6T/8wHbIIdVltuOhQX4DtNBY38vkw="
         }
       },
       "is_incremental": false,
@@ -275,12 +263,72 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.FactoryPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.FactoryPool-1.html",
+          "hash": "j+5uYdIMtUChg33dS8TF/uHPtctM1/dR50wZ0/3XfbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Tests.FactoryPoolTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",
+          "hash": "dYcf1Eq8mTAe7xiwLjubYZrP6SubI5IJxz7VQNlyv7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Tests.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Tests.Unit.html",
+          "hash": "tGVQoYZpJllkIt+WcgSvh+lK+kNV1lKM7EVhrQZS9mM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Tests.html",
+          "hash": "4CJur++0YWTHtXeUAAlxoYNOuRoCD5nOiMyOTF6i8OA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.html",
+          "hash": "ht/1gf0aEdJ5G0iFyYk13w2LZeJUh1HZgoNxKZOC/+Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gjzHXwjyjicKXZ7DC22Jw8rf7MbmX7eqiLl6Tsk02j0="
+          "hash": "vXierxk9n5VRemSz3/OGf3oboY6DtV0wDdPfzCanbYM="
         }
       },
       "is_incremental": false,
@@ -328,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "N6ost1dMjqP+df+vuqC89TLwOFuY+y7YoPtnrj3y58k="
+          "hash": "+CTOoC1kirXjXkaBcZOMIqHtKiT/Q+plm6+lgx9kKLo="
         }
       },
       "is_incremental": false,
@@ -355,7 +403,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 21,
+          "total_file_count": 25,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

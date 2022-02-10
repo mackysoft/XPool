@@ -1,6 +1,12 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: MackySoft.XPool
+  name: MackySoft.XPool
+  href: api/MackySoft.XPool.html
+  commentId: N:MackySoft.XPool
+  fullName: MackySoft.XPool
+  nameWithType: MackySoft.XPool
 - uid: MackySoft.XPool.Collections
   name: MackySoft.XPool.Collections
   href: api/MackySoft.XPool.Collections.html
@@ -1995,15 +2001,192 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Collections.Tests.TemporaryListTest.Same_as_copied_collection
   nameWithType: TemporaryListTest.Same_as_copied_collection
-- uid: MackySoft.XPool.Collections.Tests.Unit
+- uid: MackySoft.XPool.FactoryPool`1
+  name: FactoryPool<T>
+  href: api/MackySoft.XPool.FactoryPool-1.html
+  commentId: T:MackySoft.XPool.FactoryPool`1
+  name.vb: FactoryPool(Of T)
+  fullName: MackySoft.XPool.FactoryPool<T>
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T)
+  nameWithType: FactoryPool<T>
+  nameWithType.vb: FactoryPool(Of T)
+- uid: MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,System.Func{`0},System.Action{`0},System.Action{`0})
+  name: FactoryPool(Int32, Func<T>, Action<T>, Action<T>)
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1__ctor_System_Int32_System_Func__0__System_Action__0__System_Action__0__
+  commentId: M:MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,System.Func{`0},System.Action{`0},System.Action{`0})
+  name.vb: FactoryPool(Int32, Func(Of T), Action(Of T), Action(Of T))
+  fullName: MackySoft.XPool.FactoryPool<T>.FactoryPool(System.Int32, System.Func<T>, System.Action<T>, System.Action<T>)
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).FactoryPool(System.Int32, System.Func(Of T), System.Action(Of T), System.Action(Of T))
+  nameWithType: FactoryPool<T>.FactoryPool(Int32, Func<T>, Action<T>, Action<T>)
+  nameWithType.vb: FactoryPool(Of T).FactoryPool(Int32, Func(Of T), Action(Of T), Action(Of T))
+- uid: MackySoft.XPool.FactoryPool`1.#ctor*
+  name: FactoryPool
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.FactoryPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.FactoryPool<T>.FactoryPool
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).FactoryPool
+  nameWithType: FactoryPool<T>.FactoryPool
+  nameWithType.vb: FactoryPool(Of T).FactoryPool
+- uid: MackySoft.XPool.FactoryPool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Rent
+  commentId: M:MackySoft.XPool.FactoryPool`1.Rent
+  fullName: MackySoft.XPool.FactoryPool<T>.Rent()
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Rent()
+  nameWithType: FactoryPool<T>.Rent()
+  nameWithType.vb: FactoryPool(Of T).Rent()
+- uid: MackySoft.XPool.FactoryPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.FactoryPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.FactoryPool<T>.Rent
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Rent
+  nameWithType: FactoryPool<T>.Rent
+  nameWithType.vb: FactoryPool(Of T).Rent
+- uid: MackySoft.XPool.FactoryPool`1.Return(`0)
+  name: Return(T)
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Return__0_
+  commentId: M:MackySoft.XPool.FactoryPool`1.Return(`0)
+  fullName: MackySoft.XPool.FactoryPool<T>.Return(T)
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Return(T)
+  nameWithType: FactoryPool<T>.Return(T)
+  nameWithType.vb: FactoryPool(Of T).Return(T)
+- uid: MackySoft.XPool.FactoryPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Return_
+  commentId: Overload:MackySoft.XPool.FactoryPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.FactoryPool<T>.Return
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Return
+  nameWithType: FactoryPool<T>.Return
+  nameWithType.vb: FactoryPool(Of T).Return
+- uid: MackySoft.XPool.Tests
+  name: MackySoft.XPool.Tests
+  href: api/MackySoft.XPool.Tests.html
+  commentId: N:MackySoft.XPool.Tests
+  fullName: MackySoft.XPool.Tests
+  nameWithType: MackySoft.XPool.Tests
+- uid: MackySoft.XPool.Tests.FactoryPoolTest
+  name: FactoryPoolTest
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html
+  commentId: T:MackySoft.XPool.Tests.FactoryPoolTest
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest
+  nameWithType: FactoryPoolTest
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded
+  name: Not_return_instance_to_pool_if_capacity_is_exceeded()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Not_return_instance_to_pool_if_capacity_is_exceeded
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded()
+  nameWithType: FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded*
+  name: Not_return_instance_to_pool_if_capacity_is_exceeded
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Not_return_instance_to_pool_if_capacity_is_exceeded_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded
+  nameWithType: FactoryPoolTest.Not_return_instance_to_pool_if_capacity_is_exceeded
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded
+  name: onRent_is_called_if_Rent_suceeded()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_onRent_is_called_if_Rent_suceeded
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded()
+  nameWithType: FactoryPoolTest.onRent_is_called_if_Rent_suceeded()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded*
+  name: onRent_is_called_if_Rent_suceeded
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_onRent_is_called_if_Rent_suceeded_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.onRent_is_called_if_Rent_suceeded
+  nameWithType: FactoryPoolTest.onRent_is_called_if_Rent_suceeded
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded
+  name: onReturn_is_called_if_Return_suceeded()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_onReturn_is_called_if_Return_suceeded
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded()
+  nameWithType: FactoryPoolTest.onReturn_is_called_if_Return_suceeded()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded*
+  name: onReturn_is_called_if_Return_suceeded
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_onReturn_is_called_if_Return_suceeded_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.onReturn_is_called_if_Return_suceeded
+  nameWithType: FactoryPoolTest.onReturn_is_called_if_Return_suceeded
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent
+  name: Rent_returned_new_instance_if_first_Rent()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Rent_returned_new_instance_if_first_Rent
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent()
+  nameWithType: FactoryPoolTest.Rent_returned_new_instance_if_first_Rent()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent*
+  name: Rent_returned_new_instance_if_first_Rent
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Rent_returned_new_instance_if_first_Rent_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_new_instance_if_first_Rent
+  nameWithType: FactoryPoolTest.Rent_returned_new_instance_if_first_Rent
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance
+  name: Rent_returned_pooled_instance()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Rent_returned_pooled_instance
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance()
+  nameWithType: FactoryPoolTest.Rent_returned_pooled_instance()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance*
+  name: Rent_returned_pooled_instance
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Rent_returned_pooled_instance_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Rent_returned_pooled_instance
+  nameWithType: FactoryPoolTest.Rent_returned_pooled_instance
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null
+  name: Throw_ArgumentNullException_if_onCreate_is_null()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_ArgumentNullException_if_onCreate_is_null
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null()
+  nameWithType: FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null*
+  name: Throw_ArgumentNullException_if_onCreate_is_null
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_ArgumentNullException_if_onCreate_is_null_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null
+  nameWithType: FactoryPoolTest.Throw_ArgumentNullException_if_onCreate_is_null
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  name: Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero()
+  nameWithType: FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero*
+  name: Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+  nameWithType: FactoryPoolTest.Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null
+  name: Throw_NullReferenceException_if_OnCreate_returned_null()
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_NullReferenceException_if_OnCreate_returned_null
+  commentId: M:MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null()
+  nameWithType: FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null()
+- uid: MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null*
+  name: Throw_NullReferenceException_if_OnCreate_returned_null
+  href: api/MackySoft.XPool.Tests.FactoryPoolTest.html#MackySoft_XPool_Tests_FactoryPoolTest_Throw_NullReferenceException_if_OnCreate_returned_null_
+  commentId: Overload:MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null
+  nameWithType: FactoryPoolTest.Throw_NullReferenceException_if_OnCreate_returned_null
+- uid: MackySoft.XPool.Tests.Unit
   name: Unit
-  href: api/MackySoft.XPool.Collections.Tests.Unit.html
-  commentId: T:MackySoft.XPool.Collections.Tests.Unit
-  fullName: MackySoft.XPool.Collections.Tests.Unit
+  href: api/MackySoft.XPool.Tests.Unit.html
+  commentId: T:MackySoft.XPool.Tests.Unit
+  fullName: MackySoft.XPool.Tests.Unit
   nameWithType: Unit
-- uid: MackySoft.XPool.Collections.Tests.Unit.Default
+- uid: MackySoft.XPool.Tests.Unit.Default
   name: Default
-  href: api/MackySoft.XPool.Collections.Tests.Unit.html#MackySoft_XPool_Collections_Tests_Unit_Default
-  commentId: F:MackySoft.XPool.Collections.Tests.Unit.Default
-  fullName: MackySoft.XPool.Collections.Tests.Unit.Default
+  href: api/MackySoft.XPool.Tests.Unit.html#MackySoft_XPool_Tests_Unit_Default
+  commentId: F:MackySoft.XPool.Tests.Unit.Default
+  fullName: MackySoft.XPool.Tests.Unit.Default
   nameWithType: Unit.Default
