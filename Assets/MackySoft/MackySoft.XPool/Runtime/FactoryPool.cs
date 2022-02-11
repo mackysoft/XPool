@@ -89,6 +89,9 @@ namespace MackySoft.XPool {
 			m_OnReturn?.Invoke(instance);
 		}
 
+		/// <summary>
+		/// Release the all pooled instances.
+		/// </summary>
 		public void Clear () {
 			while (m_Pool.Count > 0) {
 				T instance = m_Pool.Dequeue();
