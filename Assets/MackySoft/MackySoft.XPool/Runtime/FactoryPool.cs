@@ -38,6 +38,7 @@ namespace MackySoft.XPool {
 			m_OnCreate = onCreate ?? throw new ArgumentNullException(nameof(onCreate));
 			m_OnRent = onRent;
 			m_OnReturn = onReturn;
+			m_OnRelease = onRelease;
 
 			m_Capacity = capacity;
 			m_Pool = new Queue<T>(capacity);
