@@ -90,16 +90,40 @@ namespace MackySoft.XPool {
 		}
 
 		/// <summary>
+		/// Keeps the specified quantity and releases the pooled instances.
+		/// </summary>
+		/// <param name="keep"> Quantity that keep pooled instances. If less than 0 or greater than capacity, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		public void ReleaseInstances (int keep) {
+			if ((keep < 0) || (keep > m_Capacity)) {
+				throw new ArgumentOutOfRangeException(nameof(keep));
+			}
+
+			if (keep != 0) {
+				for (int i = m_InPool.Count - keep;i > 0;i--) {
+					T instance = m_Pool.Dequeue();
+					m_OnRelease?.Invoke(instance);
+#if !XPOOL_OPTIMIZE
+					m_InPool.Remove(instance);
+#endif
+				}
+			}
+			else {
+				while (m_Pool.Count > 0) {
+					T instance = m_Pool.Dequeue();
+					m_OnRelease?.Invoke(instance);
+				}
+#if !XPOOL_OPTIMIZE
+				m_InPool.Clear();
+#endif
+			}
+
+		}
+
+		/// <summary>
 		/// Release the all pooled instances.
 		/// </summary>
 		public void Clear () {
-			while (m_Pool.Count > 0) {
-				T instance = m_Pool.Dequeue();
-				m_OnRelease?.Invoke(instance);
-			}
-#if !XPOOL_OPTIMIZE
-			m_InPool.Clear();
-#endif
+			ReleaseInstances(0);
 		}
 
 		public void Dispose () {
