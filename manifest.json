@@ -268,7 +268,31 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.FactoryPool-1.html",
-          "hash": "j+5uYdIMtUChg33dS8TF/uHPtctM1/dR50wZ0/3XfbI="
+          "hash": "4Lce/ZGMwBWQVVanNf+VP2oQiIQArneqHT7OI0fiygY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.IPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.IPool-1.html",
+          "hash": "BIYM5KiYo53Gllcwc12u02gTH+73z0Lu+6CymVEAmNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.PoolExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.PoolExtensions.html",
+          "hash": "KKuS2nyjavk0wTczzbJGf1mnTq/Bk03TVR+IZ61imnw="
         }
       },
       "is_incremental": false,
@@ -280,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",
-          "hash": "dYcf1Eq8mTAe7xiwLjubYZrP6SubI5IJxz7VQNlyv7E="
+          "hash": "EbgyHkOXX02Mn91Fz5NOu8kisK4Ur7O+gpzo4Irus4I="
         }
       },
       "is_incremental": false,
@@ -316,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.html",
-          "hash": "ht/1gf0aEdJ5G0iFyYk13w2LZeJUh1HZgoNxKZOC/+Y="
+          "hash": "I5XL+KVZyBps4Ahd5ON9U20KJ6LZIeonkrEt5v+23Ww="
         }
       },
       "is_incremental": false,
@@ -328,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vXierxk9n5VRemSz3/OGf3oboY6DtV0wDdPfzCanbYM="
+          "hash": "lENFD4L7XmMLhs8OjttYoN5GxhnfaYVc9jDED0ivqDs="
         }
       },
       "is_incremental": false,
@@ -403,7 +427,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

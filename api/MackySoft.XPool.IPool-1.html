@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace MackySoft.XPool
+    <title>Interface IPool&lt;T&gt;
    | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace MackySoft.XPool
+    <meta name="title" content="Interface IPool&lt;T&gt;
    | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,25 +78,115 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MackySoft.XPool">
+            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.IPool`1">
   
-  <h1 id="MackySoft_XPool" data-uid="MackySoft.XPool" class="text-break">Namespace MackySoft.XPool
+  
+  <h1 id="MackySoft_XPool_IPool_1" data-uid="MackySoft.XPool.IPool`1" class="text-break">Interface IPool&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface provides that basic features of pool.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.html">MackySoft.XPool</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="MackySoft_XPool_IPool_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IPool&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of instance to pool. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="MackySoft.XPool.FactoryPool-1.html">FactoryPool&lt;T&gt;</a></h4>
-      <section><p>Pool that create an instance from a custom factory method.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.PoolExtensions.html">PoolExtensions</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool&lt;T&gt;</a></h4>
-      <section><p>Interface provides that basic features of pool.</p>
-</section>
+  <a id="MackySoft_XPool_IPool_1_ReleaseInstances_" data-uid="MackySoft.XPool.IPool`1.ReleaseInstances*"></a>
+  <h4 id="MackySoft_XPool_IPool_1_ReleaseInstances_System_Int32_" data-uid="MackySoft.XPool.IPool`1.ReleaseInstances(System.Int32)">ReleaseInstances(Int32)</h4>
+  <div class="markdown level1 summary"><p>Keeps the specified quantity and releases the pooled instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ReleaseInstances(int keep)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td><p>Quantity that keep pooled instances. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_IPool_1_Rent_" data-uid="MackySoft.XPool.IPool`1.Rent*"></a>
+  <h4 id="MackySoft_XPool_IPool_1_Rent" data-uid="MackySoft.XPool.IPool`1.Rent">Rent()</h4>
+  <div class="markdown level1 summary"><p>Return the pooled instance. If pool is empty, create new instance and returns it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Rent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_IPool_1_Return_" data-uid="MackySoft.XPool.IPool`1.Return*"></a>
+  <h4 id="MackySoft_XPool_IPool_1_Return__0_" data-uid="MackySoft.XPool.IPool`1.Return(`0)">Return(T)</h4>
+  <div class="markdown level1 summary"><p>Return instance to the pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Return(T instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
