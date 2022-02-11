@@ -16,9 +16,10 @@ namespace MackySoft.XPool.Unity {
 
 		Queue<T> m_Pool;
 
-		Action<T> m_OnRent;
-		Action<T> m_OnReturn;
-		Action<T> m_OnRelease;
+		protected Action<T> m_OnCreate;
+		protected Action<T> m_OnRent;
+		protected Action<T> m_OnReturn;
+		protected Action<T> m_OnRelease;
 
 		public T Original => m_Original;
 
@@ -26,6 +27,7 @@ namespace MackySoft.XPool.Unity {
 			T instance = GetPooledInstance();
 			if (instance == null) {
 				instance = UnityObject.Instantiate(m_Original);
+				m_OnCreate?.Invoke(instance);
 			}
 			m_OnRent?.Invoke(instance);
 			return instance;

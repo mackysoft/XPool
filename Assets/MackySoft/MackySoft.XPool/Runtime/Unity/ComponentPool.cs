@@ -16,7 +16,9 @@ namespace MackySoft.XPool.Unity {
 			}
 			else {
 				instance = UnityObject.Instantiate(m_Original,position,rotation,parent);
+				m_OnCreate?.Invoke(instance);;
 			}
+			m_OnRent?.Invoke(instance);
 			return instance;
 		}
 
@@ -27,7 +29,9 @@ namespace MackySoft.XPool.Unity {
 			}
 			else {
 				instance = UnityObject.Instantiate(m_Original,parent,worldPositionStays);
+				m_OnCreate?.Invoke(instance);
 			}
+			m_OnRent?.Invoke(instance);
 			return instance;
 		}
 

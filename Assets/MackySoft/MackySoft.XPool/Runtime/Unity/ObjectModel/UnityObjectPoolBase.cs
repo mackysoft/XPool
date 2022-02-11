@@ -19,6 +19,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			T instance = GetPooledInstance();
 			if (instance == null) {
 				instance = UnityObject.Instantiate(m_Original);
+				OnInstantiate(instance);
 			}
 			OnRent(instance);
 			return instance;
@@ -68,7 +69,6 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 		}
 
 		protected abstract void OnInstantiate (T instance);
-
 		protected abstract void OnRent (T instance);
 		protected abstract void OnReturn (T instance);
 		protected abstract void OnRelease (T instance);
