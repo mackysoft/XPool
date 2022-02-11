@@ -59,6 +59,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\HashSetPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Internal\RuntimeHelpers.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ComponentPool\ParticleSystemPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolUtility.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\QueuePool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPool.cs" />
