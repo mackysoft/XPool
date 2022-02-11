@@ -79,4 +79,4 @@ crashlytics-build.properties
 Documentation/api/
 Documentation/index.*
 _site/
-Assets/**/obj*
+Assets/**/obj/
