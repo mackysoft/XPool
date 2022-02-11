@@ -6,11 +6,12 @@ namespace MackySoft.XPool {
 	/// <summary>
 	/// Pool that create an instance from a custom factory method.
 	/// </summary>
-	public sealed class FactoryPool<T> {
+	public sealed class FactoryPool<T> : IDisposable {
 
 		readonly Func<T> m_OnCreate;
 		readonly Action<T> m_OnRent;
 		readonly Action<T> m_OnReturn;
+		readonly Action<T> m_OnRelease;
 
 		readonly int m_Capacity;
 		readonly Queue<T> m_Pool;
@@ -26,9 +27,10 @@ namespace MackySoft.XPool {
 		/// <param name="onCreate"> Method that create new instance. If is null, <see cref="ArgumentNullException"/> will be thrown. This method is must return not null. If returns null, <see cref="Rent"/> throw <see cref="NullReferenceException"/>. </param>
 		/// <param name="onRent"> Callback that is called when <see cref="Rent"/> is successful. </param>
 		/// <param name="onReturn"> Callback that is called when <see cref="Return(T)"/> is successful. </param>
+		/// <param name="onRelease"> Callback that is called when capacity is exceeded and the instance cannot be returned to the pool. </param>
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		/// <exception cref="ArgumentNullException"></exception>
-		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent = null,Action<T> onReturn = null) {
+		public FactoryPool (int capacity,Func<T> onCreate,Action<T> onRent = null,Action<T> onReturn = null,Action<T> onRelease = null) {
 			if (capacity <= 0) {
 				throw new ArgumentOutOfRangeException(nameof(capacity));
 			}
@@ -74,6 +76,7 @@ namespace MackySoft.XPool {
 				throw new ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
+				m_OnRelease?.Invoke(instance);
 				return;
 			}
 #if !XPOOL_OPTIMIZE
@@ -83,6 +86,20 @@ namespace MackySoft.XPool {
 #endif
 			m_Pool.Enqueue(instance);
 			m_OnReturn?.Invoke(instance);
+		}
+
+		public void Clear () {
+			while (m_Pool.Count > 0) {
+				T instance = m_Pool.Dequeue();
+				m_OnRelease?.Invoke(instance);
+			}
+#if !XPOOL_OPTIMIZE
+			m_InPool.Clear();
+#endif
+		}
+
+		public void Dispose () {
+			Clear();
 		}
 	}
 }
