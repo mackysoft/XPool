@@ -6,7 +6,7 @@ namespace MackySoft.XPool {
 	/// <summary>
 	/// Pool that create an instance from a custom factory method.
 	/// </summary>
-	public sealed class FactoryPool<T> : IDisposable {
+	public sealed class FactoryPool<T> : IPool<T>, IDisposable {
 
 		readonly Func<T> m_OnCreate;
 		readonly Action<T> m_OnRent;
@@ -119,15 +119,8 @@ namespace MackySoft.XPool {
 
 		}
 
-		/// <summary>
-		/// Release the all pooled instances.
-		/// </summary>
-		public void Clear () {
-			ReleaseInstances(0);
-		}
-
 		public void Dispose () {
-			Clear();
+			ReleaseInstances(0);
 		}
 	}
 }

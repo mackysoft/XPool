@@ -1,4 +1,6 @@
-﻿namespace MackySoft.XPool {
+﻿using System;
+
+namespace MackySoft.XPool {
 
 	/// <summary>
 	/// Interface provides that basic features of pool.
@@ -21,5 +23,19 @@
 		/// </summary>
 		/// <param name="keep"> Quantity that keep pooled instances. </param>
 		void ReleaseInstances (int keep);
+	}
+
+	public static class PoolExtensions {
+
+		/// <summary>
+		/// Release the all pooled instances.
+		/// </summary>
+		public static void Clear<T> (this IPool<T> pool) {
+			if (pool == null) {
+				throw new ArgumentNullException(nameof(pool));
+			}
+			pool.ReleaseInstances(0);
+		}
+
 	}
 }
