@@ -72,11 +72,65 @@ namespace MackySoft.XPool.Tests {
 		}
 
 		[Test]
+		public void onRelease_is_called_if_capacity_is_exceeded () {
+			bool called = false;
+			var pool = new FactoryPool<Unit>(1,() => new Unit(),onRelease: x => called = true);
+
+			pool.Return(new Unit());
+			Assert.IsFalse(called);
+
+			pool.Return(new Unit());
+			Assert.IsTrue(called);
+		}
+
+		[Test]
 		public void onReturn_is_called_if_Return_suceeded () {
 			bool called = false;
 			var pool = new FactoryPool<Unit>(1,() => new Unit(),onReturn: x => called = true);
 			pool.Return(new Unit());
 			Assert.IsTrue(called);
+		}
+
+		[Test]
+		public void ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity () {
+			var pool = new FactoryPool<Unit>(1,() => new Unit());
+			Assert.Throws<ArgumentOutOfRangeException>(() => pool.ReleaseInstances(-1));
+			Assert.Throws<ArgumentOutOfRangeException>(() => pool.ReleaseInstances(2));
+		}
+
+		[Test]
+		public void ReleaseInstances_is_keep_specified_quantity_and_release_instances () {
+			int released = 0;
+			var pool = new FactoryPool<Unit>(3,() => new Unit(),onRelease: x => released++);
+			pool.Return(new Unit());
+			pool.Return(new Unit());
+			pool.Return(new Unit());
+			pool.ReleaseInstances(1);
+
+			Assert.AreEqual(2,released);
+		}
+
+		[Test]
+		public void ReleaseInstances_is_release_all_instances_if_keep_is_zero () {
+			int released = 0;
+			var pool = new FactoryPool<Unit>(2,() => new Unit(),onRelease: x => released++);
+			pool.Return(new Unit());
+			pool.Return(new Unit());
+			pool.ReleaseInstances(0);
+
+			Assert.AreEqual(2,released);
+		}
+
+		[Test]
+		public void onRelease_is_called_when_clear_pool () {
+			int released = 0;
+			var pool = new FactoryPool<Unit>(2,() => new Unit(),onRelease: x => released++);
+			pool.Return(new Unit());
+			pool.Return(new Unit());
+			Assert.Zero(released);
+
+			pool.Clear();
+			Assert.AreEqual(2,released);
 		}
 
 	}
