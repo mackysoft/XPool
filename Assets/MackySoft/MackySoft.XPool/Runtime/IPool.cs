@@ -30,11 +30,24 @@ namespace MackySoft.XPool {
 		/// <summary>
 		/// Release the all pooled instances.
 		/// </summary>
+		/// <exception cref="ArgumentNullException"></exception>
 		public static void Clear<T> (this IPool<T> pool) {
 			if (pool == null) {
 				throw new ArgumentNullException(nameof(pool));
 			}
 			pool.ReleaseInstances(0);
+		}
+
+		/// <summary>
+		/// Return the instance to the pool and set reference to null.
+		/// </summary>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static void Return<T> (this IPool<T> pool,ref T instance) {
+			if (pool == null) {
+				throw new ArgumentNullException(nameof(pool));
+			}
+			pool.Return(instance);
+			instance = default;
 		}
 
 	}
