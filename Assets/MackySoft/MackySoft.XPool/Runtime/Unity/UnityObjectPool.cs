@@ -16,6 +16,10 @@ namespace MackySoft.XPool.Unity {
 
 		Queue<T> m_Pool;
 
+		Action<T> m_OnRent;
+		Action<T> m_OnReturn;
+		Action<T> m_OnRelease;
+
 		public T Original => m_Original;
 
 		public T Rent () {
@@ -23,6 +27,7 @@ namespace MackySoft.XPool.Unity {
 			if (instance == null) {
 				instance = UnityObject.Instantiate(m_Original);
 			}
+			m_OnRent?.Invoke(instance);
 			return instance;
 		}
 
@@ -31,9 +36,11 @@ namespace MackySoft.XPool.Unity {
 				throw new ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
+				m_OnRelease.Invoke(instance);
 				return;
 			}
 			m_Pool.Enqueue(instance);
+			m_OnReturn?.Invoke(instance);
 		}
 
 		public void ReleaseInstances (int keep) {
@@ -45,7 +52,7 @@ namespace MackySoft.XPool.Unity {
 				for (int i = m_Pool.Count - keep;i > 0;i--) {
 					T instance = m_Pool.Dequeue();
 					if (instance != null) {
-						UnityObject.Destroy(instance);
+						m_OnRelease.Invoke(instance);
 					}
 				}
 			}
@@ -53,13 +60,16 @@ namespace MackySoft.XPool.Unity {
 				while (m_Pool.Count > 0) {
 					T instance = m_Pool.Dequeue();
 					if (instance != null) {
-						UnityObject.Destroy(instance);
+						m_OnRelease.Invoke(instance);
 					}
 				}
 			}
-
 		}
 
+		/// <summary>
+		/// Try to get an instance until the pool is empty or an instance can be retrieved.
+		/// This is because <see cref="UnityObject"/> can become null externally due to the <see cref="UnityObject.Destroy(UnityObject)"/> method.
+		/// </summary>
 		protected T GetPooledInstance () {
 			T instance = null;
 			while ((m_Pool.Count > 0) && (instance == null)) {
