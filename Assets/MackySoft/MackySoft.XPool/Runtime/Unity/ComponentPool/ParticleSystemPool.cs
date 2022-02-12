@@ -21,12 +21,12 @@ namespace MackySoft.XPool.Unity {
 
 		protected override void OnRent (ParticleSystem instance) {
 			if (m_PlayOnRent) {
-				instance.Play();
+				instance.Play(true);
 			}
 		}
 
 		protected override void OnReturn (ParticleSystem instance) {
-			
+			instance.Stop(true,ParticleSystemStopBehavior.StopEmitting);
 		}
 
 		protected override void OnRelease (ParticleSystem instance) {
