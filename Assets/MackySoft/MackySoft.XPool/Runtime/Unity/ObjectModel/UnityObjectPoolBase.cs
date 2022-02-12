@@ -61,6 +61,10 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			}
 		}
 
+		/// <summary>
+		/// Try to get an instance until the pool is empty or an instance can be retrieved.
+		/// This is because <see cref="UnityObject"/> can become null externally due to the <see cref="UnityObject.Destroy(UnityObject)"/> method.
+		/// </summary>
 		protected T GetPooledInstance () {
 			T instance = null;
 			while ((m_Pool.Count > 0) && (instance == null)) {
