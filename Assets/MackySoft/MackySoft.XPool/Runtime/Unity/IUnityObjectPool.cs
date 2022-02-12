@@ -8,7 +8,7 @@ namespace MackySoft.XPool.Unity {
 	/// </summary>
 	/// <typeparam name="T"></typeparam>
 	public interface IUnityObjectPool<T> : IPool<T> where T : UnityObject {
-		T Original { get; }
+		
 	}
 
 	/// <summary>

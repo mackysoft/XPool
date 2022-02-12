@@ -14,8 +14,6 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 
 		Queue<T> m_Pool;
 
-		public T Original => m_Original;
-
 		public T Rent () {
 			T instance = GetPooledInstance();
 			if (instance == null) {
