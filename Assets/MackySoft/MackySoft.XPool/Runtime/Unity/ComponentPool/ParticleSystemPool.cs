@@ -12,7 +12,7 @@ namespace MackySoft.XPool.Unity {
 
 		public bool PlayOnRent { get => m_PlayOnRent; set => m_PlayOnRent = value; }
 
-		protected override void OnInstantiate (ParticleSystem instance) {
+		protected override void OnCreate (ParticleSystem instance) {
 			var main = instance.main;
 			main.stopAction = ParticleSystemStopAction.Callback;
 			var trigger = instance.gameObject.AddComponent<ParticleSystemStoppedTrigger>();

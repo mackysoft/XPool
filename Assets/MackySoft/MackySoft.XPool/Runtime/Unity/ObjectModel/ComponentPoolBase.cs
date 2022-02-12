@@ -12,7 +12,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			}
 			else {
 				instance = UnityEngine.Object.Instantiate(m_Original,position,rotation,parent);
-				OnInstantiate(instance);
+				OnCreate(instance);
 			}
 			OnRent(instance);
 			return instance;
@@ -25,7 +25,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			}
 			else {
 				instance = UnityEngine.Object.Instantiate(m_Original,parent,worldPositionStays);
-				OnInstantiate(instance);
+				OnCreate(instance);
 			}
 			OnRent(instance);
 			return instance;

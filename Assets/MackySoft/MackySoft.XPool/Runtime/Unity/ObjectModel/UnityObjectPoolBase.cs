@@ -5,6 +5,7 @@ using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
 	public abstract class UnityObjectPoolBase<T> : IUnityObjectPool<T> where T : UnityObject {
+		
 		[SerializeField]
 		protected T m_Original;
 
@@ -19,7 +20,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			T instance = GetPooledInstance();
 			if (instance == null) {
 				instance = UnityObject.Instantiate(m_Original);
-				OnInstantiate(instance);
+				OnCreate(instance);
 			}
 			OnRent(instance);
 			return instance;
@@ -68,7 +69,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			return instance;
 		}
 
-		protected abstract void OnInstantiate (T instance);
+		protected abstract void OnCreate (T instance);
 		protected abstract void OnRent (T instance);
 		protected abstract void OnReturn (T instance);
 		protected abstract void OnRelease (T instance);
