@@ -82,7 +82,7 @@ namespace MackySoft.XPool.ObjectModel {
 			}
 
 			if (keep != 0) {
-				for (int i = m_InPool.Count - keep;i > 0;i--) {
+				for (int i = m_Pool.Count - keep;i > 0;i--) {
 					T instance = m_Pool.Dequeue();
 					OnRelease(instance);
 #if !XPOOL_OPTIMIZE
