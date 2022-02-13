@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FactoryPool&lt;T&gt;
+    <title>Class PoolBase&lt;T&gt;
    | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FactoryPool&lt;T&gt;
+    <meta name="title" content="Class PoolBase&lt;T&gt;
    | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,41 +78,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.FactoryPool`1">
+            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1">
   
   
-  <h1 id="MackySoft_XPool_FactoryPool_1" data-uid="MackySoft.XPool.FactoryPool`1" class="text-break">Class FactoryPool&lt;T&gt;
+  <h1 id="MackySoft_XPool_ObjectModel_PoolBase_1" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1" class="text-break">Class PoolBase&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Pool that create an instance from a custom factory method.</p>
+  <div class="markdown level0 summary"><p>Provides basic features of pool.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="MackySoft.XPool.ObjectModel.PoolBase-1.html">PoolBase</a>&lt;T&gt;</div>
-    <div class="level2"><span class="xref">FactoryPool&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">PoolBase&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="MackySoft.XPool.FactoryPool-1.html">FactoryPool&lt;T&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;T&gt;</div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Rent">PoolBase&lt;T&gt;.Rent()</a>
-    </div>
-    <div>
-      <a class="xref" href="MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Return__0_">PoolBase&lt;T&gt;.Return(T)</a>
-    </div>
-    <div>
-      <a class="xref" href="MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_ReleaseInstances_System_Int32_">PoolBase&lt;T&gt;.ReleaseInstances(Int32)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.html">MackySoft.XPool</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.ObjectModel.html">MackySoft.XPool.ObjectModel</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="MackySoft_XPool_FactoryPool_1_syntax">Syntax</h5>
+  <h5 id="MackySoft_XPool_ObjectModel_PoolBase_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class FactoryPool&lt;T&gt; : PoolBase&lt;T&gt;, IPool&lt;T&gt;, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PoolBase&lt;T&gt; : IPool&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,13 +119,14 @@
   </table>
   <h3 id="constructors">Constructors
   </h3>
-  <a id="MackySoft_XPool_FactoryPool_1__ctor_" data-uid="MackySoft.XPool.FactoryPool`1.#ctor*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1__ctor_System_Int32_System_Func__0__System_Action__0__System_Action__0__System_Action__0__" data-uid="MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0})">FactoryPool(Int32, Func&lt;T&gt;, Action&lt;T&gt;, Action&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1__ctor_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.#ctor*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1__ctor_System_Int32_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.#ctor(System.Int32)">PoolBase(Int32)</h4>
+  <div class="markdown level1 summary"><p>Initialize the pool with capacity. The inherited class must call this constructor.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FactoryPool(int capacity, Func&lt;T&gt; factory, Action&lt;T&gt; onRent = null, Action&lt;T&gt; onReturn = null, Action&lt;T&gt; onRelease = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected PoolBase(int capacity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,68 +144,17 @@
         <td><p>The pool capacity. If less than or equal to 0, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a> will be thrown. </p>
 </td>
       </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</td>
-        <td><span class="parametername">factory</span></td>
-        <td><p>Method that create new instance. If is null, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a> will be thrown. This method is must return not null. If returns null, <see cref="!:Rent"></see> throw <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a>. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
-        <td><span class="parametername">onRent</span></td>
-        <td><p>Callback that is called when <see cref="!:Rent"></see> is successful. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
-        <td><span class="parametername">onReturn</span></td>
-        <td><p>Callback that is called when <see cref="!:Return(T)"></see> is successful. </p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
-        <td><span class="parametername">onRelease</span></td>
-        <td><p>Callback that is called when capacity is exceeded and the instance cannot be returned to the pool. </p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="MackySoft_XPool_FactoryPool_1_Dispose_" data-uid="MackySoft.XPool.FactoryPool`1.Dispose*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1_Dispose" data-uid="MackySoft.XPool.FactoryPool`1.Dispose">Dispose()</h4>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_Factory_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Factory*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_Factory" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Factory">Factory()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-  </div>
-  <a id="MackySoft_XPool_FactoryPool_1_Factory_" data-uid="MackySoft.XPool.FactoryPool`1.Factory*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1_Factory" data-uid="MackySoft.XPool.FactoryPool`1.Factory">Factory()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override T Factory()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract T Factory()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -233,15 +171,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">MackySoft.XPool.ObjectModel.PoolBase&lt;T&gt;.Factory()</span></div>
-  <a id="MackySoft_XPool_FactoryPool_1_OnRelease_" data-uid="MackySoft.XPool.FactoryPool`1.OnRelease*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1_OnRelease__0_" data-uid="MackySoft.XPool.FactoryPool`1.OnRelease(`0)">OnRelease(T)</h4>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_OnRelease_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnRelease*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_OnRelease__0_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnRelease(`0)">OnRelease(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnRelease(T instance)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void OnRelease(T instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -260,15 +196,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">MackySoft.XPool.ObjectModel.PoolBase&lt;T&gt;.OnRelease(T)</span></div>
-  <a id="MackySoft_XPool_FactoryPool_1_OnRent_" data-uid="MackySoft.XPool.FactoryPool`1.OnRent*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1_OnRent__0_" data-uid="MackySoft.XPool.FactoryPool`1.OnRent(`0)">OnRent(T)</h4>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_OnRent_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnRent*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_OnRent__0_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnRent(`0)">OnRent(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnRent(T instance)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void OnRent(T instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,15 +221,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">MackySoft.XPool.ObjectModel.PoolBase&lt;T&gt;.OnRent(T)</span></div>
-  <a id="MackySoft_XPool_FactoryPool_1_OnReturn_" data-uid="MackySoft.XPool.FactoryPool`1.OnReturn*"></a>
-  <h4 id="MackySoft_XPool_FactoryPool_1_OnReturn__0_" data-uid="MackySoft.XPool.FactoryPool`1.OnReturn(`0)">OnReturn(T)</h4>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_OnReturn_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnReturn*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_OnReturn__0_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.OnReturn(`0)">OnReturn(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnReturn(T instance)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void OnReturn(T instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -314,8 +246,113 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">MackySoft.XPool.ObjectModel.PoolBase&lt;T&gt;.OnReturn(T)</span></div>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_ReleaseInstances_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.ReleaseInstances*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_ReleaseInstances_System_Int32_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.ReleaseInstances(System.Int32)">ReleaseInstances(Int32)</h4>
+  <div class="markdown level1 summary"><p>Keeps the specified quantity and releases the pooled instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseInstances(int keep)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td><p>Quantity that keep pooled instances. If less than 0 or greater than capacity, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a> will be thrown. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_Rent_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Rent*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_Rent" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Rent">Rent()</h4>
+  <div class="markdown level1 summary"><p>Return the pooled instance. If pool is empty, create new instance and returns it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Rent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_ObjectModel_PoolBase_1_Return_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Return*"></a>
+  <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_Return__0_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Return(`0)">Return(T)</h4>
+  <div class="markdown level1 summary"><p>Return instance to the pool. If the capacity is exceeded, the instance will not be returned to the pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Return(T instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="MackySoft.XPool.IPool-1.html">IPool&lt;T&gt;</a>

@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolExtensions.html",
-          "hash": "bd02MDovm1rnthki/MVixTbOoTzBDvg8duKb9yqfXng="
+          "hash": "rVGfrAAk7RsCTmdNxCxEh0iP5hFz2TfqYhPJXVWUUzw="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ListPool-1.html",
-          "hash": "rgYyypfoMyEa86VhQT59B6cWjaFm1sgyIyiEWX2D7v4="
+          "hash": "0rGLZXNtEV7VEjMK915as0e4iiErjqAQGbe3OTVzLvc="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.QueuePool-1.html",
-          "hash": "9bj56OK9Z/xEtst8NFb9bZ1AZPxdcfuIi249WBs0/Lw="
+          "hash": "BEyAx8y+8UHG/jXnokrxUQRqLJ0B3kqftxBt628tWUA="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.StackPool-1.html",
-          "hash": "mRS2U2kV3M0S3i9xA7Pn6fxCmdqw+SWRRs64bOKrigY="
+          "hash": "jMpf73gzCWvg1ycaTWZQFP8Xnlw9LNhrzapKkay6YUg="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryArray-1.html",
-          "hash": "su48eZwYNgO6xroq2UoGxWT8EkhXF8l7lUBtlK5aZyk="
+          "hash": "BOGJFxvhjFh3bK2Ehh8WO1T4TTFk5KBfUEF6ZavH+WE="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html",
-          "hash": "KPuqfrI1JnkT+jGS40h7ApH9XKYyXhAYT6OrezUW2wA="
+          "hash": "/HNiu28uIdc0OW2QECteLk0l2mRUSz5jyPNz3rkcOok="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryList-1.html",
-          "hash": "zbxP4Cd1AMy5/DpL/C1tcv4nv5epdUxdCgbSDgNN04o="
+          "hash": "2OendRseGZucUtgB4Gqvg1W+Ab0MehP4twpterAHHek="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryListExtensions.html",
-          "hash": "hbGGLdE7+oLRsQZKsgEUpm+nfHpEcDTlDSJL4zQEUk4="
+          "hash": "8iPEK5cFDN2cqN7M+p8MukQEh8kuvylrxjJtQVuu7gc="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.FactoryPool-1.html",
-          "hash": "4Lce/ZGMwBWQVVanNf+VP2oQiIQArneqHT7OI0fiygY="
+          "hash": "Lk3fmdicz9u6ipqfrATPIC70Oi6I/C+V+x7iqf2F8j8="
         }
       },
       "is_incremental": false,
@@ -281,6 +281,30 @@
         ".html": {
           "relative_path": "api/MackySoft.XPool.IPool-1.html",
           "hash": "BIYM5KiYo53Gllcwc12u02gTH+73z0Lu+6CymVEAmNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.ObjectModel.PoolBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.ObjectModel.PoolBase-1.html",
+          "hash": "AHG0G8fgbr58974r8WDU1LCgedOQu6Q1p3kX7bVUu2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.ObjectModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.ObjectModel.html",
+          "hash": "H4MNehEyoJC34CA9g+ZO4oQ12lkvsZwD05IM0uDm56w="
         }
       },
       "is_incremental": false,
@@ -304,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",
-          "hash": "EbgyHkOXX02Mn91Fz5NOu8kisK4Ur7O+gpzo4Irus4I="
+          "hash": "CXS21S2hmjDIonW9H9NBw3/JuRdrFjyczzHbTJhLz/E="
         }
       },
       "is_incremental": false,
@@ -352,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lENFD4L7XmMLhs8OjttYoN5GxhnfaYVc9jDED0ivqDs="
+          "hash": "KlVMjrhI/zwogc7cB9fd2kdqNnYLVglk5aSbDy878vc="
         }
       },
       "is_incremental": false,
@@ -427,7 +451,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
