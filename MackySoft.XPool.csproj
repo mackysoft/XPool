@@ -68,6 +68,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\ObjectModel\PoolBase.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />
