@@ -4,9 +4,8 @@ using System.Collections.Generic;
 namespace MackySoft.XPool.ObjectModel {
 
 	/// <summary>
-	/// 
+	/// Provides basic features of pool.
 	/// </summary>
-	/// <typeparam name="T"></typeparam>
 	public abstract class PoolBase<T> : IPool<T> {
 
 		readonly int m_Capacity;
