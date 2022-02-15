@@ -19,7 +19,7 @@ namespace MackySoft.XPool.Collections {
 		int m_Mask;
 
 		public TemporaryQueue (ArrayPool<T> pool,int minimumCapacity) {
-			m_Pool = pool;
+			m_Pool = pool ?? throw new ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 			m_First = 0;

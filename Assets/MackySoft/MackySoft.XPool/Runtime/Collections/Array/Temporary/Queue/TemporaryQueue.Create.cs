@@ -17,9 +17,6 @@ namespace MackySoft.XPool.Collections {
 		/// </summary>
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryQueue<T> Create<T> (ArrayPool<T> pool) {
-			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
-			}
 			return new TemporaryQueue<T>(pool,0);
 		}
 
@@ -35,9 +32,6 @@ namespace MackySoft.XPool.Collections {
 		/// </summary>
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryQueue<T> Create<T> (int minimumCapacity,ArrayPool<T> pool) {
-			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
-			}
 			return new TemporaryQueue<T>(pool,minimumCapacity);
 		}
 
