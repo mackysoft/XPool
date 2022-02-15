@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
 
 namespace MackySoft.XPool.Collections {
@@ -65,6 +66,51 @@ namespace MackySoft.XPool.Collections {
 			m_First = 0;
 			m_Last = 0;
 			m_Count = 0;
+		}
+
+		public bool Contains (T item) {
+			int index = m_First;
+			int count = m_Count;
+
+			if (item == null) {
+				while (count-- > 0) {
+					if (m_Array[index] == null) {
+						return true;
+					}
+					index = (index + 1) & m_Mask;
+				}
+			}
+			else {
+				var c = EqualityComparer<T>.Default;
+				while (count-- > 0) {
+					T e = m_Array[index];
+					if ((e != null) && c.Equals(e,item)) {
+						return true;
+					}
+					index = (index + 1) & m_Mask;
+				}
+			}
+			return false;
+		}
+
+		public void CopyTo (T[] array,int arrayIndex) {
+			if (array == null) {
+				throw new ArgumentNullException(nameof(array));
+			}
+			if (arrayIndex < 0 || arrayIndex > array.Length) {
+				throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+			}
+			if (array.Length - arrayIndex < m_Count) {
+				throw new ArgumentException();
+			}
+			
+			if (m_First < m_Last) {
+				System.Array.Copy(m_Array,m_First,array,arrayIndex,m_Count);
+			}
+			else {
+				System.Array.Copy(m_Array,m_First,array,arrayIndex,m_Array.Length - m_First);
+				System.Array.Copy(m_Array,0,array,arrayIndex + (m_Array.Length - m_First),m_Last);
+			}
 		}
 
 		public void Dispose () {
