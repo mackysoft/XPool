@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\HashSetPool.cs" />
@@ -64,11 +65,11 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\FactoryPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Stack\StackPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\List\ListPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\ObjectModel\PoolBase.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\ObjectModel\PoolBase.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.Create.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />

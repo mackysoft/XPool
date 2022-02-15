@@ -9,7 +9,7 @@ namespace MackySoft.XPool.Collections {
 	/// <para> This struct use <see cref="ArrayPool{T}"/> internally to avoid allocation and can be used just like a normal queue. </para>
 	/// <para> After using it, please call the Dispose(). </para>
 	/// </summary>
-	public struct TemporaryQueue<T> : IDisposable {
+	public partial struct TemporaryQueue<T> : IDisposable {
 
 		T[] m_Array;
 		ArrayPool<T> m_Pool;
