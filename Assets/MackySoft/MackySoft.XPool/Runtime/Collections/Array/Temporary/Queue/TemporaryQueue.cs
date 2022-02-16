@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using UnityEngine;
 
 namespace MackySoft.XPool.Collections {
 
@@ -18,20 +19,22 @@ namespace MackySoft.XPool.Collections {
 		int m_Last;
 		int m_Mask;
 
+		public int Count => m_Count;
+		public int Capacity => m_Array.Length;
+
 		public TemporaryQueue (ArrayPool<T> pool,int minimumCapacity) {
 			m_Pool = pool ?? throw new ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 			m_First = 0;
 			m_Last = 0;
-			m_Mask = 0;
+			m_Mask = (m_Array.Length == 0) ? 0 : (m_Array.Length - 1);
 		}
 
 		public void Enqueue (T item) {
-			if (ArrayPoolUtility.EnsureCapacityCircular(ref m_Array,m_Count + 1,ref m_First,ref m_Last,m_Pool)) {
+			if (ArrayPoolUtility.EnsureCapacityCircular(ref m_Array,m_Count,m_Count + 1,ref m_First,ref m_Last,m_Pool)) {
 				m_Mask = m_Array.Length - 1;
 			}
-
 			m_Array[m_Last] = item;
 			m_Last = (m_Last + 1) & m_Mask;
 			m_Count++;
@@ -118,6 +121,11 @@ namespace MackySoft.XPool.Collections {
 			m_First = 0;
 			m_Last = 0;
 			m_Count = 0;
+			m_Mask = 0;
+		}
+
+		internal T GetElement (int index) {
+			return m_Array[(m_First + index) & m_Mask];
 		}
 	}
 }
