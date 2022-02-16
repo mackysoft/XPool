@@ -7,7 +7,7 @@ namespace MackySoft.XPool.Collections {
 		public const int kMinArraySize = 8;
 
 		public static void EnsureCapacity<T> (ref T[] array,int newSize,ArrayPool<T> pool) {
-			if (array.Length <= newSize) {
+			if (array.Length < newSize) {
 				int minimumSize = (array.Length != 0) ? array.Length * 2 : kMinArraySize;
 				T[] newArray = pool.Rent((newSize < minimumSize) ? minimumSize : (newSize * 2));
 				Array.Copy(array,0,newArray,0,array.Length);
@@ -20,8 +20,8 @@ namespace MackySoft.XPool.Collections {
 
 		// Circular Buffer: https://en.wikipedia.org/wiki/Circular_buffer
 		public static bool EnsureCapacityCircular<T> (ref T[] array,int count,int newSize,ref int first,ref int last,ArrayPool<T> pool) {
-			if (array.Length <= newSize) {
-				int minimumSize = (array.Length != 0) ? array.Length * 2 : 8;
+			if (array.Length < newSize) {
+				int minimumSize = (array.Length != 0) ? array.Length * 2 : kMinArraySize;
 				T[] newArray = pool.Rent((newSize < minimumSize) ? minimumSize : (newSize * 2));
 				if (newSize > 0) {
 					if (first < last) {
