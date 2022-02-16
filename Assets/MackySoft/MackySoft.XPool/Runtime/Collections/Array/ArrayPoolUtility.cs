@@ -19,7 +19,7 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		// Circular Buffer: https://en.wikipedia.org/wiki/Circular_buffer
-		public static bool EnsureCapacityCircular<T> (ref T[] array,int newSize,ref int first,ref int last,ArrayPool<T> pool) {
+		public static bool EnsureCapacityCircular<T> (ref T[] array,int count,int newSize,ref int first,ref int last,ArrayPool<T> pool) {
 			if (array.Length <= newSize) {
 				int minimumSize = (array.Length != 0) ? array.Length * 2 : 8;
 				T[] newArray = pool.Rent((newSize < minimumSize) ? minimumSize : (newSize * 2));
@@ -37,7 +37,7 @@ namespace MackySoft.XPool.Collections {
 
 				array = newArray;
 				first = 0;
-				last = (newSize == array.Length) ? 0 : newSize;
+				last = (count == array.Length) ? 0 : count;
 				return true;
 			}
 			return false;
