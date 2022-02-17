@@ -69,6 +69,7 @@ namespace MackySoft.XPool.Collections {
 			m_First = 0;
 			m_Last = 0;
 			m_Count = 0;
+			m_Mask = 0;
 		}
 
 		public bool Contains (T item) {
