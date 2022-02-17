@@ -21,6 +21,7 @@ namespace MackySoft.XPool.Collections {
 
 		public int Count => m_Count;
 		public int Capacity => m_Array.Length;
+		public T[] Array => m_Array;
 
 		public TemporaryQueue (ArrayPool<T> pool,int minimumCapacity) {
 			m_Pool = pool ?? throw new ArgumentNullException(nameof(pool));
