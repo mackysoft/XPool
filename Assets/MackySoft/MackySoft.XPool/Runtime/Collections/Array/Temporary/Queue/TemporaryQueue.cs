@@ -1,7 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
-using UnityEngine;
 
 namespace MackySoft.XPool.Collections {
 
@@ -10,7 +10,7 @@ namespace MackySoft.XPool.Collections {
 	/// <para> This struct use <see cref="ArrayPool{T}"/> internally to avoid allocation and can be used just like a normal queue. </para>
 	/// <para> After using it, please call the Dispose(). </para>
 	/// </summary>
-	public partial struct TemporaryQueue<T> : IDisposable {
+	public partial struct TemporaryQueue<T> : IEnumerable<T>, IDisposable {
 
 		T[] m_Array;
 		ArrayPool<T> m_Pool;
@@ -128,5 +128,14 @@ namespace MackySoft.XPool.Collections {
 		internal T GetElement (int index) {
 			return m_Array[(m_First + index) & m_Mask];
 		}
+
+		public IEnumerator<T> GetEnumerator () {
+			for (int i = 0;m_Count > i;i++) {
+				yield return m_Array[i];
+			}
+		}
+
+		IEnumerator IEnumerable.GetEnumerator () => GetEnumerator();
+
 	}
 }
