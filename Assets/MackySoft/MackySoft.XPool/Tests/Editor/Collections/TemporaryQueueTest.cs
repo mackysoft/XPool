@@ -62,5 +62,38 @@ namespace MackySoft.XPool.Collections.Tests {
 			}
 		}
 
+		[Test]
+		public void Clear_succeeded () {
+			using (var queue = TemporaryQueue<Unit>.Create(m_Pool)) {
+				var item = new Unit();
+				queue.Enqueue(item);
+
+				queue.Clear();
+				Assert.IsEmpty(queue);
+			}
+		}
+
+		[Test]
+		public void Same_as_copied_array () {
+			using (var queue = TemporaryQueue<Unit>.Create(m_Pool)) {
+				for (int i = 0;8 > i;i++) {
+					var item = new Unit();
+					queue.Enqueue(item);
+				}
+				Unit[] array = new Unit[8];
+				queue.CopyTo(array,0);
+				CollectionAssert.AreEqual(queue,array);
+			}
+		}
+
+		[Test]
+		public void Array_is_null_when_disposed () {
+			var queue = TemporaryQueue<Unit>.Create(m_Pool);
+			Assert.IsNotNull(queue.Array);
+
+			queue.Dispose();
+			Assert.IsNull(queue.Array);
+		}
+
 	}
 }
