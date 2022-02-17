@@ -12,7 +12,7 @@
   "api/MackySoft.XPool.Collections.ArrayPoolUtility.html": {
     "href": "api/MackySoft.XPool.Collections.ArrayPoolUtility.html",
     "title": "Class ArrayPoolUtility | XPool",
-    "keywords": "Class ArrayPoolUtility Inheritance Object ArrayPoolUtility Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public static class ArrayPoolUtility Fields kMinArraySize Declaration public const int kMinArraySize = 8 Field Value Type Description Int32 Methods EnsureCapacity<T>(ref T[], Int32, ArrayPool<T>) Declaration public static void EnsureCapacity<T>(ref T[] array, int index, ArrayPool<T> pool) Parameters Type Name Description T[] array Int32 index ArrayPool <T> pool Type Parameters Name Description T"
+    "keywords": "Class ArrayPoolUtility Inheritance Object ArrayPoolUtility Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public static class ArrayPoolUtility Fields kMinArraySize Declaration public const int kMinArraySize = 8 Field Value Type Description Int32 Methods EnsureCapacity<T>(ref T[], Int32, ArrayPool<T>) Declaration public static void EnsureCapacity<T>(ref T[] array, int newSize, ArrayPool<T> pool) Parameters Type Name Description T[] array Int32 newSize ArrayPool <T> pool Type Parameters Name Description T EnsureCapacityCircular<T>(ref T[], Int32, Int32, ref Int32, ref Int32, ArrayPool<T>) Declaration public static bool EnsureCapacityCircular<T>(ref T[] array, int count, int newSize, ref int first, ref int last, ArrayPool<T> pool) Parameters Type Name Description T[] array Int32 count Int32 newSize Int32 first Int32 last ArrayPool <T> pool Returns Type Description Boolean Type Parameters Name Description T"
   },
   "api/MackySoft.XPool.Collections.HashSetPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.HashSetPool-1.html",
@@ -22,7 +22,7 @@
   "api/MackySoft.XPool.Collections.html": {
     "href": "api/MackySoft.XPool.Collections.html",
     "title": "Namespace MackySoft.XPool.Collections | XPool",
-    "keywords": "Namespace MackySoft.XPool.Collections Classes ArrayPool<T> ArrayPoolExtensions ArrayPoolUtility HashSetPool<T> ListPool<T> QueuePool<T> StackPool<T> TemporaryArrayExtensions TemporaryListExtensions Structs TemporaryArray<T> Temporary array without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal array. After using it, please call the Dispose(). TemporaryList<T> Temporary list without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal list. After using it, please call the Dispose()."
+    "keywords": "Namespace MackySoft.XPool.Collections Classes ArrayPool<T> ArrayPoolExtensions ArrayPoolUtility HashSetPool<T> ListPool<T> QueuePool<T> StackPool<T> TemporaryArrayExtensions TemporaryListExtensions Structs TemporaryArray<T> Temporary array without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal array. After using it, please call the Dispose(). TemporaryList<T> Temporary list without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal list. After using it, please call the Dispose(). TemporaryQueue<T> Temporary queue without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal queue. After using it, please call the Dispose()."
   },
   "api/MackySoft.XPool.Collections.ListPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.ListPool-1.html",
@@ -59,6 +59,11 @@
     "title": "Class TemporaryListExtensions | XPool",
     "keywords": "Class TemporaryListExtensions Inheritance Object TemporaryListExtensions Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public static class TemporaryListExtensions Methods ToTemporaryList<T>(IEnumerable<T>) Create a temporary list from the elements of . Declaration public static TemporaryList<T> ToTemporaryList<T>(this IEnumerable<T> source) Parameters Type Name Description IEnumerable <T> source Returns Type Description TemporaryList <T> Type Parameters Name Description T ToTemporaryList<T>(IEnumerable<T>, ArrayPool<T>) Create a temporary list from the elements of using Shared . Declaration public static TemporaryList<T> ToTemporaryList<T>(this IEnumerable<T> source, ArrayPool<T> pool) Parameters Type Name Description IEnumerable <T> source ArrayPool <T> pool Returns Type Description TemporaryList <T> Type Parameters Name Description T"
   },
+  "api/MackySoft.XPool.Collections.TemporaryQueue-1.html": {
+    "href": "api/MackySoft.XPool.Collections.TemporaryQueue-1.html",
+    "title": "Struct TemporaryQueue<T> | XPool",
+    "keywords": "Struct TemporaryQueue<T> Temporary queue without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal queue. After using it, please call the Dispose(). Implements IEnumerable <T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public struct TemporaryQueue<T> : IDisposable Type Parameters Name Description T Constructors TemporaryQueue(ArrayPool<T>, Int32) Declaration public TemporaryQueue(ArrayPool<T> pool, int minimumCapacity) Parameters Type Name Description ArrayPool <T> pool Int32 minimumCapacity Properties Array Declaration public readonly T[] Array { get; } Property Value Type Description T[] Capacity Declaration public readonly int Capacity { get; } Property Value Type Description Int32 Count Declaration public readonly int Count { get; } Property Value Type Description Int32 Methods Clear() Declaration public void Clear() Contains(T) Declaration public bool Contains(T item) Parameters Type Name Description T item Returns Type Description Boolean CopyTo(T[], Int32) Declaration public void CopyTo(T[] array, int arrayIndex) Parameters Type Name Description T[] array Int32 arrayIndex Create<T>() Create an empty temporay queue using Shared . Declaration public static TemporaryQueue<T> Create<T>() Returns Type Description TemporaryQueue <T> Type Parameters Name Description T Create<T>(ArrayPool<T>) Create an empty temporay queue. Declaration public static TemporaryQueue<T> Create<T>(ArrayPool<T> pool) Parameters Type Name Description ArrayPool <T> pool Returns Type Description TemporaryQueue <T> Type Parameters Name Description T Exceptions Type Condition ArgumentNullException Create<T>(Int32) Create an empty temporary queue with the specified initial capacity. Declaration public static TemporaryQueue<T> Create<T>(int minimumCapacity) Parameters Type Name Description Int32 minimumCapacity Returns Type Description TemporaryQueue <T> Type Parameters Name Description T Create<T>(Int32, ArrayPool<T>) Create an empty temporary queue with the specified initial capacity. Declaration public static TemporaryQueue<T> Create<T>(int minimumCapacity, ArrayPool<T> pool) Parameters Type Name Description Int32 minimumCapacity ArrayPool <T> pool Returns Type Description TemporaryQueue <T> Type Parameters Name Description T Exceptions Type Condition ArgumentNullException Dequeue() Declaration public T Dequeue() Returns Type Description T Dispose() Declaration public void Dispose() Enqueue(T) Declaration public void Enqueue(T item) Parameters Type Name Description T item GetEnumerator() Declaration public IEnumerator<T> GetEnumerator() Returns Type Description IEnumerator <T> Peek() Declaration public T Peek() Returns Type Description T Implements IEnumerable<>"
+  },
   "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html",
     "title": "Class ArrayPoolTest | XPool",
@@ -72,7 +77,7 @@
   "api/MackySoft.XPool.Collections.Tests.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.html",
     "title": "Namespace MackySoft.XPool.Collections.Tests | XPool",
-    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest HashSetPoolTest ListPoolTest QueuePoolTest StackPoolTest TemporaryArrayTest TemporaryListTest"
+    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest HashSetPoolTest ListPoolTest QueuePoolTest StackPoolTest TemporaryArrayTest TemporaryListTest TemporaryQueueTest"
   },
   "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html",
@@ -98,6 +103,11 @@
     "href": "api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html",
     "title": "Class TemporaryListTest | XPool",
     "keywords": "Class TemporaryListTest Inheritance Object TemporaryListTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class TemporaryListTest Methods Add_does_not_allocate() Declaration public void Add_does_not_allocate() Array_is_null_when_disposed() Declaration public void Array_is_null_when_disposed() Create_method_return_expected_list() Declaration public void Create_method_return_expected_list() Init() Declaration public void Init() Same_as_copied_collection() Declaration public void Same_as_copied_collection()"
+  },
+  "api/MackySoft.XPool.Collections.Tests.TemporaryQueueTest.html": {
+    "href": "api/MackySoft.XPool.Collections.Tests.TemporaryQueueTest.html",
+    "title": "Class TemporaryQueueTest | XPool",
+    "keywords": "Class TemporaryQueueTest Inheritance Object TemporaryQueueTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class TemporaryQueueTest Methods Array_is_null_when_disposed() Declaration public void Array_is_null_when_disposed() Clear_succeeded() Declaration public void Clear_succeeded() Create_method_return_expected_queue() Declaration public void Create_method_return_expected_queue() Dequeue_succeeded() Declaration public void Dequeue_succeeded() Enqueue_succeeded() Declaration public void Enqueue_succeeded() Init() Declaration public void Init() Same_as_copied_array() Declaration public void Same_as_copied_array()"
   },
   "api/MackySoft.XPool.FactoryPool-1.html": {
     "href": "api/MackySoft.XPool.FactoryPool-1.html",
