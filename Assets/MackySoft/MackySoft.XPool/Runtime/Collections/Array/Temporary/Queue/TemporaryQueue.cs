@@ -120,6 +120,7 @@ namespace MackySoft.XPool.Collections {
 
 		public void Dispose () {
 			m_Pool.Return(ref m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+			m_Pool = null;
 			m_First = 0;
 			m_Last = 0;
 			m_Count = 0;
