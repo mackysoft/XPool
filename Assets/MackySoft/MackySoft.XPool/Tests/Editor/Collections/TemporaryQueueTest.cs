@@ -27,14 +27,38 @@ namespace MackySoft.XPool.Collections.Tests {
 		}
 
 		[Test]
-		public void Enqueue () {
-			// ただしくEnqueue出来ているかどうか（最後尾に挿入できているか）
-			// Lastが正しく更新されているかどうか
+		public void Enqueue_succeeded () {
 			using (var queue = TemporaryQueue<Unit>.Create(m_Pool)) {
 				var item = new Unit();
 				queue.Enqueue(item);
-				Debug.Log(queue.Capacity);
 				Assert.AreSame(item,queue.GetElement(0));
+			}
+			using (var queue = TemporaryQueue<Unit>.Create(8,m_Pool)) {
+				while (queue.Capacity > queue.Count) {
+					queue.Enqueue(new Unit());
+				}
+				Assert.AreEqual(8,queue.Count);
+
+				var item = new Unit();
+				queue.Enqueue(item);
+				Assert.AreSame(item,queue.GetElement(8));
+				Assert.AreEqual(16,queue.Capacity);
+			}
+		}
+
+		[Test]
+		public void Dequeue_succeeded () {
+			using (var queue = TemporaryQueue<Unit>.Create(m_Pool)) {
+				var item = new Unit();
+				queue.Enqueue(item);
+				Assert.AreSame(item,queue.Dequeue());
+			}
+			using (var queue = TemporaryQueue<Unit>.Create(m_Pool)) {
+				for (int i = 0;8 > i;i++) {
+					var item = new Unit();
+					queue.Enqueue(item);
+					Assert.AreSame(item,queue.Dequeue());
+				}
 			}
 		}
 
