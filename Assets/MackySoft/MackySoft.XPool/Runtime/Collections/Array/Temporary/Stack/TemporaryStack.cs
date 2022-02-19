@@ -94,7 +94,7 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		public IEnumerator<T> GetEnumerator () {
-			for (int i = 0;i < m_Count;i++) {
+			for (int i = m_Count - 1;i >= 0;i--) {
 				yield return m_Array[i];
 			}
 		}
