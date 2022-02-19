@@ -65,19 +65,5 @@ namespace MackySoft.XPool {
 			instance = pool.Rent();
 			return new RentInstance<T>(pool,instance);
 		}
-
-		public struct RentInstance<T> : IDisposable {
-
-			readonly T m_Instance;
-			readonly IPool<T> m_Pool;
-
-			internal RentInstance (IPool<T> pool,T instance) {
-				m_Pool = pool;
-				m_Instance = instance;
-			}
-
-			void IDisposable.Dispose () => m_Pool.Return(m_Instance);
-		}
-
 	}
 }
