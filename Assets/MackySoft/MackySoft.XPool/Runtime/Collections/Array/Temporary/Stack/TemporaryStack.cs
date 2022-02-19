@@ -44,6 +44,47 @@ namespace MackySoft.XPool.Collections {
 			return m_Array[m_Count - 1];
 		}
 
+		public void Clear () {
+			m_Pool.Return(m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+			m_Array = m_Pool.Rent(0);
+			m_Count = 0;
+		}
+
+		public bool Contains (T item) {
+			int count = m_Count;
+			if (item == null) {
+				while (count-- > 0) {
+					if (m_Array[count] == null) {
+						return true;
+					}
+				}
+			}
+			else {
+				var c = EqualityComparer<T>.Default;
+				while (count-- > 0) {
+					T e = m_Array[count];
+					if ((e != null) && c.Equals(e,item)) {
+						return true;
+					}
+				}
+			}
+			return true;
+		}
+
+		public void CopyTo (T[] array,int arrayIndex) {
+			if (array == null) {
+				throw new ArgumentNullException(nameof(array));
+			}
+			if ((arrayIndex < 0) || (arrayIndex > array.Length)) {
+				throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+			}
+			if ((array.Length - arrayIndex) < m_Count) {
+				throw new ArgumentException();
+			}
+			System.Array.Copy(m_Array,0,array,arrayIndex,m_Count);
+			System.Array.Reverse(array,arrayIndex,m_Count);
+		}
+
 		public void Dispose () {
 			m_Pool.Return(ref m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 			m_Pool = null;
