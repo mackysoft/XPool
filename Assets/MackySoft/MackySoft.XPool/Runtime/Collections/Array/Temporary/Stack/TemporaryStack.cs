@@ -11,6 +11,8 @@ namespace MackySoft.XPool.Collections {
 		int m_Count;
 
 		public int Count => m_Count;
+		public int Capacity => m_Array.Length;
+		public T[] Array => m_Array;
 
 		public TemporaryStack (ArrayPool<T> pool,int minimumCapacity) {
 			if (pool == null) {
