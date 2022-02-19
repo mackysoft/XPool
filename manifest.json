@@ -340,7 +340,19 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.PoolExtensions.html",
-          "hash": "KKuS2nyjavk0wTczzbJGf1mnTq/Bk03TVR+IZ61imnw="
+          "hash": "cYfTLN7P4Ixn9Sru4wFvOiEi/te2vmKSaLltzz7H0x0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.RentInstance-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.RentInstance-1.html",
+          "hash": "bA9NLmb9AFFHRfiWoo73CC66GYIbmaFBEcuadwLxUJs="
         }
       },
       "is_incremental": false,
@@ -388,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.html",
-          "hash": "I5XL+KVZyBps4Ahd5ON9U20KJ6LZIeonkrEt5v+23Ww="
+          "hash": "DgPuNjwNnVvJoxI1VND+Ykc4KXxmFJ0pVDiRSjVScB0="
         }
       },
       "is_incremental": false,
@@ -400,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "JKPBZPMKzDggZywDN6EcScXV8wgYrEw38R/oJTbKnPA="
+          "hash": "noz6im4wJLvQlc87z2pbYsIyO7RRq+nzYaXW1kbCF+A="
         }
       },
       "is_incremental": false,
@@ -475,7 +487,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 31,
+          "total_file_count": 32,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

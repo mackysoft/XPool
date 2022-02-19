@@ -2719,6 +2719,22 @@ references:
   fullName.vb: MackySoft.XPool.PoolExtensions.Clear(Of T)(MackySoft.XPool.IPool(Of T))
   nameWithType: PoolExtensions.Clear<T>(IPool<T>)
   nameWithType.vb: PoolExtensions.Clear(Of T)(IPool(Of T))
+- uid: MackySoft.XPool.PoolExtensions.RentTemporary*
+  name: RentTemporary
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_RentTemporary_
+  commentId: Overload:MackySoft.XPool.PoolExtensions.RentTemporary
+  isSpec: "True"
+  fullName: MackySoft.XPool.PoolExtensions.RentTemporary
+  nameWithType: PoolExtensions.RentTemporary
+- uid: MackySoft.XPool.PoolExtensions.RentTemporary``1(MackySoft.XPool.IPool{``0},``0@)
+  name: RentTemporary<T>(IPool<T>, out T)
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_RentTemporary__1_MackySoft_XPool_IPool___0____0__
+  commentId: M:MackySoft.XPool.PoolExtensions.RentTemporary``1(MackySoft.XPool.IPool{``0},``0@)
+  name.vb: RentTemporary(Of T)(IPool(Of T), ByRef T)
+  fullName: MackySoft.XPool.PoolExtensions.RentTemporary<T>(MackySoft.XPool.IPool<T>, out T)
+  fullName.vb: MackySoft.XPool.PoolExtensions.RentTemporary(Of T)(MackySoft.XPool.IPool(Of T), ByRef T)
+  nameWithType: PoolExtensions.RentTemporary<T>(IPool<T>, out T)
+  nameWithType.vb: PoolExtensions.RentTemporary(Of T)(IPool(Of T), ByRef T)
 - uid: MackySoft.XPool.PoolExtensions.Return*
   name: Return
   href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_Return_
@@ -2735,6 +2751,32 @@ references:
   fullName.vb: MackySoft.XPool.PoolExtensions.Return(Of T)(MackySoft.XPool.IPool(Of T), ByRef T)
   nameWithType: PoolExtensions.Return<T>(IPool<T>, ref T)
   nameWithType.vb: PoolExtensions.Return(Of T)(IPool(Of T), ByRef T)
+- uid: MackySoft.XPool.RentInstance`1
+  name: RentInstance<T>
+  href: api/MackySoft.XPool.RentInstance-1.html
+  commentId: T:MackySoft.XPool.RentInstance`1
+  name.vb: RentInstance(Of T)
+  fullName: MackySoft.XPool.RentInstance<T>
+  fullName.vb: MackySoft.XPool.RentInstance(Of T)
+  nameWithType: RentInstance<T>
+  nameWithType.vb: RentInstance(Of T)
+- uid: MackySoft.XPool.RentInstance`1.Dispose
+  name: Dispose()
+  href: api/MackySoft.XPool.RentInstance-1.html#MackySoft_XPool_RentInstance_1_Dispose
+  commentId: M:MackySoft.XPool.RentInstance`1.Dispose
+  fullName: MackySoft.XPool.RentInstance<T>.Dispose()
+  fullName.vb: MackySoft.XPool.RentInstance(Of T).Dispose()
+  nameWithType: RentInstance<T>.Dispose()
+  nameWithType.vb: RentInstance(Of T).Dispose()
+- uid: MackySoft.XPool.RentInstance`1.Dispose*
+  name: Dispose
+  href: api/MackySoft.XPool.RentInstance-1.html#MackySoft_XPool_RentInstance_1_Dispose_
+  commentId: Overload:MackySoft.XPool.RentInstance`1.Dispose
+  isSpec: "True"
+  fullName: MackySoft.XPool.RentInstance<T>.Dispose
+  fullName.vb: MackySoft.XPool.RentInstance(Of T).Dispose
+  nameWithType: RentInstance<T>.Dispose
+  nameWithType.vb: RentInstance(Of T).Dispose
 - uid: MackySoft.XPool.Tests
   name: MackySoft.XPool.Tests
   href: api/MackySoft.XPool.Tests.html

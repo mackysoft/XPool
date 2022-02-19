@@ -117,7 +117,7 @@
   "api/MackySoft.XPool.html": {
     "href": "api/MackySoft.XPool.html",
     "title": "Namespace MackySoft.XPool | XPool",
-    "keywords": "Namespace MackySoft.XPool Classes FactoryPool<T> Pool that create an instance from a custom factory method. PoolExtensions Interfaces IPool<T> Interface provides that basic features of pool."
+    "keywords": "Namespace MackySoft.XPool Classes FactoryPool<T> Pool that create an instance from a custom factory method. PoolExtensions Structs RentInstance<T> Interfaces IPool<T> Interface provides that basic features of pool."
   },
   "api/MackySoft.XPool.IPool-1.html": {
     "href": "api/MackySoft.XPool.IPool-1.html",
@@ -137,7 +137,12 @@
   "api/MackySoft.XPool.PoolExtensions.html": {
     "href": "api/MackySoft.XPool.PoolExtensions.html",
     "title": "Class PoolExtensions | XPool",
-    "keywords": "Class PoolExtensions Inheritance Object PoolExtensions Namespace : MackySoft.XPool Assembly : cs.temp.dll.dll Syntax public static class PoolExtensions Methods Clear<T>(IPool<T>) Release the all pooled instances. Declaration public static void Clear<T>(this IPool<T> pool) Parameters Type Name Description IPool <T> pool Type Parameters Name Description T Exceptions Type Condition ArgumentNullException Return<T>(IPool<T>, ref T) Return the instance to the pool and set reference to null. Declaration public static void Return<T>(this IPool<T> pool, ref T instance) Parameters Type Name Description IPool <T> pool T instance Type Parameters Name Description T Exceptions Type Condition ArgumentNullException"
+    "keywords": "Class PoolExtensions Inheritance Object PoolExtensions Namespace : MackySoft.XPool Assembly : cs.temp.dll.dll Syntax public static class PoolExtensions Methods Clear<T>(IPool<T>) Release the all pooled instances. Declaration public static void Clear<T>(this IPool<T> pool) Parameters Type Name Description IPool <T> pool Type Parameters Name Description T Exceptions Type Condition ArgumentNullException RentTemporary<T>(IPool<T>, out T) Temporary rent an instance from pool. By using the using statement, you can safely return instance. using (myPool.RentTemporary(out var instance)) { // Use instance... } Declaration public static RentInstance<T> RentTemporary<T>(this IPool<T> pool, out T instance) Parameters Type Name Description IPool <T> pool T instance Returns Type Description RentInstance <T> Type Parameters Name Description T Return<T>(IPool<T>, ref T) Return the instance to the pool and set reference to null. Declaration public static void Return<T>(this IPool<T> pool, ref T instance) Parameters Type Name Description IPool <T> pool T instance Type Parameters Name Description T Exceptions Type Condition ArgumentNullException"
+  },
+  "api/MackySoft.XPool.RentInstance-1.html": {
+    "href": "api/MackySoft.XPool.RentInstance-1.html",
+    "title": "Struct RentInstance<T> | XPool",
+    "keywords": "Struct RentInstance<T> Namespace : MackySoft.XPool Assembly : cs.temp.dll.dll Syntax public struct RentInstance<T> : IDisposable Type Parameters Name Description T Methods Dispose() Declaration public void Dispose()"
   },
   "api/MackySoft.XPool.Tests.FactoryPoolTest.html": {
     "href": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",

@@ -154,6 +154,70 @@
       </tr>
     </tbody>
   </table>
+  <a id="MackySoft_XPool_PoolExtensions_RentTemporary_" data-uid="MackySoft.XPool.PoolExtensions.RentTemporary*"></a>
+  <h4 id="MackySoft_XPool_PoolExtensions_RentTemporary__1_MackySoft_XPool_IPool___0____0__" data-uid="MackySoft.XPool.PoolExtensions.RentTemporary``1(MackySoft.XPool.IPool{``0},``0@)">RentTemporary&lt;T&gt;(IPool&lt;T&gt;, out T)</h4>
+  <div class="markdown level1 summary"><p>Temporary rent an instance from pool. By using the using statement, you can safely return instance.</p>
+<pre><code>using (myPool.RentTemporary(out var instance)) {
+    // Use instance...
+}</code></pre>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RentInstance&lt;T&gt; RentTemporary&lt;T&gt;(this IPool&lt;T&gt; pool, out T instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.RentInstance-1.html">RentInstance</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MackySoft_XPool_PoolExtensions_Return_" data-uid="MackySoft.XPool.PoolExtensions.Return*"></a>
   <h4 id="MackySoft_XPool_PoolExtensions_Return__1_MackySoft_XPool_IPool___0____0__" data-uid="MackySoft.XPool.PoolExtensions.Return``1(MackySoft.XPool.IPool{``0},``0@)">Return&lt;T&gt;(IPool&lt;T&gt;, ref T)</h4>
   <div class="markdown level1 summary"><p>Return the instance to the pool and set reference to null.</p>
