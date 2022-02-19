@@ -72,6 +72,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Stack\TemporaryStack.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Stack\TemporaryStack.Create.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />
