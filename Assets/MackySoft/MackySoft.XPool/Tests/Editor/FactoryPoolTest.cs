@@ -16,7 +16,7 @@ namespace MackySoft.XPool.Tests {
 		}
 
 		[Test]
-		public void Throw_ArgumentNullException_if_onCreate_is_null () {
+		public void Throw_ArgumentNullException_if_factory_is_null () {
 			Assert.Throws<ArgumentNullException>(() => new FactoryPool<Unit>(1,null,IdentityFunction<Unit>.Action,IdentityFunction<Unit>.Action));
 		}
 
@@ -46,7 +46,7 @@ namespace MackySoft.XPool.Tests {
 		}
 
 		[Test]
-		public void Throw_NullReferenceException_if_OnCreate_returned_null () {
+		public void Throw_NullReferenceException_if_factory_returned_null () {
 			var pool = new FactoryPool<Unit>(1,() => null);
 			Assert.Throws<NullReferenceException>(() => pool.Rent());
 		}
