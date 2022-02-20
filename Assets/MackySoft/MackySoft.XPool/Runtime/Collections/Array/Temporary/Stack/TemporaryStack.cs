@@ -32,7 +32,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Pop () {
 			if (m_Count == 0) {
-				throw Error.Empty();
+				throw Error.EmptyCollection();
 			}
 			T item = m_Array[m_Count - 1];
 			m_Array[m_Count - 1] = default;
@@ -42,7 +42,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw Error.Empty();
+				throw Error.EmptyCollection();
 			}
 			return m_Array[m_Count - 1];
 		}

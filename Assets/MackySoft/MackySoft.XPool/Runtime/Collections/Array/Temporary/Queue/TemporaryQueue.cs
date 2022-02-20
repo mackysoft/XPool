@@ -44,7 +44,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Dequeue () {
 			if (m_Count == 0) {
-				throw Error.Empty();
+				throw Error.EmptyCollection();
 			}
 			T removed = m_Array[m_First];
 			m_Array[m_First] = default;
@@ -55,7 +55,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw Error.Empty();
+				throw Error.EmptyCollection();
 			}
 			return m_Array[m_First];
 		}

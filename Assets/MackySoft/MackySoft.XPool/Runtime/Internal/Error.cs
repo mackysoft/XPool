@@ -10,7 +10,7 @@ namespace MackySoft.XPool.Internal {
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static InvalidOperationException Empty () {
+		public static InvalidOperationException EmptyCollection () {
 			return new InvalidOperationException("Collection is empty.");
 		}
 
