@@ -17,7 +17,7 @@ namespace MackySoft.XPool.Collections {
 
 		public TemporaryStack (ArrayPool<T> pool,int minimumCapacity) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			m_Pool = pool;
 			m_Array = pool.Rent(minimumCapacity);
@@ -76,7 +76,7 @@ namespace MackySoft.XPool.Collections {
 
 		public void CopyTo (T[] array,int arrayIndex) {
 			if (array == null) {
-				throw new ArgumentNullException(nameof(array));
+				throw Error.ArgumentNullException(nameof(array));
 			}
 			if ((arrayIndex < 0) || (arrayIndex > array.Length)) {
 				throw new ArgumentOutOfRangeException(nameof(arrayIndex));

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
@@ -26,7 +27,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 
 		public void Return (T instance) {
 			if (instance == null) {
-				throw new ArgumentNullException(nameof(instance));
+				throw Error.ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
 				OnRelease(instance);

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.ObjectModel {
 
@@ -57,7 +58,7 @@ namespace MackySoft.XPool.ObjectModel {
 		/// <exception cref="ArgumentNullException"></exception>
 		public void Return (T instance) {
 			if (instance == null) {
-				throw new ArgumentNullException(nameof(instance));
+				throw Error.ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
 				OnRelease(instance);

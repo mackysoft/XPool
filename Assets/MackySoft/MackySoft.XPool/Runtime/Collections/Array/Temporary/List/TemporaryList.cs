@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -165,7 +166,7 @@ namespace MackySoft.XPool.Collections {
 
 		public int RemoveAll (Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			int freeIndex = 0;
@@ -370,7 +371,7 @@ namespace MackySoft.XPool.Collections {
 				throw new ArgumentException();
 			}
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			int endIndex = startIndex + count;
@@ -396,7 +397,7 @@ namespace MackySoft.XPool.Collections {
 
 		public int FindLastIndex (int startIndex,int count,Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 			if (m_Count == 0) {
 				if (startIndex == -1) {
@@ -429,7 +430,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Find (Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			for (int i = 0;i < m_Count;i++) {
@@ -443,7 +444,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T FindLast (Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			for (int i = m_Count - 1;i >= 0;i--) {
@@ -457,7 +458,7 @@ namespace MackySoft.XPool.Collections {
 
 		public TemporaryList<T> FindAll (Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			TemporaryList<T> result = Create(m_Pool);
@@ -472,7 +473,7 @@ namespace MackySoft.XPool.Collections {
 
 		public bool TrueForAll (Predicate<T> match) {
 			if (match == null) {
-				throw new ArgumentNullException(nameof(match));
+				throw Error.ArgumentNullException(nameof(match));
 			}
 
 			for (int i = 0;i < m_Count;i++) {
