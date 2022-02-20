@@ -76,6 +76,13 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ObjectModel\ComponentPoolBase.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\GameObjectPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ComponentPool\ParticleSystemPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\IUnityObjectPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ObjectModel\UnityObjectPoolBase.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\UnityObjectPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ComponentPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\RentInstance.cs" />
   </ItemGroup>
   <ItemGroup>
