@@ -21,8 +21,8 @@ namespace MackySoft.XPool.ObjectModel {
 		/// </summary>
 		/// <param name="capacity"> The pool capacity. If less than or equal to 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
 		protected PoolBase (int capacity) {
-			if (capacity <= 0) {
-				throw new ArgumentOutOfRangeException(nameof(capacity));
+			if (capacity < 0) {
+				throw Error.RequiredNonNegative(nameof(capacity));
 			}
 			m_Capacity = capacity;
 			m_Pool = new Queue<T>(capacity);
