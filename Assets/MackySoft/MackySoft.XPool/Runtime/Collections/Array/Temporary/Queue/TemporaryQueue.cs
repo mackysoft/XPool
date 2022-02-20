@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -43,7 +44,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Dequeue () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.Empty();
 			}
 			T removed = m_Array[m_First];
 			m_Array[m_First] = default;
@@ -54,7 +55,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.Empty();
 			}
 			return m_Array[m_First];
 		}

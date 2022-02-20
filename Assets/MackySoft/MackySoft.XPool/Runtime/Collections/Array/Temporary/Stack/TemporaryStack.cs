@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 	public partial struct TemporaryStack<T> : IEnumerable<T>, IDisposable {
@@ -31,7 +32,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Pop () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.Empty();
 			}
 			T item = m_Array[m_Count - 1];
 			m_Array[m_Count - 1] = default;
@@ -41,7 +42,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.Empty();
 			}
 			return m_Array[m_Count - 1];
 		}
