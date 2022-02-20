@@ -24,5 +24,10 @@ namespace MackySoft.XPool.Internal {
 			return new ArgumentOutOfRangeException(paramName,"Must be a non-negative value.");
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static NullReferenceException FactoryMustReturnNotNull () {
+			return new NullReferenceException("Factory method must return not null.");
+		}
+
 	}
 }

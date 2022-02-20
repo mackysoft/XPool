@@ -45,7 +45,7 @@ namespace MackySoft.XPool.ObjectModel {
 #endif
 			}
 			else {
-				instance = Factory() ?? throw new NullReferenceException($"{nameof(Factory)} method must not return null.");
+				instance = Factory() ?? throw Error.FactoryMustReturnNotNull();
 			}
 
 			OnRent(instance);
