@@ -1,4 +1,5 @@
 ﻿using System;
+using MackySoft.XPool.Internal;
 using MackySoft.XPool.ObjectModel;
 
 namespace MackySoft.XPool {
@@ -24,7 +25,7 @@ namespace MackySoft.XPool {
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		/// <exception cref="ArgumentNullException"></exception>
 		public FactoryPool (int capacity,Func<T> factory,Action<T> onRent = null,Action<T> onReturn = null,Action<T> onRelease = null) : base(capacity) {
-			m_Factory = factory ?? throw new ArgumentNullException(nameof(factory));
+			m_Factory = factory ?? throw Error.ArgumentNullException(nameof(factory));
 			m_OnRent = onRent;
 			m_OnReturn = onReturn;
 			m_OnRelease = onRelease;

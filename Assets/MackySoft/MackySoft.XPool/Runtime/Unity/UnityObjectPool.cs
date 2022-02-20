@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
@@ -35,7 +36,7 @@ namespace MackySoft.XPool.Unity {
 
 		public void Return (T instance) {
 			if (instance == null) {
-				throw new ArgumentNullException(nameof(instance));
+				throw Error.ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
 				m_OnRelease.Invoke(instance);
@@ -47,7 +48,7 @@ namespace MackySoft.XPool.Unity {
 
 		public void ReleaseInstances (int keep) {
 			if ((keep < 0) || (keep > m_Capacity)) {
-				throw new ArgumentOutOfRangeException(nameof(keep));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
 			}
 
 			if (keep != 0) {

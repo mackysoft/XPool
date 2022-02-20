@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 	public static class ArrayPoolExtensions {
@@ -36,10 +37,10 @@ namespace MackySoft.XPool.Collections {
 		/// <param name="count"> Number of elements in source. </param>
 		public static T[] ToArrayFromPool<T> (this IEnumerable<T> source,ArrayPool<T> pool,out int count) {
 			if (source == null) {
-				throw new ArgumentNullException(nameof(source));
+				throw Error.ArgumentNullException(nameof(source));
 			}
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 
 			// Tries to cast source to the collection interfaces.

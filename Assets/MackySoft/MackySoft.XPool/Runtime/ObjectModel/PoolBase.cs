@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.ObjectModel {
 
@@ -20,8 +21,8 @@ namespace MackySoft.XPool.ObjectModel {
 		/// </summary>
 		/// <param name="capacity"> The pool capacity. If less than or equal to 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
 		protected PoolBase (int capacity) {
-			if (capacity <= 0) {
-				throw new ArgumentOutOfRangeException(nameof(capacity));
+			if (capacity < 0) {
+				throw Error.RequiredNonNegative(nameof(capacity));
 			}
 			m_Capacity = capacity;
 			m_Pool = new Queue<T>(capacity);
@@ -44,7 +45,7 @@ namespace MackySoft.XPool.ObjectModel {
 #endif
 			}
 			else {
-				instance = Factory() ?? throw new NullReferenceException($"{nameof(Factory)} method must not return null.");
+				instance = Factory() ?? throw Error.FactoryMustReturnNotNull();
 			}
 
 			OnRent(instance);
@@ -57,7 +58,7 @@ namespace MackySoft.XPool.ObjectModel {
 		/// <exception cref="ArgumentNullException"></exception>
 		public void Return (T instance) {
 			if (instance == null) {
-				throw new ArgumentNullException(nameof(instance));
+				throw Error.ArgumentNullException(nameof(instance));
 			}
 			if (m_Pool.Count == m_Capacity) {
 				OnRelease(instance);
@@ -78,7 +79,7 @@ namespace MackySoft.XPool.ObjectModel {
 		/// <param name="keep"> Quantity that keep pooled instances. If less than 0 or greater than capacity, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
 		public void ReleaseInstances (int keep) {
 			if ((keep < 0) || (keep > m_Capacity)) {
-				throw new ArgumentOutOfRangeException(nameof(keep));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
 			}
 
 			if (keep != 0) {

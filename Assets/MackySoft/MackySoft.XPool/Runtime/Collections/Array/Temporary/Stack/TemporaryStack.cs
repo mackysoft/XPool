@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 	public partial struct TemporaryStack<T> : IEnumerable<T>, IDisposable {
@@ -16,7 +17,7 @@ namespace MackySoft.XPool.Collections {
 
 		public TemporaryStack (ArrayPool<T> pool,int minimumCapacity) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			m_Pool = pool;
 			m_Array = pool.Rent(minimumCapacity);
@@ -31,7 +32,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Pop () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.EmptyCollection();
 			}
 			T item = m_Array[m_Count - 1];
 			m_Array[m_Count - 1] = default;
@@ -41,7 +42,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.EmptyCollection();
 			}
 			return m_Array[m_Count - 1];
 		}
@@ -75,13 +76,13 @@ namespace MackySoft.XPool.Collections {
 
 		public void CopyTo (T[] array,int arrayIndex) {
 			if (array == null) {
-				throw new ArgumentNullException(nameof(array));
+				throw Error.ArgumentNullException(nameof(array));
 			}
 			if ((arrayIndex < 0) || (arrayIndex > array.Length)) {
-				throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(arrayIndex));
 			}
 			if ((array.Length - arrayIndex) < m_Count) {
-				throw new ArgumentException();
+				throw Error.InvalidOffLength();
 			}
 			System.Array.Copy(m_Array,0,array,arrayIndex,m_Count);
 			System.Array.Reverse(array,arrayIndex,m_Count);

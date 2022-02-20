@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -18,7 +19,7 @@ namespace MackySoft.XPool.Collections {
 		/// </summary>
 		public static TemporaryList<T> Create (ArrayPool<T> pool) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			return new TemporaryList<T>(pool,0);
 		}
@@ -36,7 +37,7 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryList<T> Create (int minimumCapacity,ArrayPool<T> pool) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			return new TemporaryList<T>(pool,minimumCapacity);
 		}
@@ -55,10 +56,10 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryList<T> From (IEnumerable<T> source,ArrayPool<T> pool) {
 			if (source == null) {
-				throw new ArgumentNullException(nameof(source));
+				throw Error.ArgumentNullException(nameof(source));
 			}
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 
 			T[] array = source.ToArrayFromPool(pool,out int count);

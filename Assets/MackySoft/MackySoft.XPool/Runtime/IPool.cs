@@ -1,4 +1,5 @@
 ﻿using System;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool {
 
@@ -33,7 +34,7 @@ namespace MackySoft.XPool {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static void Clear<T> (this IPool<T> pool) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			pool.ReleaseInstances(0);
 		}
@@ -44,7 +45,7 @@ namespace MackySoft.XPool {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static void Return<T> (this IPool<T> pool,ref T instance) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			pool.Return(instance);
 			instance = default;
@@ -60,7 +61,7 @@ namespace MackySoft.XPool {
 		/// </summary>
 		public static RentInstance<T> RentTemporary<T> (this IPool<T> pool,out T instance) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			instance = pool.Rent();
 			return new RentInstance<T>(pool,instance);

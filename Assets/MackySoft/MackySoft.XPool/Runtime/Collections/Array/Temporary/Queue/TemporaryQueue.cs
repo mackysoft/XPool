@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -24,7 +25,7 @@ namespace MackySoft.XPool.Collections {
 		public T[] Array => m_Array;
 
 		public TemporaryQueue (ArrayPool<T> pool,int minimumCapacity) {
-			m_Pool = pool ?? throw new ArgumentNullException(nameof(pool));
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 			m_First = 0;
@@ -43,7 +44,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Dequeue () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.EmptyCollection();
 			}
 			T removed = m_Array[m_First];
 			m_Array[m_First] = default;
@@ -54,7 +55,7 @@ namespace MackySoft.XPool.Collections {
 
 		public T Peek () {
 			if (m_Count == 0) {
-				throw new InvalidOperationException();
+				throw Error.EmptyCollection();
 			}
 			return m_Array[m_First];
 		}
@@ -100,13 +101,13 @@ namespace MackySoft.XPool.Collections {
 
 		public void CopyTo (T[] array,int arrayIndex) {
 			if (array == null) {
-				throw new ArgumentNullException(nameof(array));
+				throw Error.ArgumentNullException(nameof(array));
 			}
 			if (arrayIndex < 0 || arrayIndex > array.Length) {
-				throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(arrayIndex));
 			}
-			if (array.Length - arrayIndex < m_Count) {
-				throw new ArgumentException();
+			if ((array.Length - arrayIndex) < m_Count) {
+				throw Error.InvalidOffLength();
 			}
 			
 			if (m_First < m_Last) {

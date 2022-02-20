@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -21,10 +22,10 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static TemporaryArray<T> Create (int length,ArrayPool<T> pool) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			if (length < 0) {
-				throw new ArgumentOutOfRangeException(nameof(length));
+				throw Error.RequiredNonNegative(nameof(length));
 			}
 			return new TemporaryArray<T>(pool,length);
 		}
@@ -43,10 +44,10 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryArray<T> From (IEnumerable<T> source,ArrayPool<T> pool) {
 			if (source == null) {
-				throw new ArgumentNullException(nameof(source));
+				throw Error.ArgumentNullException(nameof(source));
 			}
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 
 			T[] array = source.ToArrayFromPool(pool,out int count);
@@ -67,10 +68,10 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryArray<T> From (TemporaryArray<T> source,ArrayPool<T> pool) {
 			if (pool == null) {
-				throw new ArgumentNullException(nameof(pool));
+				throw Error.ArgumentNullException(nameof(pool));
 			}
 			if (source.Array == null) {
-				throw new ArgumentException();
+				throw Error.TemporaryIsDisposed(nameof(source));
 			}
 
 			var result = Create(source.Length,pool);

@@ -10,8 +10,7 @@ namespace MackySoft.XPool.Tests {
 		}
 		
 		[Test]
-		public void Throw_ArgumentOutOfRangeException_if_capcity_less_than_or_equal_to_zero () {
-			Assert.Throws<ArgumentOutOfRangeException>(() => new FactoryPool<Unit>(0,() => Unit.Default));
+		public void Throw_ArgumentOutOfRangeException_if_capcity_less_than_zero () {
 			Assert.Throws<ArgumentOutOfRangeException>(() => new FactoryPool<Unit>(-1,() => Unit.Default));
 		}
 
