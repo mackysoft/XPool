@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,16 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\HashSetPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Stack\TemporaryStack.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Internal\RuntimeHelpers.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolUtility.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Queue\QueuePool.cs" />
@@ -68,6 +72,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Stack\StackPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\List\ListPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\ObjectModel\PoolBase.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Stack\TemporaryStack.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\List\TemporaryList.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
