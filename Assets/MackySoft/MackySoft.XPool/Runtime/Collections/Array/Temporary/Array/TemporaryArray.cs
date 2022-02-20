@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using MackySoft.XPool.Collections.Internal;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -31,11 +32,11 @@ namespace MackySoft.XPool.Collections {
 
 		public T this[int index] {
 			get {
-				return index >= 0 && index < m_Length ? m_Array[index] : throw new ArgumentOutOfRangeException(nameof(index));
+				return index >= 0 && index < m_Length ? m_Array[index] : throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			set {
 				if (index < 0 && index >= m_Length) {
-					throw new ArgumentOutOfRangeException(nameof(index));
+					throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 				}
 				m_Array[index] = value;
 			}

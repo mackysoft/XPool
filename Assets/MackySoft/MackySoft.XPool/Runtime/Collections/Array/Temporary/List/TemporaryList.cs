@@ -32,11 +32,11 @@ namespace MackySoft.XPool.Collections {
 
 		public T this[int index] {
 			get {
-				return index >= 0 && index < m_Count ? m_Array[index] : throw new ArgumentOutOfRangeException(nameof(index));
+				return index >= 0 && index < m_Count ? m_Array[index] : throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			set {
 				if (index < 0 && index >= m_Count) {
-					throw new ArgumentOutOfRangeException(nameof(index));
+					throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 				}
 				m_Array[index] = value;
 			}
@@ -89,7 +89,7 @@ namespace MackySoft.XPool.Collections {
 
 		public void Insert (int index,T item) {
 			if (index > m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 
 			ArrayPoolUtility.EnsureCapacity(ref m_Array,m_Count + 1,m_Pool);
@@ -146,10 +146,10 @@ namespace MackySoft.XPool.Collections {
 
 		public void RemoveRange (int index,int count) {
 			if (index < 0) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.RequiredNonNegative(nameof(index));
 			}
 			if (count < 0) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+				throw Error.RequiredNonNegative(nameof(count));
 			}
 			if (m_Count - index < count) {
 				throw new ArgumentException();
@@ -208,14 +208,14 @@ namespace MackySoft.XPool.Collections {
 
 		public int IndexOf (T item,int index) {
 			if (index > m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			return System.Array.IndexOf(m_Array,item,index,m_Count - index);
 		}
 
 		public int IndexOf (T item,int index,int count) {
 			if (index > m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			if (count < 0 || index > m_Count - count) {
 				throw new ArgumentOutOfRangeException(nameof(count));
@@ -236,7 +236,7 @@ namespace MackySoft.XPool.Collections {
 
 		public int LastIndexOf (T item,int index) {
 			if (index >= m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			return LastIndexOf(item,index,index + 1);
 		}
@@ -244,18 +244,18 @@ namespace MackySoft.XPool.Collections {
 		public int LastIndexOf (T item,int index,int count) {
 			if (m_Count == 0) {
 				if (index < 0) {
-					throw new ArgumentOutOfRangeException(nameof(index));
+					throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 				}
 				if (count < 0) {
-					throw new ArgumentOutOfRangeException(nameof(count));
+					throw Error.RequiredNonNegative(nameof(count));
 				}
 				return -1;
 			}
 			if (index >= m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			if (m_Count > index + 1) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			return System.Array.LastIndexOf(m_Array,item,index,count);
 		}
@@ -274,10 +274,10 @@ namespace MackySoft.XPool.Collections {
 
 		public int BinarySearch (int index,int count,T item,IComparer<T> comparer) {
 			if (index < 0) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			if (count < 0) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+				throw Error.RequiredNonNegative(nameof(count));
 			}
 			if (m_Count - index < count) {
 				throw new ArgumentException();
@@ -314,10 +314,10 @@ namespace MackySoft.XPool.Collections {
 
 		public void Reverse (int index,int count) {
 			if (index < 0) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			if (count < 0) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+				throw Error.RequiredNonNegative(nameof(count));
 			}
 			if (m_Count - index < count) {
 				throw new ArgumentException();
@@ -339,10 +339,10 @@ namespace MackySoft.XPool.Collections {
 
 		public void Sort (int index,int count,IComparer<T> comparer) {
 			if (index < 0) {
-				throw new ArgumentOutOfRangeException(nameof(index));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
 			if (count < 0) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+				throw Error.RequiredNonNegative(nameof(count));
 			}
 			if (m_Count - index < count) {
 				throw new ArgumentException();
@@ -365,7 +365,7 @@ namespace MackySoft.XPool.Collections {
 
 		public int FindIndex (int startIndex,int count,Predicate<T> match) {
 			if (startIndex > m_Count) {
-				throw new ArgumentOutOfRangeException(nameof(startIndex));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
 			}
 			if (count < 0 || startIndex > m_Count - count) {
 				throw new ArgumentException();
@@ -401,12 +401,12 @@ namespace MackySoft.XPool.Collections {
 			}
 			if (m_Count == 0) {
 				if (startIndex == -1) {
-					throw new ArgumentOutOfRangeException(nameof(startIndex));
+					throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
 				}
 			}
 			else {
 				if (startIndex >= m_Count) {
-					throw new ArgumentOutOfRangeException(nameof(startIndex));
+					throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
 				}
 			}
 			if (count < 0 || startIndex - count + 1 < 0) {

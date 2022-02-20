@@ -25,7 +25,7 @@ namespace MackySoft.XPool.Collections {
 				throw Error.ArgumentNullException(nameof(pool));
 			}
 			if (length < 0) {
-				throw new ArgumentOutOfRangeException(nameof(length));
+				throw Error.RequiredNonNegative(nameof(length));
 			}
 			return new TemporaryArray<T>(pool,length);
 		}

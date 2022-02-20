@@ -39,7 +39,7 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 
 		public void ReleaseInstances (int keep) {
 			if ((keep < 0) || (keep > m_Capacity)) {
-				throw new ArgumentOutOfRangeException(nameof(keep));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
 			}
 
 			if (keep != 0) {

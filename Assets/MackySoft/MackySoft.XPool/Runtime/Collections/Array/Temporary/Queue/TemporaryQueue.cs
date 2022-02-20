@@ -104,7 +104,7 @@ namespace MackySoft.XPool.Collections {
 				throw Error.ArgumentNullException(nameof(array));
 			}
 			if (arrayIndex < 0 || arrayIndex > array.Length) {
-				throw new ArgumentOutOfRangeException(nameof(arrayIndex));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(arrayIndex));
 			}
 			if (array.Length - arrayIndex < m_Count) {
 				throw new ArgumentException();

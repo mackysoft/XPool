@@ -79,7 +79,7 @@ namespace MackySoft.XPool.ObjectModel {
 		/// <param name="keep"> Quantity that keep pooled instances. If less than 0 or greater than capacity, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
 		public void ReleaseInstances (int keep) {
 			if ((keep < 0) || (keep > m_Capacity)) {
-				throw new ArgumentOutOfRangeException(nameof(keep));
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
 			}
 
 			if (keep != 0) {

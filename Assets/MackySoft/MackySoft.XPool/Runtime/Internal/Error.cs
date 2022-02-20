@@ -14,5 +14,15 @@ namespace MackySoft.XPool.Internal {
 			return new InvalidOperationException("Collection is empty.");
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentOutOfRangeException ArgumentOutOfRangeOfCollection (string paramName) {
+			return new ArgumentOutOfRangeException(paramName,"Parameter is out of range of collection.");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentOutOfRangeException RequiredNonNegative (string paramName) {
+			return new ArgumentOutOfRangeException(paramName,"Must be a non-negative value.");
+		}
+
 	}
 }

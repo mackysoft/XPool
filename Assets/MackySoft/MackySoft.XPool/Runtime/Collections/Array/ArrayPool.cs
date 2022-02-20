@@ -1,6 +1,7 @@
 using System;
 using System.Threading;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections {
 
@@ -28,7 +29,7 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public T[] Rent (int minimumLength) {
 			if (minimumLength < 0) {
-				throw new ArgumentOutOfRangeException(nameof(minimumLength));
+				throw Error.RequiredNonNegative(nameof(minimumLength));
 			}
 			else if (minimumLength == 0) {
 				return kEmpty;
