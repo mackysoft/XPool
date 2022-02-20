@@ -420,6 +420,138 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ComponentPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ComponentPool-1.html",
+          "hash": "1kYVQZa6tcMEiulFYg7EKsbRx/2C6t6JBteZLc+Z0Us="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.GameObjectPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.GameObjectPool.html",
+          "hash": "wFEIwZH7fg77O//IMWEMF4WMtG7XoLqE+T2YWeDmkcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html",
+          "hash": "3WO8mlxxUARXcRhkCkdZNB3ASUhyXHFfwU8i/JypBeU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html",
+          "hash": "QKBgKxqqc9KkyyCPTZT7WxlSbPuOYpTKCXh6FBLiCqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html",
+          "hash": "NZ0iuPOI+hEOHPfQKzZI9Ph+2M1zEoTq9Kq2naw0EVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html",
+          "hash": "ESlHGEpAfvgJYadzG4wmHmPzb/ZjR54Q+Cu9xZHqGy8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ObjectModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.html",
+          "hash": "hgu7s7PKkvHsrKylnJiKuJ4pks1NPp87IVxb/3pJGC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html",
+          "hash": "cAlS+QfSlu4pbaRQFoJ7yuerUVbsLvJQw4F0ivfH7/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.html",
+          "hash": "yy0VeNy4Zr49CG6QAAQWWs6LdQLwwgDlyAubD2zHO+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.UnityObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.UnityObjectPool-1.html",
+          "hash": "REPTSL1baLKM5MrJ1U6ZK3cObx5AKVLUCsrfnltwoUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Unity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Unity.html",
+          "hash": "G03LeEIqywVnkK3qYj8DgoIxX49QwC7CezfJ/eh4920="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.XPool.yml",
       "output": {
         ".html": {
@@ -436,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3vNOsMApzTeorOJNd2jm9AiKwTLkX39oUvyYez7Jxjw="
+          "hash": "hMuuvkHlYgtq//6zhwEZkxUGtuW3Tt0DpR6Sqcm4Yuk="
         }
       },
       "is_incremental": false,
@@ -511,7 +643,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 34,
+          "total_file_count": 45,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

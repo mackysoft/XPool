@@ -169,6 +169,61 @@
     "title": "Class Unit | XPool",
     "keywords": "Class Unit Inheritance Object Unit Namespace : MackySoft.XPool.Tests Assembly : cs.temp.dll.dll Syntax public class Unit Fields Default Declaration public static readonly Unit Default Field Value Type Description Unit"
   },
+  "api/MackySoft.XPool.Unity.ComponentPool-1.html": {
+    "href": "api/MackySoft.XPool.Unity.ComponentPool-1.html",
+    "title": "Class ComponentPool<T> | XPool",
+    "keywords": "Class ComponentPool<T> Inheritance Object UnityObjectPool <T> ComponentPool<T> Implements IHierarchicalUnityObjectPool <T> IUnityObjectPool <T> IPool <T> Inherited Members UnityObjectPool<T>.m_Original UnityObjectPool<T>.m_OnCreate UnityObjectPool<T>.m_OnRent UnityObjectPool<T>.m_OnReturn UnityObjectPool<T>.m_OnRelease UnityObjectPool<T>.Original UnityObjectPool<T>.Rent() UnityObjectPool<T>.Return(T) UnityObjectPool<T>.ReleaseInstances(Int32) UnityObjectPool<T>.GetPooledInstance() Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax [Serializable] public class ComponentPool<T> : UnityObjectPool<T>, IHierarchicalUnityObjectPool<T>, IUnityObjectPool<T>, IPool<T> where T : Component Type Parameters Name Description T Methods Rent(Transform, Boolean) Declaration public T Rent(Transform parent, bool worldPositionStays) Parameters Type Name Description Transform parent Boolean worldPositionStays Returns Type Description T Rent(Vector3, Quaternion, Transform) Declaration public T Rent(Vector3 position, Quaternion rotation, Transform parent = null) Parameters Type Name Description Vector3 position Quaternion rotation Transform parent Returns Type Description T Implements IHierarchicalUnityObjectPool<T> IUnityObjectPool<T> IPool<T>"
+  },
+  "api/MackySoft.XPool.Unity.GameObjectPool.html": {
+    "href": "api/MackySoft.XPool.Unity.GameObjectPool.html",
+    "title": "Class GameObjectPool | XPool",
+    "keywords": "Class GameObjectPool Inheritance Object UnityObjectPool < GameObject > GameObjectPool Implements IHierarchicalUnityObjectPool < GameObject > IUnityObjectPool < GameObject > IPool < GameObject > Inherited Members UnityObjectPool<GameObject>.m_Original UnityObjectPool<GameObject>.m_OnCreate UnityObjectPool<GameObject>.m_OnRent UnityObjectPool<GameObject>.m_OnReturn UnityObjectPool<GameObject>.m_OnRelease UnityObjectPool<GameObject>.Original UnityObjectPool<GameObject>.Rent() UnityObjectPool<GameObject>.Return(GameObject) UnityObjectPool<GameObject>.ReleaseInstances(Int32) UnityObjectPool<GameObject>.GetPooledInstance() Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax [Serializable] public class GameObjectPool : UnityObjectPool<GameObject>, IHierarchicalUnityObjectPool<GameObject>, IUnityObjectPool<GameObject>, IPool<GameObject> Methods Rent(Transform, Boolean) Declaration public GameObject Rent(Transform parent, bool worldPositionStays) Parameters Type Name Description Transform parent Boolean worldPositionStays Returns Type Description GameObject Rent(Vector3, Quaternion, Transform) Declaration public GameObject Rent(Vector3 position, Quaternion rotation, Transform parent = null) Parameters Type Name Description Vector3 position Quaternion rotation Transform parent Returns Type Description GameObject Implements IHierarchicalUnityObjectPool<T> IUnityObjectPool<T> IPool<T>"
+  },
+  "api/MackySoft.XPool.Unity.html": {
+    "href": "api/MackySoft.XPool.Unity.html",
+    "title": "Namespace MackySoft.XPool.Unity | XPool",
+    "keywords": "Namespace MackySoft.XPool.Unity Classes ComponentPool<T> GameObjectPool ParticleSystemPool ParticleSystemPool.ParticleSystemStoppedTrigger UnityObjectPool<T> Interfaces IHierarchicalUnityObjectPool<T> Interface that provides rent method for GameObject or components. IUnityObjectPool<T>"
+  },
+  "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html": {
+    "href": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html",
+    "title": "Interface IHierarchicalUnityObjectPool<T> | XPool",
+    "keywords": "Interface IHierarchicalUnityObjectPool<T> Interface that provides rent method for GameObject or components. Inherited Members IPool<T>.Rent() IPool<T>.Return(T) IPool<T>.ReleaseInstances(Int32) Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax public interface IHierarchicalUnityObjectPool<T> : IUnityObjectPool<T>, IPool<T> where T : UnityObject Type Parameters Name Description T Methods Rent(Transform, Boolean) Declaration T Rent(Transform parent, bool worldPositionStays) Parameters Type Name Description Transform parent Boolean worldPositionStays Returns Type Description T Rent(Vector3, Quaternion, Transform) Declaration T Rent(Vector3 position, Quaternion rotation, Transform parent = null) Parameters Type Name Description Vector3 position Quaternion rotation Transform parent Returns Type Description T"
+  },
+  "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html": {
+    "href": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html",
+    "title": "Interface IUnityObjectPool<T> | XPool",
+    "keywords": "Interface IUnityObjectPool<T> Inherited Members IPool<T>.Rent() IPool<T>.Return(T) IPool<T>.ReleaseInstances(Int32) Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax public interface IUnityObjectPool<T> : IPool<T> where T : UnityObject Type Parameters Name Description T"
+  },
+  "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html": {
+    "href": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html",
+    "title": "Class ComponentPoolBase<T> | XPool",
+    "keywords": "Class ComponentPoolBase<T> Inheritance Object UnityObjectPoolBase <T> ComponentPoolBase<T> Implements IHierarchicalUnityObjectPool <T> IUnityObjectPool <T> IPool <T> Inherited Members UnityObjectPoolBase<T>.m_Original UnityObjectPoolBase<T>.Rent() UnityObjectPoolBase<T>.Return(T) UnityObjectPoolBase<T>.ReleaseInstances(Int32) UnityObjectPoolBase<T>.GetPooledInstance() UnityObjectPoolBase<T>.OnCreate(T) UnityObjectPoolBase<T>.OnRent(T) UnityObjectPoolBase<T>.OnReturn(T) UnityObjectPoolBase<T>.OnRelease(T) Namespace : MackySoft.XPool.Unity.ObjectModel Assembly : cs.temp.dll.dll Syntax public abstract class ComponentPoolBase<T> : UnityObjectPoolBase<T>, IHierarchicalUnityObjectPool<T>, IUnityObjectPool<T>, IPool<T> where T : Component Type Parameters Name Description T Methods Rent(Transform, Boolean) Declaration public T Rent(Transform parent, bool worldPositionStays) Parameters Type Name Description Transform parent Boolean worldPositionStays Returns Type Description T Rent(Vector3, Quaternion, Transform) Declaration public T Rent(Vector3 position, Quaternion rotation, Transform parent = null) Parameters Type Name Description Vector3 position Quaternion rotation Transform parent Returns Type Description T Implements IHierarchicalUnityObjectPool<T> IUnityObjectPool<T> IPool<T>"
+  },
+  "api/MackySoft.XPool.Unity.ObjectModel.html": {
+    "href": "api/MackySoft.XPool.Unity.ObjectModel.html",
+    "title": "Namespace MackySoft.XPool.Unity.ObjectModel | XPool",
+    "keywords": "Namespace MackySoft.XPool.Unity.ObjectModel Classes ComponentPoolBase<T> UnityObjectPoolBase<T>"
+  },
+  "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html": {
+    "href": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html",
+    "title": "Class UnityObjectPoolBase<T> | XPool",
+    "keywords": "Class UnityObjectPoolBase<T> Inheritance Object UnityObjectPoolBase<T> ComponentPoolBase<T> Implements IUnityObjectPool <T> IPool <T> Namespace : MackySoft.XPool.Unity.ObjectModel Assembly : cs.temp.dll.dll Syntax public abstract class UnityObjectPoolBase<T> : IUnityObjectPool<T>, IPool<T> where T : UnityObject Type Parameters Name Description T Fields m_Original Declaration protected T m_Original Field Value Type Description T Methods GetPooledInstance() Try to get an instance until the pool is empty or an instance can be retrieved. This is because can become null externally due to the method. Declaration protected T GetPooledInstance() Returns Type Description T OnCreate(T) Declaration protected abstract void OnCreate(T instance) Parameters Type Name Description T instance OnRelease(T) Declaration protected abstract void OnRelease(T instance) Parameters Type Name Description T instance OnRent(T) Declaration protected abstract void OnRent(T instance) Parameters Type Name Description T instance OnReturn(T) Declaration protected abstract void OnReturn(T instance) Parameters Type Name Description T instance ReleaseInstances(Int32) Declaration public void ReleaseInstances(int keep) Parameters Type Name Description Int32 keep Rent() Declaration public T Rent() Returns Type Description T Return(T) Declaration public void Return(T instance) Parameters Type Name Description T instance Implements IUnityObjectPool<T> IPool<T>"
+  },
+  "api/MackySoft.XPool.Unity.ParticleSystemPool.html": {
+    "href": "api/MackySoft.XPool.Unity.ParticleSystemPool.html",
+    "title": "Class ParticleSystemPool | XPool",
+    "keywords": "Class ParticleSystemPool Inheritance Object ParticleSystemPool Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax [Serializable] public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> Properties PlayOnRent Declaration public bool PlayOnRent { get; set; } Property Value Type Description Boolean Methods OnCreate(ParticleSystem) Declaration protected override void OnCreate(ParticleSystem instance) Parameters Type Name Description ParticleSystem instance OnRelease(ParticleSystem) Declaration protected override void OnRelease(ParticleSystem instance) Parameters Type Name Description ParticleSystem instance OnRent(ParticleSystem) Declaration protected override void OnRent(ParticleSystem instance) Parameters Type Name Description ParticleSystem instance OnReturn(ParticleSystem) Declaration protected override void OnReturn(ParticleSystem instance) Parameters Type Name Description ParticleSystem instance"
+  },
+  "api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html": {
+    "href": "api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html",
+    "title": "Class ParticleSystemPool.ParticleSystemStoppedTrigger | XPool",
+    "keywords": "Class ParticleSystemPool.ParticleSystemStoppedTrigger Inheritance Object ParticleSystemPool.ParticleSystemStoppedTrigger Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax public class ParticleSystemStoppedTrigger : MonoBehaviour"
+  },
+  "api/MackySoft.XPool.Unity.UnityObjectPool-1.html": {
+    "href": "api/MackySoft.XPool.Unity.UnityObjectPool-1.html",
+    "title": "Class UnityObjectPool<T> | XPool",
+    "keywords": "Class UnityObjectPool<T> Inheritance Object UnityObjectPool<T> ComponentPool<T> GameObjectPool Implements IUnityObjectPool <T> IPool <T> Namespace : MackySoft.XPool.Unity Assembly : cs.temp.dll.dll Syntax [Serializable] public class UnityObjectPool<T> : IUnityObjectPool<T>, IPool<T> where T : UnityObject Type Parameters Name Description T Fields m_OnCreate Declaration protected Action<T> m_OnCreate Field Value Type Description Action <T> m_OnRelease Declaration protected Action<T> m_OnRelease Field Value Type Description Action <T> m_OnRent Declaration protected Action<T> m_OnRent Field Value Type Description Action <T> m_OnReturn Declaration protected Action<T> m_OnReturn Field Value Type Description Action <T> m_Original Declaration protected T m_Original Field Value Type Description T Properties Original Declaration public T Original { get; } Property Value Type Description T Methods GetPooledInstance() Try to get an instance until the pool is empty or an instance can be retrieved. This is because can become null externally due to the method. Declaration protected T GetPooledInstance() Returns Type Description T ReleaseInstances(Int32) Declaration public void ReleaseInstances(int keep) Parameters Type Name Description Int32 keep Rent() Declaration public T Rent() Returns Type Description T Return(T) Declaration public void Return(T instance) Parameters Type Name Description T instance Implements IUnityObjectPool<T> IPool<T>"
+  },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
     "title": "Changelog | XPool",

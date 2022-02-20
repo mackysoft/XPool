@@ -3340,3 +3340,515 @@ references:
   commentId: F:MackySoft.XPool.Tests.Unit.Default
   fullName: MackySoft.XPool.Tests.Unit.Default
   nameWithType: Unit.Default
+- uid: MackySoft.XPool.Unity
+  name: MackySoft.XPool.Unity
+  href: api/MackySoft.XPool.Unity.html
+  commentId: N:MackySoft.XPool.Unity
+  fullName: MackySoft.XPool.Unity
+  nameWithType: MackySoft.XPool.Unity
+- uid: MackySoft.XPool.Unity.ComponentPool`1
+  name: ComponentPool<T>
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html
+  commentId: T:MackySoft.XPool.Unity.ComponentPool`1
+  name.vb: ComponentPool(Of T)
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T)
+  nameWithType: ComponentPool<T>
+  nameWithType.vb: ComponentPool(Of T)
+- uid: MackySoft.XPool.Unity.ComponentPool`1.Rent(Transform,System.Boolean)
+  name: Rent(Transform, Boolean)
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1_Rent_Transform_System_Boolean_
+  commentId: M:MackySoft.XPool.Unity.ComponentPool`1.Rent(Transform,System.Boolean)
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.Rent(Transform, System.Boolean)
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).Rent(Transform, System.Boolean)
+  nameWithType: ComponentPool<T>.Rent(Transform, Boolean)
+  nameWithType.vb: ComponentPool(Of T).Rent(Transform, Boolean)
+- uid: MackySoft.XPool.Unity.ComponentPool`1.Rent(Vector3,Quaternion,Transform)
+  name: Rent(Vector3, Quaternion, Transform)
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1_Rent_Vector3_Quaternion_Transform_
+  commentId: M:MackySoft.XPool.Unity.ComponentPool`1.Rent(Vector3,Quaternion,Transform)
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.Rent(Vector3, Quaternion, Transform)
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).Rent(Vector3, Quaternion, Transform)
+  nameWithType: ComponentPool<T>.Rent(Vector3, Quaternion, Transform)
+  nameWithType.vb: ComponentPool(Of T).Rent(Vector3, Quaternion, Transform)
+- uid: MackySoft.XPool.Unity.ComponentPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.ComponentPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).Rent
+  nameWithType: ComponentPool<T>.Rent
+  nameWithType.vb: ComponentPool(Of T).Rent
+- uid: MackySoft.XPool.Unity.GameObjectPool
+  name: GameObjectPool
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html
+  commentId: T:MackySoft.XPool.Unity.GameObjectPool
+  fullName: MackySoft.XPool.Unity.GameObjectPool
+  nameWithType: GameObjectPool
+- uid: MackySoft.XPool.Unity.GameObjectPool.Rent(Transform,System.Boolean)
+  name: Rent(Transform, Boolean)
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool_Rent_Transform_System_Boolean_
+  commentId: M:MackySoft.XPool.Unity.GameObjectPool.Rent(Transform,System.Boolean)
+  fullName: MackySoft.XPool.Unity.GameObjectPool.Rent(Transform, System.Boolean)
+  nameWithType: GameObjectPool.Rent(Transform, Boolean)
+- uid: MackySoft.XPool.Unity.GameObjectPool.Rent(Vector3,Quaternion,Transform)
+  name: Rent(Vector3, Quaternion, Transform)
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool_Rent_Vector3_Quaternion_Transform_
+  commentId: M:MackySoft.XPool.Unity.GameObjectPool.Rent(Vector3,Quaternion,Transform)
+  fullName: MackySoft.XPool.Unity.GameObjectPool.Rent(Vector3, Quaternion, Transform)
+  nameWithType: GameObjectPool.Rent(Vector3, Quaternion, Transform)
+- uid: MackySoft.XPool.Unity.GameObjectPool.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.GameObjectPool.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.GameObjectPool.Rent
+  nameWithType: GameObjectPool.Rent
+- uid: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1
+  name: IHierarchicalUnityObjectPool<T>
+  href: api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html
+  commentId: T:MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1
+  name.vb: IHierarchicalUnityObjectPool(Of T)
+  fullName: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool<T>
+  fullName.vb: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool(Of T)
+  nameWithType: IHierarchicalUnityObjectPool<T>
+  nameWithType.vb: IHierarchicalUnityObjectPool(Of T)
+- uid: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent(Transform,System.Boolean)
+  name: Rent(Transform, Boolean)
+  href: api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html#MackySoft_XPool_Unity_IHierarchicalUnityObjectPool_1_Rent_Transform_System_Boolean_
+  commentId: M:MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent(Transform,System.Boolean)
+  fullName: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool<T>.Rent(Transform, System.Boolean)
+  fullName.vb: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool(Of T).Rent(Transform, System.Boolean)
+  nameWithType: IHierarchicalUnityObjectPool<T>.Rent(Transform, Boolean)
+  nameWithType.vb: IHierarchicalUnityObjectPool(Of T).Rent(Transform, Boolean)
+- uid: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent(Vector3,Quaternion,Transform)
+  name: Rent(Vector3, Quaternion, Transform)
+  href: api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html#MackySoft_XPool_Unity_IHierarchicalUnityObjectPool_1_Rent_Vector3_Quaternion_Transform_
+  commentId: M:MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent(Vector3,Quaternion,Transform)
+  fullName: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool<T>.Rent(Vector3, Quaternion, Transform)
+  fullName.vb: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool(Of T).Rent(Vector3, Quaternion, Transform)
+  nameWithType: IHierarchicalUnityObjectPool<T>.Rent(Vector3, Quaternion, Transform)
+  nameWithType.vb: IHierarchicalUnityObjectPool(Of T).Rent(Vector3, Quaternion, Transform)
+- uid: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html#MackySoft_XPool_Unity_IHierarchicalUnityObjectPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.IHierarchicalUnityObjectPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Unity.IHierarchicalUnityObjectPool(Of T).Rent
+  nameWithType: IHierarchicalUnityObjectPool<T>.Rent
+  nameWithType.vb: IHierarchicalUnityObjectPool(Of T).Rent
+- uid: MackySoft.XPool.Unity.IUnityObjectPool`1
+  name: IUnityObjectPool<T>
+  href: api/MackySoft.XPool.Unity.IUnityObjectPool-1.html
+  commentId: T:MackySoft.XPool.Unity.IUnityObjectPool`1
+  name.vb: IUnityObjectPool(Of T)
+  fullName: MackySoft.XPool.Unity.IUnityObjectPool<T>
+  fullName.vb: MackySoft.XPool.Unity.IUnityObjectPool(Of T)
+  nameWithType: IUnityObjectPool<T>
+  nameWithType.vb: IUnityObjectPool(Of T)
+- uid: MackySoft.XPool.Unity.ObjectModel
+  name: MackySoft.XPool.Unity.ObjectModel
+  href: api/MackySoft.XPool.Unity.ObjectModel.html
+  commentId: N:MackySoft.XPool.Unity.ObjectModel
+  fullName: MackySoft.XPool.Unity.ObjectModel
+  nameWithType: MackySoft.XPool.Unity.ObjectModel
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1
+  name: ComponentPoolBase<T>
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html
+  commentId: T:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1
+  name.vb: ComponentPoolBase(Of T)
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T)
+  nameWithType: ComponentPoolBase<T>
+  nameWithType.vb: ComponentPoolBase(Of T)
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent(Transform,System.Boolean)
+  name: Rent(Transform, Boolean)
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_Transform_System_Boolean_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent(Transform,System.Boolean)
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.Rent(Transform, System.Boolean)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).Rent(Transform, System.Boolean)
+  nameWithType: ComponentPoolBase<T>.Rent(Transform, Boolean)
+  nameWithType.vb: ComponentPoolBase(Of T).Rent(Transform, Boolean)
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent(Vector3,Quaternion,Transform)
+  name: Rent(Vector3, Quaternion, Transform)
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_Vector3_Quaternion_Transform_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent(Vector3,Quaternion,Transform)
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.Rent(Vector3, Quaternion, Transform)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).Rent(Vector3, Quaternion, Transform)
+  nameWithType: ComponentPoolBase<T>.Rent(Vector3, Quaternion, Transform)
+  nameWithType.vb: ComponentPoolBase(Of T).Rent(Vector3, Quaternion, Transform)
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.Rent
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).Rent
+  nameWithType: ComponentPoolBase<T>.Rent
+  nameWithType.vb: ComponentPoolBase(Of T).Rent
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1
+  name: UnityObjectPoolBase<T>
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html
+  commentId: T:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1
+  name.vb: UnityObjectPoolBase(Of T)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T)
+  nameWithType: UnityObjectPoolBase<T>
+  nameWithType.vb: UnityObjectPoolBase(Of T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance
+  name: GetPooledInstance()
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_GetPooledInstance
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.GetPooledInstance()
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).GetPooledInstance()
+  nameWithType: UnityObjectPoolBase<T>.GetPooledInstance()
+  nameWithType.vb: UnityObjectPoolBase(Of T).GetPooledInstance()
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance*
+  name: GetPooledInstance
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_GetPooledInstance_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.GetPooledInstance
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).GetPooledInstance
+  nameWithType: UnityObjectPoolBase<T>.GetPooledInstance
+  nameWithType.vb: UnityObjectPoolBase(Of T).GetPooledInstance
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.m_Original
+  name: m_Original
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_m_Original
+  commentId: F:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.m_Original
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.m_Original
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).m_Original
+  nameWithType: UnityObjectPoolBase<T>.m_Original
+  nameWithType.vb: UnityObjectPoolBase(Of T).m_Original
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnCreate(`0)
+  name: OnCreate(T)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnCreate__0_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnCreate(`0)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnCreate(T)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnCreate(T)
+  nameWithType: UnityObjectPoolBase<T>.OnCreate(T)
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnCreate(T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnCreate*
+  name: OnCreate
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnCreate_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnCreate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnCreate
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnCreate
+  nameWithType: UnityObjectPoolBase<T>.OnCreate
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnCreate
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRelease(`0)
+  name: OnRelease(T)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnRelease__0_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRelease(`0)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnRelease(T)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnRelease(T)
+  nameWithType: UnityObjectPoolBase<T>.OnRelease(T)
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnRelease(T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRelease*
+  name: OnRelease
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnRelease_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRelease
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnRelease
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnRelease
+  nameWithType: UnityObjectPoolBase<T>.OnRelease
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnRelease
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRent(`0)
+  name: OnRent(T)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnRent__0_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRent(`0)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnRent(T)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnRent(T)
+  nameWithType: UnityObjectPoolBase<T>.OnRent(T)
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnRent(T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRent*
+  name: OnRent
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnRent_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnRent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnRent
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnRent
+  nameWithType: UnityObjectPoolBase<T>.OnRent
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnRent
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnReturn(`0)
+  name: OnReturn(T)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnReturn__0_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnReturn(`0)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnReturn(T)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnReturn(T)
+  nameWithType: UnityObjectPoolBase<T>.OnReturn(T)
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnReturn(T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnReturn*
+  name: OnReturn
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_OnReturn_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.OnReturn
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.OnReturn
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).OnReturn
+  nameWithType: UnityObjectPoolBase<T>.OnReturn
+  nameWithType.vb: UnityObjectPoolBase(Of T).OnReturn
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.ReleaseInstances(System.Int32)
+  name: ReleaseInstances(Int32)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_ReleaseInstances_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.ReleaseInstances(System.Int32)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.ReleaseInstances(System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).ReleaseInstances(System.Int32)
+  nameWithType: UnityObjectPoolBase<T>.ReleaseInstances(Int32)
+  nameWithType.vb: UnityObjectPoolBase(Of T).ReleaseInstances(Int32)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.ReleaseInstances*
+  name: ReleaseInstances
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_ReleaseInstances_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.ReleaseInstances
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.ReleaseInstances
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).ReleaseInstances
+  nameWithType: UnityObjectPoolBase<T>.ReleaseInstances
+  nameWithType.vb: UnityObjectPoolBase(Of T).ReleaseInstances
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Rent
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Rent
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Rent()
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Rent()
+  nameWithType: UnityObjectPoolBase<T>.Rent()
+  nameWithType.vb: UnityObjectPoolBase(Of T).Rent()
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Rent
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Rent
+  nameWithType: UnityObjectPoolBase<T>.Rent
+  nameWithType.vb: UnityObjectPoolBase(Of T).Rent
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Return(`0)
+  name: Return(T)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Return__0_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Return(`0)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Return(T)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Return(T)
+  nameWithType: UnityObjectPoolBase<T>.Return(T)
+  nameWithType.vb: UnityObjectPoolBase(Of T).Return(T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Return_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Return
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Return
+  nameWithType: UnityObjectPoolBase<T>.Return
+  nameWithType.vb: UnityObjectPoolBase(Of T).Return
+- uid: MackySoft.XPool.Unity.ParticleSystemPool
+  name: ParticleSystemPool
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html
+  commentId: T:MackySoft.XPool.Unity.ParticleSystemPool
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool
+  nameWithType: ParticleSystemPool
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnCreate(ParticleSystem)
+  name: OnCreate(ParticleSystem)
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnCreate_ParticleSystem_
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.OnCreate(ParticleSystem)
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnCreate(ParticleSystem)
+  nameWithType: ParticleSystemPool.OnCreate(ParticleSystem)
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnCreate*
+  name: OnCreate
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnCreate_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.OnCreate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnCreate
+  nameWithType: ParticleSystemPool.OnCreate
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnRelease(ParticleSystem)
+  name: OnRelease(ParticleSystem)
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnRelease_ParticleSystem_
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.OnRelease(ParticleSystem)
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnRelease(ParticleSystem)
+  nameWithType: ParticleSystemPool.OnRelease(ParticleSystem)
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnRelease*
+  name: OnRelease
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnRelease_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.OnRelease
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnRelease
+  nameWithType: ParticleSystemPool.OnRelease
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnRent(ParticleSystem)
+  name: OnRent(ParticleSystem)
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnRent_ParticleSystem_
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.OnRent(ParticleSystem)
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnRent(ParticleSystem)
+  nameWithType: ParticleSystemPool.OnRent(ParticleSystem)
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnRent*
+  name: OnRent
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnRent_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.OnRent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnRent
+  nameWithType: ParticleSystemPool.OnRent
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnReturn(ParticleSystem)
+  name: OnReturn(ParticleSystem)
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnReturn_ParticleSystem_
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.OnReturn(ParticleSystem)
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnReturn(ParticleSystem)
+  nameWithType: ParticleSystemPool.OnReturn(ParticleSystem)
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.OnReturn*
+  name: OnReturn
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnReturn_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.OnReturn
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.OnReturn
+  nameWithType: ParticleSystemPool.OnReturn
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger
+  name: ParticleSystemPool.ParticleSystemStoppedTrigger
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html
+  commentId: T:MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger
+  nameWithType: ParticleSystemPool.ParticleSystemStoppedTrigger
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
+  name: PlayOnRent
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_PlayOnRent
+  commentId: P:MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
+  nameWithType: ParticleSystemPool.PlayOnRent
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent*
+  name: PlayOnRent
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_PlayOnRent_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
+  nameWithType: ParticleSystemPool.PlayOnRent
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1
+  name: UnityObjectPool<T>
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html
+  commentId: T:MackySoft.XPool.Unity.UnityObjectPool`1
+  name.vb: UnityObjectPool(Of T)
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T)
+  nameWithType: UnityObjectPool<T>
+  nameWithType.vb: UnityObjectPool(Of T)
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance
+  name: GetPooledInstance()
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.GetPooledInstance()
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).GetPooledInstance()
+  nameWithType: UnityObjectPool<T>.GetPooledInstance()
+  nameWithType.vb: UnityObjectPool(Of T).GetPooledInstance()
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance*
+  name: GetPooledInstance
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.GetPooledInstance
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).GetPooledInstance
+  nameWithType: UnityObjectPool<T>.GetPooledInstance
+  nameWithType.vb: UnityObjectPool(Of T).GetPooledInstance
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.m_OnCreate
+  name: m_OnCreate
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_m_OnCreate
+  commentId: F:MackySoft.XPool.Unity.UnityObjectPool`1.m_OnCreate
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.m_OnCreate
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_OnCreate
+  nameWithType: UnityObjectPool<T>.m_OnCreate
+  nameWithType.vb: UnityObjectPool(Of T).m_OnCreate
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.m_OnRelease
+  name: m_OnRelease
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_m_OnRelease
+  commentId: F:MackySoft.XPool.Unity.UnityObjectPool`1.m_OnRelease
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.m_OnRelease
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_OnRelease
+  nameWithType: UnityObjectPool<T>.m_OnRelease
+  nameWithType.vb: UnityObjectPool(Of T).m_OnRelease
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.m_OnRent
+  name: m_OnRent
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_m_OnRent
+  commentId: F:MackySoft.XPool.Unity.UnityObjectPool`1.m_OnRent
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.m_OnRent
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_OnRent
+  nameWithType: UnityObjectPool<T>.m_OnRent
+  nameWithType.vb: UnityObjectPool(Of T).m_OnRent
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.m_OnReturn
+  name: m_OnReturn
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_m_OnReturn
+  commentId: F:MackySoft.XPool.Unity.UnityObjectPool`1.m_OnReturn
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.m_OnReturn
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_OnReturn
+  nameWithType: UnityObjectPool<T>.m_OnReturn
+  nameWithType.vb: UnityObjectPool(Of T).m_OnReturn
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.m_Original
+  name: m_Original
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_m_Original
+  commentId: F:MackySoft.XPool.Unity.UnityObjectPool`1.m_Original
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.m_Original
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_Original
+  nameWithType: UnityObjectPool<T>.m_Original
+  nameWithType.vb: UnityObjectPool(Of T).m_Original
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Original
+  name: Original
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Original
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.Original
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Original
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Original
+  nameWithType: UnityObjectPool<T>.Original
+  nameWithType.vb: UnityObjectPool(Of T).Original
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Original*
+  name: Original
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Original_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.Original
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Original
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Original
+  nameWithType: UnityObjectPool<T>.Original
+  nameWithType.vb: UnityObjectPool(Of T).Original
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.ReleaseInstances(System.Int32)
+  name: ReleaseInstances(Int32)
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_ReleaseInstances_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.ReleaseInstances(System.Int32)
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.ReleaseInstances(System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).ReleaseInstances(System.Int32)
+  nameWithType: UnityObjectPool<T>.ReleaseInstances(Int32)
+  nameWithType.vb: UnityObjectPool(Of T).ReleaseInstances(Int32)
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.ReleaseInstances*
+  name: ReleaseInstances
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_ReleaseInstances_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.ReleaseInstances
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.ReleaseInstances
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).ReleaseInstances
+  nameWithType: UnityObjectPool<T>.ReleaseInstances
+  nameWithType.vb: UnityObjectPool(Of T).ReleaseInstances
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Rent
+  name: Rent()
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Rent
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.Rent
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Rent()
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Rent()
+  nameWithType: UnityObjectPool<T>.Rent()
+  nameWithType.vb: UnityObjectPool(Of T).Rent()
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Rent*
+  name: Rent
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Rent_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.Rent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Rent
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Rent
+  nameWithType: UnityObjectPool<T>.Rent
+  nameWithType.vb: UnityObjectPool(Of T).Rent
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Return(`0)
+  name: Return(T)
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Return__0_
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.Return(`0)
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Return(T)
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Return(T)
+  nameWithType: UnityObjectPool<T>.Return(T)
+  nameWithType.vb: UnityObjectPool(Of T).Return(T)
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Return*
+  name: Return
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Return_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.Return
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Return
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Return
+  nameWithType: UnityObjectPool<T>.Return
+  nameWithType.vb: UnityObjectPool(Of T).Return
