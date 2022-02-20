@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity {
 
-	[SerializeField]
+	[Serializable]
 	public class GameObjectPool : UnityObjectPool<GameObject>, IHierarchicalUnityObjectPool<GameObject> {
 		public GameObject Rent (Vector3 position,Quaternion rotation,Transform parent = null) {
 			GameObject instance = GetPooledInstance();
