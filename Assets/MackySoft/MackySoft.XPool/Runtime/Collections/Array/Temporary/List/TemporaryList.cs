@@ -151,8 +151,8 @@ namespace MackySoft.XPool.Collections {
 			if (count < 0) {
 				throw Error.RequiredNonNegative(nameof(count));
 			}
-			if (m_Count - index < count) {
-				throw new ArgumentException();
+			if ((m_Count - index) < count) {
+				throw Error.InvalidOffLength();
 			}
 
 			if (count > 0) {
@@ -217,8 +217,8 @@ namespace MackySoft.XPool.Collections {
 			if (index > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
 			}
-			if (count < 0 || index > m_Count - count) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+			if ((count < 0) || index > (m_Count - count)) {
+				throw Error.ArgumentOutOfRangeCount(nameof(count));
 			}
 			return System.Array.IndexOf(m_Array,item,index,count);
 		}
@@ -279,8 +279,8 @@ namespace MackySoft.XPool.Collections {
 			if (count < 0) {
 				throw Error.RequiredNonNegative(nameof(count));
 			}
-			if (m_Count - index < count) {
-				throw new ArgumentException();
+			if ((m_Count - index) < count) {
+				throw Error.ArgumentOutOfRangeCount(nameof(count));
 			}
 			return System.Array.BinarySearch(m_Array,index,count,item,comparer);
 		}
@@ -298,8 +298,8 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		public void CopyTo (int index,T[] array,int arrayIndex,int count) {
-			if (m_Count - index < count) {
-				throw new ArgumentException();
+			if ((m_Count - index) < count) {
+				throw Error.InvalidOffLength();
 			}
 			System.Array.Copy(m_Array,index,array,arrayIndex,count);
 		}
@@ -319,8 +319,8 @@ namespace MackySoft.XPool.Collections {
 			if (count < 0) {
 				throw Error.RequiredNonNegative(nameof(count));
 			}
-			if (m_Count - index < count) {
-				throw new ArgumentException();
+			if ((m_Count - index) < count) {
+				throw Error.InvalidOffLength();
 			}
 			System.Array.Reverse(m_Array,index,count);
 		}
@@ -344,8 +344,8 @@ namespace MackySoft.XPool.Collections {
 			if (count < 0) {
 				throw Error.RequiredNonNegative(nameof(count));
 			}
-			if (m_Count - index < count) {
-				throw new ArgumentException();
+			if ((m_Count - index) < count) {
+				throw Error.InvalidOffLength();
 			}
 
 			System.Array.Sort(m_Array,index,count,comparer);
@@ -367,8 +367,8 @@ namespace MackySoft.XPool.Collections {
 			if (startIndex > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
 			}
-			if (count < 0 || startIndex > m_Count - count) {
-				throw new ArgumentException();
+			if ((count < 0) || startIndex > (m_Count - count)) {
+				throw Error.ArgumentOutOfRangeCount(nameof(count));
 			}
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -409,8 +409,8 @@ namespace MackySoft.XPool.Collections {
 					throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
 				}
 			}
-			if (count < 0 || startIndex - count + 1 < 0) {
-				throw new ArgumentOutOfRangeException(nameof(count));
+			if ((count < 0) || (startIndex - count + 1) < 0) {
+				throw Error.ArgumentOutOfRangeCount(nameof(count));
 			}
 
 			int endIndex = startIndex - count;

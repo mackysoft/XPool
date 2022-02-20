@@ -29,5 +29,15 @@ namespace MackySoft.XPool.Internal {
 			return new NullReferenceException("Factory method must return not null.");
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentException InvalidOffLength () {
+			return new ArgumentException("Parameter is invalid off length.");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentOutOfRangeException ArgumentOutOfRangeCount (string paramName) {
+			return new ArgumentOutOfRangeException(nameof(paramName));
+		}
+
 	}
 }

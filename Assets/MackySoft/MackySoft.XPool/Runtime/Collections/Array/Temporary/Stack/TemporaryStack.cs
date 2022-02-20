@@ -82,7 +82,7 @@ namespace MackySoft.XPool.Collections {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(arrayIndex));
 			}
 			if ((array.Length - arrayIndex) < m_Count) {
-				throw new ArgumentException();
+				throw Error.InvalidOffLength();
 			}
 			System.Array.Copy(m_Array,0,array,arrayIndex,m_Count);
 			System.Array.Reverse(array,arrayIndex,m_Count);
