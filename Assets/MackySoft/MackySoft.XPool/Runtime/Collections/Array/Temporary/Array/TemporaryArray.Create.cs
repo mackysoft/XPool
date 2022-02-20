@@ -71,7 +71,7 @@ namespace MackySoft.XPool.Collections {
 				throw Error.ArgumentNullException(nameof(pool));
 			}
 			if (source.Array == null) {
-				throw new ArgumentException();
+				throw Error.TemporaryIsDisposed(nameof(source));
 			}
 
 			var result = Create(source.Length,pool);

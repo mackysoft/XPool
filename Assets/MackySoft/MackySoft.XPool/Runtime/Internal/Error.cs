@@ -39,5 +39,10 @@ namespace MackySoft.XPool.Internal {
 			return new ArgumentOutOfRangeException(nameof(paramName));
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentException TemporaryIsDisposed (string paramName) {
+			return new ArgumentException(paramName,"A temporary object is already disposed.");
+		}
+
 	}
 }
