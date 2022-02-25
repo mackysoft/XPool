@@ -15,7 +15,7 @@ namespace MackySoft.XPool.Unity {
 		[SerializeField]
 		int m_Capacity;
 
-		Queue<T> m_Pool;
+		readonly Queue<T> m_Pool = new Queue<T>();
 
 		protected Action<T> m_OnCreate;
 		protected Action<T> m_OnRent;
@@ -23,6 +23,11 @@ namespace MackySoft.XPool.Unity {
 		protected Action<T> m_OnRelease;
 
 		public T Original => m_Original;
+
+		public Action<T> OnCreate { set => SetCallback(ref m_OnCreate,value); }
+		public Action<T> OnRent { set => SetCallback(ref m_OnRent,value); }
+		public Action<T> OnReturn { set => SetCallback(ref m_OnReturn,value); }
+		public Action<T> OnRelease { set => SetCallback(ref m_OnRelease,value); }
 
 		public T Rent () {
 			T instance = GetPooledInstance();
@@ -79,6 +84,13 @@ namespace MackySoft.XPool.Unity {
 				instance = m_Pool.Dequeue();
 			}
 			return instance;
+		}
+
+		protected void SetCallback (ref Action<T> target,Action<T> call) {
+			if (m_Pool.Count != 0) {
+				throw Error.CannnotSetCallback();
+			}
+			target = call;
 		}
 		
 	}
