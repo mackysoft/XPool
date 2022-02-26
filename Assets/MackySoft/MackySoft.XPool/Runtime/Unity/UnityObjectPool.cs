@@ -20,7 +20,7 @@ namespace MackySoft.XPool.Unity {
 		protected Action<T> m_OnCreate;
 		protected Action<T> m_OnRent;
 		protected Action<T> m_OnReturn;
-		protected Action<T> m_OnRelease = DefaultFunctions.Destroy<T>();
+		protected Action<T> m_OnRelease;
 
 		public T Original => m_Original;
 
