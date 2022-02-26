@@ -1,9 +1,9 @@
 using System;
 using NUnit.Framework;
 using UnityEngine;
+using MackySoft.XPool.Tests;
 using UnityObject = UnityEngine.Object;
 using UnityAssert = UnityEngine.Assertions.Assert;
-using MackySoft.XPool.Tests;
 
 namespace MackySoft.XPool.Unity.Tests {
 
@@ -14,6 +14,11 @@ namespace MackySoft.XPool.Unity.Tests {
 		[OneTimeSetUp]
 		public void OneTimeSetUp () {
 			m_Original = GameObject.CreatePrimitive(PrimitiveType.Cube);
+		}
+
+		[OneTimeTearDown]
+		public void OneTimeTearDown () {
+			UnityObject.DestroyImmediate(m_Original);
 		}
 
 		[Test]
