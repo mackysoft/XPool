@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool", "MackySof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool.Tests.Editor", "MackySoft.XPool.Tests.Editor.csproj", "{D4684E2D-47E8-5FBE-043E-247A51A7388F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool.Editor", "MackySoft.XPool.Editor.csproj", "{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
