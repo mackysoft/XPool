@@ -91,12 +91,13 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IEnumerable</span>&lt;T&gt;</div>
+    <div><span class="xref">IDisposable</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Collections.html">MackySoft.XPool.Collections</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Collections_TemporaryList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct TemporaryList&lt;T&gt; : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public struct TemporaryList&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -747,21 +748,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_Dispose_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Dispose*"></a>
   <h4 id="MackySoft_XPool_Collections_TemporaryList_1_Dispose" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Return the internal array to the pool.</p>
@@ -798,7 +784,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_Exists_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Exists*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_Exists_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Exists(System.Predicate{`0})">Exists(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_Exists_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Exists(Predicate{`0})">Exists(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -816,7 +802,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -838,7 +824,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_Find_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Find*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_Find_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Find(System.Predicate{`0})">Find(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_Find_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.Find(Predicate{`0})">Find(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -856,7 +842,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -878,7 +864,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_FindAll_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindAll*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindAll_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindAll(System.Predicate{`0})">FindAll(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindAll_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindAll(Predicate{`0})">FindAll(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -896,7 +882,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -918,7 +904,92 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Int32_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})">FindIndex(Int32, Int32, Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(Predicate{`0})">FindIndex(Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FindIndex(Predicate&lt;T&gt; match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,Predicate{`0})">FindIndex(Int32, Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FindIndex(int startIndex, Predicate&lt;T&gt; match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">startIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Int32_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,Predicate{`0})">FindIndex(Int32, Int32, Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -946,92 +1017,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
-        <td><span class="parametername">match</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Predicate{`0})">FindIndex(Int32, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindIndex(int startIndex, Predicate&lt;T&gt; match)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">startIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
-        <td><span class="parametername">match</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Predicate{`0})">FindIndex(Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindIndex(Predicate&lt;T&gt; match)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -1053,7 +1039,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLast_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLast*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLast_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLast(System.Predicate{`0})">FindLast(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLast_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLast(Predicate{`0})">FindLast(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1071,7 +1057,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -1093,7 +1079,92 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Int32_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})">FindLastIndex(Int32, Int32, Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(Predicate{`0})">FindLastIndex(Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FindLastIndex(Predicate&lt;T&gt; match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,Predicate{`0})">FindLastIndex(Int32, Predicate&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FindLastIndex(int startIndex, Predicate&lt;T&gt; match)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">startIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">match</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*"></a>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Int32_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,Predicate{`0})">FindLastIndex(Int32, Int32, Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1121,92 +1192,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
-        <td><span class="parametername">match</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Predicate{`0})">FindLastIndex(Int32, Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindLastIndex(int startIndex, Predicate&lt;T&gt; match)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">startIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
-        <td><span class="parametername">match</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Predicate{`0})">FindLastIndex(Predicate&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindLastIndex(Predicate&lt;T&gt; match)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -1310,25 +1296,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryList-1.html">TemporaryList</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1727,7 +1694,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.RemoveAll*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(System.Predicate{`0})">RemoveAll(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(Predicate{`0})">RemoveAll(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1745,7 +1712,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -1943,7 +1910,7 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_" data-uid="MackySoft.XPool.Collections.TemporaryList`1.TrueForAll*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_System_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(System.Predicate{`0})">TrueForAll(Predicate&lt;T&gt;)</h4>
+  <h4 id="MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_Predicate__0__" data-uid="MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(Predicate{`0})">TrueForAll(Predicate&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1961,7 +1928,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</td>
+        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">match</span></td>
         <td></td>
       </tr>
@@ -1985,6 +1952,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IEnumerable&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
   </div>
 </article>
           </div>

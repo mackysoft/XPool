@@ -90,7 +90,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">PoolBase&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="MackySoft.XPool.FactoryPool-1.html">FactoryPool&lt;T&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -141,7 +140,7 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">capacity</span></td>
-        <td><p>The pool capacity. If less than or equal to 0, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a> will be thrown. </p>
+        <td><p>The pool capacity. If less than or equal to 0, <see cref="!:ArgumentOutOfRangeException"></see> will be thrown. </p>
 </td>
       </tr>
     </tbody>
@@ -268,7 +267,7 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">keep</span></td>
-        <td><p>Quantity that keep pooled instances. If less than 0 or greater than capacity, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a> will be thrown. </p>
+        <td><p>Quantity that keep pooled instances. If less than 0 or greater than capacity, <see cref="!:ArgumentOutOfRangeException"></see> will be thrown. </p>
 </td>
       </tr>
     </tbody>
@@ -297,21 +296,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullreferenceexception">NullReferenceException</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <a id="MackySoft_XPool_ObjectModel_PoolBase_1_Return_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Return*"></a>
   <h4 id="MackySoft_XPool_ObjectModel_PoolBase_1_Return__0_" data-uid="MackySoft.XPool.ObjectModel.PoolBase`1.Return(`0)">Return(T)</h4>
   <div class="markdown level1 summary"><p>Return instance to the pool. If the capacity is exceeded, the instance will not be returned to the pool.</p>
@@ -334,21 +318,6 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">instance</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td></td>
       </tr>
     </tbody>

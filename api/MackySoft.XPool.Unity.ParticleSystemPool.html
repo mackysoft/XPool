@@ -88,15 +88,86 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ParticleSystemPool</span></div>
+    <div class="level1"><a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html">UnityObjectPoolBase</a>&lt;<span class="xref">ParticleSystem</span>&gt;</div>
+    <div class="level2"><a class="xref" href="MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html">ComponentPoolBase</a>&lt;<span class="xref">ParticleSystem</span>&gt;</div>
+    <div class="level3"><span class="xref">ParticleSystemPool</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html">IHierarchicalUnityObjectPool</a>&lt;<span class="xref">ParticleSystem</span>&gt;</div>
+    <div><a class="xref" href="MackySoft.XPool.Unity.IUnityObjectPool-1.html">IUnityObjectPool</a>&lt;<span class="xref">ParticleSystem</span>&gt;</div>
+    <div><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;<span class="xref">ParticleSystem</span>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_Vector3_Quaternion_Transform_">ComponentPoolBase&lt;ParticleSystem&gt;.Rent(Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_Transform_System_Boolean_">ComponentPoolBase&lt;ParticleSystem&gt;.Rent(Transform, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_m_Original">UnityObjectPoolBase&lt;ParticleSystem&gt;.m_Original</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Rent">UnityObjectPoolBase&lt;ParticleSystem&gt;.Rent()</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Return__0_">UnityObjectPoolBase&lt;ParticleSystem&gt;.Return(ParticleSystem)</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_ReleaseInstances_System_Int32_">UnityObjectPoolBase&lt;ParticleSystem&gt;.ReleaseInstances(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_GetPooledInstance">UnityObjectPoolBase&lt;ParticleSystem&gt;.GetPooledInstance()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Unity.html">MackySoft.XPool.Unity</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Unity_ParticleSystemPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;, IHierarchicalUnityObjectPool&lt;ParticleSystem&gt;, IUnityObjectPool&lt;ParticleSystem&gt;, IPool&lt;ParticleSystem&gt;</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MackySoft_XPool_Unity_ParticleSystemPool__ctor_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.#ctor*"></a>
+  <h4 id="MackySoft_XPool_Unity_ParticleSystemPool__ctor" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.#ctor">ParticleSystemPool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticleSystemPool()</code></pre>
+  </div>
+  <a id="MackySoft_XPool_Unity_ParticleSystemPool__ctor_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.#ctor*"></a>
+  <h4 id="MackySoft_XPool_Unity_ParticleSystemPool__ctor_ParticleSystem_System_Int32_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.#ctor(ParticleSystem,System.Int32)">ParticleSystemPool(ParticleSystem, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticleSystemPool(ParticleSystem original, int capacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ParticleSystem</span></td>
+        <td><span class="parametername">original</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">capacity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <a id="MackySoft_XPool_Unity_ParticleSystemPool_PlayOnRent_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent*"></a>
@@ -149,6 +220,8 @@ public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;</code>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase&lt;ParticleSystem&gt;.OnCreate(ParticleSystem)</span></div>
   <a id="MackySoft_XPool_Unity_ParticleSystemPool_OnRelease_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnRelease*"></a>
   <h4 id="MackySoft_XPool_Unity_ParticleSystemPool_OnRelease_ParticleSystem_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnRelease(ParticleSystem)">OnRelease(ParticleSystem)</h4>
   <div class="markdown level1 summary"></div>
@@ -174,6 +247,8 @@ public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;</code>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase&lt;ParticleSystem&gt;.OnRelease(ParticleSystem)</span></div>
   <a id="MackySoft_XPool_Unity_ParticleSystemPool_OnRent_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnRent*"></a>
   <h4 id="MackySoft_XPool_Unity_ParticleSystemPool_OnRent_ParticleSystem_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnRent(ParticleSystem)">OnRent(ParticleSystem)</h4>
   <div class="markdown level1 summary"></div>
@@ -199,6 +274,8 @@ public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;</code>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase&lt;ParticleSystem&gt;.OnRent(ParticleSystem)</span></div>
   <a id="MackySoft_XPool_Unity_ParticleSystemPool_OnReturn_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnReturn*"></a>
   <h4 id="MackySoft_XPool_Unity_ParticleSystemPool_OnReturn_ParticleSystem_" data-uid="MackySoft.XPool.Unity.ParticleSystemPool.OnReturn(ParticleSystem)">OnReturn(ParticleSystem)</h4>
   <div class="markdown level1 summary"></div>
@@ -224,6 +301,18 @@ public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt;</code>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase&lt;ParticleSystem&gt;.OnReturn(ParticleSystem)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html">IHierarchicalUnityObjectPool&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="MackySoft.XPool.Unity.IUnityObjectPool-1.html">IUnityObjectPool&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="MackySoft.XPool.IPool-1.html">IPool&lt;T&gt;</a>
+  </div>
 </article>
           </div>
           

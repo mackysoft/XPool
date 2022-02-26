@@ -1107,13 +1107,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Dispose
   nameWithType: TemporaryList<T>.Dispose
   nameWithType.vb: TemporaryList(Of T).Dispose
-- uid: MackySoft.XPool.Collections.TemporaryList`1.Exists(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Exists(Predicate{`0})
   name: Exists(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Exists_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Exists(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Exists_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Exists(Predicate{`0})
   name.vb: Exists(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Exists(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Exists(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Exists(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Exists(Predicate(Of T))
   nameWithType: TemporaryList<T>.Exists(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).Exists(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.Exists*
@@ -1125,13 +1125,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Exists
   nameWithType: TemporaryList<T>.Exists
   nameWithType.vb: TemporaryList(Of T).Exists
-- uid: MackySoft.XPool.Collections.TemporaryList`1.Find(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Find(Predicate{`0})
   name: Find(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Find_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Find(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Find_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Find(Predicate{`0})
   name.vb: Find(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Find(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Find(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Find(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Find(Predicate(Of T))
   nameWithType: TemporaryList<T>.Find(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).Find(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.Find*
@@ -1143,13 +1143,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Find
   nameWithType: TemporaryList<T>.Find
   nameWithType.vb: TemporaryList(Of T).Find
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindAll(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindAll(Predicate{`0})
   name: FindAll(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindAll_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindAll(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindAll_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindAll(Predicate{`0})
   name.vb: FindAll(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindAll(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindAll(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindAll(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindAll(Predicate(Of T))
   nameWithType: TemporaryList<T>.FindAll(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).FindAll(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.FindAll*
@@ -1161,33 +1161,33 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindAll
   nameWithType: TemporaryList<T>.FindAll
   nameWithType.vb: TemporaryList(Of T).FindAll
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})
-  name: FindIndex(Int32, Int32, Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Int32_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})
-  name.vb: FindIndex(Int32, Int32, Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, System.Int32, System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, System.Int32, System.Predicate(Of T))
-  nameWithType: TemporaryList<T>.FindIndex(Int32, Int32, Predicate<T>)
-  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Int32, Predicate(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Predicate{`0})
-  name: FindIndex(Int32, Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Predicate{`0})
-  name.vb: FindIndex(Int32, Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, System.Predicate(Of T))
-  nameWithType: TemporaryList<T>.FindIndex(Int32, Predicate<T>)
-  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Predicate(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(Predicate{`0})
   name: FindIndex(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(Predicate{`0})
   name.vb: FindIndex(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(Predicate(Of T))
   nameWithType: TemporaryList<T>.FindIndex(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).FindIndex(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,Predicate{`0})
+  name: FindIndex(Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,Predicate{`0})
+  name.vb: FindIndex(Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindIndex(Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,Predicate{`0})
+  name: FindIndex(Int32, Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_System_Int32_System_Int32_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindIndex(System.Int32,System.Int32,Predicate{`0})
+  name.vb: FindIndex(Int32, Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindIndex(System.Int32, System.Int32, Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex(System.Int32, System.Int32, Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindIndex(Int32, Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindIndex(Int32, Int32, Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.FindIndex*
   name: FindIndex
   href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindIndex_
@@ -1197,13 +1197,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindIndex
   nameWithType: TemporaryList<T>.FindIndex
   nameWithType.vb: TemporaryList(Of T).FindIndex
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLast(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLast(Predicate{`0})
   name: FindLast(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLast_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLast(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLast_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLast(Predicate{`0})
   name.vb: FindLast(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLast(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLast(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLast(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLast(Predicate(Of T))
   nameWithType: TemporaryList<T>.FindLast(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).FindLast(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.FindLast*
@@ -1215,33 +1215,33 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLast
   nameWithType: TemporaryList<T>.FindLast
   nameWithType.vb: TemporaryList(Of T).FindLast
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})
-  name: FindLastIndex(Int32, Int32, Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Int32_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})
-  name.vb: FindLastIndex(Int32, Int32, Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, System.Int32, System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, System.Int32, System.Predicate(Of T))
-  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Int32, Predicate<T>)
-  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Int32, Predicate(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Predicate{`0})
-  name: FindLastIndex(Int32, Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Predicate{`0})
-  name.vb: FindLastIndex(Int32, Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, System.Predicate(Of T))
-  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Predicate<T>)
-  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Predicate(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(Predicate{`0})
   name: FindLastIndex(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(Predicate{`0})
   name.vb: FindLastIndex(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(Predicate(Of T))
   nameWithType: TemporaryList<T>.FindLastIndex(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).FindLastIndex(Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,Predicate{`0})
+  name: FindLastIndex(Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,Predicate{`0})
+  name.vb: FindLastIndex(Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Predicate(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,Predicate{`0})
+  name: FindLastIndex(Int32, Int32, Predicate<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_System_Int32_System_Int32_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex(System.Int32,System.Int32,Predicate{`0})
+  name.vb: FindLastIndex(Int32, Int32, Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.FindLastIndex(System.Int32, System.Int32, Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex(System.Int32, System.Int32, Predicate(Of T))
+  nameWithType: TemporaryList<T>.FindLastIndex(Int32, Int32, Predicate<T>)
+  nameWithType.vb: TemporaryList(Of T).FindLastIndex(Int32, Int32, Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.FindLastIndex*
   name: FindLastIndex
   href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_FindLastIndex_
@@ -1431,13 +1431,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Remove
   nameWithType: TemporaryList<T>.Remove
   nameWithType.vb: TemporaryList(Of T).Remove
-- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(Predicate{`0})
   name: RemoveAll(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_RemoveAll_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.RemoveAll(Predicate{`0})
   name.vb: RemoveAll(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAll(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAll(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.RemoveAll(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).RemoveAll(Predicate(Of T))
   nameWithType: TemporaryList<T>.RemoveAll(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).RemoveAll(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.RemoveAll*
@@ -1543,13 +1543,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort
   nameWithType: TemporaryList<T>.Sort
   nameWithType.vb: TemporaryList(Of T).Sort
-- uid: MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(System.Predicate{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(Predicate{`0})
   name: TrueForAll(Predicate<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_System_Predicate__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(System.Predicate{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_TrueForAll_Predicate__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.TrueForAll(Predicate{`0})
   name.vb: TrueForAll(Predicate(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TrueForAll(System.Predicate<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TrueForAll(System.Predicate(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.TrueForAll(Predicate<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).TrueForAll(Predicate(Of T))
   nameWithType: TemporaryList<T>.TrueForAll(Predicate<T>)
   nameWithType.vb: TemporaryList(Of T).TrueForAll(Predicate(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.TrueForAll*
@@ -2753,13 +2753,13 @@ references:
   fullName.vb: MackySoft.XPool.FactoryPool(Of T)
   nameWithType: FactoryPool<T>
   nameWithType.vb: FactoryPool(Of T)
-- uid: MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0})
+- uid: MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,Func{`0},Action{`0},Action{`0},Action{`0})
   name: FactoryPool(Int32, Func<T>, Action<T>, Action<T>, Action<T>)
-  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1__ctor_System_Int32_System_Func__0__System_Action__0__System_Action__0__System_Action__0__
-  commentId: M:MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,System.Func{`0},System.Action{`0},System.Action{`0},System.Action{`0})
+  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1__ctor_System_Int32_Func__0__Action__0__Action__0__Action__0__
+  commentId: M:MackySoft.XPool.FactoryPool`1.#ctor(System.Int32,Func{`0},Action{`0},Action{`0},Action{`0})
   name.vb: FactoryPool(Int32, Func(Of T), Action(Of T), Action(Of T), Action(Of T))
-  fullName: MackySoft.XPool.FactoryPool<T>.FactoryPool(System.Int32, System.Func<T>, System.Action<T>, System.Action<T>, System.Action<T>)
-  fullName.vb: MackySoft.XPool.FactoryPool(Of T).FactoryPool(System.Int32, System.Func(Of T), System.Action(Of T), System.Action(Of T), System.Action(Of T))
+  fullName: MackySoft.XPool.FactoryPool<T>.FactoryPool(System.Int32, Func<T>, Action<T>, Action<T>, Action<T>)
+  fullName.vb: MackySoft.XPool.FactoryPool(Of T).FactoryPool(System.Int32, Func(Of T), Action(Of T), Action(Of T), Action(Of T))
   nameWithType: FactoryPool<T>.FactoryPool(Int32, Func<T>, Action<T>, Action<T>, Action<T>)
   nameWithType.vb: FactoryPool(Of T).FactoryPool(Int32, Func(Of T), Action(Of T), Action(Of T), Action(Of T))
 - uid: MackySoft.XPool.FactoryPool`1.#ctor*
@@ -3328,6 +3328,28 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Tests.FactoryPoolTest.Throw_NullReferenceException_if_factory_returned_null
   nameWithType: FactoryPoolTest.Throw_NullReferenceException_if_factory_returned_null
+- uid: MackySoft.XPool.Tests.PoolExtensions
+  name: PoolExtensions
+  href: api/MackySoft.XPool.Tests.PoolExtensions.html
+  commentId: T:MackySoft.XPool.Tests.PoolExtensions
+  fullName: MackySoft.XPool.Tests.PoolExtensions
+  nameWithType: PoolExtensions
+- uid: MackySoft.XPool.Tests.PoolExtensions.WarmUp*
+  name: WarmUp
+  href: api/MackySoft.XPool.Tests.PoolExtensions.html#MackySoft_XPool_Tests_PoolExtensions_WarmUp_
+  commentId: Overload:MackySoft.XPool.Tests.PoolExtensions.WarmUp
+  isSpec: "True"
+  fullName: MackySoft.XPool.Tests.PoolExtensions.WarmUp
+  nameWithType: PoolExtensions.WarmUp
+- uid: MackySoft.XPool.Tests.PoolExtensions.WarmUp``1(MackySoft.XPool.IPool{``0},System.Int32)
+  name: WarmUp<T>(IPool<T>, Int32)
+  href: api/MackySoft.XPool.Tests.PoolExtensions.html#MackySoft_XPool_Tests_PoolExtensions_WarmUp__1_MackySoft_XPool_IPool___0__System_Int32_
+  commentId: M:MackySoft.XPool.Tests.PoolExtensions.WarmUp``1(MackySoft.XPool.IPool{``0},System.Int32)
+  name.vb: WarmUp(Of T)(IPool(Of T), Int32)
+  fullName: MackySoft.XPool.Tests.PoolExtensions.WarmUp<T>(MackySoft.XPool.IPool<T>, System.Int32)
+  fullName.vb: MackySoft.XPool.Tests.PoolExtensions.WarmUp(Of T)(MackySoft.XPool.IPool(Of T), System.Int32)
+  nameWithType: PoolExtensions.WarmUp<T>(IPool<T>, Int32)
+  nameWithType.vb: PoolExtensions.WarmUp(Of T)(IPool(Of T), Int32)
 - uid: MackySoft.XPool.Tests.Unit
   name: Unit
   href: api/MackySoft.XPool.Tests.Unit.html
@@ -3355,6 +3377,31 @@ references:
   fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T)
   nameWithType: ComponentPool<T>
   nameWithType.vb: ComponentPool(Of T)
+- uid: MackySoft.XPool.Unity.ComponentPool`1.#ctor
+  name: ComponentPool()
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1__ctor
+  commentId: M:MackySoft.XPool.Unity.ComponentPool`1.#ctor
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.ComponentPool()
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).ComponentPool()
+  nameWithType: ComponentPool<T>.ComponentPool()
+  nameWithType.vb: ComponentPool(Of T).ComponentPool()
+- uid: MackySoft.XPool.Unity.ComponentPool`1.#ctor(`0,System.Int32)
+  name: ComponentPool(T, Int32)
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1__ctor__0_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.ComponentPool`1.#ctor(`0,System.Int32)
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.ComponentPool(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).ComponentPool(T, System.Int32)
+  nameWithType: ComponentPool<T>.ComponentPool(T, Int32)
+  nameWithType.vb: ComponentPool(Of T).ComponentPool(T, Int32)
+- uid: MackySoft.XPool.Unity.ComponentPool`1.#ctor*
+  name: ComponentPool
+  href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.ComponentPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ComponentPool<T>.ComponentPool
+  fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).ComponentPool
+  nameWithType: ComponentPool<T>.ComponentPool
+  nameWithType.vb: ComponentPool(Of T).ComponentPool
 - uid: MackySoft.XPool.Unity.ComponentPool`1.Rent(Transform,System.Boolean)
   name: Rent(Transform, Boolean)
   href: api/MackySoft.XPool.Unity.ComponentPool-1.html#MackySoft_XPool_Unity_ComponentPool_1_Rent_Transform_System_Boolean_
@@ -3380,12 +3427,69 @@ references:
   fullName.vb: MackySoft.XPool.Unity.ComponentPool(Of T).Rent
   nameWithType: ComponentPool<T>.Rent
   nameWithType.vb: ComponentPool(Of T).Rent
+- uid: MackySoft.XPool.Unity.DefaultFunctions
+  name: DefaultFunctions
+  href: api/MackySoft.XPool.Unity.DefaultFunctions.html
+  commentId: T:MackySoft.XPool.Unity.DefaultFunctions
+  fullName: MackySoft.XPool.Unity.DefaultFunctions
+  nameWithType: DefaultFunctions
+- uid: MackySoft.XPool.Unity.DefaultFunctions.Destroy*
+  name: Destroy
+  href: api/MackySoft.XPool.Unity.DefaultFunctions.html#MackySoft_XPool_Unity_DefaultFunctions_Destroy_
+  commentId: Overload:MackySoft.XPool.Unity.DefaultFunctions.Destroy
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.DefaultFunctions.Destroy
+  nameWithType: DefaultFunctions.Destroy
+- uid: MackySoft.XPool.Unity.DefaultFunctions.Destroy``1
+  name: Destroy<T>()
+  href: api/MackySoft.XPool.Unity.DefaultFunctions.html#MackySoft_XPool_Unity_DefaultFunctions_Destroy__1
+  commentId: M:MackySoft.XPool.Unity.DefaultFunctions.Destroy``1
+  name.vb: Destroy(Of T)()
+  fullName: MackySoft.XPool.Unity.DefaultFunctions.Destroy<T>()
+  fullName.vb: MackySoft.XPool.Unity.DefaultFunctions.Destroy(Of T)()
+  nameWithType: DefaultFunctions.Destroy<T>()
+  nameWithType.vb: DefaultFunctions.Destroy(Of T)()
+- uid: MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent*
+  name: DestroyGameObjectWithComponent
+  href: api/MackySoft.XPool.Unity.DefaultFunctions.html#MackySoft_XPool_Unity_DefaultFunctions_DestroyGameObjectWithComponent_
+  commentId: Overload:MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent
+  nameWithType: DefaultFunctions.DestroyGameObjectWithComponent
+- uid: MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent``1
+  name: DestroyGameObjectWithComponent<T>()
+  href: api/MackySoft.XPool.Unity.DefaultFunctions.html#MackySoft_XPool_Unity_DefaultFunctions_DestroyGameObjectWithComponent__1
+  commentId: M:MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent``1
+  name.vb: DestroyGameObjectWithComponent(Of T)()
+  fullName: MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent<T>()
+  fullName.vb: MackySoft.XPool.Unity.DefaultFunctions.DestroyGameObjectWithComponent(Of T)()
+  nameWithType: DefaultFunctions.DestroyGameObjectWithComponent<T>()
+  nameWithType.vb: DefaultFunctions.DestroyGameObjectWithComponent(Of T)()
 - uid: MackySoft.XPool.Unity.GameObjectPool
   name: GameObjectPool
   href: api/MackySoft.XPool.Unity.GameObjectPool.html
   commentId: T:MackySoft.XPool.Unity.GameObjectPool
   fullName: MackySoft.XPool.Unity.GameObjectPool
   nameWithType: GameObjectPool
+- uid: MackySoft.XPool.Unity.GameObjectPool.#ctor
+  name: GameObjectPool()
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool__ctor
+  commentId: M:MackySoft.XPool.Unity.GameObjectPool.#ctor
+  fullName: MackySoft.XPool.Unity.GameObjectPool.GameObjectPool()
+  nameWithType: GameObjectPool.GameObjectPool()
+- uid: MackySoft.XPool.Unity.GameObjectPool.#ctor(GameObject,System.Int32)
+  name: GameObjectPool(GameObject, Int32)
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool__ctor_GameObject_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.GameObjectPool.#ctor(GameObject,System.Int32)
+  fullName: MackySoft.XPool.Unity.GameObjectPool.GameObjectPool(GameObject, System.Int32)
+  nameWithType: GameObjectPool.GameObjectPool(GameObject, Int32)
+- uid: MackySoft.XPool.Unity.GameObjectPool.#ctor*
+  name: GameObjectPool
+  href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.GameObjectPool.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.GameObjectPool.GameObjectPool
+  nameWithType: GameObjectPool.GameObjectPool
 - uid: MackySoft.XPool.Unity.GameObjectPool.Rent(Transform,System.Boolean)
   name: Rent(Transform, Boolean)
   href: api/MackySoft.XPool.Unity.GameObjectPool.html#MackySoft_XPool_Unity_GameObjectPool_Rent_Transform_System_Boolean_
@@ -3463,6 +3567,31 @@ references:
   fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T)
   nameWithType: ComponentPoolBase<T>
   nameWithType.vb: ComponentPoolBase(Of T)
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor
+  name: ComponentPoolBase()
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1__ctor
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.ComponentPoolBase()
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).ComponentPoolBase()
+  nameWithType: ComponentPoolBase<T>.ComponentPoolBase()
+  nameWithType.vb: ComponentPoolBase(Of T).ComponentPoolBase()
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor(`0,System.Int32)
+  name: ComponentPoolBase(T, Int32)
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1__ctor__0_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor(`0,System.Int32)
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.ComponentPoolBase(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).ComponentPoolBase(T, System.Int32)
+  nameWithType: ComponentPoolBase<T>.ComponentPoolBase(T, Int32)
+  nameWithType.vb: ComponentPoolBase(Of T).ComponentPoolBase(T, Int32)
+- uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor*
+  name: ComponentPoolBase
+  href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase<T>.ComponentPoolBase
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase(Of T).ComponentPoolBase
+  nameWithType: ComponentPoolBase<T>.ComponentPoolBase
+  nameWithType.vb: ComponentPoolBase(Of T).ComponentPoolBase
 - uid: MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase`1.Rent(Transform,System.Boolean)
   name: Rent(Transform, Boolean)
   href: api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_ComponentPoolBase_1_Rent_Transform_System_Boolean_
@@ -3497,6 +3626,31 @@ references:
   fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T)
   nameWithType: UnityObjectPoolBase<T>
   nameWithType.vb: UnityObjectPoolBase(Of T)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor
+  name: UnityObjectPoolBase()
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1__ctor
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.UnityObjectPoolBase()
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).UnityObjectPoolBase()
+  nameWithType: UnityObjectPoolBase<T>.UnityObjectPoolBase()
+  nameWithType.vb: UnityObjectPoolBase(Of T).UnityObjectPoolBase()
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor(`0,System.Int32)
+  name: UnityObjectPoolBase(T, Int32)
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1__ctor__0_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor(`0,System.Int32)
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.UnityObjectPoolBase(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).UnityObjectPoolBase(T, System.Int32)
+  nameWithType: UnityObjectPoolBase<T>.UnityObjectPoolBase(T, Int32)
+  nameWithType.vb: UnityObjectPoolBase(Of T).UnityObjectPoolBase(T, Int32)
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor*
+  name: UnityObjectPoolBase
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.UnityObjectPoolBase
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).UnityObjectPoolBase
+  nameWithType: UnityObjectPoolBase<T>.UnityObjectPoolBase
+  nameWithType.vb: UnityObjectPoolBase(Of T).UnityObjectPoolBase
 - uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance
   name: GetPooledInstance()
   href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_GetPooledInstance
@@ -3647,6 +3801,25 @@ references:
   commentId: T:MackySoft.XPool.Unity.ParticleSystemPool
   fullName: MackySoft.XPool.Unity.ParticleSystemPool
   nameWithType: ParticleSystemPool
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.#ctor
+  name: ParticleSystemPool()
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool__ctor
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.#ctor
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemPool()
+  nameWithType: ParticleSystemPool.ParticleSystemPool()
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.#ctor(ParticleSystem,System.Int32)
+  name: ParticleSystemPool(ParticleSystem, Int32)
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool__ctor_ParticleSystem_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.ParticleSystemPool.#ctor(ParticleSystem,System.Int32)
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemPool(ParticleSystem, System.Int32)
+  nameWithType: ParticleSystemPool.ParticleSystemPool(ParticleSystem, Int32)
+- uid: MackySoft.XPool.Unity.ParticleSystemPool.#ctor*
+  name: ParticleSystemPool
+  href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.ParticleSystemPool.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemPool
+  nameWithType: ParticleSystemPool.ParticleSystemPool
 - uid: MackySoft.XPool.Unity.ParticleSystemPool.OnCreate(ParticleSystem)
   name: OnCreate(ParticleSystem)
   href: api/MackySoft.XPool.Unity.ParticleSystemPool.html#MackySoft_XPool_Unity_ParticleSystemPool_OnCreate_ParticleSystem_
@@ -3718,6 +3891,271 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Unity.ParticleSystemPool.PlayOnRent
   nameWithType: ParticleSystemPool.PlayOnRent
+- uid: MackySoft.XPool.Unity.Tests
+  name: MackySoft.XPool.Unity.Tests
+  href: api/MackySoft.XPool.Unity.Tests.html
+  commentId: N:MackySoft.XPool.Unity.Tests
+  fullName: MackySoft.XPool.Unity.Tests
+  nameWithType: MackySoft.XPool.Unity.Tests
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest
+  name: UnityObjectPoolBaseTest
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html
+  commentId: T:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest
+  nameWithType: UnityObjectPoolBaseTest
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance
+  name: Create_new_instance_if_cant_get_pooled_instance()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Create_new_instance_if_cant_get_pooled_instance
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance()
+  nameWithType: UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance*
+  name: Create_new_instance_if_cant_get_pooled_instance
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Create_new_instance_if_cant_get_pooled_instance_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance
+  nameWithType: UnityObjectPoolBaseTest.Create_new_instance_if_cant_get_pooled_instance
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp
+  name: OneTimeSetUp()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_OneTimeSetUp
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp()
+  nameWithType: UnityObjectPoolBaseTest.OneTimeSetUp()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp*
+  name: OneTimeSetUp
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_OneTimeSetUp_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeSetUp
+  nameWithType: UnityObjectPoolBaseTest.OneTimeSetUp
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown
+  name: OneTimeTearDown()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_OneTimeTearDown
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown()
+  nameWithType: UnityObjectPoolBaseTest.OneTimeTearDown()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown*
+  name: OneTimeTearDown
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_OneTimeTearDown_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.OneTimeTearDown
+  nameWithType: UnityObjectPoolBaseTest.OneTimeTearDown
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded
+  name: Release_instance_if_capacity_is_exceeded()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Release_instance_if_capacity_is_exceeded
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded()
+  nameWithType: UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded*
+  name: Release_instance_if_capacity_is_exceeded
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Release_instance_if_capacity_is_exceeded_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded
+  nameWithType: UnityObjectPoolBaseTest.Release_instance_if_capacity_is_exceeded
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  name: ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances*
+  name: ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_is_keep_specified_quantity_and_release_instances_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  name: ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero*
+  name: ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_is_release_all_instances_if_keep_is_zero_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  name: ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity*
+  name: ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  nameWithType: UnityObjectPoolBaseTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null
+  name: Throw_ArgumentNullException_if_original_is_null()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Throw_ArgumentNullException_if_original_is_null
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null()
+  nameWithType: UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null*
+  name: Throw_ArgumentNullException_if_original_is_null
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Throw_ArgumentNullException_if_original_is_null_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null
+  nameWithType: UnityObjectPoolBaseTest.Throw_ArgumentNullException_if_original_is_null
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  name: Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+  nameWithType: UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero*
+  name: Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolBaseTest_Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  nameWithType: UnityObjectPoolBaseTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest
+  name: UnityObjectPoolTest
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html
+  commentId: T:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest
+  nameWithType: UnityObjectPoolTest
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance
+  name: Create_new_instance_if_cant_get_pooled_instance()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Create_new_instance_if_cant_get_pooled_instance
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance()
+  nameWithType: UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance*
+  name: Create_new_instance_if_cant_get_pooled_instance
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Create_new_instance_if_cant_get_pooled_instance_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance
+  nameWithType: UnityObjectPoolTest.Create_new_instance_if_cant_get_pooled_instance
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp
+  name: OneTimeSetUp()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_OneTimeSetUp
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp()
+  nameWithType: UnityObjectPoolTest.OneTimeSetUp()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp*
+  name: OneTimeSetUp
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_OneTimeSetUp_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeSetUp
+  nameWithType: UnityObjectPoolTest.OneTimeSetUp
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown
+  name: OneTimeTearDown()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_OneTimeTearDown
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown()
+  nameWithType: UnityObjectPoolTest.OneTimeTearDown()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown*
+  name: OneTimeTearDown
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_OneTimeTearDown_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.OneTimeTearDown
+  nameWithType: UnityObjectPoolTest.OneTimeTearDown
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded
+  name: Release_instance_if_capacity_is_exceeded()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Release_instance_if_capacity_is_exceeded
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded()
+  nameWithType: UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded*
+  name: Release_instance_if_capacity_is_exceeded
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Release_instance_if_capacity_is_exceeded_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded
+  nameWithType: UnityObjectPoolTest.Release_instance_if_capacity_is_exceeded
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  name: ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances*
+  name: ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_is_keep_specified_quantity_and_release_instances_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_is_keep_specified_quantity_and_release_instances
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  name: ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero*
+  name: ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_is_release_all_instances_if_keep_is_zero_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_is_release_all_instances_if_keep_is_zero
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  name: ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity*
+  name: ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+  nameWithType: UnityObjectPoolTest.ReleaseInstances_throw_ArgumentOutOfRangeException_if_keep_is_less_than_zero_or_greater_than_capacity
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null
+  name: Throw_ArgumentNullException_if_original_is_null()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_ArgumentNullException_if_original_is_null
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null()
+  nameWithType: UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null*
+  name: Throw_ArgumentNullException_if_original_is_null
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_ArgumentNullException_if_original_is_null_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null
+  nameWithType: UnityObjectPoolTest.Throw_ArgumentNullException_if_original_is_null
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  name: Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+  nameWithType: UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero*
+  name: Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+  nameWithType: UnityObjectPoolTest.Throw_ArgumentOutOfRangeException_if_capacity_is_less_than_zero
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  name: Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool()
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  commentId: M:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool()
+  nameWithType: UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool()
+- uid: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool*
+  name: Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  href: api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html#MackySoft_XPool_Unity_Tests_UnityObjectPoolTest_Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool_
+  commentId: Overload:MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
+  nameWithType: UnityObjectPoolTest.Throw_InvaidOperationException_if_try_to_set_callback_when_there_is_instance_in_pool
 - uid: MackySoft.XPool.Unity.UnityObjectPool`1
   name: UnityObjectPool<T>
   href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html
@@ -3727,6 +4165,31 @@ references:
   fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T)
   nameWithType: UnityObjectPool<T>
   nameWithType.vb: UnityObjectPool(Of T)
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.#ctor
+  name: UnityObjectPool()
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1__ctor
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.#ctor
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.UnityObjectPool()
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).UnityObjectPool()
+  nameWithType: UnityObjectPool<T>.UnityObjectPool()
+  nameWithType.vb: UnityObjectPool(Of T).UnityObjectPool()
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.#ctor(`0,System.Int32)
+  name: UnityObjectPool(T, Int32)
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1__ctor__0_System_Int32_
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.#ctor(`0,System.Int32)
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.UnityObjectPool(T, System.Int32)
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).UnityObjectPool(T, System.Int32)
+  nameWithType: UnityObjectPool<T>.UnityObjectPool(T, Int32)
+  nameWithType.vb: UnityObjectPool(Of T).UnityObjectPool(T, Int32)
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.#ctor*
+  name: UnityObjectPool
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1__ctor_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.UnityObjectPool
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).UnityObjectPool
+  nameWithType: UnityObjectPool<T>.UnityObjectPool
+  nameWithType.vb: UnityObjectPool(Of T).UnityObjectPool
 - uid: MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance
   name: GetPooledInstance()
   href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance
@@ -3784,6 +4247,74 @@ references:
   fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).m_Original
   nameWithType: UnityObjectPool<T>.m_Original
   nameWithType.vb: UnityObjectPool(Of T).m_Original
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate
+  name: OnCreate
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnCreate
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnCreate
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnCreate
+  nameWithType: UnityObjectPool<T>.OnCreate
+  nameWithType.vb: UnityObjectPool(Of T).OnCreate
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate*
+  name: OnCreate
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnCreate_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnCreate
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnCreate
+  nameWithType: UnityObjectPool<T>.OnCreate
+  nameWithType.vb: UnityObjectPool(Of T).OnCreate
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease
+  name: OnRelease
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRelease
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnRelease
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnRelease
+  nameWithType: UnityObjectPool<T>.OnRelease
+  nameWithType.vb: UnityObjectPool(Of T).OnRelease
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease*
+  name: OnRelease
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRelease_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnRelease
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnRelease
+  nameWithType: UnityObjectPool<T>.OnRelease
+  nameWithType.vb: UnityObjectPool(Of T).OnRelease
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnRent
+  name: OnRent
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRent
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.OnRent
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnRent
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnRent
+  nameWithType: UnityObjectPool<T>.OnRent
+  nameWithType.vb: UnityObjectPool(Of T).OnRent
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnRent*
+  name: OnRent
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRent_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.OnRent
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnRent
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnRent
+  nameWithType: UnityObjectPool<T>.OnRent
+  nameWithType.vb: UnityObjectPool(Of T).OnRent
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn
+  name: OnReturn
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnReturn
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnReturn
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnReturn
+  nameWithType: UnityObjectPool<T>.OnReturn
+  nameWithType.vb: UnityObjectPool(Of T).OnReturn
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn*
+  name: OnReturn
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnReturn_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.OnReturn
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).OnReturn
+  nameWithType: UnityObjectPool<T>.OnReturn
+  nameWithType.vb: UnityObjectPool(Of T).OnReturn
 - uid: MackySoft.XPool.Unity.UnityObjectPool`1.Original
   name: Original
   href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Original
@@ -3852,3 +4383,53 @@ references:
   fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Return
   nameWithType: UnityObjectPool<T>.Return
   nameWithType.vb: UnityObjectPool(Of T).Return
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback(Action{`0}@,Action{`0})
+  name: SetCallback(ref Action<T>, Action<T>)
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_Action__0___Action__0__
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback(Action{`0}@,Action{`0})
+  name.vb: SetCallback(ByRef Action(Of T), Action(Of T))
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.SetCallback(ref Action<T>, Action<T>)
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).SetCallback(ByRef Action(Of T), Action(Of T))
+  nameWithType: UnityObjectPool<T>.SetCallback(ref Action<T>, Action<T>)
+  nameWithType.vb: UnityObjectPool(Of T).SetCallback(ByRef Action(Of T), Action(Of T))
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback*
+  name: SetCallback
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.SetCallback
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).SetCallback
+  nameWithType: UnityObjectPool<T>.SetCallback
+  nameWithType.vb: UnityObjectPool(Of T).SetCallback
+- uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer
+  name: UnityObjectPoolDrawer
+  href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html
+  commentId: T:MackySoft.XPool.Unity.UnityObjectPoolDrawer
+  fullName: MackySoft.XPool.Unity.UnityObjectPoolDrawer
+  nameWithType: UnityObjectPoolDrawer
+- uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html#MackySoft_XPool_Unity_UnityObjectPoolDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: UnityObjectPoolDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html#MackySoft_XPool_Unity_UnityObjectPoolDrawer_GetPropertyHeight_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPoolDrawer.GetPropertyHeight
+  nameWithType: UnityObjectPoolDrawer.GetPropertyHeight
+- uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html#MackySoft_XPool_Unity_UnityObjectPoolDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: UnityObjectPoolDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI*
+  name: OnGUI
+  href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html#MackySoft_XPool_Unity_UnityObjectPoolDrawer_OnGUI_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPoolDrawer.OnGUI
+  nameWithType: UnityObjectPoolDrawer.OnGUI

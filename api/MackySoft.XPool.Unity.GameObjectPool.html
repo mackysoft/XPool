@@ -118,6 +118,18 @@
       <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Original">UnityObjectPool&lt;GameObject&gt;.Original</a>
     </div>
     <div>
+      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnCreate">UnityObjectPool&lt;GameObject&gt;.OnCreate</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRent">UnityObjectPool&lt;GameObject&gt;.OnRent</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnReturn">UnityObjectPool&lt;GameObject&gt;.OnReturn</a>
+    </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_OnRelease">UnityObjectPool&lt;GameObject&gt;.OnRelease</a>
+    </div>
+    <div>
       <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Rent">UnityObjectPool&lt;GameObject&gt;.Rent()</a>
     </div>
     <div>
@@ -129,14 +141,56 @@
     <div>
       <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance">UnityObjectPool&lt;GameObject&gt;.GetPooledInstance()</a>
     </div>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_Action__0___Action__0__">UnityObjectPool&lt;GameObject&gt;.SetCallback(Action&lt;GameObject&gt;, Action&lt;GameObject&gt;)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Unity.html">MackySoft.XPool.Unity</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Unity_GameObjectPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class GameObjectPool : UnityObjectPool&lt;GameObject&gt;, IHierarchicalUnityObjectPool&lt;GameObject&gt;, IUnityObjectPool&lt;GameObject&gt;, IPool&lt;GameObject&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameObjectPool : UnityObjectPool&lt;GameObject&gt;, IHierarchicalUnityObjectPool&lt;GameObject&gt;, IUnityObjectPool&lt;GameObject&gt;, IPool&lt;GameObject&gt;</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="MackySoft_XPool_Unity_GameObjectPool__ctor_" data-uid="MackySoft.XPool.Unity.GameObjectPool.#ctor*"></a>
+  <h4 id="MackySoft_XPool_Unity_GameObjectPool__ctor" data-uid="MackySoft.XPool.Unity.GameObjectPool.#ctor">GameObjectPool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObjectPool()</code></pre>
+  </div>
+  <a id="MackySoft_XPool_Unity_GameObjectPool__ctor_" data-uid="MackySoft.XPool.Unity.GameObjectPool.#ctor*"></a>
+  <h4 id="MackySoft_XPool_Unity_GameObjectPool__ctor_GameObject_System_Int32_" data-uid="MackySoft.XPool.Unity.GameObjectPool.#ctor(GameObject,System.Int32)">GameObjectPool(GameObject, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObjectPool(GameObject original, int capacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">original</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">capacity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <a id="MackySoft_XPool_Unity_GameObjectPool_Rent_" data-uid="MackySoft.XPool.Unity.GameObjectPool.Rent*"></a>
