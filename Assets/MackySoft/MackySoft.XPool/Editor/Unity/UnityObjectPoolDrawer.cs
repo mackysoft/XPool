@@ -38,7 +38,6 @@ namespace MackySoft.XPool.Unity {
 				if (EditorGUI.EndChangeCheck() && (capacity.intValue != capacityValue)) {
 					capacity.intValue = capacityValue;
 				}
-				
 			}
 
 			EditorGUI.EndDisabledGroup();
