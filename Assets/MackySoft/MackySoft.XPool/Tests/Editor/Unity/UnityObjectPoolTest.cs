@@ -3,6 +3,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityObject = UnityEngine.Object;
 using UnityAssert = UnityEngine.Assertions.Assert;
+using MackySoft.XPool.Tests;
 
 namespace MackySoft.XPool.Unity.Tests {
 
@@ -88,7 +89,7 @@ namespace MackySoft.XPool.Unity.Tests {
 			var pool = new UnityObjectPool<GameObject>(m_Original,3) {
 				OnRelease = _ => released++
 			};
-			WarmUp(pool,3);
+			pool.WarmUp(3);
 			pool.ReleaseInstances(1);
 
 			Assert.AreEqual(2,released);
@@ -100,20 +101,10 @@ namespace MackySoft.XPool.Unity.Tests {
 			var pool = new UnityObjectPool<GameObject>(m_Original,2) {
 				OnRelease = _ => released++
 			};
-			WarmUp(pool,2);
+			pool.WarmUp(2);
 			pool.ReleaseInstances(0);
 
 			Assert.AreEqual(2,released);
-		}
-
-		static void WarmUp<T> (IPool<T> pool,int count) {
-			T[] array = new T[count];
-			for (int i = 0;i < count;i++) {
-				array[i] = pool.Rent();
-			}
-			for (int i = 0;i < count;i++) {
-				pool.Return(array[i]);
-			}
 		}
 
 	}
