@@ -87,10 +87,7 @@ namespace MackySoft.XPool.Unity {
 		}
 
 		protected void SetCallback (ref Action<T> target,Action<T> call) {
-			if (m_Pool.Count != 0) {
-				throw Error.CannnotSetCallback();
-			}
-			target = call;
+			target = (m_Pool.Count == 0) ? call : throw Error.CannnotSetCallback();
 		}
 		
 	}
