@@ -45,7 +45,7 @@ namespace MackySoft.XPool.Internal {
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static InvalidOperationException CannnotSetCallback () {
+		public static InvalidOperationException CannotSetCallback () {
 			return new InvalidOperationException("Cannot set the callback because the pool is active.");
 		}
 
