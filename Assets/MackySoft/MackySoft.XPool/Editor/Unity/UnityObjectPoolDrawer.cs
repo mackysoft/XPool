@@ -1,9 +1,8 @@
 using UnityEngine;
 using UnityEditor;
-using MackySoft.XPool.Unity;
 using MackySoft.XPool.Unity.ObjectModel;
 
-namespace MackySoft.XPool {
+namespace MackySoft.XPool.Unity {
 
 	[CustomPropertyDrawer(typeof(UnityObjectPool<>),true)]
 	[CustomPropertyDrawer(typeof(UnityObjectPoolBase<>),true)]
