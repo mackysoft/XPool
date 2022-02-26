@@ -264,6 +264,9 @@ public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> {
 
 I welcome feature requests and bug reports in [issues](https://github.com/mackysoft/XPool/issues) and [pull requests](https://github.com/mackysoft/XPool/pulls).
 
+If you feel that my works are worthwhile, I would greatly appreciate it if you could sponsor me.
+
+GitHub Sponsors: https://github.com/sponsors/mackysoft
 
 # <a id="author-info" href="#author-info"> 📔 Author Info </a>
 
