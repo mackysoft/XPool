@@ -74,7 +74,7 @@ Scripting API: https://mackysoft.github.io/XPool/api/MackySoft.XPool.html
 ## <a id="unity-object-pool" href="#unity-object-pool"> Unity Object Pool (GameObject, Component) </a>
 
 Pooling of Unity Object (Gameobject, Component) can be performed using `GameObjectPool` or `ComponentPool<T>`.
-These hierarchical objects can be rented by writing them in a similar way to Instantiate.
+These hierarchical objects can be rented by writing them in a similar way to `Instantiate` method.
 
 ```cs
 public class Projectile : MonoBehaviour {
