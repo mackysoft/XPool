@@ -1,0 +1,18 @@
+{
+    "name": "MackySoft.XPool.Editor",
+    "rootNamespace": "MackySoft.XPool",
+    "references": [
+        "GUID:6871bfe906a80344c9fdc325c92c646f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

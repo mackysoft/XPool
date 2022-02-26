@@ -12,6 +12,12 @@ namespace MackySoft.XPool.Unity {
 
 		public bool PlayOnRent { get => m_PlayOnRent; set => m_PlayOnRent = value; }
 
+		public ParticleSystemPool () {
+		}
+
+		public ParticleSystemPool (ParticleSystem original,int capacity) : base(original,capacity) {
+		}
+
 		protected override void OnCreate (ParticleSystem instance) {
 			var main = instance.main;
 			main.stopAction = ParticleSystemStopAction.Callback;

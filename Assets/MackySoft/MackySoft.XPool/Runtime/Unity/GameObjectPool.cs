@@ -6,6 +6,13 @@ namespace MackySoft.XPool.Unity {
 
 	[Serializable]
 	public class GameObjectPool : UnityObjectPool<GameObject>, IHierarchicalUnityObjectPool<GameObject> {
+
+		public GameObjectPool () {
+		}
+
+		public GameObjectPool (GameObject original,int capacity) : base(original,capacity) {
+		}
+
 		public GameObject Rent (Vector3 position,Quaternion rotation,Transform parent = null) {
 			GameObject instance = GetPooledInstance();
 			if (instance != null) {

@@ -44,5 +44,10 @@ namespace MackySoft.XPool.Internal {
 			return new ArgumentException(paramName,"A temporary object is already disposed.");
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static InvalidOperationException CannotSetCallback () {
+			return new InvalidOperationException("Cannot set the callback because the pool is active.");
+		}
+
 	}
 }

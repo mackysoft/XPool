@@ -3,6 +3,12 @@
 namespace MackySoft.XPool.Unity.ObjectModel {
 	public abstract class ComponentPoolBase<T> : UnityObjectPoolBase<T>, IHierarchicalUnityObjectPool<T> where T : Component {
 
+		protected ComponentPoolBase () {
+		}
+
+		protected ComponentPoolBase (T original,int capacity) : base(original,capacity) {
+		}
+
 		public T Rent (Vector3 position,Quaternion rotation,Transform parent = null) {
 			T instance = GetPooledInstance();
 			if (instance != null) {
