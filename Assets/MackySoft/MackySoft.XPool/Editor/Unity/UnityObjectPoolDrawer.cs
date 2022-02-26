@@ -13,6 +13,7 @@ namespace MackySoft.XPool {
 		
 		public override void OnGUI (Rect position,SerializedProperty property,GUIContent label) {
 			EditorGUI.BeginProperty(position,label,property);
+			EditorGUI.BeginDisabledGroup(Application.isPlaying);
 
 			SerializedProperty original = property.FindPropertyRelative("m_Original");
 			SerializedProperty capacity = property.FindPropertyRelative("m_Capacity");
@@ -32,9 +33,16 @@ namespace MackySoft.XPool {
 				// Draw capacity property
 				Rect capacityPosition = originalPosition;
 				capacityPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
-				EditorGUI.PropertyField(capacityPosition,capacity);
+
+				EditorGUI.BeginChangeCheck();
+				int capacityValue = Mathf.Max(0,EditorGUI.IntField(capacityPosition,new GUIContent(capacity.displayName,capacity.tooltip),capacity.intValue));
+				if (EditorGUI.EndChangeCheck() && (capacity.intValue != capacityValue)) {
+					capacity.intValue = capacityValue;
+				}
+				
 			}
 
+			EditorGUI.EndDisabledGroup();
 			EditorGUI.EndProperty();
 		}
 
