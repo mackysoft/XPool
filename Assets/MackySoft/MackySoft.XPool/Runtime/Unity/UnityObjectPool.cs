@@ -29,6 +29,14 @@ namespace MackySoft.XPool.Unity {
 		public Action<T> OnReturn { set => SetCallback(ref m_OnReturn,value); }
 		public Action<T> OnRelease { set => SetCallback(ref m_OnRelease,value); }
 
+		public UnityObjectPool () {
+		}
+
+		public UnityObjectPool (T original,int capacity) {
+			m_Original = (original != null) ? original : throw Error.ArgumentNullException(nameof(original));
+			m_Capacity = (capacity >= 0) ? capacity : throw Error.RequiredNonNegative(nameof(capacity));
+		}
+
 		public T Rent () {
 			T instance = GetPooledInstance();
 			if (instance == null) {

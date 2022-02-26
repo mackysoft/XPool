@@ -13,7 +13,15 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 		[SerializeField]
 		int m_Capacity;
 
-		Queue<T> m_Pool;
+		readonly Queue<T> m_Pool = new Queue<T>();
+
+		protected UnityObjectPoolBase () {
+		}
+
+		protected UnityObjectPoolBase (T original,int capacity) {
+			m_Original = (original != null) ? original : throw Error.ArgumentNullException(nameof(original));
+			m_Capacity = (capacity >= 0) ? capacity : throw Error.RequiredNonNegative(nameof(capacity));
+		}
 
 		public T Rent () {
 			T instance = GetPooledInstance();

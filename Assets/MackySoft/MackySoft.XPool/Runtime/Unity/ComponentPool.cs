@@ -7,6 +7,12 @@ namespace MackySoft.XPool.Unity {
 	[Serializable]
 	public class ComponentPool<T> : UnityObjectPool<T>, IHierarchicalUnityObjectPool<T> where T : Component {
 
+		public ComponentPool () {
+		}
+
+		public ComponentPool (T original,int capacity) : base(original,capacity) {
+		}
+
 		public T Rent (Vector3 position,Quaternion rotation,Transform parent = null) {
 			T instance = GetPooledInstance();
 			if (instance != null) {
