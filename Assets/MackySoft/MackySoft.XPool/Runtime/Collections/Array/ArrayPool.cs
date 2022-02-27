@@ -180,11 +180,11 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		T[] IPool<T[]>.Rent () {
-			throw new InvalidOperationException();
+			throw Error.FunctionIsNotSupported();
 		}
 
 		void IPool<T[]>.ReleaseInstances (int keep) {
-			throw new InvalidOperationException();
+			throw Error.FunctionIsNotSupported();
 		}
 	}
 }
