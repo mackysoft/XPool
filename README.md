@@ -76,7 +76,7 @@ Scripting API: https://mackysoft.github.io/XPool/api/MackySoft.XPool.html
 
 ## <a id="unity-object-pool" href="#unity-object-pool"> Unity Object Pool (GameObject, Component) </a>
 
-Pooling of Unity Object (Gameobject, Component) can be performed using `GameObjectPool` or `ComponentPool<T>`.
+Pooling of Unity Object (GameObject, Component) can be performed using `GameObjectPool` or `ComponentPool<T>`.
 These hierarchical objects can be rented by writing them in a similar way to `Instantiate` method.
 
 ```cs
@@ -115,6 +115,10 @@ public class Shooter : MonoBehaviour {
 
 ### <a id="particle-system-pool" href="#particle-system-pool"> ParticleSystem Pool </a>
 
+Optimized pools are available for some of the components implemented in Unity.
+
+This is an example of `ParticleSystemPool` usage.
+
 ```cs
 public class HitParticleSystemEmitter : MonoBehaviour {
 
@@ -123,7 +127,7 @@ public class HitParticleSystemEmitter : MonoBehaviour {
 
 	void OnCollisionEnter (Collision collision) {
 		// The rented ParticleSystem is automatically returned to the pool when completed.
-		m_HitParticleSystemPool.Rent(collision.position,Quaternion.identity);
+		m_HitParticleSystemPool.Rent(collision.contacts[0],Quaternion.identity);
 	}
 }
 ```
@@ -133,14 +137,16 @@ public class HitParticleSystemEmitter : MonoBehaviour {
 
 `FactoryPool<T>` can be used to pool Pure C# Object.
 
+> Unity Object are not supported, as they behave differently from Pure C# Object in that they can be set to null externally with `Destroy` method.
+
 ```cs
 // Give the capacity and factory method to the constructor.
 var pool = new FactoryPool<MyClass>(8,() => new MyClass());
 
-// Create new instance by factory.
+// Create new instance by factory if pool is empty.
 MyClass instance = pool.Rent();
 
-// Return instance.
+// Return instance to the pool.
 pool.Return(instance);
 ```
 
@@ -163,6 +169,7 @@ ArrayPool<T>.Shared.Return(array);
 // Stack<T> stack = StackPool<T>.Shared.Rent();
 // HashSet<T> hashSet = HashSetPool<T>.Shared.Rent();
 ```
+
 
 ## <a id="non-allocated-collections" href="#non-allocated-collections"> Non allocated collections </a>
 
@@ -199,11 +206,13 @@ The base class of the pool is in the `ObjectModel` namespace.
 ```cs
 using MackySoft.XPool.ObjectModel; // PoolBase<T> is here.
 
-public class MyClass {
-    public int Health;
-}
-
 public class MyPool : PoolBase<MyClass> {
+
+    public MyPool () {
+    }
+
+    public MyPool (MyClass original,int capacity) : base(original,capacity) {
+    }
 
     // Called when Rent is invoked and there are no instances in the pool.
     protected override MyClass Factory () {
@@ -235,9 +244,11 @@ As an example, `ParticleSystemPool` is implemented using `ComponentPoolBase<T>`.
 Its functionality has been optimized for ParticleSystem.
 
 ```cs
+using System;
 using UnityEngine;
 using MackySoft.XPool.Unity.ObjectModel; // ComponentPoolBase<T> is here.
 
+[Serializable]
 public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> {
 
 	[SerializeField]
@@ -245,7 +256,12 @@ public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> {
 
 	public bool PlayOnRent { get => m_PlayOnRent; set => m_PlayOnRent = value; }
 
-	// 
+	public ParticleSystemPool () {
+	}
+
+	public ParticleSystemPool (ParticleSystem original,int capacity) : base(original,capacity) {
+	}
+
 	protected override void OnCreate (ParticleSystem instance) {
 		var main = instance.main;
 		main.stopAction = ParticleSystemStopAction.Callback;
@@ -253,22 +269,17 @@ public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> {
 		trigger.Initialize(instance,this);
 	}
 
-	// 
 	protected override void OnRent (ParticleSystem instance) {
 		if (m_PlayOnRent) {
 			instance.Play(true);
 		}
 	}
 
-	// 
 	protected override void OnReturn (ParticleSystem instance) {
-		// 
 		instance.Stop(true,ParticleSystemStopBehavior.StopEmitting);
 	}
 
-	// 
 	protected override void OnRelease (ParticleSystem instance) {
-		// 
 		UnityEngine.Object.Destroy(instance.gameObject);
 	}
 
