@@ -5,9 +5,10 @@ using MackySoft.XPool.Internal;
 namespace MackySoft.XPool.Collections.ObjectModel {
 	public abstract class CollectionPoolBase<TCollection,TItem> : IPool<TCollection> where TCollection : class {
 
-		const int kMaxPoolSize = 32;
+		protected const int kDefaultCapacity = 8;
 
 		readonly Stack<TCollection> m_Pool;
+		readonly int m_Capacity;
 
 		// The new() constraint of generics use Activator.CreateInstance, which incurs overhead during object creation.
 		// Therefore, explicit constructor call by factory method are used to avoid the overhead.
@@ -16,14 +17,18 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 		// Stack<T> and Queue<T> do not implement ICollection<T>, so need to use a delegate to call the Clear method instead.
 		readonly Action<TCollection> m_Clear;
 
-		protected CollectionPoolBase (Func<TCollection> factory,Action<TCollection> clear) {
+		protected CollectionPoolBase (int capacity,Func<TCollection> factory,Action<TCollection> clear) {
+			if (capacity < 0) {
+				throw Error.RequiredNonNegative(nameof(capacity));
+			}
 			if (factory == null) {
 				throw Error.ArgumentNullException(nameof(factory));
 			}
 			if (clear == null) {
 				throw Error.ArgumentNullException(nameof(clear));
 			}
-			m_Pool = new Stack<TCollection>(kMaxPoolSize);
+			m_Pool = new Stack<TCollection>(m_Capacity);
+			m_Capacity = capacity;
 			m_Factory = factory;
 			m_Clear = clear;
 		}
@@ -42,14 +47,14 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 			m_Clear(collection);
 
 			lock (m_Pool) {
-				if (m_Pool.Count < kMaxPoolSize) {
+				if (m_Pool.Count < m_Capacity) {
 					m_Pool.Push(collection);
 				}
 			}
 		}
 
 		public void ReleaseInstances (int keep) {
-			if ((keep < 0) || (keep > kMaxPoolSize)) {
+			if ((keep < 0) || (keep > m_Capacity)) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
 			}
 

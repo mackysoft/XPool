@@ -59,13 +59,11 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ComponentPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Queue\TemporaryQueue.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.Create.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\HashSetPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Array\TemporaryArray.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\Temporary\Stack\TemporaryStack.Create.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Internal\RuntimeHelpers.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ComponentPool\ParticleSystemPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolUtility.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\QueuePool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\RentInstance.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\UnityObjectPool.cs" />
@@ -73,8 +71,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Internal\Error.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\FactoryPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ObjectModel\UnityObjectPoolBase.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\StackPool.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\ListPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\CollectionPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\ObjectModel\PoolBase.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\ObjectModel\ComponentPoolBase.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\GameObjectPool.cs" />
