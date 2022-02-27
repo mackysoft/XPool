@@ -9,7 +9,7 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 
 		readonly Stack<TCollection> m_Pool;
 
-		// The new() constraint in generics use Activator.CreateInstance, which incurs overhead during object creation.
+		// The new() constraint of generics use Activator.CreateInstance, which incurs overhead during object creation.
 		// Therefore, explicit constructor call by factory method are used to avoid the overhead.
 		readonly Func<TCollection> m_Factory;
 
