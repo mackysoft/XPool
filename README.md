@@ -83,13 +83,14 @@ These hierarchical objects can be rented by writing them in a similar way to `In
 public class Projectile : MonoBehaviour {
 
 	public float speed;
+	public event Action OnHit;
 
 	void Update () {
 		transform.Translate(Vector3.forward * speed * Time.deltaTime);
 	}
 
 	void OnCollisionEnter (Collision collision) {
-		Destroy(gameObject);
+		OnHit?.Invoke();
 	}
 }
 
@@ -99,16 +100,14 @@ public class Shooter : MonoBehaviour {
 	ComponentPool<Projectile> m_ProjectilePool = new ComponentPool<Projectile>();
 
 	void Awake () {
-		m_ProjectilePool.OnCreate += instance => {
-			instance.gameObject.AddComponent<>().
-		};
-		m_ProjectilePool.OnRetuern += instance => instance.gameObject.SetActive(false);
+		m_ProjectilePool.OnRent = instance => instance.gameObject.SetActive(true);
+		m_ProjectilePool.OnRetuern = instance => instance.gameObject.SetActive(false);
+		m_ProjectilePool.OnRelease = instance => Destroy(instance.gameObject);
 	}
 
 	public void Shoot (){
 		Projectile instance = m_ProjectilePool.Rent(transform.position,transform.rotation);
 	}
-
 }
 ```
 
@@ -131,6 +130,8 @@ public class HitParticleSystemEmitter : MonoBehaviour {
 	}
 }
 ```
+
+If you need an optimized pool for other components, please refer to the [How to write custom pool ?](#how-to-write-custom-pool) section, or give me feedback via [issues](https://github.com/mackysoft/XPool/issues) or [pull requests](https://github.com/mackysoft/XPool/pulls).
 
 
 ## <a id="object-pool" href="#object-pool"> Object Pool (Pure C# Object) </a>
