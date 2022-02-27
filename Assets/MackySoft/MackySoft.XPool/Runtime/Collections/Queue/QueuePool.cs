@@ -1,53 +1,12 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using MackySoft.XPool.Collections.ObjectModel;
 
 namespace MackySoft.XPool.Collections {
-	public class QueuePool<T> {
-
-		const int kMaxPoolSize = 32;
+	public class QueuePool<T> : CollectionPoolBase<Queue<T>,T> {
 
 		public static readonly QueuePool<T> Shared = new QueuePool<T>();
 
-		readonly Stack<Queue<T>> m_Pool;
-
-		public QueuePool () {
-			m_Pool = new Stack<Queue<T>>(kMaxPoolSize);
+		public QueuePool () : base(() => new Queue<T>(),queue => queue.Clear()) {
 		}
-
-		public Queue<T> Rent () {
-			lock (m_Pool) {
-				if (m_Pool.Count > 0) {
-					return m_Pool.Pop();
-				}
-				return new Queue<T>();
-			}
-		}
-
-		public void Return (Queue<T> queue) {
-			if (queue == null) {
-				return;
-			}
-
-			queue.Clear();
-
-			lock (m_Pool) {
-				if (m_Pool.Count < kMaxPoolSize) {
-					m_Pool.Push(queue);
-				}
-			}
-		}
-
-		public void Return (ref Queue<T> queue) {
-			Return(queue);
-			queue = null;
-		}
-
-		public void Clear () {
-			lock (m_Pool) {
-				m_Pool.Clear();
-			}
-		}
-
 	}
 }

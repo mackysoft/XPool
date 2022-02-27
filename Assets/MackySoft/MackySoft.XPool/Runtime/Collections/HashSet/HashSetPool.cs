@@ -1,49 +1,12 @@
 ﻿using System.Collections.Generic;
+using MackySoft.XPool.Collections.ObjectModel;
 
 namespace MackySoft.XPool.Collections {
-	public class HashSetPool<T> {
-		const int kMaxPoolSize = 32;
+	public class HashSetPool<T> : CollectionPoolBase<HashSet<T>,T> {
 
 		public static readonly HashSetPool<T> Shared = new HashSetPool<T>();
 
-		readonly Stack<HashSet<T>> m_Pool;
-
-		public HashSetPool () {
-			m_Pool = new Stack<HashSet<T>>(kMaxPoolSize);
-		}
-
-		public HashSet<T> Rent () {
-			lock (m_Pool) {
-				if (m_Pool.Count > 0) {
-					return m_Pool.Pop();
-				}
-				return new HashSet<T>();
-			}
-		}
-
-		public void Return (HashSet<T> hashSet) {
-			if (hashSet == null) {
-				return;
-			}
-
-			hashSet.Clear();
-
-			lock (m_Pool) {
-				if (m_Pool.Count < kMaxPoolSize) {
-					m_Pool.Push(hashSet);
-				}
-			}
-		}
-
-		public void Return (ref HashSet<T> hashSet) {
-			Return(hashSet);
-			hashSet = null;
-		}
-
-		public void Clear () {
-			lock (m_Pool) {
-				m_Pool.Clear();
-			}
+		public HashSetPool () : base(() => new HashSet<T>(),hashSet => hashSet.Clear()) {
 		}
 	}
 }
