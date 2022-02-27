@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections.ObjectModel {
-	public abstract class CollectionPoolBase<TCollection,TItem> : IPool<TCollection> where TCollection : class {
+	public abstract class CollectionPoolBase<T> : IPool<T> where T : class {
 
 		protected const int kDefaultCapacity = 8;
 
-		readonly Stack<TCollection> m_Pool;
+		readonly Stack<T> m_Pool;
 		readonly int m_Capacity;
 
 		// The new() constraint of generics use Activator.CreateInstance, which incurs overhead during object creation.
 		// Therefore, explicit constructor call by factory method are used to avoid the overhead.
-		readonly Func<TCollection> m_Factory;
+		readonly Func<T> m_Factory;
 
 		// Stack<T> and Queue<T> do not implement ICollection<T>, so need to use a delegate to call the Clear method instead.
-		readonly Action<TCollection> m_Clear;
+		readonly Action<T> m_Clear;
 
-		protected CollectionPoolBase (int capacity,Func<TCollection> factory,Action<TCollection> clear) {
+		protected CollectionPoolBase (int capacity,Func<T> factory,Action<T> clear) {
 			if (capacity < 0) {
 				throw Error.RequiredNonNegative(nameof(capacity));
 			}
@@ -27,19 +27,19 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 			if (clear == null) {
 				throw Error.ArgumentNullException(nameof(clear));
 			}
-			m_Pool = new Stack<TCollection>(m_Capacity);
+			m_Pool = new Stack<T>(m_Capacity);
 			m_Capacity = capacity;
 			m_Factory = factory;
 			m_Clear = clear;
 		}
 
-		public TCollection Rent () {
+		public T Rent () {
 			lock (m_Pool) {
 				return (m_Pool.Count == 0) ? m_Factory() : m_Pool.Pop();
 			}
 		}
 
-		public void Return (TCollection collection) {
+		public void Return (T collection) {
 			if (collection == null) {
 				return;
 			}

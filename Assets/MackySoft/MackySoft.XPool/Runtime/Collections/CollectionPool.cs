@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using MackySoft.XPool.Collections.ObjectModel;
 
 namespace MackySoft.XPool.Collections {
-	public class ListPool<T> : CollectionPoolBase<List<T>,T> {
+	public class ListPool<T> : CollectionPoolBase<List<T>> {
 
 		public static readonly ListPool<T> Shared = new ListPool<T>();
 
@@ -10,7 +10,7 @@ namespace MackySoft.XPool.Collections {
 		}
 	}
 
-	public class QueuePool<T> : CollectionPoolBase<Queue<T>,T> {
+	public class QueuePool<T> : CollectionPoolBase<Queue<T>> {
 
 		public static readonly QueuePool<T> Shared = new QueuePool<T>();
 
@@ -18,7 +18,7 @@ namespace MackySoft.XPool.Collections {
 		}
 	}
 
-	public class StackPool<T> : CollectionPoolBase<Stack<T>,T> {
+	public class StackPool<T> : CollectionPoolBase<Stack<T>> {
 
 		public static readonly StackPool<T> Shared = new StackPool<T>();
 
@@ -26,7 +26,7 @@ namespace MackySoft.XPool.Collections {
 		}
 	}
 
-	public class HashSetPool<T> : CollectionPoolBase<HashSet<T>,T> {
+	public class HashSetPool<T> : CollectionPoolBase<HashSet<T>> {
 
 		public static readonly HashSetPool<T> Shared = new HashSetPool<T>();
 
@@ -34,7 +34,7 @@ namespace MackySoft.XPool.Collections {
 		}
 	}
 
-	public class DictionaryPool<TKey,TValue> : CollectionPoolBase<Dictionary<TKey,TValue>,KeyValuePair<TKey,TValue>> {
+	public class DictionaryPool<TKey,TValue> : CollectionPoolBase<Dictionary<TKey,TValue>> {
 
 		public static readonly DictionaryPool<TKey,TValue> Shared = new DictionaryPool<TKey,TValue>();
 
