@@ -33,4 +33,12 @@ namespace MackySoft.XPool.Collections {
 		public HashSetPool () : base(kDefaultCapacity,() => new HashSet<T>(),hashSet => hashSet.Clear()) {
 		}
 	}
+
+	public class DictionaryPool<TKey,TValue> : CollectionPoolBase<Dictionary<TKey,TValue>,KeyValuePair<TKey,TValue>> {
+
+		public static readonly DictionaryPool<TKey,TValue> Shared = new DictionaryPool<TKey,TValue>();
+
+		public DictionaryPool () : base(kDefaultCapacity,() => new Dictionary<TKey, TValue>(),dictionary => dictionary.Clear()) {
+		}
+	}
 }
