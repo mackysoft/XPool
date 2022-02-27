@@ -21,23 +21,23 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
-		public void Return (HashSet<T> stack) {
-			if (stack == null) {
+		public void Return (HashSet<T> hashSet) {
+			if (hashSet == null) {
 				return;
 			}
 
-			stack.Clear();
+			hashSet.Clear();
 
 			lock (m_Pool) {
 				if (m_Pool.Count < kMaxPoolSize) {
-					m_Pool.Push(stack);
+					m_Pool.Push(hashSet);
 				}
 			}
 		}
 
-		public void Return (ref HashSet<T> queue) {
-			Return(queue);
-			queue = null;
+		public void Return (ref HashSet<T> hashSet) {
+			Return(hashSet);
+			hashSet = null;
 		}
 
 		public void Clear () {

@@ -24,16 +24,16 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
-		public void Return (Queue<T> stack) {
-			if (stack == null) {
+		public void Return (Queue<T> queue) {
+			if (queue == null) {
 				return;
 			}
 
-			stack.Clear();
+			queue.Clear();
 
 			lock (m_Pool) {
 				if (m_Pool.Count < kMaxPoolSize) {
-					m_Pool.Push(stack);
+					m_Pool.Push(queue);
 				}
 			}
 		}
