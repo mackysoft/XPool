@@ -40,6 +40,9 @@ This was developed to be able to do all the pooling expected in application deve
 
 # <a id="installation" href="#installation"> 📥 Installation </a>
 
+Coming soon
+
+<!---
 Download any version from releases.
 
 Releases: https://github.com/mackysoft/XPool/releases
@@ -63,7 +66,7 @@ More details [here](https://openupm.com/).
 ```
 openupm add com.mackysoft.xpool
 ```
-
+-->
 
 # <a id="usage" href="#usage"> 🔰 Usage </a>
 
@@ -128,17 +131,37 @@ public class HitParticleSystemEmitter : MonoBehaviour {
 
 ## <a id="object-pool" href="#object-pool"> Object Pool (Pure C# Object) </a>
 
-```cs
+`FactoryPool<T>` can be used to pool Pure C# Object.
 
+```cs
+// Give the capacity and factory method to the constructor.
+var pool = new FactoryPool<MyClass>(8,() => new MyClass());
+
+// Create new instance by factory.
+MyClass instance = pool.Rent();
+
+// Return instance.
+pool.Return(instance);
 ```
 
 
-## <a id="collection-pool" href="#collection-pool"> Collection Pool (`T[]`, `List<T>`, `Qeueue<T>`, `Stack<T>`) </a>
+## <a id="collection-pool" href="#collection-pool"> Collection Pool (`T[]`, `List<T>`, `Qeueue<T>`, `Stack<T>`, `HashSet<T>`) </a>
 
 An optimized pool is provided for the generic collections provided in .NET Framework.
 
 ```cs
+// Rent an array from the pool. 
+// Note that the array length to be rented is the next two powers of minimumLength.
+T[] array = ArrayPool<T>.Shared.Rent(minimumLength: 10);
 
+// Return array to the pool.
+ArrayPool<T>.Shared.Return(array);
+
+// ListPool<T>, QueuePool<T>, StackPool<T>, HashSetPool<T> are also available.
+// List<T> list = ListPool<T>.Shared.Rent();
+// Queue<T> queue = QueuePool<T>.Shared.Rent();
+// Stack<T> stack = StackPool<T>.Shared.Rent();
+// HashSet<T> hashSet = HashSetPool<T>.Shared.Rent();
 ```
 
 ## <a id="non-allocated-collections" href="#non-allocated-collections"> Non allocated collections </a>
@@ -147,11 +170,19 @@ You can use the TemporaryCollections API that leverages `ArrayPool<T>`.
 
 These collections are a struct and internally use array rented from `ArrayPool<T>`.
 
+Therefore, it is fast and non-allocation.
+
 ```cs
+// Create a temporary array.
 var array = TemporaryArray<T>.Create(10);
-var list = TemporaryList<T>.Create();
-var queue = TemporaryQueue<T>.Create();
-var stack = TemporaryStack<T>.Create();
+
+// You must release collection when you are done using it.
+array.Dispose();
+
+// TemporaryList<T>, TemporaryQueue<T>, TemporaryStack<T> are also available.
+// var list = TemporaryList<T>.Create();
+// var queue = TemporaryQueue<T>.Create();
+// var stack = TemporaryStack<T>.Create();
 ```
 
 
