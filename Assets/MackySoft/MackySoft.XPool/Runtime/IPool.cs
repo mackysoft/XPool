@@ -9,8 +9,14 @@ namespace MackySoft.XPool {
 	/// <typeparam name="T"> Type of instance to pool. </typeparam>
 	public interface IPool<T> {
 
+		/// <summary>
+		/// Capacity to store instances in the pool.
+		/// </summary>
 		int Capacity { get; }
 
+		/// <summary>
+		/// Quantity of instances stored in the pool.
+		/// </summary>
 		int Count { get; }
 
 		/// <summary>
