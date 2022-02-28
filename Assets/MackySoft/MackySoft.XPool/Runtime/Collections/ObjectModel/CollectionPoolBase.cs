@@ -5,8 +5,6 @@ using MackySoft.XPool.Internal;
 namespace MackySoft.XPool.Collections.ObjectModel {
 	public abstract class CollectionPoolBase<T> : IPool<T> where T : class {
 
-		protected const int kDefaultCapacity = 8;
-
 		readonly Stack<T> m_Pool;
 		readonly int m_Capacity;
 
