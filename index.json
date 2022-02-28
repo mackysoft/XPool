@@ -2,7 +2,7 @@
   "api/MackySoft.XPool.Collections.ArrayPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.ArrayPool-1.html",
     "title": "Class ArrayPool<T> | XPool",
-    "keywords": "Class ArrayPool<T> Inheritance Object ArrayPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class ArrayPool<T> Type Parameters Name Description T Constructors ArrayPool() Declaration public ArrayPool() Fields Shared Declaration public static readonly ArrayPool<T> Shared Field Value Type Description ArrayPool <T> Methods Clear() Clear the pool of this type. Declaration public void Clear() Rent(Int32) The array length is not always accurate. Declaration public T[] Rent(int minimumLength) Parameters Type Name Description Int32 minimumLength Returns Type Description T[] Return(T[], Boolean) Return the array to the pool. The length of the array must be greater than or equal to 8 and a power of 2. Declaration public void Return(T[] array, bool clearArray = false) Parameters Type Name Description T[] array The length of the array must be greater than or equal to 8 and a power of 2. Boolean clearArray Return(ref T[], Boolean) Return the array to the pool and set array reference to null. The length of the array must be greater than or equal to 8 and a power of 2. Declaration public void Return(ref T[] array, bool clearArray = false) Parameters Type Name Description T[] array The length of the array must be greater than or equal to 8 and a power of 2. Boolean clearArray"
+    "keywords": "Class ArrayPool<T> Inheritance Object ArrayPool<T> Implements IPool <T[]> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class ArrayPool<T> : IPool<T[]> Type Parameters Name Description T Constructors ArrayPool() Declaration public ArrayPool() Fields Shared Declaration public static readonly ArrayPool<T> Shared Field Value Type Description ArrayPool <T> Methods Clear() Clear the pool of this type. Declaration public void Clear() Rent(Int32) The array length is not always accurate. Declaration public T[] Rent(int minimumLength) Parameters Type Name Description Int32 minimumLength Returns Type Description T[] Return(T[]) Return the array to the pool. The length of the array must be greater than or equal to 8 and a power of 2. Declaration public void Return(T[] array) Parameters Type Name Description T[] array The length of the array must be greater than or equal to 8 and a power of 2. Return(T[], Boolean) Return the array to the pool. The length of the array must be greater than or equal to 8 and a power of 2. Declaration public void Return(T[] array, bool clearArray = false) Parameters Type Name Description T[] array The length of the array must be greater than or equal to 8 and a power of 2. Boolean clearArray Return(ref T[], Boolean) Return the array to the pool and set array reference to null. The length of the array must be greater than or equal to 8 and a power of 2. Declaration public void Return(ref T[] array, bool clearArray = false) Parameters Type Name Description T[] array The length of the array must be greater than or equal to 8 and a power of 2. Boolean clearArray Explicit Interface Implementations IPool<T[]>.ReleaseInstances(Int32) Declaration void IPool<T[]>.ReleaseInstances(int keep) Parameters Type Name Description Int32 keep IPool<T[]>.Rent() Declaration T[] IPool<T[]>.Rent() Returns Type Description T[] Implements IPool<T>"
   },
   "api/MackySoft.XPool.Collections.ArrayPoolExtensions.html": {
     "href": "api/MackySoft.XPool.Collections.ArrayPoolExtensions.html",
@@ -14,30 +14,45 @@
     "title": "Class ArrayPoolUtility | XPool",
     "keywords": "Class ArrayPoolUtility Inheritance Object ArrayPoolUtility Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public static class ArrayPoolUtility Fields kMinArraySize Declaration public const int kMinArraySize = 8 Field Value Type Description Int32 Methods EnsureCapacity<T>(ref T[], Int32, ArrayPool<T>) Declaration public static void EnsureCapacity<T>(ref T[] array, int newSize, ArrayPool<T> pool) Parameters Type Name Description T[] array Int32 newSize ArrayPool <T> pool Type Parameters Name Description T EnsureCapacityCircular<T>(ref T[], Int32, Int32, ref Int32, ref Int32, ArrayPool<T>) Declaration public static bool EnsureCapacityCircular<T>(ref T[] array, int count, int newSize, ref int first, ref int last, ArrayPool<T> pool) Parameters Type Name Description T[] array Int32 count Int32 newSize Int32 first Int32 last ArrayPool <T> pool Returns Type Description Boolean Type Parameters Name Description T"
   },
+  "api/MackySoft.XPool.Collections.DictionaryPool-2.html": {
+    "href": "api/MackySoft.XPool.Collections.DictionaryPool-2.html",
+    "title": "Class DictionaryPool<TKey, TValue> | XPool",
+    "keywords": "Class DictionaryPool<TKey, TValue> Inheritance Object DictionaryPool<TKey, TValue> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class DictionaryPool<TKey, TValue> : CollectionPoolBase<Dictionary<TKey, TValue>> Type Parameters Name Description TKey TValue Constructors DictionaryPool() Declaration public DictionaryPool() Fields Shared Declaration public static readonly DictionaryPool<TKey, TValue> Shared Field Value Type Description DictionaryPool <TKey, TValue>"
+  },
   "api/MackySoft.XPool.Collections.HashSetPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.HashSetPool-1.html",
     "title": "Class HashSetPool<T> | XPool",
-    "keywords": "Class HashSetPool<T> Inheritance Object HashSetPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class HashSetPool<T> Type Parameters Name Description T Constructors HashSetPool() Declaration public HashSetPool() Fields Shared Declaration public static readonly HashSetPool<T> Shared Field Value Type Description HashSetPool <T> Methods Clear() Declaration public void Clear() Rent() Declaration public HashSet<T> Rent() Returns Type Description HashSet <T> Return(HashSet<T>) Declaration public void Return(HashSet<T> hashSet) Parameters Type Name Description HashSet <T> hashSet Return(ref HashSet<T>) Declaration public void Return(ref HashSet<T> hashSet) Parameters Type Name Description HashSet <T> hashSet"
+    "keywords": "Class HashSetPool<T> Inheritance Object HashSetPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class HashSetPool<T> : CollectionPoolBase<HashSet<T>> Type Parameters Name Description T Constructors HashSetPool() Declaration public HashSetPool() Fields Shared Declaration public static readonly HashSetPool<T> Shared Field Value Type Description HashSetPool <T>"
   },
   "api/MackySoft.XPool.Collections.html": {
     "href": "api/MackySoft.XPool.Collections.html",
     "title": "Namespace MackySoft.XPool.Collections | XPool",
-    "keywords": "Namespace MackySoft.XPool.Collections Classes ArrayPool<T> ArrayPoolExtensions ArrayPoolUtility HashSetPool<T> ListPool<T> QueuePool<T> StackPool<T> TemporaryArrayExtensions TemporaryListExtensions Structs TemporaryArray<T> Temporary array without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal array. After using it, please call the Dispose(). TemporaryList<T> Temporary list without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal list. After using it, please call the Dispose(). TemporaryQueue<T> Temporary queue without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal queue. After using it, please call the Dispose(). TemporaryStack<T>"
+    "keywords": "Namespace MackySoft.XPool.Collections Classes ArrayPool<T> ArrayPoolExtensions ArrayPoolUtility DictionaryPool<TKey, TValue> HashSetPool<T> ListPool<T> QueuePool<T> StackPool<T> TemporaryArrayExtensions TemporaryListExtensions Structs TemporaryArray<T> Temporary array without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal array. After using it, please call the Dispose(). TemporaryList<T> Temporary list without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal list. After using it, please call the Dispose(). TemporaryQueue<T> Temporary queue without allocation. This struct use ArrayPool<T> internally to avoid allocation and can be used just like a normal queue. After using it, please call the Dispose(). TemporaryStack<T>"
   },
   "api/MackySoft.XPool.Collections.ListPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.ListPool-1.html",
     "title": "Class ListPool<T> | XPool",
-    "keywords": "Class ListPool<T> Inheritance Object ListPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class ListPool<T> Type Parameters Name Description T Constructors ListPool() Declaration public ListPool() Fields Shared Declaration public static readonly ListPool<T> Shared Field Value Type Description ListPool <T> Methods Clear() Declaration public void Clear() Rent() Rent list from pool. Declaration public List<T> Rent() Returns Type Description List <T> Return(List<T>) Return the list to the pool. Declaration public void Return(List<T> list) Parameters Type Name Description List <T> list Return(ref List<T>) Return the list to the pool and set list reference to null. Declaration public void Return(ref List<T> list) Parameters Type Name Description List <T> list"
+    "keywords": "Class ListPool<T> Inheritance Object ListPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class ListPool<T> : CollectionPoolBase<List<T>> Type Parameters Name Description T Constructors ListPool() Declaration public ListPool() Fields Shared Declaration public static readonly ListPool<T> Shared Field Value Type Description ListPool <T>"
+  },
+  "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html": {
+    "href": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html",
+    "title": "Class CollectionPoolBase<T> | XPool",
+    "keywords": "Class CollectionPoolBase<T> Inheritance Object CollectionPoolBase<T> Implements IPool <T> Namespace : MackySoft.XPool.Collections.ObjectModel Assembly : cs.temp.dll.dll Syntax public abstract class CollectionPoolBase<T> : IPool<T> where T : class Type Parameters Name Description T Constructors CollectionPoolBase(Int32, Func<T>, Action<T>) Declaration protected CollectionPoolBase(int capacity, Func<T> factory, Action<T> clear) Parameters Type Name Description Int32 capacity Func <T> factory Action <T> clear Fields kDefaultCapacity Declaration protected const int kDefaultCapacity = 8 Field Value Type Description Int32 Methods ReleaseInstances(Int32) Declaration public void ReleaseInstances(int keep) Parameters Type Name Description Int32 keep Rent() Declaration public T Rent() Returns Type Description T Return(T) Declaration public void Return(T collection) Parameters Type Name Description T collection Implements IPool<T>"
+  },
+  "api/MackySoft.XPool.Collections.ObjectModel.html": {
+    "href": "api/MackySoft.XPool.Collections.ObjectModel.html",
+    "title": "Namespace MackySoft.XPool.Collections.ObjectModel | XPool",
+    "keywords": "Namespace MackySoft.XPool.Collections.ObjectModel Classes CollectionPoolBase<T>"
   },
   "api/MackySoft.XPool.Collections.QueuePool-1.html": {
     "href": "api/MackySoft.XPool.Collections.QueuePool-1.html",
     "title": "Class QueuePool<T> | XPool",
-    "keywords": "Class QueuePool<T> Inheritance Object QueuePool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class QueuePool<T> Type Parameters Name Description T Constructors QueuePool() Declaration public QueuePool() Fields Shared Declaration public static readonly QueuePool<T> Shared Field Value Type Description QueuePool <T> Methods Clear() Declaration public void Clear() Rent() Declaration public Queue<T> Rent() Returns Type Description Queue <T> Return(Queue<T>) Declaration public void Return(Queue<T> queue) Parameters Type Name Description Queue <T> queue Return(ref Queue<T>) Declaration public void Return(ref Queue<T> queue) Parameters Type Name Description Queue <T> queue"
+    "keywords": "Class QueuePool<T> Inheritance Object QueuePool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class QueuePool<T> : CollectionPoolBase<Queue<T>> Type Parameters Name Description T Constructors QueuePool() Declaration public QueuePool() Fields Shared Declaration public static readonly QueuePool<T> Shared Field Value Type Description QueuePool <T>"
   },
   "api/MackySoft.XPool.Collections.StackPool-1.html": {
     "href": "api/MackySoft.XPool.Collections.StackPool-1.html",
     "title": "Class StackPool<T> | XPool",
-    "keywords": "Class StackPool<T> Inheritance Object StackPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class StackPool<T> Type Parameters Name Description T Constructors StackPool() Declaration public StackPool() Fields Shared Declaration public static readonly StackPool<T> Shared Field Value Type Description StackPool <T> Methods Clear() Declaration public void Clear() Rent() Declaration public Stack<T> Rent() Returns Type Description Stack <T> Return(Stack<T>) Declaration public void Return(Stack<T> stack) Parameters Type Name Description Stack <T> stack Return(ref Stack<T>) Declaration public void Return(ref Stack<T> stack) Parameters Type Name Description Stack <T> stack"
+    "keywords": "Class StackPool<T> Inheritance Object StackPool<T> Namespace : MackySoft.XPool.Collections Assembly : cs.temp.dll.dll Syntax public class StackPool<T> : CollectionPoolBase<Stack<T>> Type Parameters Name Description T Constructors StackPool() Declaration public StackPool() Fields Shared Declaration public static readonly StackPool<T> Shared Field Value Type Description StackPool <T>"
   },
   "api/MackySoft.XPool.Collections.TemporaryArray-1.html": {
     "href": "api/MackySoft.XPool.Collections.TemporaryArray-1.html",
@@ -74,30 +89,15 @@
     "title": "Class ArrayPoolTest | XPool",
     "keywords": "Class ArrayPoolTest Inheritance Object ArrayPoolTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class ArrayPoolTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate() Return_empty_array_if_required_size_is_zero() Declaration public void Return_empty_array_if_required_size_is_zero() Return_minimum_size_array_if_required_size_less_than_minimum_array_size() Declaration public void Return_minimum_size_array_if_required_size_less_than_minimum_array_size() Returned_array_size_is_next_power_of_two(Int32) Declaration public void Returned_array_size_is_next_power_of_two(int powerOfTwoSize) Parameters Type Name Description Int32 powerOfTwoSize Throw_if_required_size_is_negative() Declaration public void Throw_if_required_size_is_negative()"
   },
-  "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html": {
-    "href": "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html",
-    "title": "Class HashSetPoolTest | XPool",
-    "keywords": "Class HashSetPoolTest Inheritance Object HashSetPoolTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class HashSetPoolTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate()"
+  "api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.html": {
+    "href": "api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.html",
+    "title": "Class CollectionPoolBaseTest | XPool",
+    "keywords": "Class CollectionPoolBaseTest Inheritance Object CollectionPoolBaseTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class CollectionPoolBaseTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate()"
   },
   "api/MackySoft.XPool.Collections.Tests.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.html",
     "title": "Namespace MackySoft.XPool.Collections.Tests | XPool",
-    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest HashSetPoolTest ListPoolTest QueuePoolTest StackPoolTest TemporaryArrayTest TemporaryListTest TemporaryQueueTest TemporaryStackTest"
-  },
-  "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html": {
-    "href": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html",
-    "title": "Class ListPoolTest | XPool",
-    "keywords": "Class ListPoolTest Inheritance Object ListPoolTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class ListPoolTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate()"
-  },
-  "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html": {
-    "href": "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html",
-    "title": "Class QueuePoolTest | XPool",
-    "keywords": "Class QueuePoolTest Inheritance Object QueuePoolTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class QueuePoolTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate()"
-  },
-  "api/MackySoft.XPool.Collections.Tests.StackPoolTest.html": {
-    "href": "api/MackySoft.XPool.Collections.Tests.StackPoolTest.html",
-    "title": "Class StackPoolTest | XPool",
-    "keywords": "Class StackPoolTest Inheritance Object StackPoolTest Namespace : MackySoft.XPool.Collections.Tests Assembly : cs.temp.dll.dll Syntax public class StackPoolTest Methods Init() Declaration public void Init() Rent_does_not_allocate() Declaration public void Rent_does_not_allocate() Return_does_not_allocate() Declaration public void Return_does_not_allocate()"
+    "keywords": "Namespace MackySoft.XPool.Collections.Tests Classes ArrayPoolTest CollectionPoolBaseTest TemporaryArrayTest TemporaryListTest TemporaryQueueTest TemporaryStackTest"
   },
   "api/MackySoft.XPool.Collections.Tests.TemporaryArrayTest.html": {
     "href": "api/MackySoft.XPool.Collections.Tests.TemporaryArrayTest.html",

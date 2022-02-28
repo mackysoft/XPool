@@ -90,11 +90,15 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ArrayPool&lt;T&gt;</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;T[]&gt;</div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Collections.html">MackySoft.XPool.Collections</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Collections_ArrayPool_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ArrayPool&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ArrayPool&lt;T&gt; : IPool&lt;T[]&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,6 +202,34 @@
     </tbody>
   </table>
   <a id="MackySoft_XPool_Collections_ArrayPool_1_Return_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Return*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_Return__0___" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Return(`0[])">Return(T[])</h4>
+  <div class="markdown level1 summary"><p> Return the array to the pool. </p>
+<p> The length of the array must be greater than or equal to 8 and a power of 2. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Return(T[] array)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>The length of the array must be greater than or equal to 8 and a power of 2. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_Return_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Return*"></a>
   <h4 id="MackySoft_XPool_Collections_ArrayPool_1_Return__0___System_Boolean_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Return(`0[],System.Boolean)">Return(T[], Boolean)</h4>
   <div class="markdown level1 summary"><p> Return the array to the pool. </p>
 <p> The length of the array must be greater than or equal to 8 and a power of 2. </p>
@@ -263,6 +295,60 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_System_Int32_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances(System.Int32)">IPool&lt;T[]&gt;.ReleaseInstances(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IPool&lt;T[]&gt;.ReleaseInstances(int keep)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Rent_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Rent*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Rent" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Rent">IPool&lt;T[]&gt;.Rent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T[] IPool&lt;T[]&gt;.Rent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="MackySoft.XPool.IPool-1.html">IPool&lt;T&gt;</a>
+  </div>
 </article>
           </div>
           

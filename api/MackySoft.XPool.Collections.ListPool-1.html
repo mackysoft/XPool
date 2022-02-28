@@ -94,7 +94,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Collections_ListPool_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ListPool&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ListPool&lt;T&gt; : CollectionPoolBase&lt;List&lt;T&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,92 +141,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="MackySoft.XPool.Collections.ListPool-1.html">ListPool</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="MackySoft_XPool_Collections_ListPool_1_Clear_" data-uid="MackySoft.XPool.Collections.ListPool`1.Clear*"></a>
-  <h4 id="MackySoft_XPool_Collections_ListPool_1_Clear" data-uid="MackySoft.XPool.Collections.ListPool`1.Clear">Clear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
-  </div>
-  <a id="MackySoft_XPool_Collections_ListPool_1_Rent_" data-uid="MackySoft.XPool.Collections.ListPool`1.Rent*"></a>
-  <h4 id="MackySoft_XPool_Collections_ListPool_1_Rent" data-uid="MackySoft.XPool.Collections.ListPool`1.Rent">Rent()</h4>
-  <div class="markdown level1 summary"><p>Rent list from pool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;T&gt; Rent()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_ListPool_1_Return_" data-uid="MackySoft.XPool.Collections.ListPool`1.Return*"></a>
-  <h4 id="MackySoft_XPool_Collections_ListPool_1_Return_List__0__" data-uid="MackySoft.XPool.Collections.ListPool`1.Return(List{`0})">Return(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Return the list to the pool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Return(List&lt;T&gt; list)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_ListPool_1_Return_" data-uid="MackySoft.XPool.Collections.ListPool`1.Return*"></a>
-  <h4 id="MackySoft_XPool_Collections_ListPool_1_Return_List__0___" data-uid="MackySoft.XPool.Collections.ListPool`1.Return(List{`0}@)">Return(ref List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Return the list to the pool and set list reference to null.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Return(ref List&lt;T&gt; list)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
         <td></td>
       </tr>
     </tbody>

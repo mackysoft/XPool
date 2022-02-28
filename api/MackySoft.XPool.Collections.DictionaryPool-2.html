@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class QueuePoolTest
+    <title>Class DictionaryPool&lt;TKey, TValue&gt;
    | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class QueuePoolTest
+    <meta name="title" content="Class DictionaryPool&lt;TKey, TValue&gt;
    | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,50 +78,77 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest">
+            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Collections.DictionaryPool`2">
   
   
-  <h1 id="MackySoft_XPool_Collections_Tests_QueuePoolTest" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest" class="text-break">Class QueuePoolTest
+  <h1 id="MackySoft_XPool_Collections_DictionaryPool_2" data-uid="MackySoft.XPool.Collections.DictionaryPool`2" class="text-break">Class DictionaryPool&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">QueuePoolTest</span></div>
+    <div class="level1"><span class="xref">DictionaryPool&lt;TKey, TValue&gt;</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Collections.Tests.html">MackySoft.XPool.Collections.Tests</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Collections.html">MackySoft.XPool.Collections</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="MackySoft_XPool_Collections_Tests_QueuePoolTest_syntax">Syntax</h5>
+  <h5 id="MackySoft_XPool_Collections_DictionaryPool_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class QueuePoolTest</code></pre>
+    <pre><code class="lang-csharp hljs">public class DictionaryPool&lt;TKey, TValue&gt; : CollectionPoolBase&lt;Dictionary&lt;TKey, TValue&gt;&gt;</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
-  <a id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Init_" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Init*"></a>
-  <h4 id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Init" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Init">Init()</h4>
+  <a id="MackySoft_XPool_Collections_DictionaryPool_2__ctor_" data-uid="MackySoft.XPool.Collections.DictionaryPool`2.#ctor*"></a>
+  <h4 id="MackySoft_XPool_Collections_DictionaryPool_2__ctor" data-uid="MackySoft.XPool.Collections.DictionaryPool`2.#ctor">DictionaryPool()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
+    <pre><code class="lang-csharp hljs">public DictionaryPool()</code></pre>
   </div>
-  <a id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Rent_does_not_allocate_" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate*"></a>
-  <h4 id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Rent_does_not_allocate" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Rent_does_not_allocate">Rent_does_not_allocate()</h4>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="MackySoft_XPool_Collections_DictionaryPool_2_Shared" data-uid="MackySoft.XPool.Collections.DictionaryPool`2.Shared">Shared</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Rent_does_not_allocate()</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly DictionaryPool&lt;TKey, TValue&gt; Shared</code></pre>
   </div>
-  <a id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Return_does_not_allocate_" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate*"></a>
-  <h4 id="MackySoft_XPool_Collections_Tests_QueuePoolTest_Return_does_not_allocate" data-uid="MackySoft.XPool.Collections.Tests.QueuePoolTest.Return_does_not_allocate">Return_does_not_allocate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Return_does_not_allocate()</code></pre>
-  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.Collections.DictionaryPool-2.html">DictionaryPool</a>&lt;TKey, TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

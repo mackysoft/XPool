@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPool-1.html",
-          "hash": "Xxec8k2gPzGHd0uQonG0qVizeGIAhKu7QG9358TNPfc="
+          "hash": "88hWZch7+Y7VPJhYHaL7Yxnx/yiMe/DX6XmxPxZpigQ="
         }
       },
       "is_incremental": false,
@@ -60,11 +60,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.DictionaryPool-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.DictionaryPool-2.html",
+          "hash": "PLsYnOKXC622Z4+4AB+60Di4c9lnKYUcTM5XMDlvxhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.XPool.Collections.HashSetPool-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.HashSetPool-1.html",
-          "hash": "3HLSqJ9fCcU+bxELmcSLaDdFUPUEJCk+NLHaCkoIV7E="
+          "hash": "DjO/zDF9BifEYH6CS7NH7PhBjrtl7BEeR1h3Q2/yGUM="
         }
       },
       "is_incremental": false,
@@ -76,7 +88,31 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ListPool-1.html",
-          "hash": "0rGLZXNtEV7VEjMK915as0e4iiErjqAQGbe3OTVzLvc="
+          "hash": "Ibw2KgBRpAEVzLE3JHaXeZkWkfzRzR4B9tB2IFjtsCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html",
+          "hash": "VbGR0DtRPr1zkrLKI/k/BxKy/hFDb6IZrdM/ASaZU5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.ObjectModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.html",
+          "hash": "4rNPsBjz++mGO3JZ08wAlMzztnEQ0CuZNX+6joZelHQ="
         }
       },
       "is_incremental": false,
@@ -88,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.QueuePool-1.html",
-          "hash": "ZvaTzACqJuiY6tlEaTum5rtDNfuzRyhYiMZ6pW8PaKI="
+          "hash": "i+vdiMuaZt957UFgbKhnr+9mU0LylECV238L0NiOuzU="
         }
       },
       "is_incremental": false,
@@ -100,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.StackPool-1.html",
-          "hash": "jMpf73gzCWvg1ycaTWZQFP8Xnlw9LNhrzapKkay6YUg="
+          "hash": "fLGTdBNNyiwHk2pzO0tkqnkE2s0i1NoN2enEqaj7VMk="
         }
       },
       "is_incremental": false,
@@ -192,47 +228,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.yml",
+      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MackySoft.XPool.Collections.Tests.HashSetPoolTest.html",
-          "hash": "edQanC7eVz0tD0TbubO2pmlDEd0lVuXrY6+ITbv3v1s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MackySoft.XPool.Collections.Tests.ListPoolTest.html",
-          "hash": "ZSq4l+rn8KepiC9PwcmprUGSb+nWHTKwpddYgMcu0kg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MackySoft.XPool.Collections.Tests.QueuePoolTest.html",
-          "hash": "wflv98AeHBWfr8peZ27gw1NOvfHy8+l7QeEj+bM6u88="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.XPool.Collections.Tests.StackPoolTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MackySoft.XPool.Collections.Tests.StackPoolTest.html",
-          "hash": "Ux2PeLuftAHrpWViirFW6jSJPsd/CymyDrKb2skPXAY="
+          "relative_path": "api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.html",
+          "hash": "fM0zZFNgO28jt5RIIDIAmnzrvAOvp2aURyiTyA7etb8="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.html",
-          "hash": "OFqyCHMDjx9nTsZkAaJs+g43MmTp2Me/bSHQKmpay1A="
+          "hash": "c6H+EP1MclNigekv3NotbIWT71yF+3qed+TALJTWv4w="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.html",
-          "hash": "TwcvPsV6j0YAl1AsevGctaw2jDVmWjix6H/OPL89qho="
+          "hash": "xdAGj3Gv33mVuOFxEXtRIVjbksVqwHB8nJM4oD1hhr4="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "A/jK18HEk935SriH6PdYFgb3345N694vpiLySZzPRRo="
+          "hash": "mxsC+KUPcmDtPDqfhY4d0HY0paviR6LAsZD0f0ZIi7g="
         }
       },
       "is_incremental": false,
