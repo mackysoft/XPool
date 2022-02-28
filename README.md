@@ -1,4 +1,4 @@
-﻿# XPool - Object Pooling System
+﻿# XPool - Object Pooling System for Unity
 
 [![Tests](https://github.com/mackysoft/XPool/actions/workflows/tests.yaml/badge.svg)](https://github.com/mackysoft/XPool/actions/workflows/tests.yaml)
 [![Build](https://github.com/mackysoft/XPool/actions/workflows/build.yaml/badge.svg)](https://github.com/mackysoft/XPool/actions/workflows/build.yaml)
@@ -177,7 +177,7 @@ T[] array = ArrayPool<T>.Shared.Rent(minimumLength: 10);
 // Return array to the pool.
 ArrayPool<T>.Shared.Return(array);
 
-// ListPool<T>, QueuePool<T>, StackPool<T>, HashSetPool<T> are also available.
+// ListPool<T>, QueuePool<T>, StackPool<T>, HashSetPool<T>, DictionaryPool<TKey,TValue> are also available.
 List<T> list = ListPool<T>.Shared.Rent();
 Queue<T> queue = QueuePool<T>.Shared.Rent();
 Stack<T> stack = StackPool<T>.Shared.Rent();
@@ -202,9 +202,9 @@ var array = TemporaryArray<T>.Create(10);
 array.Dispose();
 
 // TemporaryList<T>, TemporaryQueue<T>, TemporaryStack<T> are also available.
-// var list = TemporaryList<T>.Create();
-// var queue = TemporaryQueue<T>.Create();
-// var stack = TemporaryStack<T>.Create();
+TemporaryList<T> list = TemporaryList<T>.Create();
+TemporaryQueue<T> queue = TemporaryQueue<T>.Create();
+TemporaryStack<T> stack = TemporaryStack<T>.Create();
 ```
 
 
