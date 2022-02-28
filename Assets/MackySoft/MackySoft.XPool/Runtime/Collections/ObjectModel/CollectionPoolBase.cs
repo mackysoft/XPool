@@ -17,6 +17,10 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 		// Stack<T> and Queue<T> do not implement ICollection<T>, so need to use a delegate to call the Clear method instead.
 		readonly Action<T> m_Clear;
 
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
+
 		protected CollectionPoolBase (int capacity,Func<T> factory,Action<T> clear) {
 			if (capacity < 0) {
 				throw Error.RequiredNonNegative(nameof(capacity));

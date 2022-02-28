@@ -16,6 +16,10 @@ namespace MackySoft.XPool.ObjectModel {
 		readonly HashSet<T> m_InPool;
 #endif
 
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
+
 		/// <summary>
 		/// Initialize the pool with capacity. The inherited class must call this constructor.
 		/// </summary>

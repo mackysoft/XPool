@@ -9,6 +9,10 @@ namespace MackySoft.XPool {
 	/// <typeparam name="T"> Type of instance to pool. </typeparam>
 	public interface IPool<T> {
 
+		int Capacity { get; }
+
+		int Count { get; }
+
 		/// <summary>
 		/// Return the pooled instance. If pool is empty, create new instance and returns it.
 		/// </summary>
