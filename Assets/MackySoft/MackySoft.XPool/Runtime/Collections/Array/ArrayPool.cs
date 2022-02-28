@@ -11,7 +11,6 @@ namespace MackySoft.XPool.Collections {
 		const int kMaxBucketSize = 32;
 		
 		public static readonly ArrayPool<T> Shared = new ArrayPool<T>();
-		static readonly T[] kEmpty = new T[0];
 
 		readonly Stack<T[]>[] m_Pool;
 		readonly SpinLock[] m_Locks;
@@ -33,7 +32,7 @@ namespace MackySoft.XPool.Collections {
 				throw Error.RequiredNonNegative(nameof(minimumLength));
 			}
 			else if (minimumLength == 0) {
-				return kEmpty;
+				return Array.Empty<T>();
 			}
 
 			int size = CalculateArraySize(minimumLength);
