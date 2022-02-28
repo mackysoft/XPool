@@ -2,10 +2,11 @@ using System;
 using System.Threading;
 using System.Collections.Generic;
 using MackySoft.XPool.Internal;
+using MackySoft.XPool.Collections.Internal;
 
 namespace MackySoft.XPool.Collections {
 
-	public class ArrayPool<T> {
+	public class ArrayPool<T> : IPool<T[]> {
 
 		const int kMaxBucketSize = 32;
 		
@@ -56,6 +57,15 @@ namespace MackySoft.XPool.Collections {
 			}
 
 			return new T[size];
+		}
+
+		/// <summary>
+		/// <para> Return the array to the pool. </para>
+		/// <para> The length of the array must be greater than or equal to 8 and a power of 2. </para>
+		/// </summary>
+		/// <param name="array"> The length of the array must be greater than or equal to 8 and a power of 2. </param>
+		public void Return (T[] array) {
+			Return(array,RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 		}
 
 		/// <summary>
@@ -169,5 +179,12 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
+		T[] IPool<T[]>.Rent () {
+			throw Error.FunctionIsNotSupported();
+		}
+
+		void IPool<T[]>.ReleaseInstances (int keep) {
+			throw Error.FunctionIsNotSupported();
+		}
 	}
 }
