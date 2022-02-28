@@ -151,15 +151,31 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="MackySoft_XPool_Collections_ArrayPool_1_Clear_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Clear*"></a>
-  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_Clear" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Clear">Clear()</h4>
-  <div class="markdown level1 summary"><p>Clear the pool of this type.</p>
-</div>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_ReleaseInstances_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_ReleaseInstances_System_Int32_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances(System.Int32)">ReleaseInstances(Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReleaseInstances(int keep)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="MackySoft_XPool_Collections_ArrayPool_1_Rent_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Rent*"></a>
   <h4 id="MackySoft_XPool_Collections_ArrayPool_1_Rent_System_Int32_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.Rent(System.Int32)">Rent(Int32)</h4>
   <div class="markdown level1 summary"><p>The array length is not always accurate.</p>
@@ -297,27 +313,48 @@
   </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
-  <a id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances*"></a>
-  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_System_Int32_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances(System.Int32)">IPool&lt;T[]&gt;.ReleaseInstances(Int32)</h4>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity">IPool&lt;T[]&gt;.Capacity</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IPool&lt;T[]&gt;.ReleaseInstances(int keep)</code></pre>
+    <pre><code class="lang-csharp hljs">int IPool&lt;T[]&gt;.Capacity { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">keep</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count_" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count*"></a>
+  <h4 id="MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count" data-uid="MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count">IPool&lt;T[]&gt;.Count</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IPool&lt;T[]&gt;.Count { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>

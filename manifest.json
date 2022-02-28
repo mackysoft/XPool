@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPool-1.html",
-          "hash": "88hWZch7+Y7VPJhYHaL7Yxnx/yiMe/DX6XmxPxZpigQ="
+          "hash": "9rEGnzZhCmbVmR1+AEk6ONfKo18W3nZgFzYBJRigAQQ="
         }
       },
       "is_incremental": false,
@@ -53,6 +53,18 @@
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolUtility.html",
           "hash": "X3WG/IdOiUlCStjaqBRh2/4nQe/mAdY+L2vgM4p/wQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.XPool.Collections.CollectionPoolUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.XPool.Collections.CollectionPoolUtility.html",
+          "hash": "+si5WUi9COxvAzToQk/G626hbWYCUSd9/xkXmQFefdQ="
         }
       },
       "is_incremental": false,
@@ -100,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html",
-          "hash": "VbGR0DtRPr1zkrLKI/k/BxKy/hFDb6IZrdM/ASaZU5Q="
+          "hash": "H85CP6YXOGg0S1hJs2DQkCswjOE/HFqBRnakf7Kd7oI="
         }
       },
       "is_incremental": false,
@@ -304,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.html",
-          "hash": "xdAGj3Gv33mVuOFxEXtRIVjbksVqwHB8nJM4oD1hhr4="
+          "hash": "zCq1D6dQBuYEhDNcEMP0BGFgJl7B+hQSnA0ALAffuyA="
         }
       },
       "is_incremental": false,
@@ -328,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.IPool-1.html",
-          "hash": "BIYM5KiYo53Gllcwc12u02gTH+73z0Lu+6CymVEAmNo="
+          "hash": "VW338QTs8TcPWTgJv3IE8M2DBh8WGwB60MY04I41MhM="
         }
       },
       "is_incremental": false,
@@ -340,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.ObjectModel.PoolBase-1.html",
-          "hash": "EoWfgI7pBqprnXA4ZvnrKs5Q7xROpKpRk5SaGbO1dDk="
+          "hash": "BStJ/aFIrbAXVGczeU3REPZeAg1Q4GsYelVziZjcXDI="
         }
       },
       "is_incremental": false,
@@ -436,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ComponentPool-1.html",
-          "hash": "4/yeog8ocF1nj7rEXiMMlalDTPBPVKpYBf1+CKSmjeM="
+          "hash": "/wxAfopNh/LYXzjzi3Hdt/yAy1VbWJmM/4pcElnoBJk="
         }
       },
       "is_incremental": false,
@@ -460,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.GameObjectPool.html",
-          "hash": "N3Y+Rtx5LOVi5gJt3E2DpBNm5o2IyM8yHkv/Q+qy0JI="
+          "hash": "3aiOURFtDC5CbpOBGuetks2Rmi7/jxiFBw1H0gLZx4c="
         }
       },
       "is_incremental": false,
@@ -472,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html",
-          "hash": "3WO8mlxxUARXcRhkCkdZNB3ASUhyXHFfwU8i/JypBeU="
+          "hash": "M55dXuXfCtSAM0bSS2TMuYgpA0KwbsxnuJQ7NHD1Q6E="
         }
       },
       "is_incremental": false,
@@ -484,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html",
-          "hash": "QKBgKxqqc9KkyyCPTZT7WxlSbPuOYpTKCXh6FBLiCqk="
+          "hash": "4CMKkt3azjL1Il+3vRPa7QeNbsZyT2drCE+elNxdYAk="
         }
       },
       "is_incremental": false,
@@ -496,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html",
-          "hash": "wsBF7YV5O74ZeF6ZPtqP/2C3bzRD5NcEQx6OFowMOWc="
+          "hash": "27D9ulnPQwRmJUVTHhrfVvnbNgL9X7oLYYUlk3rTFVs="
         }
       },
       "is_incremental": false,
@@ -508,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html",
-          "hash": "QfDZOCc+u3OLA/FGDtp8iQ1yCIpXpipK6mbQqo0et28="
+          "hash": "wPJQlnMgr0m+FL++UkiNKiECTfwTxOYWKI1p6/Q5rXI="
         }
       },
       "is_incremental": false,
@@ -544,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.html",
-          "hash": "TtfOHXkah6jKhiwMneFNeT3YmTsj6GKFfiq1d8Hy05s="
+          "hash": "mcMcAjVlr/AvjK9m8vOc5ytS/ny3KUoJmIxBJFPkLpg="
         }
       },
       "is_incremental": false,
@@ -592,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.UnityObjectPool-1.html",
-          "hash": "nD8C5UdNaTgfvaYWrlg2/fI3LfFAKFeYI8As8tkkK4k="
+          "hash": "JaSZn0BGQ8E/md2wzRzm7DcStlSP7jmzhhuKxeFG8qs="
         }
       },
       "is_incremental": false,
@@ -640,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mxsC+KUPcmDtPDqfhY4d0HY0paviR6LAsZD0f0ZIi7g="
+          "hash": "bt5KhrQ5KAp+CyvFVTzCJFB0nDIhVT6Vw48cn/asw90="
         }
       },
       "is_incremental": false,
@@ -715,7 +727,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 51,
+          "total_file_count": 52,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

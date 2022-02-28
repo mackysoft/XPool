@@ -39,42 +39,44 @@ references:
   fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ArrayPool
   nameWithType: ArrayPool<T>.ArrayPool
   nameWithType.vb: ArrayPool(Of T).ArrayPool
-- uid: MackySoft.XPool.Collections.ArrayPool`1.Clear
-  name: Clear()
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Clear
-  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.Clear
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Clear()
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Clear()
-  nameWithType: ArrayPool<T>.Clear()
-  nameWithType.vb: ArrayPool(Of T).Clear()
-- uid: MackySoft.XPool.Collections.ArrayPool`1.Clear*
-  name: Clear
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Clear_
-  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.Clear
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
+  name: IPool<T[]>.Capacity
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity
+  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
+  name.vb: MackySoft.XPool.IPool<T[]>.Capacity
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
+  nameWithType: ArrayPool<T>.IPool<T[]>.Capacity
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity*
+  name: IPool<T[]>.Capacity
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
   isSpec: "True"
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.Clear
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).Clear
-  nameWithType: ArrayPool<T>.Clear
-  nameWithType.vb: ArrayPool(Of T).Clear
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances(System.Int32)
-  name: IPool<T[]>.ReleaseInstances(Int32)
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_System_Int32_
-  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances(System.Int32)
-  name.vb: MackySoft.XPool.IPool<T[]>.ReleaseInstances(Int32)
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.ReleaseInstances(System.Int32)
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.ReleaseInstances(System.Int32)
-  nameWithType: ArrayPool<T>.IPool<T[]>.ReleaseInstances(Int32)
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.ReleaseInstances(Int32)
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances*
-  name: IPool<T[]>.ReleaseInstances
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____ReleaseInstances_
-  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#ReleaseInstances
+  name.vb: MackySoft.XPool.IPool<T[]>.Capacity
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
+  nameWithType: ArrayPool<T>.IPool<T[]>.Capacity
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
+  name: IPool<T[]>.Count
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count
+  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
+  name.vb: MackySoft.XPool.IPool<T[]>.Count
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Count
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
+  nameWithType: ArrayPool<T>.IPool<T[]>.Count
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count*
+  name: IPool<T[]>.Count
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
   isSpec: "True"
-  name.vb: MackySoft.XPool.IPool<T[]>.ReleaseInstances
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.ReleaseInstances
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.ReleaseInstances
-  nameWithType: ArrayPool<T>.IPool<T[]>.ReleaseInstances
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.ReleaseInstances
+  name.vb: MackySoft.XPool.IPool<T[]>.Count
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Count
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
+  nameWithType: ArrayPool<T>.IPool<T[]>.Count
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
 - uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Rent
   name: IPool<T[]>.Rent()
   href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Rent
@@ -94,6 +96,23 @@ references:
   fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Rent
   nameWithType: ArrayPool<T>.IPool<T[]>.Rent
   nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Rent
+- uid: MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances(System.Int32)
+  name: ReleaseInstances(Int32)
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_ReleaseInstances_System_Int32_
+  commentId: M:MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances(System.Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.ReleaseInstances(System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ReleaseInstances(System.Int32)
+  nameWithType: ArrayPool<T>.ReleaseInstances(Int32)
+  nameWithType.vb: ArrayPool(Of T).ReleaseInstances(Int32)
+- uid: MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances*
+  name: ReleaseInstances
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_ReleaseInstances_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.ReleaseInstances
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.ReleaseInstances
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ReleaseInstances
+  nameWithType: ArrayPool<T>.ReleaseInstances
+  nameWithType.vb: ArrayPool(Of T).ReleaseInstances
 - uid: MackySoft.XPool.Collections.ArrayPool`1.Rent(System.Int32)
   name: Rent(Int32)
   href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Rent_System_Int32_
@@ -248,6 +267,18 @@ references:
   commentId: F:MackySoft.XPool.Collections.ArrayPoolUtility.kMinArraySize
   fullName: MackySoft.XPool.Collections.ArrayPoolUtility.kMinArraySize
   nameWithType: ArrayPoolUtility.kMinArraySize
+- uid: MackySoft.XPool.Collections.CollectionPoolUtility
+  name: CollectionPoolUtility
+  href: api/MackySoft.XPool.Collections.CollectionPoolUtility.html
+  commentId: T:MackySoft.XPool.Collections.CollectionPoolUtility
+  fullName: MackySoft.XPool.Collections.CollectionPoolUtility
+  nameWithType: CollectionPoolUtility
+- uid: MackySoft.XPool.Collections.CollectionPoolUtility.kDefaultCapacity
+  name: kDefaultCapacity
+  href: api/MackySoft.XPool.Collections.CollectionPoolUtility.html#MackySoft_XPool_Collections_CollectionPoolUtility_kDefaultCapacity
+  commentId: F:MackySoft.XPool.Collections.CollectionPoolUtility.kDefaultCapacity
+  fullName: MackySoft.XPool.Collections.CollectionPoolUtility.kDefaultCapacity
+  nameWithType: CollectionPoolUtility.kDefaultCapacity
 - uid: MackySoft.XPool.Collections.DictionaryPool`2
   name: DictionaryPool<TKey, TValue>
   href: api/MackySoft.XPool.Collections.DictionaryPool-2.html
@@ -383,14 +414,40 @@ references:
   fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).CollectionPoolBase
   nameWithType: CollectionPoolBase<T>.CollectionPoolBase
   nameWithType.vb: CollectionPoolBase(Of T).CollectionPoolBase
-- uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.kDefaultCapacity
-  name: kDefaultCapacity
-  href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_kDefaultCapacity
-  commentId: F:MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.kDefaultCapacity
-  fullName: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase<T>.kDefaultCapacity
-  fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).kDefaultCapacity
-  nameWithType: CollectionPoolBase<T>.kDefaultCapacity
-  nameWithType.vb: CollectionPoolBase(Of T).kDefaultCapacity
+- uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_Capacity
+  commentId: P:MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Capacity
+  fullName: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).Capacity
+  nameWithType: CollectionPoolBase<T>.Capacity
+  nameWithType.vb: CollectionPoolBase(Of T).Capacity
+- uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_Capacity_
+  commentId: Overload:MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).Capacity
+  nameWithType: CollectionPoolBase<T>.Capacity
+  nameWithType.vb: CollectionPoolBase(Of T).Capacity
+- uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Count
+  name: Count
+  href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_Count
+  commentId: P:MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Count
+  fullName: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).Count
+  nameWithType: CollectionPoolBase<T>.Count
+  nameWithType.vb: CollectionPoolBase(Of T).Count
+- uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_Count_
+  commentId: Overload:MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase(Of T).Count
+  nameWithType: CollectionPoolBase<T>.Count
+  nameWithType.vb: CollectionPoolBase(Of T).Count
 - uid: MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.ReleaseInstances(System.Int32)
   name: ReleaseInstances(Int32)
   href: api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html#MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1_ReleaseInstances_System_Int32_
@@ -2659,6 +2716,40 @@ references:
   fullName.vb: MackySoft.XPool.IPool(Of T)
   nameWithType: IPool<T>
   nameWithType.vb: IPool(Of T)
+- uid: MackySoft.XPool.IPool`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Capacity
+  commentId: P:MackySoft.XPool.IPool`1.Capacity
+  fullName: MackySoft.XPool.IPool<T>.Capacity
+  fullName.vb: MackySoft.XPool.IPool(Of T).Capacity
+  nameWithType: IPool<T>.Capacity
+  nameWithType.vb: IPool(Of T).Capacity
+- uid: MackySoft.XPool.IPool`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Capacity_
+  commentId: Overload:MackySoft.XPool.IPool`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.IPool<T>.Capacity
+  fullName.vb: MackySoft.XPool.IPool(Of T).Capacity
+  nameWithType: IPool<T>.Capacity
+  nameWithType.vb: IPool(Of T).Capacity
+- uid: MackySoft.XPool.IPool`1.Count
+  name: Count
+  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Count
+  commentId: P:MackySoft.XPool.IPool`1.Count
+  fullName: MackySoft.XPool.IPool<T>.Count
+  fullName.vb: MackySoft.XPool.IPool(Of T).Count
+  nameWithType: IPool<T>.Count
+  nameWithType.vb: IPool(Of T).Count
+- uid: MackySoft.XPool.IPool`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Count_
+  commentId: Overload:MackySoft.XPool.IPool`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.IPool<T>.Count
+  fullName.vb: MackySoft.XPool.IPool(Of T).Count
+  nameWithType: IPool<T>.Count
+  nameWithType.vb: IPool(Of T).Count
 - uid: MackySoft.XPool.IPool`1.ReleaseInstances(System.Int32)
   name: ReleaseInstances(Int32)
   href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_ReleaseInstances_System_Int32_
@@ -2742,6 +2833,40 @@ references:
   fullName.vb: MackySoft.XPool.ObjectModel.PoolBase(Of T).PoolBase
   nameWithType: PoolBase<T>.PoolBase
   nameWithType.vb: PoolBase(Of T).PoolBase
+- uid: MackySoft.XPool.ObjectModel.PoolBase`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Capacity
+  commentId: P:MackySoft.XPool.ObjectModel.PoolBase`1.Capacity
+  fullName: MackySoft.XPool.ObjectModel.PoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.ObjectModel.PoolBase(Of T).Capacity
+  nameWithType: PoolBase<T>.Capacity
+  nameWithType.vb: PoolBase(Of T).Capacity
+- uid: MackySoft.XPool.ObjectModel.PoolBase`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Capacity_
+  commentId: Overload:MackySoft.XPool.ObjectModel.PoolBase`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.ObjectModel.PoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.ObjectModel.PoolBase(Of T).Capacity
+  nameWithType: PoolBase<T>.Capacity
+  nameWithType.vb: PoolBase(Of T).Capacity
+- uid: MackySoft.XPool.ObjectModel.PoolBase`1.Count
+  name: Count
+  href: api/MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Count
+  commentId: P:MackySoft.XPool.ObjectModel.PoolBase`1.Count
+  fullName: MackySoft.XPool.ObjectModel.PoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.ObjectModel.PoolBase(Of T).Count
+  nameWithType: PoolBase<T>.Count
+  nameWithType.vb: PoolBase(Of T).Count
+- uid: MackySoft.XPool.ObjectModel.PoolBase`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Count_
+  commentId: Overload:MackySoft.XPool.ObjectModel.PoolBase`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.ObjectModel.PoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.ObjectModel.PoolBase(Of T).Count
+  nameWithType: PoolBase<T>.Count
+  nameWithType.vb: PoolBase(Of T).Count
 - uid: MackySoft.XPool.ObjectModel.PoolBase`1.Factory
   name: Factory()
   href: api/MackySoft.XPool.ObjectModel.PoolBase-1.html#MackySoft_XPool_ObjectModel_PoolBase_1_Factory
@@ -3445,6 +3570,40 @@ references:
   fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).UnityObjectPoolBase
   nameWithType: UnityObjectPoolBase<T>.UnityObjectPoolBase
   nameWithType.vb: UnityObjectPoolBase(Of T).UnityObjectPoolBase
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Capacity
+  commentId: P:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Capacity
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Capacity
+  nameWithType: UnityObjectPoolBase<T>.Capacity
+  nameWithType.vb: UnityObjectPoolBase(Of T).Capacity
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Capacity_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Capacity
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Capacity
+  nameWithType: UnityObjectPoolBase<T>.Capacity
+  nameWithType.vb: UnityObjectPoolBase(Of T).Capacity
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Count
+  name: Count
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Count
+  commentId: P:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Count
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Count
+  nameWithType: UnityObjectPoolBase<T>.Count
+  nameWithType.vb: UnityObjectPoolBase(Of T).Count
+- uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_Count_
+  commentId: Overload:MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase<T>.Count
+  fullName.vb: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase(Of T).Count
+  nameWithType: UnityObjectPoolBase<T>.Count
+  nameWithType.vb: UnityObjectPoolBase(Of T).Count
 - uid: MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase`1.GetPooledInstance
   name: GetPooledInstance()
   href: api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html#MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_GetPooledInstance
@@ -3984,6 +4143,40 @@ references:
   fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).UnityObjectPool
   nameWithType: UnityObjectPool<T>.UnityObjectPool
   nameWithType.vb: UnityObjectPool(Of T).UnityObjectPool
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Capacity
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.Capacity
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Capacity
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Capacity
+  nameWithType: UnityObjectPool<T>.Capacity
+  nameWithType.vb: UnityObjectPool(Of T).Capacity
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Capacity_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Capacity
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Capacity
+  nameWithType: UnityObjectPool<T>.Capacity
+  nameWithType.vb: UnityObjectPool(Of T).Capacity
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Count
+  name: Count
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Count
+  commentId: P:MackySoft.XPool.Unity.UnityObjectPool`1.Count
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Count
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Count
+  nameWithType: UnityObjectPool<T>.Count
+  nameWithType.vb: UnityObjectPool(Of T).Count
+- uid: MackySoft.XPool.Unity.UnityObjectPool`1.Count*
+  name: Count
+  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Count_
+  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.Count
+  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Count
+  nameWithType: UnityObjectPool<T>.Count
+  nameWithType.vb: UnityObjectPool(Of T).Count
 - uid: MackySoft.XPool.Unity.UnityObjectPool`1.GetPooledInstance
   name: GetPooledInstance()
   href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance
