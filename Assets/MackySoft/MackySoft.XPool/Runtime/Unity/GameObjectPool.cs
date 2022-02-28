@@ -4,12 +4,19 @@ using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity {
 
+	/// <summary>
+	/// A pool for GameObject.
+	/// </summary>
 	[Serializable]
 	public class GameObjectPool : UnityObjectPool<GameObject>, IHierarchicalUnityObjectPool<GameObject> {
 
 		public GameObjectPool () {
 		}
 
+		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
+		/// <param name="capacity"> The pool capacity. If less than or equal to 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public GameObjectPool (GameObject original,int capacity) : base(original,capacity) {
 		}
 
