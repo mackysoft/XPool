@@ -5,8 +5,6 @@ using MackySoft.XPool.Internal;
 namespace MackySoft.XPool.Collections.ObjectModel {
 	public abstract class CollectionPoolBase<T> : IPool<T> where T : class {
 
-		protected const int kDefaultCapacity = 8;
-
 		readonly Stack<T> m_Pool;
 		readonly int m_Capacity;
 
@@ -16,6 +14,10 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 
 		// Stack<T> and Queue<T> do not implement ICollection<T>, so need to use a delegate to call the Clear method instead.
 		readonly Action<T> m_Clear;
+
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
 
 		protected CollectionPoolBase (int capacity,Func<T> factory,Action<T> clear) {
 			if (capacity < 0) {

@@ -15,6 +15,10 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 
 		readonly Queue<T> m_Pool = new Queue<T>();
 
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
+
 		protected UnityObjectPoolBase () {
 		}
 

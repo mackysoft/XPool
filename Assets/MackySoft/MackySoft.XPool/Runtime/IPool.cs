@@ -10,6 +10,16 @@ namespace MackySoft.XPool {
 	public interface IPool<T> {
 
 		/// <summary>
+		/// Capacity to store instances in the pool.
+		/// </summary>
+		int Capacity { get; }
+
+		/// <summary>
+		/// Quantity of instances stored in the pool.
+		/// </summary>
+		int Count { get; }
+
+		/// <summary>
 		/// Return the pooled instance. If pool is empty, create new instance and returns it.
 		/// </summary>
 		T Rent ();

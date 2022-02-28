@@ -24,6 +24,10 @@ namespace MackySoft.XPool.Unity {
 
 		public T Original => m_Original;
 
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
+
 		public Action<T> OnCreate { set => SetCallback(ref m_OnCreate,value); }
 		public Action<T> OnRent { set => SetCallback(ref m_OnRent,value); }
 		public Action<T> OnReturn { set => SetCallback(ref m_OnReturn,value); }
