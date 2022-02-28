@@ -6,10 +6,12 @@ using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
 	public abstract class UnityObjectPoolBase<T> : IUnityObjectPool<T> where T : UnityObject {
-		
+
+		[Tooltip("The original object from which the pool will instantiate a new instance.")]
 		[SerializeField]
 		protected T m_Original;
 
+		[Tooltip("Capacity to store instances in the pool.")]
 		[SerializeField]
 		int m_Capacity;
 
@@ -22,6 +24,10 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 		protected UnityObjectPoolBase () {
 		}
 
+		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
+		/// <param name="capacity"> The pool capacity. If less than 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		protected UnityObjectPoolBase (T original,int capacity) {
 			m_Original = (original != null) ? original : throw Error.ArgumentNullException(nameof(original));
 			m_Capacity = (capacity >= 0) ? capacity : throw Error.RequiredNonNegative(nameof(capacity));
@@ -84,9 +90,24 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 			return instance;
 		}
 
+		/// <summary>
+		/// Called when called <see cref="Rent"/> if pool is empty and new instance is instantiated by the pool.
+		/// </summary>
 		protected abstract void OnCreate (T instance);
+
+		/// <summary>
+		/// Called when rent an instance from the pool.
+		/// </summary>
 		protected abstract void OnRent (T instance);
+
+		/// <summary>
+		/// Called when return an instance to the pool.
+		/// </summary>
 		protected abstract void OnReturn (T instance);
+
+		/// <summary>
+		/// Called when the capacity of the pool is exceeded and the instance cannot be returned. The process to release the object must be performed, such as Dispose.
+		/// </summary>
 		protected abstract void OnRelease (T instance);
 	}
 }
