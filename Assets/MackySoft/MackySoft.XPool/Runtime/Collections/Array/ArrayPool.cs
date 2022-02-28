@@ -16,10 +16,6 @@ namespace MackySoft.XPool.Collections {
 		readonly Stack<T[]>[] m_Pool;
 		readonly SpinLock[] m_Locks;
 
-		public int Capacity => throw new NotImplementedException();
-
-		public int Count => throw new NotImplementedException();
-
 		public ArrayPool () {
 			m_Pool = new Stack<T[]>[18];
 			m_Locks = new SpinLock[18];
@@ -182,6 +178,10 @@ namespace MackySoft.XPool.Collections {
 					return -1;
 			}
 		}
+
+		int IPool<T[]>.Capacity => throw Error.FunctionIsNotSupported();
+
+		int IPool<T[]>.Count => throw Error.FunctionIsNotSupported();
 
 		T[] IPool<T[]>.Rent () {
 			throw Error.FunctionIsNotSupported();
