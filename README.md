@@ -78,6 +78,11 @@ Pooling of Unity Object (GameObject, Component) can be performed using `GameObje
 These hierarchical objects can be rented by writing them in a similar way to `Instantiate` method.
 
 ```cs
+// Example code is being written...
+```
+
+<!--
+```cs
 public class Projectile : MonoBehaviour {
 
     public float speed;
@@ -118,7 +123,7 @@ public class Shooter : MonoBehaviour {
     }
 }
 ```
-
+-->
 
 ### <a id="particle-system-pool" href="#particle-system-pool"> ParticleSystem Pool </a>
 
