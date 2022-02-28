@@ -2,6 +2,10 @@
 using UnityEngine;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
+
+	/// <summary>
+	/// Base of pool for <see cref="Component"/>.
+	/// </summary>
 	public abstract class ComponentPoolBase<T> : UnityObjectPoolBase<T>, IHierarchicalUnityObjectPool<T> where T : Component {
 
 		protected ComponentPoolBase () {

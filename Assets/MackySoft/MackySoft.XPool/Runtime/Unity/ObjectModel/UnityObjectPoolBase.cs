@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
+
+	/// <summary>
+	/// Base of pool for <see cref="UnityObject"/>.
+	/// </summary>
 	public abstract class UnityObjectPoolBase<T> : IUnityObjectPool<T> where T : UnityObject {
 
 		[Tooltip("The original object from which the pool will instantiate a new instance.")]
