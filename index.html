@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>XPool | XPool </title>
+    <title>XPool - Object Pooling System | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="XPool | XPool ">
+    <meta name="title" content="XPool - Object Pooling System | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -70,30 +70,286 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="xpool">XPool</h1>
+<h1 id="xpool---object-pooling-system">XPool - Object Pooling System</h1>
 
-<p> Object pooling system</p>
-<p><strong>To be described</strong></p>
+<p><a href="https://github.com/mackysoft/XPool/actions/workflows/tests.yaml"><img src="https://github.com/mackysoft/XPool/actions/workflows/tests.yaml/badge.svg" alt="Tests"></a>
+<a href="https://github.com/mackysoft/XPool/actions/workflows/build.yaml"><img src="https://github.com/mackysoft/XPool/actions/workflows/build.yaml/badge.svg" alt="Build"></a></p>
+<p><img src="https://user-images.githubusercontent.com/13536348/154980636-f949151e-f820-4d86-b9e9-302880671d14.png" alt="XPool_Frame"></p>
+<p><strong>Created by Hiroya Aramaki (<a href="https://twitter.com/makihiro_dev">Makihiro</a>)</strong></p>
+<h2 id="what-is-xpool-">What is XPool ?</h2>
+<p>XPool is an object pooling library for Unity.</p>
+<p>This was developed to be able to do all the pooling expected in application development with just this library.</p>
 <ul>
-<li>Why XPool ?</li>
-<li>Get Started</li>
-<li>Installation</li>
-<li>Object Pool<ul>
-<li>Factory Pool</li>
+<li>All your classes can be pooled.</li>
+<li>Short code, easy to use.</li>
+<li>Fast performance</li>
+<li>Scalability</li>
+<li>Tested. It works stably.</li>
+</ul>
+<h2 id="a-idindex-hrefindex-table-of-contents-a"><a id="index" href="#index"> Table of Contents </a></h2>
+<ul>
+<li><a href="#installation">📥 Installation</a></li>
+<li><a href="#usage">🔰 Usage</a><ul>
+<li><a href="#unity-object-pool">Unity Object Pool</a><ul>
+<li><a href="#particle-system-pool">ParticleSystem Pool</a></li>
 </ul>
 </li>
-<li>Unity Object Pool<ul>
-<li>GameObject Pool</li>
-<li>Component Pool</li>
-<li>Writing Custom Unity Object Pool<ul>
-<li>Example: ParticleSystem Pool</li>
+<li><a href="#object-pool">Pure C# Object Pool</a></li>
+<li><a href="#collection-pool">Collection Pool</a></li>
+<li><a href="#non-allocated-collections">Non Allocated Collections</a></li>
+<li><a href="#how-to-write-custom-pool">How to write custom pool ?</a><ul>
+<li><a href="#particle-system-pool-implementation">ParticleSystemPool implementation</a></li>
 </ul>
 </li>
+<li><a href="#optimization">Optimization</a></li>
 </ul>
 </li>
-<li>Collection Pool</li>
-<li>Non Allocated Collections</li>
+<li><a href="#help-and-contribute">✉ Help &amp; Contribute</a></li>
+<li><a href="#author-info">📔 Author Info</a></li>
+<li><a href="#license">📜 License</a></li>
 </ul>
+<h1 id="a-idinstallation-hrefinstallation--installation-a"><a id="installation" href="#installation"> 📥 Installation </a></h1>
+<p>Coming soon</p>
+<!---
+Download any version from releases.
+
+Releases: https://github.com/mackysoft/XPool/releases
+
+
+### Install via PackageManager
+
+Or, you can add this package by opening PackageManager and entering
+
+`https://github.com/mackysoft/XPool.git?path=Assets/MackySoft/MackySoft.XPool`
+
+from the `Add package from git URL` option.
+
+
+### Install via Open UPM
+
+Or, you can install this package from the [Open UPM](https://openupm.com/packages/com.mackysoft.xpool/) registry.
+
+More details [here](https://openupm.com/).
+
+```
+openupm add com.mackysoft.xpool
+```
+-->
+<h1 id="a-idusage-hrefusage--usage-a"><a id="usage" href="#usage"> 🔰 Usage </a></h1>
+<p>The full Scripting API is <a href="https://mackysoft.github.io/XPool/api/MackySoft.XPool.html">here</a>.</p>
+<p>Scripting API: <a href="https://mackysoft.github.io/XPool/api/MackySoft.XPool.html">https://mackysoft.github.io/XPool/api/MackySoft.XPool.html</a></p>
+<h2 id="a-idunity-object-pool-hrefunity-object-pool-unity-object-pool-gameobject-component-a"><a id="unity-object-pool" href="#unity-object-pool"> Unity Object Pool (GameObject, Component) </a></h2>
+<p>Pooling of Unity Object (GameObject, Component) can be performed using <code>GameObjectPool</code> or <code>ComponentPool&lt;T&gt;</code>.
+These hierarchical objects can be rented by writing them in a similar way to <code>Instantiate</code> method.</p>
+<pre><code class="lang-cs">// Example code is being written...
+</code></pre><!--
+```cs
+public class Projectile : MonoBehaviour {
+
+    public float speed;
+    public event Action OnHit;
+
+    void Update () {
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+    }
+
+    void OnCollisionEnter (Collision collision) {
+        OnHit?.Invoke();
+    }
+}
+
+public class OnHitTrigger : MonoBehaviour {
+    public void Initialize (Projectile projectile,IPool<Projectile> pool) {
+        projectile.OnHit += () => pool.Return(projectile);
+    }
+
+
+}
+
+public class Shooter : MonoBehaviour {
+
+    [SerializeField]
+    ComponentPool<Projectile> m_ProjectilePool = new ComponentPool<Projectile>();
+
+    void Awake () {
+        m_ProjectilePool.OnCreate = instance => instance.gameObject.AddComponent<OnHitTrigger>();
+        m_ProjectilePool.OnRent = instance => instance.gameObject.SetActive(true);
+        m_ProjectilePool.OnRetuern = instance => instance.gameObject.SetActive(false);
+        m_ProjectilePool.OnRelease = instance => Destroy(instance.gameObject);
+    }
+
+    public void Shoot (){
+        Projectile instance = m_ProjectilePool.Rent(transform.position,transform.rotation);
+        instance.OnHit += () => 
+    }
+}
+```
+-->
+<h3 id="a-idparticle-system-pool-hrefparticle-system-pool-particlesystem-pool-a"><a id="particle-system-pool" href="#particle-system-pool"> ParticleSystem Pool </a></h3>
+<p>Optimized pools are available for some of the components implemented in Unity.</p>
+<p>This is an example of <code>ParticleSystemPool</code> usage.</p>
+<pre><code class="lang-cs">public class HitParticleSystemEmitter : MonoBehaviour {
+
+    [SerializeField]
+    ParticleSystemPool m_HitParticleSystemPool = new ParticleSystemPool();
+
+    void OnCollisionEnter (Collision collision) {
+        // The rented ParticleSystem is automatically returned to the pool when completed.
+        m_HitParticleSystemPool.Rent(collision.contacts[0],Quaternion.identity);
+    }
+}
+</code></pre><p>If you need an optimized pool for other components, please refer to the <a href="#how-to-write-custom-pool">How to write custom pool ?</a> section, or give me feedback via <a href="https://github.com/mackysoft/XPool/issues">issues</a> or <a href="https://github.com/mackysoft/XPool/pulls">pull requests</a>.</p>
+<h2 id="a-idobject-pool-hrefobject-pool-object-pool-pure-c-object-a"><a id="object-pool" href="#object-pool"> Object Pool (Pure C# Object) </a></h2>
+<p><code>FactoryPool&lt;T&gt;</code> can be used to pool Pure C# Object.</p>
+<blockquote><p>Unity Object are not supported, as they behave differently from Pure C# Object in that they can be set to null externally with <code>Destroy</code> method.</p>
+</blockquote>
+<pre><code class="lang-cs">// Give the capacity and factory method to the constructor.
+var pool = new FactoryPool&lt;MyClass&gt;(8,() =&gt; new MyClass());
+
+// Create new instance by factory if pool is empty.
+MyClass instance = pool.Rent();
+
+// Return instance to the pool.
+pool.Return(instance);
+</code></pre><h2 id="a-idcollection-pool-hrefcollection-pool-collection-pool-t-listt-qeueuet-stackt-hashsett-dictionarytkeytvalue-a"><a id="collection-pool" href="#collection-pool"> Collection Pool (<code>T[]</code>, <code>List&lt;T&gt;</code>, <code>Qeueue&lt;T&gt;</code>, <code>Stack&lt;T&gt;</code>, <code>HashSet&lt;T&gt;</code>, <code>Dictionary&lt;TKey,TValue&gt;</code>) </a></h2>
+<p>An optimized pool is provided for the generic collections provided in .NET Framework.</p>
+<pre><code class="lang-cs">// Rent an array from the pool. 
+// Note that the array length to be rented is the next two powers of minimumLength.
+T[] array = ArrayPool&lt;T&gt;.Shared.Rent(minimumLength: 10);
+
+// Return array to the pool.
+ArrayPool&lt;T&gt;.Shared.Return(array);
+
+// ListPool&lt;T&gt;, QueuePool&lt;T&gt;, StackPool&lt;T&gt;, HashSetPool&lt;T&gt; are also available.
+List&lt;T&gt; list = ListPool&lt;T&gt;.Shared.Rent();
+Queue&lt;T&gt; queue = QueuePool&lt;T&gt;.Shared.Rent();
+Stack&lt;T&gt; stack = StackPool&lt;T&gt;.Shared.Rent();
+HashSet&lt;T&gt; hashSet = HashSetPool&lt;T&gt;.Shared.Rent();
+Dictionary&lt;TKey,TValue&gt; dictionary = DictionaryPool&lt;TKey,TValue&gt;.Shared.Rent();
+</code></pre><h2 id="a-idnon-allocated-collections-hrefnon-allocated-collections-non-allocated-collections-a"><a id="non-allocated-collections" href="#non-allocated-collections"> Non allocated collections </a></h2>
+<p>You can use the TemporaryCollections API that leverages <code>ArrayPool&lt;T&gt;</code>.</p>
+<p>These collections are a struct and internally use array rented from <code>ArrayPool&lt;T&gt;</code>.</p>
+<p>Therefore, it is fast and non-allocation.</p>
+<pre><code class="lang-cs">// Create a temporary array.
+var array = TemporaryArray&lt;T&gt;.Create(10);
+
+// You must release collection when you are done using it.
+array.Dispose();
+
+// TemporaryList&lt;T&gt;, TemporaryQueue&lt;T&gt;, TemporaryStack&lt;T&gt; are also available.
+// var list = TemporaryList&lt;T&gt;.Create();
+// var queue = TemporaryQueue&lt;T&gt;.Create();
+// var stack = TemporaryStack&lt;T&gt;.Create();
+</code></pre><h2 id="a-idhow-to-write-custom-pool-hrefhow-to-write-custom-pool-how-to-write-custom-pool--a"><a id="how-to-write-custom-pool" href="#how-to-write-custom-pool"> How to write custom pool ? </a></h2>
+<p>If you want to implement a more customized pool, you can quickly create one by using the provided base classes.</p>
+<p>The base class of the pool is in the <code>ObjectModel</code> namespace.</p>
+<ul>
+<li><code>MackySoft.XPool.ObjectMode.PoolBase&lt;T&gt;</code></li>
+<li><code>MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase&lt;T&gt;</code></li>
+<li><code>MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase&lt;T&gt;</code></li>
+</ul>
+<pre><code class="lang-cs">using MackySoft.XPool.ObjectModel; // PoolBase&lt;T&gt; is here.
+
+public class MyPool : PoolBase&lt;MyClass&gt; {
+
+    public MyPool () {
+    }
+
+    public MyPool (MyClass original,int capacity) : base(original,capacity) {
+    }
+
+    // Called when Rent is invoked and there are no instances in the pool.
+    protected override MyClass Factory () {
+        return new MyClass();
+    }
+
+    // Called when an instance is rented from the pool.
+    // This is also the case when a new instance is created by the Factory.
+    protected override void OnRent (MyClass instance) {
+
+    }
+
+    // Called when an instance is returned to the pool.
+    protected override void OnReturn (MyClass instance) {
+
+    }
+
+    // Called when the capacity is exceeded and the instance cannot be returned to the pool,
+    // or when the instance is released by the ReleaseInstances method.
+    protected override void OnRelease (MyClass instance) {
+
+    }
+}
+</code></pre><h3 id="a-idparticle-system-pool-implementation-hrefparticle-system-pool-implementation-particlesystempool-implementation-a"><a id="particle-system-pool-implementation" href="#particle-system-pool-implementation"> ParticleSystemPool implementation </a></h3>
+<p>As an example, <code>ParticleSystemPool</code> is implemented using <code>ComponentPoolBase&lt;T&gt;</code>.
+Its functionality has been optimized for ParticleSystem.</p>
+<pre><code class="lang-cs">using System;
+using UnityEngine;
+using MackySoft.XPool.Unity.ObjectModel; // ComponentPoolBase&lt;T&gt; is here.
+
+[Serializable]
+public class ParticleSystemPool : ComponentPoolBase&lt;ParticleSystem&gt; {
+
+    [SerializeField]
+    bool m_PlayOnRent;
+
+    public bool PlayOnRent { get =&gt; m_PlayOnRent; set =&gt; m_PlayOnRent = value; }
+
+    public ParticleSystemPool () {
+    }
+
+    public ParticleSystemPool (ParticleSystem original,int capacity) : base(original,capacity) {
+    }
+
+    protected override void OnCreate (ParticleSystem instance) {
+        var main = instance.main;
+        main.stopAction = ParticleSystemStopAction.Callback;
+        var trigger = instance.gameObject.AddComponent&lt;ParticleSystemStoppedTrigger&gt;();
+        trigger.Initialize(instance,this);
+    }
+
+    protected override void OnRent (ParticleSystem instance) {
+        if (m_PlayOnRent) {
+            instance.Play(true);
+        }
+    }
+
+    protected override void OnReturn (ParticleSystem instance) {
+        instance.Stop(true,ParticleSystemStopBehavior.StopEmitting);
+    }
+
+    protected override void OnRelease (ParticleSystem instance) {
+        UnityEngine.Object.Destroy(instance.gameObject);
+    }
+
+    public class ParticleSystemStoppedTrigger : MonoBehaviour {
+
+        ParticleSystem m_ParticleSystem;
+        IPool&lt;ParticleSystem&gt; m_Pool;
+
+        internal void Initialize (ParticleSystem ps,IPool&lt;ParticleSystem&gt; pool) {
+            m_ParticleSystem = ps;
+            m_Pool = pool;
+        }
+
+        void OnParticleSystemStopped () {
+            m_Pool?.Return(m_ParticleSystem);
+        }
+
+    }
+}
+</code></pre><h1 id="a-idhelp-and-contribute-hrefhelp-and-contribute--help--contribute-a"><a id="help-and-contribute" href="#help-and-contribute"> ✉ Help &amp; Contribute </a></h1>
+<p>I welcome feature requests and bug reports in <a href="https://github.com/mackysoft/XPool/issues">issues</a> and <a href="https://github.com/mackysoft/XPool/pulls">pull requests</a>.</p>
+<p>If you feel that my works are worthwhile, I would greatly appreciate it if you could sponsor me.</p>
+<p>GitHub Sponsors: <a href="https://github.com/sponsors/mackysoft">https://github.com/sponsors/mackysoft</a></p>
+<h1 id="a-idauthor-info-hrefauthor-info--author-info-a"><a id="author-info" href="#author-info"> 📔 Author Info </a></h1>
+<p>Hiroya Aramaki is a indie game developer in Japan.</p>
+<ul>
+<li>Twitter: <a href="https://twitter.com/makihiro_dev">https://twitter.com/makihiro_dev</a></li>
+<li>Blog: <a href="https://mackysoft.net/blog">https://mackysoft.net/blog</a></li>
+</ul>
+<h1 id="a-idlicense-hreflicense--license-a"><a id="license" href="#license"> 📜 License </a></h1>
+<p>This library is under the MIT License.</p>
 </article>
           </div>
           
