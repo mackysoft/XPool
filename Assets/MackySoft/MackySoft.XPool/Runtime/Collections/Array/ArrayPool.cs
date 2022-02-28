@@ -114,11 +114,24 @@ namespace MackySoft.XPool.Collections {
 			array = null;
 		}
 
-		/// <summary>
-		/// Clear the pool of this type.
-		/// </summary>
-		public void Clear () {
-			Array.Clear(m_Pool,0,m_Pool.Length);
+		public void ReleaseInstances (int keep) {
+			if ((keep < 0) || (keep > kMaxBucketSize)) {
+				throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
+			}
+
+			if (keep != 0) {
+				// Release instances from each buckets.
+				for (int i = 0;i < m_Pool.Length;i++) {
+					var bucket = m_Pool[i];
+					for (int k = bucket.Count - keep;i > 0;k--) {
+						bucket.Pop();
+					}
+				}
+			}
+			else {
+				// Release buckets.
+				Array.Clear(m_Pool,0,m_Pool.Length);
+			}
 		}
 		
 		static int CalculateArraySize (int size) {
@@ -184,10 +197,6 @@ namespace MackySoft.XPool.Collections {
 		int IPool<T[]>.Count => throw Error.FunctionIsNotSupported();
 
 		T[] IPool<T[]>.Rent () {
-			throw Error.FunctionIsNotSupported();
-		}
-
-		void IPool<T[]>.ReleaseInstances (int keep) {
 			throw Error.FunctionIsNotSupported();
 		}
 	}
