@@ -49,5 +49,10 @@ namespace MackySoft.XPool.Internal {
 			return new InvalidOperationException("Cannot set the callback because the pool is active.");
 		}
 
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static NotSupportedException FunctionIsNotSupported () {
+			return new NotSupportedException("This function is not supported.");
+		}
+
 	}
 }
