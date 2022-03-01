@@ -54,6 +54,9 @@ namespace MackySoft.XPool.Collections {
 			m_Count = count;
 		}
 
+		/// <summary>
+		/// Whether the specified object exists in the list.
+		/// </summary>
 		public bool Contains (T item) {
 			if (item == null) {
 				for (int i = 0;i < m_Count;i++) {
@@ -75,7 +78,7 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		/// <summary>
-		/// Set item to current length and increase length.
+		/// Add object to the head of the list.
 		/// </summary>
 		public void Add (T item) {
 			ArrayPoolUtility.EnsureCapacity(ref m_Array,m_Count,m_Pool);
@@ -83,10 +86,21 @@ namespace MackySoft.XPool.Collections {
 			m_Count++;
 		}
 
+		/// <summary>
+		/// Add elements of specified collection to the head of the list.
+		/// </summary>
+		/// <param name="collection"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public void AddRange (IEnumerable<T> collection) {
 			InsertRange(m_Count,collection);
 		}
 
+		/// <summary>
+		/// Insert object at the specified index in the list.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="item"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public void Insert (int index,T item) {
 			if (index > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -102,7 +116,16 @@ namespace MackySoft.XPool.Collections {
 			m_Count++;
 		}
 
+		/// <summary>
+		/// Insert elements of specified collection to the specified index in the list.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="collection"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public void InsertRange (int index,IEnumerable<T> collection) {
+			if (collection == null) {
+				throw Error.ArgumentNullException(nameof(collection));
+			}
 			if (collection is ICollection<T> c) {
 				int count = c.Count;
 
@@ -123,6 +146,11 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
+		/// <summary>
+		/// Remove the first matching element when the specified object exists in the list.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <returns></returns>
 		public bool Remove (T item) {
 			int index = IndexOf(item);
 			if (index >= 0) {
@@ -132,6 +160,11 @@ namespace MackySoft.XPool.Collections {
 			return false;
 		}
 
+		/// <summary>
+		/// Remove object at the specified index in the list.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <returns></returns>
 		public bool RemoveAt (int index) {
 			if (index >= m_Count) {
 				return false;
@@ -144,6 +177,13 @@ namespace MackySoft.XPool.Collections {
 			return true;
 		}
 
+		/// <summary>
+		/// Remove objects in the list within specified range from specified index.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentException"></exception>
 		public void RemoveRange (int index,int count) {
 			if (index < 0) {
 				throw Error.RequiredNonNegative(nameof(index));
@@ -164,6 +204,11 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
+		/// <summary>
+		/// Remove all objects from the list that match the speficied condition.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public int RemoveAll (Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -193,6 +238,9 @@ namespace MackySoft.XPool.Collections {
 			return result;
 		}
 
+		/// <summary>
+		/// Remove all objects from the list.
+		/// </summary>
 		public void Clear () {
 			m_Pool.Return(m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 
@@ -202,10 +250,21 @@ namespace MackySoft.XPool.Collections {
 
 		#region IndexOf
 
+		/// <summary>
+		/// Search for specified object in the list and return the index of the first matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <returns></returns>
 		public int IndexOf (T item) {
 			return System.Array.IndexOf(m_Array,item,0,m_Count);
 		}
 
+		/// <summary>
+		/// Search for specified object in the list at between specified index and the tail, and return the index of the first matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <param name="index"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int IndexOf (T item,int index) {
 			if (index > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -213,6 +272,13 @@ namespace MackySoft.XPool.Collections {
 			return System.Array.IndexOf(m_Array,item,index,m_Count - index);
 		}
 
+		/// <summary>
+		/// Search for specified object in the list within specified range from specified index, and return the index of the first matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int IndexOf (T item,int index,int count) {
 			if (index > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -227,6 +293,11 @@ namespace MackySoft.XPool.Collections {
 
 		#region LastIndexOf
 
+		/// <summary>
+		/// Search for specified object in the list and return the index of the last matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <returns></returns>
 		public int LastIndexOf (T item) {
 			if (m_Count == 0) {
 				return -1;
@@ -234,6 +305,12 @@ namespace MackySoft.XPool.Collections {
 			return LastIndexOf(item,m_Count - 1,m_Count);
 		}
 
+		/// <summary>
+		/// Search for specified object in the list at between specified index and the tail, and return the index of the last matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <param name="index"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int LastIndexOf (T item,int index) {
 			if (index >= m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -241,6 +318,13 @@ namespace MackySoft.XPool.Collections {
 			return LastIndexOf(item,index,index + 1);
 		}
 
+		/// <summary>
+		/// Search for specified object in the list within specified range from specified index, and return the index of the first matching element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int LastIndexOf (T item,int index,int count) {
 			if (m_Count == 0) {
 				if (index < 0) {
@@ -264,14 +348,33 @@ namespace MackySoft.XPool.Collections {
 
 		#region BinarySearch
 
+		/// <summary>
+		/// Search a sorted list using the default comparer and return the index starting from 0 for that element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <returns></returns>
 		public int BinarySearch (T item) {
 			return BinarySearch(0,m_Count,item,null);
 		}
 
+		/// <summary>
+		/// Search in the sorted list within specified range from specified index, using the specified comparer and return the index starting from 0 for that element.
+		/// </summary>
+		/// <param name="item"></param>
+		/// <param name="comparer"></param>
+		/// <returns></returns>
 		public int BinarySearch (T item,IComparer<T> comparer) {
 			return BinarySearch(0,m_Count,item,comparer);
 		}
 
+		/// <summary>
+		/// Search a sorted list using the specified comparer and return the index starting from 0 for that element.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <param name="item"></param>
+		/// <param name="comparer"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int BinarySearch (int index,int count,T item,IComparer<T> comparer) {
 			if (index < 0) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -289,14 +392,32 @@ namespace MackySoft.XPool.Collections {
 
 		#region CopyTo
 
+		/// <summary>
+		/// Copy objects to array in the list.
+		/// </summary>
+		/// <param name="array"></param>
 		public void CopyTo (T[] array) {
 			CopyTo(array,0);
 		}
 
+		/// <summary>
+		/// Copy objects to array in the list.
+		/// </summary>
+		/// <param name="array"></param>
+		/// <param name="arrayIndex"></param>
+		/// <exception cref="ArgumentException"></exception>
 		public void CopyTo (T[] array,int arrayIndex) {
 			System.Array.Copy(m_Array,0,array,arrayIndex,m_Count);
 		}
 
+		/// <summary>
+		/// Copy objects to array in the list.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="array"></param>
+		/// <param name="arrayIndex"></param>
+		/// <param name="count"></param>
+		/// <exception cref="ArgumentException"></exception>
 		public void CopyTo (int index,T[] array,int arrayIndex,int count) {
 			if ((m_Count - index) < count) {
 				throw Error.InvalidOffLength();
@@ -308,10 +429,20 @@ namespace MackySoft.XPool.Collections {
 
 		#region Reverse
 
+		/// <summary>
+		/// Reverse the order of the elements in the list.
+		/// </summary>
 		public void Reverse () {
 			Reverse(0,m_Count);
 		}
 
+		/// <summary>
+		/// Reverse the order of the elements in the list.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentException"></exception>
 		public void Reverse (int index,int count) {
 			if (index < 0) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -329,14 +460,29 @@ namespace MackySoft.XPool.Collections {
 
 		#region Sort
 
+		/// <summary>
+		/// Sort the elements of the list using the default comparer.
+		/// </summary>
 		public void Sort () {
 			Sort(0,m_Count,null);
 		}
 
+		/// <summary>
+		/// Sort the elements of the list using the specified comparer.
+		/// </summary>
+		/// <param name="comparer"></param>
 		public void Sort (IComparer<T> comparer) {
 			Sort(0,m_Count,comparer);
 		}
 
+		/// <summary>
+		/// Sort the elements of the list using the specified comparer.
+		/// </summary>
+		/// <param name="index"></param>
+		/// <param name="count"></param>
+		/// <param name="comparer"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentException"></exception>
 		public void Sort (int index,int count,IComparer<T> comparer) {
 			if (index < 0) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(index));
@@ -355,14 +501,34 @@ namespace MackySoft.XPool.Collections {
 
 		#region FindIndex
 
+		/// <summary>
+		/// Search in the list with specified condition and return the index of the first matching element.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public int FindIndex (Predicate<T> match) {
 			return FindIndex(0,match);
 		}
 
+		/// <summary>
+		/// Search in the list at between specified index and the tail with specified condition, and return the index of the first matching element.
+		/// </summary>
+		/// <param name="startIndex"></param>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentNullException"></exception>
 		public int FindIndex (int startIndex,Predicate<T> match) {
 			return FindIndex(startIndex,m_Count,match);
 		}
 
+		/// <summary>
+		/// Search in the list within specified range from specified index with specified condition, and return the index of the first matching element.
+		/// </summary>
+		/// <param name="startIndex"></param>
+		/// <param name="count"></param>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentNullException"></exception>
 		public int FindIndex (int startIndex,int count,Predicate<T> match) {
 			if (startIndex > m_Count) {
 				throw Error.ArgumentOutOfRangeOfCollection(nameof(startIndex));
@@ -387,14 +553,34 @@ namespace MackySoft.XPool.Collections {
 
 		#region FindLastIndex
 
+		/// <summary>
+		/// Search in the list with specified condition and return the index of the last matching element.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public int FindLastIndex (Predicate<T> match) {
 			return FindLastIndex(m_Count - 1,m_Count,match);
 		}
 
+		/// <summary>
+		/// Search in the list at between specified index and the tail with specified condition, and return the index of the last matching element.
+		/// </summary>
+		/// <param name="startIndex"></param>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int FindLastIndex (int startIndex,Predicate<T> match) {
 			return FindLastIndex(startIndex,startIndex + 1,match);
 		}
 
+		/// <summary>
+		/// Search in the list within specified range from specified index with specified condition, and return the index of the last matching element.
+		/// </summary>
+		/// <param name="startIndex"></param>
+		/// <param name="count"></param>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public int FindLastIndex (int startIndex,int count,Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -424,10 +610,20 @@ namespace MackySoft.XPool.Collections {
 
 		#endregion
 
+		/// <summary>
+		/// Whether the object matching the specified condition exists in the list.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public bool Exists (Predicate<T> match) {
 			return FindIndex(match) != -1;
 		}
 
+		/// <summary>
+		/// Search in the list with specified condition and return the first matching element.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public T Find (Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -442,6 +638,11 @@ namespace MackySoft.XPool.Collections {
 			return default;
 		}
 
+		/// <summary>
+		/// Search in the list with specified condition and return the last matching element.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public T FindLast (Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -456,6 +657,11 @@ namespace MackySoft.XPool.Collections {
 			return default;
 		}
 
+		/// <summary>
+		/// Return a collection of objects in a list that match the specified condition.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public TemporaryList<T> FindAll (Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
@@ -471,6 +677,11 @@ namespace MackySoft.XPool.Collections {
 			return result;
 		}
 
+		/// <summary>
+		/// Whether all objects in the list match the specified condition.
+		/// </summary>
+		/// <param name="match"></param>
+		/// <exception cref="ArgumentNullException"></exception>
 		public bool TrueForAll (Predicate<T> match) {
 			if (match == null) {
 				throw Error.ArgumentNullException(nameof(match));
