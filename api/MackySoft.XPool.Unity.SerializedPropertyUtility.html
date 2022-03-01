@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace MackySoft.XPool.Unity
+    <title>Class SerializedPropertyUtility
    | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace MackySoft.XPool.Unity
+    <meta name="title" content="Class SerializedPropertyUtility
    | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,43 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Unity">
+            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Unity.SerializedPropertyUtility">
   
-  <h1 id="MackySoft_XPool_Unity" data-uid="MackySoft.XPool.Unity" class="text-break">Namespace MackySoft.XPool.Unity
+  
+  <h1 id="MackySoft_XPool_Unity_SerializedPropertyUtility" data-uid="MackySoft.XPool.Unity.SerializedPropertyUtility" class="text-break">Class SerializedPropertyUtility
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">SerializedPropertyUtility</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Unity.html">MackySoft.XPool.Unity</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="MackySoft_XPool_Unity_SerializedPropertyUtility_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SerializedPropertyUtility</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.ComponentPool-1.html">ComponentPool&lt;T&gt;</a></h4>
-      <section><p>A pool for Component.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.DefaultFunctions.html">DefaultFunctions</a></h4>
-      <section></section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.GameObjectPool.html">GameObjectPool</a></h4>
-      <section><p>A pool for GameObject.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.ParticleSystemPool.html">ParticleSystemPool</a></h4>
-      <section><p>Optimized pool for <see cref="!:ParticleSystem"></see>.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html">ParticleSystemPool.ParticleSystemStoppedTrigger</a></h4>
-      <section></section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.SerializedPropertyUtility.html">SerializedPropertyUtility</a></h4>
-      <section></section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html">UnityObjectPool&lt;T&gt;</a></h4>
-      <section><p>A pool for object that inherit from <see cref="!:UnityObject"></see>.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.UnityObjectPoolDrawer.html">UnityObjectPoolDrawer</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html">IHierarchicalUnityObjectPool&lt;T&gt;</a></h4>
-      <section><p>Interface that provides rent method for GameObject or components.</p>
-</section>
-      <h4><a class="xref" href="MackySoft.XPool.Unity.IUnityObjectPool-1.html">IUnityObjectPool&lt;T&gt;</a></h4>
-      <section><p>Interface that provides a pool for <see cref="!:UnityObject"></see>.</p>
-</section>
+  <a id="MackySoft_XPool_Unity_SerializedPropertyUtility_GetVisibleChildren_" data-uid="MackySoft.XPool.Unity.SerializedPropertyUtility.GetVisibleChildren*"></a>
+  <h4 id="MackySoft_XPool_Unity_SerializedPropertyUtility_GetVisibleChildren_SerializedProperty_" data-uid="MackySoft.XPool.Unity.SerializedPropertyUtility.GetVisibleChildren(SerializedProperty)">GetVisibleChildren(SerializedProperty)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;SerializedProperty&gt; GetVisibleChildren(this SerializedProperty property)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SerializedProperty</span></td>
+        <td><span class="parametername">property</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">SerializedProperty</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
