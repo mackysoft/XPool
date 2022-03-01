@@ -40,9 +40,6 @@ This was developed to be able to do all the pooling expected in application deve
 
 # <a id="installation" href="#installation"> 📥 Installation </a>
 
-Coming soon
-
-<!---
 Download any version from releases.
 
 Releases: https://github.com/mackysoft/XPool/releases
@@ -66,7 +63,6 @@ More details [here](https://openupm.com/).
 ```
 openupm add com.mackysoft.xpool
 ```
--->
 
 # <a id="usage" href="#usage"> 🔰 Usage </a>
 
