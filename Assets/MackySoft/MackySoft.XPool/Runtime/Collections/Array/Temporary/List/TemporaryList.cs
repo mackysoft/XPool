@@ -43,13 +43,13 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		public TemporaryList (ArrayPool<T> pool,int minimumCapacity) {
-			m_Pool = pool;
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 		}
 
 		internal TemporaryList (ArrayPool<T> pool,T[] array,int count) {
-			m_Pool = pool;
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = array;
 			m_Count = count;
 		}
