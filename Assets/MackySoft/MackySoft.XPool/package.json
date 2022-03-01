@@ -1,0 +1,10 @@
+{
+	"name": "com.mackysoft.xpool",
+	"displayName": "XPool",
+	"version": "0.1.0",
+	"unity": "2019.4",
+	"description": "Object pooling system for Unity.",
+	"keywords": [ "XPool" ],
+	"license": "MIT",
+	"dependencies": {}
+}
