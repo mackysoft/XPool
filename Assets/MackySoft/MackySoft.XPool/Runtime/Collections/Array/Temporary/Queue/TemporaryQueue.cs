@@ -33,6 +33,10 @@ namespace MackySoft.XPool.Collections {
 			m_Mask = (m_Array.Length == 0) ? 0 : (m_Array.Length - 1);
 		}
 
+		/// <summary>
+		/// Add object to the tail of the queue.
+		/// </summary>
+		/// <param name="item"> Object to add to the queue. </param>
 		public void Enqueue (T item) {
 			if (ArrayPoolUtility.EnsureCapacityCircular(ref m_Array,m_Count,m_Count + 1,ref m_First,ref m_Last,m_Pool)) {
 				m_Mask = m_Array.Length - 1;
@@ -42,6 +46,10 @@ namespace MackySoft.XPool.Collections {
 			m_Count++;
 		}
 
+		/// <summary>
+		/// Remove object at the head of the queue and returns it. If the queue is empty, <see cref="InvalidOperationException"/> will be thrown.
+		/// </summary>
+		/// <exception cref="InvalidOperationException"></exception>
 		public T Dequeue () {
 			if (m_Count == 0) {
 				throw Error.EmptyCollection();
@@ -53,6 +61,10 @@ namespace MackySoft.XPool.Collections {
 			return removed;
 		}
 
+		/// <summary>
+		/// Return object at the head of the queue. If the queue is empty, <see cref="InvalidOperationException"/> will be thrown.
+		/// </summary>
+		/// <exception cref="InvalidOperationException"></exception>
 		public T Peek () {
 			if (m_Count == 0) {
 				throw Error.EmptyCollection();
@@ -60,6 +72,9 @@ namespace MackySoft.XPool.Collections {
 			return m_Array[m_First];
 		}
 
+		/// <summary>
+		/// Remove all objects from the queue.
+		/// </summary>
 		public void Clear () {
 			if (m_First < m_Last) {
 				System.Array.Clear(m_Array,m_First,m_Count);
@@ -74,6 +89,9 @@ namespace MackySoft.XPool.Collections {
 			m_Mask = 0;
 		}
 
+		/// <summary>
+		/// Whether the specified object exists in the queue.
+		/// </summary>
 		public bool Contains (T item) {
 			int index = m_First;
 			int count = m_Count;
@@ -99,6 +117,14 @@ namespace MackySoft.XPool.Collections {
 			return false;
 		}
 
+		/// <summary>
+		/// Copy objects to array in the queue.
+		/// </summary>
+		/// <param name="array"></param>
+		/// <param name="arrayIndex"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentException"></exception>
 		public void CopyTo (T[] array,int arrayIndex) {
 			if (array == null) {
 				throw Error.ArgumentNullException(nameof(array));
@@ -119,8 +145,18 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
 		public void Dispose () {
-			m_Pool.Return(ref m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+			Dispose(!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+		}
+
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
+		public void Dispose (bool clearArray) {
+			m_Pool.Return(ref m_Array,clearArray);
 			m_Pool = null;
 			m_First = 0;
 			m_Last = 0;

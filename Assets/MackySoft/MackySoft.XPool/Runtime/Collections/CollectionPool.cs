@@ -6,7 +6,7 @@ namespace MackySoft.XPool.Collections {
 
 		public static readonly ListPool<T> Shared = new ListPool<T>();
 
-		public ListPool () : base(kDefaultCapacity,() => new List<T>(),list => list.Clear()) {
+		public ListPool () : base(CollectionPoolUtility.kDefaultCapacity,() => new List<T>(),list => list.Clear()) {
 		}
 	}
 
@@ -14,7 +14,7 @@ namespace MackySoft.XPool.Collections {
 
 		public static readonly QueuePool<T> Shared = new QueuePool<T>();
 
-		public QueuePool () : base(kDefaultCapacity,() => new Queue<T>(),queue => queue.Clear()) {
+		public QueuePool () : base(CollectionPoolUtility.kDefaultCapacity,() => new Queue<T>(),queue => queue.Clear()) {
 		}
 	}
 
@@ -22,7 +22,7 @@ namespace MackySoft.XPool.Collections {
 
 		public static readonly StackPool<T> Shared = new StackPool<T>();
 
-		public StackPool () : base(kDefaultCapacity,() => new Stack<T>(),stack => stack.Clear()) {
+		public StackPool () : base(CollectionPoolUtility.kDefaultCapacity,() => new Stack<T>(),stack => stack.Clear()) {
 		}
 	}
 
@@ -30,7 +30,7 @@ namespace MackySoft.XPool.Collections {
 
 		public static readonly HashSetPool<T> Shared = new HashSetPool<T>();
 
-		public HashSetPool () : base(kDefaultCapacity,() => new HashSet<T>(),hashSet => hashSet.Clear()) {
+		public HashSetPool () : base(CollectionPoolUtility.kDefaultCapacity,() => new HashSet<T>(),hashSet => hashSet.Clear()) {
 		}
 	}
 
@@ -38,7 +38,7 @@ namespace MackySoft.XPool.Collections {
 
 		public static readonly DictionaryPool<TKey,TValue> Shared = new DictionaryPool<TKey,TValue>();
 
-		public DictionaryPool () : base(kDefaultCapacity,() => new Dictionary<TKey, TValue>(),dictionary => dictionary.Clear()) {
+		public DictionaryPool () : base(CollectionPoolUtility.kDefaultCapacity,() => new Dictionary<TKey, TValue>(),dictionary => dictionary.Clear()) {
 		}
 	}
 }

@@ -18,9 +18,6 @@ namespace MackySoft.XPool.Collections {
 		/// Create an empty temporay list.
 		/// </summary>
 		public static TemporaryList<T> Create (ArrayPool<T> pool) {
-			if (pool == null) {
-				throw Error.ArgumentNullException(nameof(pool));
-			}
 			return new TemporaryList<T>(pool,0);
 		}
 
@@ -36,9 +33,6 @@ namespace MackySoft.XPool.Collections {
 		/// </summary>
 		/// <exception cref="ArgumentNullException"></exception>
 		public static TemporaryList<T> Create (int minimumCapacity,ArrayPool<T> pool) {
-			if (pool == null) {
-				throw Error.ArgumentNullException(nameof(pool));
-			}
 			return new TemporaryList<T>(pool,minimumCapacity);
 		}
 

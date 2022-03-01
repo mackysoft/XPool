@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using MackySoft.XPool.Internal;
 
 namespace MackySoft.XPool.Collections.ObjectModel {
-	public abstract class CollectionPoolBase<T> : IPool<T> where T : class {
 
-		protected const int kDefaultCapacity = 8;
+	/// <summary>
+	/// Base of pool for collections.
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	public abstract class CollectionPoolBase<T> : IPool<T> where T : class {
 
 		readonly Stack<T> m_Pool;
 		readonly int m_Capacity;
@@ -17,6 +20,16 @@ namespace MackySoft.XPool.Collections.ObjectModel {
 		// Stack<T> and Queue<T> do not implement ICollection<T>, so need to use a delegate to call the Clear method instead.
 		readonly Action<T> m_Clear;
 
+		public int Capacity => m_Capacity;
+
+		public int Count => m_Pool.Count;
+
+		/// <summary>
+		/// Constructor to initialize a collection pool. You must call this in the constructor of the inherited class.
+		/// </summary>
+		/// <param name="capacity"> The pool capacity. If less than 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <param name="factory"> Method that create new instance. If is null, <see cref="ArgumentNullException"/> will be thrown. </param>
+		/// <param name="clear"> Method that clear collection. If is null, <see cref="ArgumentNullException"/> will be thrown. </param>
 		protected CollectionPoolBase (int capacity,Func<T> factory,Action<T> clear) {
 			if (capacity < 0) {
 				throw Error.RequiredNonNegative(nameof(capacity));

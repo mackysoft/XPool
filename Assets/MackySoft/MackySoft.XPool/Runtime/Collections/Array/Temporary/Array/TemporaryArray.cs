@@ -43,16 +43,15 @@ namespace MackySoft.XPool.Collections {
 		}
 
 		public TemporaryArray (ArrayPool<T> pool,int length) {
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(length);
 			m_Length = length;
-			m_Pool = pool;
-
 		}
 
 		internal TemporaryArray (ArrayPool<T> pool,T[] array,int length) {
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = array;
 			m_Length = length;
-			m_Pool = pool;
 		}
 
 		/// <summary>

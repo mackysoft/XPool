@@ -21,12 +21,6 @@ namespace MackySoft.XPool.Collections {
 		/// <exception cref="ArgumentNullException"></exception>
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static TemporaryArray<T> Create (int length,ArrayPool<T> pool) {
-			if (pool == null) {
-				throw Error.ArgumentNullException(nameof(pool));
-			}
-			if (length < 0) {
-				throw Error.RequiredNonNegative(nameof(length));
-			}
 			return new TemporaryArray<T>(pool,length);
 		}
 
