@@ -83,7 +83,8 @@
   
   <h1 id="MackySoft_XPool_Unity_ComponentPool_1" data-uid="MackySoft.XPool.Unity.ComponentPool`1" class="text-break">Class ComponentPool&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A pool for Component.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -147,9 +148,6 @@
     <div>
       <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_GetPooledInstance">UnityObjectPool&lt;T&gt;.GetPooledInstance()</a>
     </div>
-    <div>
-      <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_Action__0___Action__0__">UnityObjectPool&lt;T&gt;.SetCallback(Action&lt;T&gt;, Action&lt;T&gt;)</a>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Unity.html">MackySoft.XPool.Unity</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -203,12 +201,14 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">original</span></td>
-        <td></td>
+        <td><p>The original object from which the pool will instantiate a new instance. </p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">capacity</span></td>
-        <td></td>
+        <td><p>The pool capacity. If less than 0, <see cref="!:ArgumentOutOfRangeException"></see> will be thrown. </p>
+</td>
       </tr>
     </tbody>
   </table>

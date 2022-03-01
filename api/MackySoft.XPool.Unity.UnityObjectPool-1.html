@@ -83,7 +83,8 @@
   
   <h1 id="MackySoft_XPool_Unity_UnityObjectPool_1" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1" class="text-break">Class UnityObjectPool&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A pool for object that inherit from <see cref="!:UnityObject"></see>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -149,12 +150,14 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">original</span></td>
-        <td></td>
+        <td><p>The original object from which the pool will instantiate a new instance. </p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">capacity</span></td>
-        <td></td>
+        <td><p>The pool capacity. If less than 0, <see cref="!:ArgumentOutOfRangeException"></see> will be thrown. </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -320,7 +323,8 @@
   </table>
   <a id="MackySoft_XPool_Unity_UnityObjectPool_1_OnCreate_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate*"></a>
   <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_OnCreate" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnCreate">OnCreate</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when called <a class="xref" href="MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_Rent">Rent()</a> if pool is empty and new instance is instantiated by the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -343,7 +347,8 @@
   </table>
   <a id="MackySoft_XPool_Unity_UnityObjectPool_1_OnRelease_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease*"></a>
   <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_OnRelease" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnRelease">OnRelease</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when the capacity of the pool is exceeded and the instance cannot be returned. The process to release the object must be performed, such as Dispose.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -366,7 +371,8 @@
   </table>
   <a id="MackySoft_XPool_Unity_UnityObjectPool_1_OnRent_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnRent*"></a>
   <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_OnRent" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnRent">OnRent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when rent an instance from the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -389,7 +395,8 @@
   </table>
   <a id="MackySoft_XPool_Unity_UnityObjectPool_1_OnReturn_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn*"></a>
   <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_OnReturn" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.OnReturn">OnReturn</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when return an instance to the pool.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -412,7 +419,8 @@
   </table>
   <a id="MackySoft_XPool_Unity_UnityObjectPool_1_Original_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.Original*"></a>
   <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_Original" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.Original">Original</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The original object from which the pool will instantiate a new instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -529,36 +537,6 @@ This is because <see cref="!:UnityObject"></see> can become null externally due 
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">instance</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback*"></a>
-  <h4 id="MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_Action__0___Action__0__" data-uid="MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback(Action{`0}@,Action{`0})">SetCallback(ref Action&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetCallback(ref Action&lt;T&gt; target, Action&lt;T&gt; call)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">call</span></td>
         <td></td>
       </tr>
     </tbody>

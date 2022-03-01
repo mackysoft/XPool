@@ -83,7 +83,8 @@
   
   <h1 id="MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1" data-uid="MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1" class="text-break">Class CollectionPoolBase&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Base of pool for collections.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -119,7 +120,8 @@
   </h3>
   <a id="MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1__ctor_" data-uid="MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.#ctor*"></a>
   <h4 id="MackySoft_XPool_Collections_ObjectModel_CollectionPoolBase_1__ctor_System_Int32_Func__0__Action__0__" data-uid="MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase`1.#ctor(System.Int32,Func{`0},Action{`0})">CollectionPoolBase(Int32, Func&lt;T&gt;, Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor to initialize a collection pool. You must call this in the constructor of the inherited class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -138,17 +140,20 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">capacity</span></td>
-        <td></td>
+        <td><p>The pool capacity. If less than 0, <see cref="!:ArgumentOutOfRangeException"></see> will be thrown. </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Func</span>&lt;T&gt;</td>
         <td><span class="parametername">factory</span></td>
-        <td></td>
+        <td><p>Method that create new instance. If is null, <see cref="!:ArgumentNullException"></see> will be thrown. </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Action</span>&lt;T&gt;</td>
         <td><span class="parametername">clear</span></td>
-        <td></td>
+        <td><p>Method that clear collection. If is null, <see cref="!:ArgumentNullException"></see> will be thrown. </p>
+</td>
       </tr>
     </tbody>
   </table>

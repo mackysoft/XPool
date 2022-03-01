@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.CollectionPoolUtility.html",
-          "hash": "+si5WUi9COxvAzToQk/G626hbWYCUSd9/xkXmQFefdQ="
+          "hash": "CHlOAeWmI1Ea4CCPUjcoNy4wXY25aB2cHY1WHkLyB+w="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html",
-          "hash": "H85CP6YXOGg0S1hJs2DQkCswjOE/HFqBRnakf7Kd7oI="
+          "hash": "9Dj4Bmc8IRwvlcsEB6byU0PdRYcHgF/k7aXUdYEcHUI="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.html",
-          "hash": "4rNPsBjz++mGO3JZ08wAlMzztnEQ0CuZNX+6joZelHQ="
+          "hash": "S0J7WpJ2Xpeef4H1/oUk/Sp6kI1URbDwoYmdDTMy03Y="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryList-1.html",
-          "hash": "r/lIEOcQ11XPqsN8RbIF+JzjZCJ5kqEaaaZakxn/85s="
+          "hash": "XoHuZt39voHIOIDdfsskUllL0gXRWWDm44ikpraNwPk="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryQueue-1.html",
-          "hash": "g7RXXHr3BqIMAjsTN3StIBbgKmgRYAhkeX0Lti7jPXc="
+          "hash": "preFUk5IYJMb6F7DScuvDLorl/4DuY57nLizvZ6O95s="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryStack-1.html",
-          "hash": "BHNk0bum+jEGOpuhv5rw1BFsX87/w7Lp0iqE9df+Kio="
+          "hash": "TtTZPy+wU4744NQYeZtK4FZOuDv3mPAldURkOD8UR0g="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.FactoryPool-1.html",
-          "hash": "t10dTMxe80rYrtpekHAwuoUpzuw7Eq9RZwZyKRFx7wg="
+          "hash": "ZcTob68N+SHrg0Rer9SK5BVYQpsU06fkvlDTwce1c5k="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.ObjectModel.PoolBase-1.html",
-          "hash": "BStJ/aFIrbAXVGczeU3REPZeAg1Q4GsYelVziZjcXDI="
+          "hash": "vEMQtm0E7Ctm7jK0yNUfd97xIZ4E/D+buYc9fLr6ivk="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.RentInstance-1.html",
-          "hash": "KSXvds2Gs5PzCCcH19aQ4eUBrFNJ/Cktfv2n+saTAyA="
+          "hash": "WZv5tJo3FP0vbOkBp5uO92pHK059q0meWwMdMOnyZBY="
         }
       },
       "is_incremental": false,
@@ -448,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ComponentPool-1.html",
-          "hash": "/wxAfopNh/LYXzjzi3Hdt/yAy1VbWJmM/4pcElnoBJk="
+          "hash": "dH+HigSvDwnZe/aiNIC+7WQZURB8gXEw2NglZpzJl5w="
         }
       },
       "is_incremental": false,
@@ -472,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.GameObjectPool.html",
-          "hash": "3aiOURFtDC5CbpOBGuetks2Rmi7/jxiFBw1H0gLZx4c="
+          "hash": "TYtryinV9EB4x67vBynzT9cHTs2oAn6nbj/xq/4akWA="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html",
-          "hash": "M55dXuXfCtSAM0bSS2TMuYgpA0KwbsxnuJQ7NHD1Q6E="
+          "hash": "MKN2xOcyG6MlClxhKkeTDFKUJT/imCr9riIJQhlybT4="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html",
-          "hash": "4CMKkt3azjL1Il+3vRPa7QeNbsZyT2drCE+elNxdYAk="
+          "hash": "pgESi3rovyS9ChLyhD1FrcYJP+uyfx8r8yTolVa/HKI="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html",
-          "hash": "27D9ulnPQwRmJUVTHhrfVvnbNgL9X7oLYYUlk3rTFVs="
+          "hash": "DHc4QoSTrB6LiwzGotXzB3i2acbOSDpVlP/MSyzcxTA="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html",
-          "hash": "wPJQlnMgr0m+FL++UkiNKiECTfwTxOYWKI1p6/Q5rXI="
+          "hash": "SuwTHjL9qhVJKWvBe6gzSlVDt1tsaPxJ11ZWna8BP1c="
         }
       },
       "is_incremental": false,
@@ -532,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.html",
-          "hash": "hgu7s7PKkvHsrKylnJiKuJ4pks1NPp87IVxb/3pJGC0="
+          "hash": "yctNMDkhe0qEsnrM1x43zCgPHzFkDKKbF4vKKE76Dtk="
         }
       },
       "is_incremental": false,
@@ -556,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.html",
-          "hash": "mcMcAjVlr/AvjK9m8vOc5ytS/ny3KUoJmIxBJFPkLpg="
+          "hash": "ykwP/jHAKbdD829PPvUezJYjyaAOnQj8MF4PsuAiLzM="
         }
       },
       "is_incremental": false,
@@ -604,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.UnityObjectPool-1.html",
-          "hash": "JaSZn0BGQ8E/md2wzRzm7DcStlSP7jmzhhuKxeFG8qs="
+          "hash": "eT3HNiQCTA20SpPPBGUMAiL2ESTop+II54EmhpnEyh4="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.html",
-          "hash": "sAeBojC9OJ6olKcTVWp1rfshMHeEJ1DSvpgYNYXD8Hw="
+          "hash": "+GALtVwKcbbD1sIf+LCQGLu8fTv5OkxpOBKi7leJdog="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.html",
-          "hash": "DgPuNjwNnVvJoxI1VND+Ykc4KXxmFJ0pVDiRSjVScB0="
+          "hash": "9/Z/FC4Iz4VbCFsr69M7AnOYp95UPe25zh/qx0yIhh0="
         }
       },
       "is_incremental": false,

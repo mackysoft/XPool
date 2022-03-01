@@ -1778,6 +1778,14 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryQueue(Of T).Dispose()
   nameWithType: TemporaryQueue<T>.Dispose()
   nameWithType.vb: TemporaryQueue(Of T).Dispose()
+- uid: MackySoft.XPool.Collections.TemporaryQueue`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/MackySoft.XPool.Collections.TemporaryQueue-1.html#MackySoft_XPool_Collections_TemporaryQueue_1_Dispose_System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.TemporaryQueue`1.Dispose(System.Boolean)
+  fullName: MackySoft.XPool.Collections.TemporaryQueue<T>.Dispose(System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryQueue(Of T).Dispose(System.Boolean)
+  nameWithType: TemporaryQueue<T>.Dispose(Boolean)
+  nameWithType.vb: TemporaryQueue(Of T).Dispose(Boolean)
 - uid: MackySoft.XPool.Collections.TemporaryQueue`1.Dispose*
   name: Dispose
   href: api/MackySoft.XPool.Collections.TemporaryQueue-1.html#MackySoft_XPool_Collections_TemporaryQueue_1_Dispose_
@@ -2021,6 +2029,14 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryStack(Of T).Dispose()
   nameWithType: TemporaryStack<T>.Dispose()
   nameWithType.vb: TemporaryStack(Of T).Dispose()
+- uid: MackySoft.XPool.Collections.TemporaryStack`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/MackySoft.XPool.Collections.TemporaryStack-1.html#MackySoft_XPool_Collections_TemporaryStack_1_Dispose_System_Boolean_
+  commentId: M:MackySoft.XPool.Collections.TemporaryStack`1.Dispose(System.Boolean)
+  fullName: MackySoft.XPool.Collections.TemporaryStack<T>.Dispose(System.Boolean)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryStack(Of T).Dispose(System.Boolean)
+  nameWithType: TemporaryStack<T>.Dispose(Boolean)
+  nameWithType.vb: TemporaryStack(Of T).Dispose(Boolean)
 - uid: MackySoft.XPool.Collections.TemporaryStack`1.Dispose*
   name: Dispose
   href: api/MackySoft.XPool.Collections.TemporaryStack-1.html#MackySoft_XPool_Collections_TemporaryStack_1_Dispose_
@@ -2622,23 +2638,6 @@ references:
   fullName.vb: MackySoft.XPool.FactoryPool(Of T).FactoryPool
   nameWithType: FactoryPool<T>.FactoryPool
   nameWithType.vb: FactoryPool(Of T).FactoryPool
-- uid: MackySoft.XPool.FactoryPool`1.Dispose
-  name: Dispose()
-  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Dispose
-  commentId: M:MackySoft.XPool.FactoryPool`1.Dispose
-  fullName: MackySoft.XPool.FactoryPool<T>.Dispose()
-  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Dispose()
-  nameWithType: FactoryPool<T>.Dispose()
-  nameWithType.vb: FactoryPool(Of T).Dispose()
-- uid: MackySoft.XPool.FactoryPool`1.Dispose*
-  name: Dispose
-  href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Dispose_
-  commentId: Overload:MackySoft.XPool.FactoryPool`1.Dispose
-  isSpec: "True"
-  fullName: MackySoft.XPool.FactoryPool<T>.Dispose
-  fullName.vb: MackySoft.XPool.FactoryPool(Of T).Dispose
-  nameWithType: FactoryPool<T>.Dispose
-  nameWithType.vb: FactoryPool(Of T).Dispose
 - uid: MackySoft.XPool.FactoryPool`1.Factory
   name: Factory()
   href: api/MackySoft.XPool.FactoryPool-1.html#MackySoft_XPool_FactoryPool_1_Factory
@@ -4370,24 +4369,6 @@ references:
   fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).Return
   nameWithType: UnityObjectPool<T>.Return
   nameWithType.vb: UnityObjectPool(Of T).Return
-- uid: MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback(Action{`0}@,Action{`0})
-  name: SetCallback(ref Action<T>, Action<T>)
-  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_Action__0___Action__0__
-  commentId: M:MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback(Action{`0}@,Action{`0})
-  name.vb: SetCallback(ByRef Action(Of T), Action(Of T))
-  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.SetCallback(ref Action<T>, Action<T>)
-  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).SetCallback(ByRef Action(Of T), Action(Of T))
-  nameWithType: UnityObjectPool<T>.SetCallback(ref Action<T>, Action<T>)
-  nameWithType.vb: UnityObjectPool(Of T).SetCallback(ByRef Action(Of T), Action(Of T))
-- uid: MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback*
-  name: SetCallback
-  href: api/MackySoft.XPool.Unity.UnityObjectPool-1.html#MackySoft_XPool_Unity_UnityObjectPool_1_SetCallback_
-  commentId: Overload:MackySoft.XPool.Unity.UnityObjectPool`1.SetCallback
-  isSpec: "True"
-  fullName: MackySoft.XPool.Unity.UnityObjectPool<T>.SetCallback
-  fullName.vb: MackySoft.XPool.Unity.UnityObjectPool(Of T).SetCallback
-  nameWithType: UnityObjectPool<T>.SetCallback
-  nameWithType.vb: UnityObjectPool(Of T).SetCallback
 - uid: MackySoft.XPool.Unity.UnityObjectPoolDrawer
   name: UnityObjectPoolDrawer
   href: api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html
