@@ -16,10 +16,7 @@ namespace MackySoft.XPool.Collections {
 		public T[] Array => m_Array;
 
 		public TemporaryStack (ArrayPool<T> pool,int minimumCapacity) {
-			if (pool == null) {
-				throw Error.ArgumentNullException(nameof(pool));
-			}
-			m_Pool = pool;
+			m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 			m_Array = pool.Rent(minimumCapacity);
 			m_Count = 0;
 		}

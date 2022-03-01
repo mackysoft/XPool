@@ -8,8 +8,6 @@ namespace MackySoft.XPool.Unity {
 	[CustomPropertyDrawer(typeof(UnityObjectPoolBase<>),true)]
 	public class UnityObjectPoolDrawer : PropertyDrawer {
 
-		static readonly float kPropertyHeight = EditorGUIUtility.singleLineHeight * 3 + EditorGUIUtility.standardVerticalSpacing * 2;
-		
 		public override void OnGUI (Rect position,SerializedProperty property,GUIContent label) {
 			EditorGUI.BeginProperty(position,label,property);
 			EditorGUI.BeginDisabledGroup(Application.isPlaying);
@@ -22,21 +20,32 @@ namespace MackySoft.XPool.Unity {
 			prefixLabelPosition.height = EditorGUIUtility.singleLineHeight;
 			EditorGUI.PrefixLabel(position,label);
 
+			Rect propertyPosition = EditorGUI.IndentedRect(prefixLabelPosition);
+			propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 			using (new EditorGUI.IndentLevelScope()) {
 				// Draw original property
-				Rect originalPosition = prefixLabelPosition;
-				originalPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
-				originalPosition = EditorGUI.IndentedRect(originalPosition);
-				EditorGUI.PropertyField(originalPosition,original);
+				EditorGUI.PropertyField(propertyPosition,original);
 
 				// Draw capacity property
-				Rect capacityPosition = originalPosition;
-				capacityPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
+				propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 
 				EditorGUI.BeginChangeCheck();
-				int capacityValue = Mathf.Max(0,EditorGUI.IntField(capacityPosition,new GUIContent(capacity.displayName,capacity.tooltip),capacity.intValue));
+				int capacityValue = Mathf.Max(0,EditorGUI.IntField(propertyPosition,new GUIContent(capacity.displayName,capacity.tooltip),capacity.intValue));
 				if (EditorGUI.EndChangeCheck() && (capacity.intValue != capacityValue)) {
 					capacity.intValue = capacityValue;
+				}
+
+				if (property.Copy().CountRemaining() > 2) {
+					propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
+					foreach (var child in SerializedPropertyUtility.GetVisibleChildren(property)) {
+						if (child.name == "m_Original" || child.name == "m_Capacity") {
+							continue;
+						}
+						float height = EditorGUI.GetPropertyHeight(child);
+						propertyPosition.height = height;
+						EditorGUI.PropertyField(propertyPosition,child);
+						propertyPosition.y += height + EditorGUIUtility.standardVerticalSpacing;
+					}
 				}
 			}
 
@@ -45,7 +54,11 @@ namespace MackySoft.XPool.Unity {
 		}
 
 		public override float GetPropertyHeight (SerializedProperty property,GUIContent label) {
-			return kPropertyHeight;
+			float height = EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
+			foreach (var child in SerializedPropertyUtility.GetVisibleChildren(property)) {
+				height += EditorGUI.GetPropertyHeight(child) + EditorGUIUtility.standardVerticalSpacing;
+			}
+			return height;
 		}
 
 	}
