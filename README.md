@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/mackysoft/XPool/actions/workflows/tests.yaml/badge.svg)](https://github.com/mackysoft/XPool/actions/workflows/tests.yaml)
 [![Build](https://github.com/mackysoft/XPool/actions/workflows/build.yaml/badge.svg)](https://github.com/mackysoft/XPool/actions/workflows/build.yaml)
+[![Release](https://img.shields.io/github/v/release/mackysoft/XPool)](https://github.com/mackysoft/XPool/releases)
+[![openupm](https://img.shields.io/npm/v/com.mackysoft.xpool?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mackysoft.xpool/)
 
 ![XPool_Frame](https://user-images.githubusercontent.com/13536348/154980636-f949151e-f820-4d86-b9e9-302880671d14.png)
 
