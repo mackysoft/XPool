@@ -82,6 +82,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\IUnityObjectPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\CollectionPoolUtility.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\PoolExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />

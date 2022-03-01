@@ -1,11 +1,20 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
+
+	/// <summary>
+	/// Base of pool for <see cref="Component"/>.
+	/// </summary>
 	public abstract class ComponentPoolBase<T> : UnityObjectPoolBase<T>, IHierarchicalUnityObjectPool<T> where T : Component {
 
 		protected ComponentPoolBase () {
 		}
 
+		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
+		/// <param name="capacity"> The pool capacity. If less than 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		protected ComponentPoolBase (T original,int capacity) : base(original,capacity) {
 		}
 

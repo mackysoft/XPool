@@ -7,16 +7,13 @@ namespace MackySoft.XPool {
 	/// <summary>
 	/// Pool that create an instance from a custom factory method.
 	/// </summary>
-	public sealed class FactoryPool<T> : PoolBase<T>, IDisposable {
+	public sealed class FactoryPool<T> : PoolBase<T> {
 
 		readonly Func<T> m_Factory;
 		readonly Action<T> m_OnRent;
 		readonly Action<T> m_OnReturn;
 		readonly Action<T> m_OnRelease;
 
-		/// <summary>
-		/// 
-		/// </summary>
 		/// <param name="capacity"> The pool capacity. If less than or equal to 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
 		/// <param name="factory"> Method that create new instance. If is null, <see cref="ArgumentNullException"/> will be thrown. This method is must return not null. If returns null, <see cref="Rent"/> throw <see cref="NullReferenceException"/>. </param>
 		/// <param name="onRent"> Callback that is called when <see cref="Rent"/> is successful. </param>
@@ -29,10 +26,6 @@ namespace MackySoft.XPool {
 			m_OnRent = onRent;
 			m_OnReturn = onReturn;
 			m_OnRelease = onRelease;
-		}
-
-		public void Dispose () {
-			ReleaseInstances(0);
 		}
 
 		protected override T Factory () => m_Factory();

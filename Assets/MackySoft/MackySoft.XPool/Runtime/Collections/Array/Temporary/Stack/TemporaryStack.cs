@@ -24,12 +24,20 @@ namespace MackySoft.XPool.Collections {
 			m_Count = 0;
 		}
 
+		/// <summary>
+		/// Add object to the head of the stack.
+		/// </summary>
+		/// <param name="item"> Object to add to the stack. </param>
 		public void Push (T item) {
 			ArrayPoolUtility.EnsureCapacity(ref m_Array,m_Count + 1,m_Pool);
 			m_Array[m_Count] = item;
 			m_Count++;
 		}
 
+		/// <summary>
+		/// Remove object at the head of the stack and returns it. If the stack is empty, <see cref="InvalidOperationException"/> will be thrown.
+		/// </summary>
+		/// <exception cref="InvalidOperationException"></exception>
 		public T Pop () {
 			if (m_Count == 0) {
 				throw Error.EmptyCollection();
@@ -40,6 +48,10 @@ namespace MackySoft.XPool.Collections {
 			return item;
 		}
 
+		/// <summary>
+		/// Return object at the head of the stack. If the stack is empty, <see cref="InvalidOperationException"/> will be thrown.
+		/// </summary>
+		/// <exception cref="InvalidOperationException"></exception>
 		public T Peek () {
 			if (m_Count == 0) {
 				throw Error.EmptyCollection();
@@ -47,12 +59,18 @@ namespace MackySoft.XPool.Collections {
 			return m_Array[m_Count - 1];
 		}
 
+		/// <summary>
+		/// Remove all objects from the stack.
+		/// </summary>
 		public void Clear () {
 			m_Pool.Return(m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
 			m_Array = m_Pool.Rent(0);
 			m_Count = 0;
 		}
 
+		/// <summary>
+		/// Whether the specified object exists in the stack.
+		/// </summary>
 		public bool Contains (T item) {
 			int count = m_Count;
 			if (item == null) {
@@ -74,6 +92,14 @@ namespace MackySoft.XPool.Collections {
 			return true;
 		}
 
+		/// <summary>
+		/// Copy objects to array in the stack.
+		/// </summary>
+		/// <param name="array"></param>
+		/// <param name="arrayIndex"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
+		/// <exception cref="ArgumentException"></exception>
 		public void CopyTo (T[] array,int arrayIndex) {
 			if (array == null) {
 				throw Error.ArgumentNullException(nameof(array));
@@ -88,8 +114,18 @@ namespace MackySoft.XPool.Collections {
 			System.Array.Reverse(array,arrayIndex,m_Count);
 		}
 
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
 		public void Dispose () {
-			m_Pool.Return(ref m_Array,!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+			Dispose(!RuntimeHelpers.IsWellKnownNoReferenceContainsType<T>());
+		}
+
+		/// <summary>
+		/// Return the internal array to the pool.
+		/// </summary>
+		public void Dispose (bool clearArray) {
+			m_Pool.Return(ref m_Array,clearArray);
 			m_Pool = null;
 			m_Count = 0;
 		}

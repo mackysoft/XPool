@@ -106,9 +106,24 @@ namespace MackySoft.XPool.ObjectModel {
 			}
 		}
 
+		/// <summary>
+		/// Called when called <see cref="Rent"/> if pool is empty. This method must return a not null.
+		/// </summary>
 		protected abstract T Factory ();
+
+		/// <summary>
+		/// Called when rent an instance from the pool.
+		/// </summary>
 		protected abstract void OnRent (T instance);
+
+		/// <summary>
+		/// Called when return an instance to the pool.
+		/// </summary>
 		protected abstract void OnReturn (T instance);
+
+		/// <summary>
+		/// Called when the capacity of the pool is exceeded and the instance cannot be returned. The process to release the object must be performed, such as Dispose.
+		/// </summary>
 		protected abstract void OnRelease (T instance);
 
 	}

@@ -4,17 +4,28 @@ using MackySoft.XPool.Unity.ObjectModel;
 
 namespace MackySoft.XPool.Unity {
 
+	/// <summary>
+	/// Optimized pool for <see cref="ParticleSystem"/>.
+	/// </summary>
 	[Serializable]
 	public class ParticleSystemPool : ComponentPoolBase<ParticleSystem> {
 
+		[Tooltip("If true, ParticleSystem will play when the it is rented.")]
 		[SerializeField]
-		bool m_PlayOnRent;
+		bool m_PlayOnRent = true;
 
+		/// <summary>
+		/// If true, <see cref="ParticleSystem"/> will play when the it is rented.
+		/// </summary>
 		public bool PlayOnRent { get => m_PlayOnRent; set => m_PlayOnRent = value; }
 
 		public ParticleSystemPool () {
 		}
 
+		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
+		/// <param name="capacity"> The pool capacity. If less than 0, <see cref="ArgumentOutOfRangeException"/> will be thrown. </param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public ParticleSystemPool (ParticleSystem original,int capacity) : base(original,capacity) {
 		}
 
