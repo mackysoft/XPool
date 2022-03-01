@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>XPool - Object Pooling System | XPool </title>
+    <title>XPool - Object Pooling System for Unity | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="XPool - Object Pooling System | XPool ">
+    <meta name="title" content="XPool - Object Pooling System for Unity | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -70,7 +70,7 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="xpool---object-pooling-system">XPool - Object Pooling System</h1>
+<h1 id="xpool---object-pooling-system-for-unity">XPool - Object Pooling System for Unity</h1>
 
 <p><a href="https://github.com/mackysoft/XPool/actions/workflows/tests.yaml"><img src="https://github.com/mackysoft/XPool/actions/workflows/tests.yaml/badge.svg" alt="Tests"></a>
 <a href="https://github.com/mackysoft/XPool/actions/workflows/build.yaml"><img src="https://github.com/mackysoft/XPool/actions/workflows/build.yaml/badge.svg" alt="Build"></a>
@@ -111,33 +111,17 @@
 <li><a href="#license">📜 License</a></li>
 </ul>
 <h1 id="a-idinstallation-hrefinstallation--installation-a"><a id="installation" href="#installation"> 📥 Installation </a></h1>
-<p>Coming soon</p>
-<!---
-Download any version from releases.
-
-Releases: https://github.com/mackysoft/XPool/releases
-
-
-### Install via PackageManager
-
-Or, you can add this package by opening PackageManager and entering
-
-`https://github.com/mackysoft/XPool.git?path=Assets/MackySoft/MackySoft.XPool`
-
-from the `Add package from git URL` option.
-
-
-### Install via Open UPM
-
-Or, you can install this package from the [Open UPM](https://openupm.com/packages/com.mackysoft.xpool/) registry.
-
-More details [here](https://openupm.com/).
-
-```
-openupm add com.mackysoft.xpool
-```
--->
-<h1 id="a-idusage-hrefusage--usage-a"><a id="usage" href="#usage"> 🔰 Usage </a></h1>
+<p>Download any version from releases.</p>
+<p>Releases: <a href="https://github.com/mackysoft/XPool/releases">https://github.com/mackysoft/XPool/releases</a></p>
+<h3 id="install-via-packagemanager">Install via PackageManager</h3>
+<p>Or, you can add this package by opening PackageManager and entering</p>
+<p><code>https://github.com/mackysoft/XPool.git?path=Assets/MackySoft/MackySoft.XPool</code></p>
+<p>from the <code>Add package from git URL</code> option.</p>
+<h3 id="install-via-open-upm">Install via Open UPM</h3>
+<p>Or, you can install this package from the <a href="https://openupm.com/packages/com.mackysoft.xpool/">Open UPM</a> registry.</p>
+<p>More details <a href="https://openupm.com/">here</a>.</p>
+<pre><code>openupm add com.mackysoft.xpool
+</code></pre><h1 id="a-idusage-hrefusage--usage-a"><a id="usage" href="#usage"> 🔰 Usage </a></h1>
 <p>The full Scripting API is <a href="https://mackysoft.github.io/XPool/api/MackySoft.XPool.html">here</a>.</p>
 <p>Scripting API: <a href="https://mackysoft.github.io/XPool/api/MackySoft.XPool.html">https://mackysoft.github.io/XPool/api/MackySoft.XPool.html</a></p>
 <h2 id="a-idunity-object-pool-hrefunity-object-pool-unity-object-pool-gameobject-component-a"><a id="unity-object-pool" href="#unity-object-pool"> Unity Object Pool (GameObject, Component) </a></h2>
@@ -222,7 +206,7 @@ T[] array = ArrayPool&lt;T&gt;.Shared.Rent(minimumLength: 10);
 // Return array to the pool.
 ArrayPool&lt;T&gt;.Shared.Return(array);
 
-// ListPool&lt;T&gt;, QueuePool&lt;T&gt;, StackPool&lt;T&gt;, HashSetPool&lt;T&gt; are also available.
+// ListPool&lt;T&gt;, QueuePool&lt;T&gt;, StackPool&lt;T&gt;, HashSetPool&lt;T&gt;, DictionaryPool&lt;TKey,TValue&gt; are also available.
 List&lt;T&gt; list = ListPool&lt;T&gt;.Shared.Rent();
 Queue&lt;T&gt; queue = QueuePool&lt;T&gt;.Shared.Rent();
 Stack&lt;T&gt; stack = StackPool&lt;T&gt;.Shared.Rent();
@@ -239,9 +223,9 @@ var array = TemporaryArray&lt;T&gt;.Create(10);
 array.Dispose();
 
 // TemporaryList&lt;T&gt;, TemporaryQueue&lt;T&gt;, TemporaryStack&lt;T&gt; are also available.
-// var list = TemporaryList&lt;T&gt;.Create();
-// var queue = TemporaryQueue&lt;T&gt;.Create();
-// var stack = TemporaryStack&lt;T&gt;.Create();
+TemporaryList&lt;T&gt; list = TemporaryList&lt;T&gt;.Create();
+TemporaryQueue&lt;T&gt; queue = TemporaryQueue&lt;T&gt;.Create();
+TemporaryStack&lt;T&gt; stack = TemporaryStack&lt;T&gt;.Create();
 </code></pre><h2 id="a-idhow-to-write-custom-pool-hrefhow-to-write-custom-pool-how-to-write-custom-pool--a"><a id="how-to-write-custom-pool" href="#how-to-write-custom-pool"> How to write custom pool ? </a></h2>
 <p>If you want to implement a more customized pool, you can quickly create one by using the provided base classes.</p>
 <p>The base class of the pool is in the <code>ObjectModel</code> namespace.</p>
