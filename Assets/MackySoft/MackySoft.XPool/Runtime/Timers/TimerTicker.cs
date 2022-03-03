@@ -4,6 +4,10 @@ using MackySoft.XPool.Internal;
 using UnityEngine;
 
 namespace MackySoft.XPool.Timers {
+
+	/// <summary>
+	/// A component that keeps updating the registered timers.
+	/// </summary>
 	public class TimerTicker : MonoBehaviour {
 
 		public static TimerTicker Instance {
