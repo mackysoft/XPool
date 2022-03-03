@@ -59,9 +59,8 @@ namespace MackySoft.XPool {
 
 			readonly IReadOnlyTimer m_Timer;
 			readonly IPool m_Pool;
-			int m_Keep;
-
-			public int Keep { get => m_Keep; set => m_Keep = value; }
+			readonly int m_Keep;
+			bool m_IsDisposed;
 
 			public TimerBinding (IPool pool,IReadOnlyTimer timer,int keep) {
 				if (keep < 0) {
@@ -75,6 +74,10 @@ namespace MackySoft.XPool {
 			}
 
 			public void Dispose () {
+				if (m_IsDisposed) {
+					return;
+				}
+				m_IsDisposed = true;
 				m_Timer.OnElapsed -= OnElapsed;
 			}
 
