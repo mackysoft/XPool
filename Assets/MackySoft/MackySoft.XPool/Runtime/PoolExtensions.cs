@@ -47,9 +47,9 @@ namespace MackySoft.XPool {
 		/// <summary>
 		/// Periodically release instances in the pool.
 		/// </summary>
-		/// <param name="pool"></param>
-		/// <param name="interval"></param>
-		/// <param name="keep"></param>
+		/// <param name="pool"> Target pool. </param>
+		/// <param name="interval"> Time interval to release an instances in the pool. </param>
+		/// <param name="keep"> Quantity that keep pooled instances when release instances. </param>
 		/// <exception cref="ArgumentNullException"></exception>
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static IDisposable ReleaseInstancesPeriodically (this IPool pool,float interval,int keep) {
@@ -77,9 +77,9 @@ namespace MackySoft.XPool {
 		/// <summary>
 		/// Bind the pool to the timer and releases an instances in the pool each time the <see cref="IReadOnlyTimer.OnElapsed"/> callback is called.
 		/// </summary>
-		/// <param name="pool"></param>
-		/// <param name="timer"></param>
-		/// <param name="keep"></param>
+		/// <param name="pool"> Target pool. </param>
+		/// <param name="timer"> Timer to be bound to the pool. </param>
+		/// <param name="keep"> Quantity that keep pooled instances when release instances. </param>
 		/// <exception cref="ArgumentNullException"></exception>
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static IDisposable BindTo (this IPool pool,IReadOnlyTimer timer,int keep) {
