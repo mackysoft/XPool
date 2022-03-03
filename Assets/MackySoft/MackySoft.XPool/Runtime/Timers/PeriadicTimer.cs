@@ -13,6 +13,9 @@ namespace MackySoft.XPool.Timers {
 
 		public event Action OnElapsed;
 
+		public PeriadicTimer () {
+		}
+
 		public PeriadicTimer (float interval) {
 			m_Interval = interval;
 		}

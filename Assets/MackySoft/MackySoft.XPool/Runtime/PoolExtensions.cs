@@ -44,14 +44,54 @@ namespace MackySoft.XPool {
 			return new RentInstance<T>(pool,instance);
 		}
 
+		/// <summary>
+		/// Periodically release instances in the pool.
+		/// </summary>
+		/// <param name="pool"></param>
+		/// <param name="interval"></param>
+		/// <param name="keep"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static IDisposable ReleaseInstancesPeriodically (this IPool pool,float interval,int keep) {
+			if (pool == null) {
+				throw Error.ArgumentNullException(nameof(pool));
+			}
+			if (interval <= 0f) {
+				throw Error.RequiredGreaterThanZero(nameof(interval));
+			}
+			if (keep < 0) {
+				throw Error.RequiredNonNegative(nameof(keep));
+			}
+
 			var timer = new PeriadicTimer(interval);
+
+			// Subscribe timer to the ticker.
 			IDisposable subscription = TimerTicker.Instance.Subscribe(timer);
+
+			// Bind pool to the timer.
 			IDisposable binding = BindTo(pool,timer,keep);
+
 			return Disposable.Combine(subscription,binding);
 		}
 
+		/// <summary>
+		/// Bind the pool to the timer and releases an instances in the pool each time the <see cref="IReadOnlyTimer.OnElapsed"/> callback is called.
+		/// </summary>
+		/// <param name="pool"></param>
+		/// <param name="timer"></param>
+		/// <param name="keep"></param>
+		/// <exception cref="ArgumentNullException"></exception>
+		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public static IDisposable BindTo (this IPool pool,IReadOnlyTimer timer,int keep) {
+			if (pool == null) {
+				throw Error.ArgumentNullException(nameof(pool));
+			}
+			if (timer == null) {
+				throw Error.ArgumentNullException(nameof(timer));
+			}
+			if (keep < 0) {
+				throw Error.RequiredNonNegative(nameof(keep));
+			}
 			return new TimerBinding(pool,timer,keep);
 		}
 
@@ -63,9 +103,6 @@ namespace MackySoft.XPool {
 			bool m_IsDisposed;
 
 			public TimerBinding (IPool pool,IReadOnlyTimer timer,int keep) {
-				if (keep < 0) {
-					throw Error.ArgumentOutOfRangeOfCollection(nameof(keep));
-				}
 				m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
 				m_Timer = timer ?? throw Error.ArgumentNullException(nameof(timer));
 				m_Keep = keep;
@@ -85,7 +122,5 @@ namespace MackySoft.XPool {
 				m_Pool.ReleaseInstances(m_Keep > m_Pool.Capacity ? m_Pool.Capacity : m_Keep);
 			}
 		}
-
-		
 	}
 }
