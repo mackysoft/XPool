@@ -9,7 +9,7 @@ namespace MackySoft.XPool {
 		/// Release the all pooled instances.
 		/// </summary>
 		/// <exception cref="ArgumentNullException"></exception>
-		public static void Clear<T> (this IPool<T> pool) {
+		public static void Clear (this IPool pool) {
 			if (pool == null) {
 				throw Error.ArgumentNullException(nameof(pool));
 			}
