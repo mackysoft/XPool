@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using MackySoft.XPool.Internal;
 using UnityEngine;
 
 namespace MackySoft.XPool.Timers {
@@ -40,6 +41,9 @@ namespace MackySoft.XPool.Timers {
 		}
 
 		public void Register (ITimer timer) {
+			if ((timer == null) || m_Timers.Contains(timer)) {
+				return;
+			}
 			m_Timers.Add(timer);
 		}
 
@@ -48,7 +52,7 @@ namespace MackySoft.XPool.Timers {
 		}
 
 		public IDisposable Subscribe (ITimer timer) {
-			return new TimerRegistration(timer,this);
+			return (timer != null) ? new TimerRegistration(timer,this) : throw Error.ArgumentNullException(nameof(timer));
 		}
 
 		class TimerRegistration : IDisposable {
@@ -69,7 +73,10 @@ namespace MackySoft.XPool.Timers {
 					return;
 				}
 				m_IsDisposed = true;
-				m_TimerTicker.Unregister(m_Timer);
+
+				if (m_TimerTicker != null) {
+					m_TimerTicker.Unregister(m_Timer);
+				}
 			}
 		}
 	}
