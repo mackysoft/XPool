@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
-using MackySoft.XPool.Timers;
 using UnityEngine;
 
-namespace MackySoft.XPool.Timer {
+namespace MackySoft.XPool.Timers {
 	public class TimerTicker : MonoBehaviour {
 
 		public static TimerTicker Instance {
