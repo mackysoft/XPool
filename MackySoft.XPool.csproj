@@ -83,6 +83,10 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Collections\Array\ArrayPoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Unity\IUnityObjectPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\IPool.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Timers\PeriadicTimer.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Timers\ITimer.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Timers\TimerTicker.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Runtime\Internal\Disposable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Runtime\MackySoft.XPool.asmdef" />
