@@ -103,8 +103,8 @@ namespace MackySoft.XPool {
 			bool m_IsDisposed;
 
 			public TimerBinding (IPool pool,IReadOnlyTimer timer,int keep) {
-				m_Pool = pool ?? throw Error.ArgumentNullException(nameof(pool));
-				m_Timer = timer ?? throw Error.ArgumentNullException(nameof(timer));
+				m_Pool = pool;
+				m_Timer = timer;
 				m_Keep = keep;
 
 				m_Timer.OnElapsed += OnElapsed;
