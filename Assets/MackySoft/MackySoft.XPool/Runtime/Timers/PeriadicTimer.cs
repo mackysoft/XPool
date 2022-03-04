@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace MackySoft.XPool.Timers {
 
+	/// <summary>
+	/// Timer that resets each time a interval of time elapses.
+	/// </summary>
 	[Serializable]
 	public class PeriodicTimer : ITimer {
 
