@@ -98,14 +98,14 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="MackySoft_XPool_PoolExtensions_Clear_" data-uid="MackySoft.XPool.PoolExtensions.Clear*"></a>
-  <h4 id="MackySoft_XPool_PoolExtensions_Clear__1_MackySoft_XPool_IPool___0__" data-uid="MackySoft.XPool.PoolExtensions.Clear``1(MackySoft.XPool.IPool{``0})">Clear&lt;T&gt;(IPool&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Release the all pooled instances.</p>
+  <a id="MackySoft_XPool_PoolExtensions_BindTo_" data-uid="MackySoft.XPool.PoolExtensions.BindTo*"></a>
+  <h4 id="MackySoft_XPool_PoolExtensions_BindTo_MackySoft_XPool_IPool_IReadOnlyTimer_System_Int32_" data-uid="MackySoft.XPool.PoolExtensions.BindTo(MackySoft.XPool.IPool,IReadOnlyTimer,System.Int32)">BindTo(IPool, IReadOnlyTimer, Int32)</h4>
+  <div class="markdown level1 summary"><p>Bind the pool to the timer and releases an instances in the pool each time the <see cref="!:IReadOnlyTimer.OnElapsed"></see> callback is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clear&lt;T&gt;(this IPool&lt;T&gt; pool)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IDisposable BindTo(this IPool pool, IReadOnlyTimer timer, int keep)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,23 +118,116 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;T&gt;</td>
+        <td><a class="xref" href="MackySoft.XPool.IPool.html">IPool</a></td>
         <td><span class="parametername">pool</span></td>
+        <td><p>Target pool. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IReadOnlyTimer</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Timer to be bound to the pool. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td><p>Quantity that keep pooled instances when release instances. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <a id="MackySoft_XPool_PoolExtensions_Clear_" data-uid="MackySoft.XPool.PoolExtensions.Clear*"></a>
+  <h4 id="MackySoft_XPool_PoolExtensions_Clear_MackySoft_XPool_IPool_" data-uid="MackySoft.XPool.PoolExtensions.Clear(MackySoft.XPool.IPool)">Clear(IPool)</h4>
+  <div class="markdown level1 summary"><p>Release the all pooled instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Clear(this IPool pool)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><a class="xref" href="MackySoft.XPool.IPool.html">IPool</a></td>
+        <td><span class="parametername">pool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="MackySoft_XPool_PoolExtensions_ReleaseInstancesPeriodically_" data-uid="MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically*"></a>
+  <h4 id="MackySoft_XPool_PoolExtensions_ReleaseInstancesPeriodically_MackySoft_XPool_IPool_System_Single_System_Int32_" data-uid="MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically(MackySoft.XPool.IPool,System.Single,System.Int32)">ReleaseInstancesPeriodically(IPool, Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Periodically release instances in the pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IDisposable ReleaseInstancesPeriodically(this IPool pool, float interval, int keep)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="MackySoft.XPool.IPool.html">IPool</a></td>
+        <td><span class="parametername">pool</span></td>
+        <td><p>Target pool. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">interval</span></td>
+        <td><p>Time interval to release an instances in the pool. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">keep</span></td>
+        <td><p>Quantity that keep pooled instances when release instances. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
         <td></td>
       </tr>
     </tbody>

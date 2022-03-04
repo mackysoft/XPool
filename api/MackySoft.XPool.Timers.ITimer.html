@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TemporaryListExtensions
+    <title>Interface ITimer
    | XPool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TemporaryListExtensions
+    <meta name="title" content="Interface ITimer
    | XPool ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -78,34 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions">
+            <article class="content wrap" id="_content" data-uid="MackySoft.XPool.Timers.ITimer">
   
   
-  <h1 id="MackySoft_XPool_Collections_TemporaryListExtensions" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions" class="text-break">Class TemporaryListExtensions
+  <h1 id="MackySoft_XPool_Timers_ITimer" data-uid="MackySoft.XPool.Timers.ITimer" class="text-break">Interface ITimer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TemporaryListExtensions</span></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="MackySoft.XPool.Timers.IReadOnlyTimer.html#MackySoft_XPool_Timers_IReadOnlyTimer_OnElapsed">IReadOnlyTimer.OnElapsed</a>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Collections.html">MackySoft.XPool.Collections</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Timers.html">MackySoft.XPool.Timers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="MackySoft_XPool_Collections_TemporaryListExtensions_syntax">Syntax</h5>
+  <h5 id="MackySoft_XPool_Timers_ITimer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TemporaryListExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITimer : IReadOnlyTimer</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList_" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_IEnumerable___0__" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0})">ToTemporaryList&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Create a temporary list from the elements of <see cref="!:IEnumerable&lt;T>"></see>.</p>
+  <a id="MackySoft_XPool_Timers_ITimer_Tick_" data-uid="MackySoft.XPool.Timers.ITimer.Tick*"></a>
+  <h4 id="MackySoft_XPool_Timers_ITimer_Tick_System_Single_" data-uid="MackySoft.XPool.Timers.ITimer.Tick(System.Single)">Tick(Single)</h4>
+  <div class="markdown level1 summary"><p>Update timer. Return true if timer has elapsed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TemporaryList&lt;T&gt; ToTemporaryList&lt;T&gt;(this IEnumerable&lt;T&gt; source)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Tick(float deltaTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,8 +119,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td><span class="parametername">source</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">deltaTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -134,83 +135,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryList-1.html">TemporaryList</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList_" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList*"></a>
-  <h4 id="MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__" data-uid="MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})">ToTemporaryList&lt;T&gt;(IEnumerable&lt;T&gt;, ArrayPool&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Create a temporary list from the elements of <see cref="!:IEnumerable&lt;T>"></see> using <a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_Shared">Shared</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TemporaryList&lt;T&gt; ToTemporaryList&lt;T&gt;(this IEnumerable&lt;T&gt; source, ArrayPool&lt;T&gt; pool)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="MackySoft.XPool.Collections.ArrayPool-1.html">ArrayPool</a>&lt;T&gt;</td>
-        <td><span class="parametername">pool</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="MackySoft.XPool.Collections.TemporaryList-1.html">TemporaryList</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>

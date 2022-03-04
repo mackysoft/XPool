@@ -96,12 +96,13 @@
     <h5>Implements</h5>
     <div><a class="xref" href="MackySoft.XPool.Unity.IUnityObjectPool-1.html">IUnityObjectPool</a>&lt;T&gt;</div>
     <div><a class="xref" href="MackySoft.XPool.IPool-1.html">IPool</a>&lt;T&gt;</div>
+    <div><a class="xref" href="MackySoft.XPool.IPool.html">IPool</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MackySoft.XPool.Unity.ObjectModel.html">MackySoft.XPool.Unity.ObjectModel</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="MackySoft_XPool_Unity_ObjectModel_UnityObjectPoolBase_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class UnityObjectPoolBase&lt;T&gt; : IUnityObjectPool&lt;T&gt;, IPool&lt;T&gt; where T : UnityObject</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class UnityObjectPoolBase&lt;T&gt; : IUnityObjectPool&lt;T&gt;, IPool&lt;T&gt;, IPool where T : UnityObject</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,6 +443,9 @@ This is because <see cref="!:UnityObject"></see> can become null externally due 
   </div>
   <div>
       <a class="xref" href="MackySoft.XPool.IPool-1.html">IPool&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="MackySoft.XPool.IPool.html">IPool</a>
   </div>
 </article>
           </div>

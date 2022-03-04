@@ -39,44 +39,44 @@ references:
   fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).ArrayPool
   nameWithType: ArrayPool<T>.ArrayPool
   nameWithType.vb: ArrayPool(Of T).ArrayPool
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
-  name: IPool<T[]>.Capacity
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity
-  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
-  name.vb: MackySoft.XPool.IPool<T[]>.Capacity
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Capacity
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
-  nameWithType: ArrayPool<T>.IPool<T[]>.Capacity
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity*
-  name: IPool<T[]>.Capacity
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Capacity_
-  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Capacity
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Capacity
+  name: IPool.Capacity
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_Capacity
+  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Capacity
+  name.vb: MackySoft.XPool.IPool.Capacity
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool.Capacity
+  nameWithType: ArrayPool<T>.IPool.Capacity
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool.Capacity
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Capacity*
+  name: IPool.Capacity
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_Capacity_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Capacity
   isSpec: "True"
-  name.vb: MackySoft.XPool.IPool<T[]>.Capacity
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Capacity
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
-  nameWithType: ArrayPool<T>.IPool<T[]>.Capacity
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Capacity
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
-  name: IPool<T[]>.Count
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count
-  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
-  name.vb: MackySoft.XPool.IPool<T[]>.Count
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Count
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
-  nameWithType: ArrayPool<T>.IPool<T[]>.Count
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
-- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count*
-  name: IPool<T[]>.Count
-  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Count_
-  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Count
+  name.vb: MackySoft.XPool.IPool.Capacity
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool.Capacity
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool.Capacity
+  nameWithType: ArrayPool<T>.IPool.Capacity
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool.Capacity
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Count
+  name: IPool.Count
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_Count
+  commentId: P:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Count
+  name.vb: MackySoft.XPool.IPool.Count
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool.Count
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool.Count
+  nameWithType: ArrayPool<T>.IPool.Count
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool.Count
+- uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Count*
+  name: IPool.Count
+  href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_Count_
+  commentId: Overload:MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool#Count
   isSpec: "True"
-  name.vb: MackySoft.XPool.IPool<T[]>.Count
-  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool<T[]>.Count
-  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
-  nameWithType: ArrayPool<T>.IPool<T[]>.Count
-  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool<T[]>.Count
+  name.vb: MackySoft.XPool.IPool.Count
+  fullName: MackySoft.XPool.Collections.ArrayPool<T>.MackySoft.XPool.IPool.Count
+  fullName.vb: MackySoft.XPool.Collections.ArrayPool(Of T).MackySoft.XPool.IPool.Count
+  nameWithType: ArrayPool<T>.IPool.Count
+  nameWithType.vb: ArrayPool(Of T).MackySoft.XPool.IPool.Count
 - uid: MackySoft.XPool.Collections.ArrayPool`1.MackySoft#XPool#IPool{T[]}#Rent
   name: IPool<T[]>.Rent()
   href: api/MackySoft.XPool.Collections.ArrayPool-1.html#MackySoft_XPool_Collections_ArrayPool_1_MackySoft_XPool_IPool_T____Rent
@@ -187,40 +187,40 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool
   nameWithType: ArrayPoolExtensions.ToArrayFromPool
-- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0})
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0})
   name: ToArrayFromPool<T>(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0})
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0})
   name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T))
   nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>)
   nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T))
-- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name: ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>)
-  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
-  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T))
-  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
-  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>)
   nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T))
-- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
   name: ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>, out Int32)
-  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__System_Int32__
-  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__System_Int32__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0},System.Int32@)
   name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T), ByRef Int32)
-  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>, out System.Int32)
-  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T), ByRef System.Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>, out System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T), ByRef System.Int32)
   nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, ArrayPool<T>, out Int32)
   nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ArrayPool(Of T), ByRef Int32)
-- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},System.Int32@)
+- uid: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},System.Int32@)
   name: ToArrayFromPool<T>(IEnumerable<T>, out Int32)
-  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_System_Collections_Generic_IEnumerable___0__System_Int32__
-  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(System.Collections.Generic.IEnumerable{``0},System.Int32@)
+  href: api/MackySoft.XPool.Collections.ArrayPoolExtensions.html#MackySoft_XPool_Collections_ArrayPoolExtensions_ToArrayFromPool__1_IEnumerable___0__System_Int32__
+  commentId: M:MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool``1(IEnumerable{``0},System.Int32@)
   name.vb: ToArrayFromPool(Of T)(IEnumerable(Of T), ByRef Int32)
-  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(System.Collections.Generic.IEnumerable<T>, out System.Int32)
-  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(System.Collections.Generic.IEnumerable(Of T), ByRef System.Int32)
+  fullName: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, out System.Int32)
+  fullName.vb: MackySoft.XPool.Collections.ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ByRef System.Int32)
   nameWithType: ArrayPoolExtensions.ToArrayFromPool<T>(IEnumerable<T>, out Int32)
   nameWithType.vb: ArrayPoolExtensions.ToArrayFromPool(Of T)(IEnumerable(Of T), ByRef Int32)
 - uid: MackySoft.XPool.Collections.ArrayPoolUtility
@@ -679,6 +679,24 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).Dispose
   nameWithType: TemporaryArray<T>.Dispose
   nameWithType.vb: TemporaryArray(Of T).Dispose
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(IEnumerable{`0})
+  name: From(IEnumerable<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(IEnumerable{`0})
+  name.vb: From(IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(IEnumerable(Of T))
+  nameWithType: TemporaryArray<T>.From(IEnumerable<T>)
+  nameWithType.vb: TemporaryArray(Of T).From(IEnumerable(Of T))
+- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+  name: From(IEnumerable<T>, ArrayPool<T>)
+  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+  name.vb: From(IEnumerable(Of T), ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  nameWithType: TemporaryArray<T>.From(IEnumerable<T>, ArrayPool<T>)
+  nameWithType.vb: TemporaryArray(Of T).From(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryArray`1.From(MackySoft.XPool.Collections.TemporaryArray{`0})
   name: From(TemporaryArray<T>)
   href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_MackySoft_XPool_Collections_TemporaryArray__0__
@@ -697,24 +715,6 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(MackySoft.XPool.Collections.TemporaryArray(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: TemporaryArray<T>.From(TemporaryArray<T>, ArrayPool<T>)
   nameWithType.vb: TemporaryArray(Of T).From(TemporaryArray(Of T), ArrayPool(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0})
-  name: From(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_System_Collections_Generic_IEnumerable__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0})
-  name.vb: From(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: TemporaryArray<T>.From(IEnumerable<T>)
-  nameWithType.vb: TemporaryArray(Of T).From(IEnumerable(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
-  name: From(IEnumerable<T>, ArrayPool<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_System_Collections_Generic_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryArray`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
-  name.vb: From(IEnumerable(Of T), ArrayPool(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryArray<T>.From(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryArray(Of T).From(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
-  nameWithType: TemporaryArray<T>.From(IEnumerable<T>, ArrayPool<T>)
-  nameWithType.vb: TemporaryArray(Of T).From(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryArray`1.From*
   name: From
   href: api/MackySoft.XPool.Collections.TemporaryArray-1.html#MackySoft_XPool_Collections_TemporaryArray_1_From_
@@ -789,22 +789,22 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray
   nameWithType: TemporaryArrayExtensions.ToTemporaryArray
-- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0})
+- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(IEnumerable{``0})
   name: ToTemporaryArray<T>(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0})
+  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray__1_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(IEnumerable{``0})
   name.vb: ToTemporaryArray(Of T)(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T))
   nameWithType: TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>)
   nameWithType.vb: TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+- uid: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name: ToTemporaryArray<T>(IEnumerable<T>, ArrayPool<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  href: api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html#MackySoft_XPool_Collections_TemporaryArrayExtensions_ToTemporaryArray__1_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name.vb: ToTemporaryArray(Of T)(IEnumerable(Of T), ArrayPool(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: TemporaryArrayExtensions.ToTemporaryArray<T>(IEnumerable<T>, ArrayPool<T>)
   nameWithType.vb: TemporaryArrayExtensions.ToTemporaryArray(Of T)(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1
@@ -851,13 +851,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Add
   nameWithType: TemporaryList<T>.Add
   nameWithType.vb: TemporaryList(Of T).Add
-- uid: MackySoft.XPool.Collections.TemporaryList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.AddRange(IEnumerable{`0})
   name: AddRange(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_AddRange_System_Collections_Generic_IEnumerable__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_AddRange_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.AddRange(IEnumerable{`0})
   name.vb: AddRange(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.AddRange(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).AddRange(System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.AddRange(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).AddRange(IEnumerable(Of T))
   nameWithType: TemporaryList<T>.AddRange(IEnumerable<T>)
   nameWithType.vb: TemporaryList(Of T).AddRange(IEnumerable(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.AddRange*
@@ -894,22 +894,22 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(T)
   nameWithType: TemporaryList<T>.BinarySearch(T)
   nameWithType.vb: TemporaryList(Of T).BinarySearch(T)
-- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,IComparer{`0})
   name: BinarySearch(T, IComparer<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch__0_System_Collections_Generic_IComparer__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch__0_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(`0,IComparer{`0})
   name.vb: BinarySearch(T, IComparer(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(T, System.Collections.Generic.IComparer<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(T, System.Collections.Generic.IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(T, IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(T, IComparer(Of T))
   nameWithType: TemporaryList<T>.BinarySearch(T, IComparer<T>)
   nameWithType.vb: TemporaryList(Of T).BinarySearch(T, IComparer(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,IComparer{`0})
   name: BinarySearch(Int32, Int32, T, IComparer<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch_System_Int32_System_Int32__0_System_Collections_Generic_IComparer__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_BinarySearch_System_Int32_System_Int32__0_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.BinarySearch(System.Int32,System.Int32,`0,IComparer{`0})
   name.vb: BinarySearch(Int32, Int32, T, IComparer(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(System.Int32, System.Int32, T, System.Collections.Generic.IComparer<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(System.Int32, System.Int32, T, System.Collections.Generic.IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.BinarySearch(System.Int32, System.Int32, T, IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).BinarySearch(System.Int32, System.Int32, T, IComparer(Of T))
   nameWithType: TemporaryList<T>.BinarySearch(Int32, Int32, T, IComparer<T>)
   nameWithType.vb: TemporaryList(Of T).BinarySearch(Int32, Int32, T, IComparer(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.BinarySearch*
@@ -1237,22 +1237,22 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).FindLastIndex
   nameWithType: TemporaryList<T>.FindLastIndex
   nameWithType.vb: TemporaryList(Of T).FindLastIndex
-- uid: MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.From(IEnumerable{`0})
   name: From(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_System_Collections_Generic_IEnumerable__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(IEnumerable{`0})
   name.vb: From(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(IEnumerable(Of T))
   nameWithType: TemporaryList<T>.From(IEnumerable<T>)
   nameWithType.vb: TemporaryList(Of T).From(IEnumerable(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.From(IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
   name: From(IEnumerable<T>, ArrayPool<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_System_Collections_Generic_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(System.Collections.Generic.IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_From_IEnumerable__0__MackySoft_XPool_Collections_ArrayPool__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.From(IEnumerable{`0},MackySoft.XPool.Collections.ArrayPool{`0})
   name.vb: From(IEnumerable(Of T), ArrayPool(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.From(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).From(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: TemporaryList<T>.From(IEnumerable<T>, ArrayPool<T>)
   nameWithType.vb: TemporaryList(Of T).From(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.From*
@@ -1331,13 +1331,13 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Insert
   nameWithType: TemporaryList<T>.Insert
   nameWithType.vb: TemporaryList(Of T).Insert
-- uid: MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,IEnumerable{`0})
   name: InsertRange(Int32, IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_InsertRange_System_Int32_IEnumerable__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.InsertRange(System.Int32,IEnumerable{`0})
   name.vb: InsertRange(Int32, IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.InsertRange(System.Int32, System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).InsertRange(System.Int32, System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.InsertRange(System.Int32, IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).InsertRange(System.Int32, IEnumerable(Of T))
   nameWithType: TemporaryList<T>.InsertRange(Int32, IEnumerable<T>)
   nameWithType.vb: TemporaryList(Of T).InsertRange(Int32, IEnumerable(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.InsertRange*
@@ -1502,22 +1502,22 @@ references:
   fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort()
   nameWithType: TemporaryList<T>.Sort()
   nameWithType.vb: TemporaryList(Of T).Sort()
-- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Collections.Generic.IComparer{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(IComparer{`0})
   name: Sort(IComparer<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_System_Collections_Generic_IComparer__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Collections.Generic.IComparer{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(IComparer{`0})
   name.vb: Sort(IComparer(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(System.Collections.Generic.IComparer<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(System.Collections.Generic.IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(IComparer(Of T))
   nameWithType: TemporaryList<T>.Sort(IComparer<T>)
   nameWithType.vb: TemporaryList(Of T).Sort(IComparer(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})
+- uid: MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,IComparer{`0})
   name: Sort(Int32, Int32, IComparer<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_System_Int32_System_Int32_System_Collections_Generic_IComparer__0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})
+  href: api/MackySoft.XPool.Collections.TemporaryList-1.html#MackySoft_XPool_Collections_TemporaryList_1_Sort_System_Int32_System_Int32_IComparer__0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryList`1.Sort(System.Int32,System.Int32,IComparer{`0})
   name.vb: Sort(Int32, Int32, IComparer(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(System.Int32, System.Int32, System.Collections.Generic.IComparer(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryList<T>.Sort(System.Int32, System.Int32, IComparer<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryList(Of T).Sort(System.Int32, System.Int32, IComparer(Of T))
   nameWithType: TemporaryList<T>.Sort(Int32, Int32, IComparer<T>)
   nameWithType.vb: TemporaryList(Of T).Sort(Int32, Int32, IComparer(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryList`1.Sort*
@@ -1560,22 +1560,22 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList
   nameWithType: TemporaryListExtensions.ToTemporaryList
-- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0})
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0})
   name: ToTemporaryList<T>(IEnumerable<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0})
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_IEnumerable___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0})
   name.vb: ToTemporaryList(Of T)(IEnumerable(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T))
   nameWithType: TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>)
   nameWithType.vb: TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T))
-- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+- uid: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name: ToTemporaryList<T>(IEnumerable<T>, ArrayPool<T>)
-  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_System_Collections_Generic_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
-  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(System.Collections.Generic.IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
+  href: api/MackySoft.XPool.Collections.TemporaryListExtensions.html#MackySoft_XPool_Collections_TemporaryListExtensions_ToTemporaryList__1_IEnumerable___0__MackySoft_XPool_Collections_ArrayPool___0__
+  commentId: M:MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList``1(IEnumerable{``0},MackySoft.XPool.Collections.ArrayPool{``0})
   name.vb: ToTemporaryList(Of T)(IEnumerable(Of T), ArrayPool(Of T))
-  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(System.Collections.Generic.IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
-  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(System.Collections.Generic.IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
+  fullName: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>, MackySoft.XPool.Collections.ArrayPool<T>)
+  fullName.vb: MackySoft.XPool.Collections.TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T), MackySoft.XPool.Collections.ArrayPool(Of T))
   nameWithType: TemporaryListExtensions.ToTemporaryList<T>(IEnumerable<T>, ArrayPool<T>)
   nameWithType.vb: TemporaryListExtensions.ToTemporaryList(Of T)(IEnumerable(Of T), ArrayPool(Of T))
 - uid: MackySoft.XPool.Collections.TemporaryQueue`1
@@ -2706,6 +2706,51 @@ references:
   fullName.vb: MackySoft.XPool.FactoryPool(Of T).OnReturn
   nameWithType: FactoryPool<T>.OnReturn
   nameWithType.vb: FactoryPool(Of T).OnReturn
+- uid: MackySoft.XPool.IPool
+  name: IPool
+  href: api/MackySoft.XPool.IPool.html
+  commentId: T:MackySoft.XPool.IPool
+  fullName: MackySoft.XPool.IPool
+  nameWithType: IPool
+- uid: MackySoft.XPool.IPool.Capacity
+  name: Capacity
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_Capacity
+  commentId: P:MackySoft.XPool.IPool.Capacity
+  fullName: MackySoft.XPool.IPool.Capacity
+  nameWithType: IPool.Capacity
+- uid: MackySoft.XPool.IPool.Capacity*
+  name: Capacity
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_Capacity_
+  commentId: Overload:MackySoft.XPool.IPool.Capacity
+  isSpec: "True"
+  fullName: MackySoft.XPool.IPool.Capacity
+  nameWithType: IPool.Capacity
+- uid: MackySoft.XPool.IPool.Count
+  name: Count
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_Count
+  commentId: P:MackySoft.XPool.IPool.Count
+  fullName: MackySoft.XPool.IPool.Count
+  nameWithType: IPool.Count
+- uid: MackySoft.XPool.IPool.Count*
+  name: Count
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_Count_
+  commentId: Overload:MackySoft.XPool.IPool.Count
+  isSpec: "True"
+  fullName: MackySoft.XPool.IPool.Count
+  nameWithType: IPool.Count
+- uid: MackySoft.XPool.IPool.ReleaseInstances(System.Int32)
+  name: ReleaseInstances(Int32)
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_ReleaseInstances_System_Int32_
+  commentId: M:MackySoft.XPool.IPool.ReleaseInstances(System.Int32)
+  fullName: MackySoft.XPool.IPool.ReleaseInstances(System.Int32)
+  nameWithType: IPool.ReleaseInstances(Int32)
+- uid: MackySoft.XPool.IPool.ReleaseInstances*
+  name: ReleaseInstances
+  href: api/MackySoft.XPool.IPool.html#MackySoft_XPool_IPool_ReleaseInstances_
+  commentId: Overload:MackySoft.XPool.IPool.ReleaseInstances
+  isSpec: "True"
+  fullName: MackySoft.XPool.IPool.ReleaseInstances
+  nameWithType: IPool.ReleaseInstances
 - uid: MackySoft.XPool.IPool`1
   name: IPool<T>
   href: api/MackySoft.XPool.IPool-1.html
@@ -2715,57 +2760,6 @@ references:
   fullName.vb: MackySoft.XPool.IPool(Of T)
   nameWithType: IPool<T>
   nameWithType.vb: IPool(Of T)
-- uid: MackySoft.XPool.IPool`1.Capacity
-  name: Capacity
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Capacity
-  commentId: P:MackySoft.XPool.IPool`1.Capacity
-  fullName: MackySoft.XPool.IPool<T>.Capacity
-  fullName.vb: MackySoft.XPool.IPool(Of T).Capacity
-  nameWithType: IPool<T>.Capacity
-  nameWithType.vb: IPool(Of T).Capacity
-- uid: MackySoft.XPool.IPool`1.Capacity*
-  name: Capacity
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Capacity_
-  commentId: Overload:MackySoft.XPool.IPool`1.Capacity
-  isSpec: "True"
-  fullName: MackySoft.XPool.IPool<T>.Capacity
-  fullName.vb: MackySoft.XPool.IPool(Of T).Capacity
-  nameWithType: IPool<T>.Capacity
-  nameWithType.vb: IPool(Of T).Capacity
-- uid: MackySoft.XPool.IPool`1.Count
-  name: Count
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Count
-  commentId: P:MackySoft.XPool.IPool`1.Count
-  fullName: MackySoft.XPool.IPool<T>.Count
-  fullName.vb: MackySoft.XPool.IPool(Of T).Count
-  nameWithType: IPool<T>.Count
-  nameWithType.vb: IPool(Of T).Count
-- uid: MackySoft.XPool.IPool`1.Count*
-  name: Count
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Count_
-  commentId: Overload:MackySoft.XPool.IPool`1.Count
-  isSpec: "True"
-  fullName: MackySoft.XPool.IPool<T>.Count
-  fullName.vb: MackySoft.XPool.IPool(Of T).Count
-  nameWithType: IPool<T>.Count
-  nameWithType.vb: IPool(Of T).Count
-- uid: MackySoft.XPool.IPool`1.ReleaseInstances(System.Int32)
-  name: ReleaseInstances(Int32)
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_ReleaseInstances_System_Int32_
-  commentId: M:MackySoft.XPool.IPool`1.ReleaseInstances(System.Int32)
-  fullName: MackySoft.XPool.IPool<T>.ReleaseInstances(System.Int32)
-  fullName.vb: MackySoft.XPool.IPool(Of T).ReleaseInstances(System.Int32)
-  nameWithType: IPool<T>.ReleaseInstances(Int32)
-  nameWithType.vb: IPool(Of T).ReleaseInstances(Int32)
-- uid: MackySoft.XPool.IPool`1.ReleaseInstances*
-  name: ReleaseInstances
-  href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_ReleaseInstances_
-  commentId: Overload:MackySoft.XPool.IPool`1.ReleaseInstances
-  isSpec: "True"
-  fullName: MackySoft.XPool.IPool<T>.ReleaseInstances
-  fullName.vb: MackySoft.XPool.IPool(Of T).ReleaseInstances
-  nameWithType: IPool<T>.ReleaseInstances
-  nameWithType.vb: IPool(Of T).ReleaseInstances
 - uid: MackySoft.XPool.IPool`1.Rent
   name: Rent()
   href: api/MackySoft.XPool.IPool-1.html#MackySoft_XPool_IPool_1_Rent
@@ -2991,6 +2985,25 @@ references:
   commentId: T:MackySoft.XPool.PoolExtensions
   fullName: MackySoft.XPool.PoolExtensions
   nameWithType: PoolExtensions
+- uid: MackySoft.XPool.PoolExtensions.BindTo(MackySoft.XPool.IPool,IReadOnlyTimer,System.Int32)
+  name: BindTo(IPool, IReadOnlyTimer, Int32)
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_BindTo_MackySoft_XPool_IPool_IReadOnlyTimer_System_Int32_
+  commentId: M:MackySoft.XPool.PoolExtensions.BindTo(MackySoft.XPool.IPool,IReadOnlyTimer,System.Int32)
+  fullName: MackySoft.XPool.PoolExtensions.BindTo(MackySoft.XPool.IPool, IReadOnlyTimer, System.Int32)
+  nameWithType: PoolExtensions.BindTo(IPool, IReadOnlyTimer, Int32)
+- uid: MackySoft.XPool.PoolExtensions.BindTo*
+  name: BindTo
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_BindTo_
+  commentId: Overload:MackySoft.XPool.PoolExtensions.BindTo
+  isSpec: "True"
+  fullName: MackySoft.XPool.PoolExtensions.BindTo
+  nameWithType: PoolExtensions.BindTo
+- uid: MackySoft.XPool.PoolExtensions.Clear(MackySoft.XPool.IPool)
+  name: Clear(IPool)
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_Clear_MackySoft_XPool_IPool_
+  commentId: M:MackySoft.XPool.PoolExtensions.Clear(MackySoft.XPool.IPool)
+  fullName: MackySoft.XPool.PoolExtensions.Clear(MackySoft.XPool.IPool)
+  nameWithType: PoolExtensions.Clear(IPool)
 - uid: MackySoft.XPool.PoolExtensions.Clear*
   name: Clear
   href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_Clear_
@@ -2998,15 +3011,19 @@ references:
   isSpec: "True"
   fullName: MackySoft.XPool.PoolExtensions.Clear
   nameWithType: PoolExtensions.Clear
-- uid: MackySoft.XPool.PoolExtensions.Clear``1(MackySoft.XPool.IPool{``0})
-  name: Clear<T>(IPool<T>)
-  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_Clear__1_MackySoft_XPool_IPool___0__
-  commentId: M:MackySoft.XPool.PoolExtensions.Clear``1(MackySoft.XPool.IPool{``0})
-  name.vb: Clear(Of T)(IPool(Of T))
-  fullName: MackySoft.XPool.PoolExtensions.Clear<T>(MackySoft.XPool.IPool<T>)
-  fullName.vb: MackySoft.XPool.PoolExtensions.Clear(Of T)(MackySoft.XPool.IPool(Of T))
-  nameWithType: PoolExtensions.Clear<T>(IPool<T>)
-  nameWithType.vb: PoolExtensions.Clear(Of T)(IPool(Of T))
+- uid: MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically(MackySoft.XPool.IPool,System.Single,System.Int32)
+  name: ReleaseInstancesPeriodically(IPool, Single, Int32)
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_ReleaseInstancesPeriodically_MackySoft_XPool_IPool_System_Single_System_Int32_
+  commentId: M:MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically(MackySoft.XPool.IPool,System.Single,System.Int32)
+  fullName: MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically(MackySoft.XPool.IPool, System.Single, System.Int32)
+  nameWithType: PoolExtensions.ReleaseInstancesPeriodically(IPool, Single, Int32)
+- uid: MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically*
+  name: ReleaseInstancesPeriodically
+  href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_ReleaseInstancesPeriodically_
+  commentId: Overload:MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically
+  isSpec: "True"
+  fullName: MackySoft.XPool.PoolExtensions.ReleaseInstancesPeriodically
+  nameWithType: PoolExtensions.ReleaseInstancesPeriodically
 - uid: MackySoft.XPool.PoolExtensions.RentTemporary*
   name: RentTemporary
   href: api/MackySoft.XPool.PoolExtensions.html#MackySoft_XPool_PoolExtensions_RentTemporary_
@@ -3280,6 +3297,215 @@ references:
   commentId: F:MackySoft.XPool.Tests.Unit.Default
   fullName: MackySoft.XPool.Tests.Unit.Default
   nameWithType: Unit.Default
+- uid: MackySoft.XPool.Timers
+  name: MackySoft.XPool.Timers
+  href: api/MackySoft.XPool.Timers.html
+  commentId: N:MackySoft.XPool.Timers
+  fullName: MackySoft.XPool.Timers
+  nameWithType: MackySoft.XPool.Timers
+- uid: MackySoft.XPool.Timers.IReadOnlyTimer
+  name: IReadOnlyTimer
+  href: api/MackySoft.XPool.Timers.IReadOnlyTimer.html
+  commentId: T:MackySoft.XPool.Timers.IReadOnlyTimer
+  fullName: MackySoft.XPool.Timers.IReadOnlyTimer
+  nameWithType: IReadOnlyTimer
+- uid: MackySoft.XPool.Timers.IReadOnlyTimer.OnElapsed
+  name: OnElapsed
+  href: api/MackySoft.XPool.Timers.IReadOnlyTimer.html#MackySoft_XPool_Timers_IReadOnlyTimer_OnElapsed
+  commentId: E:MackySoft.XPool.Timers.IReadOnlyTimer.OnElapsed
+  fullName: MackySoft.XPool.Timers.IReadOnlyTimer.OnElapsed
+  nameWithType: IReadOnlyTimer.OnElapsed
+- uid: MackySoft.XPool.Timers.ITimer
+  name: ITimer
+  href: api/MackySoft.XPool.Timers.ITimer.html
+  commentId: T:MackySoft.XPool.Timers.ITimer
+  fullName: MackySoft.XPool.Timers.ITimer
+  nameWithType: ITimer
+- uid: MackySoft.XPool.Timers.ITimer.Tick(System.Single)
+  name: Tick(Single)
+  href: api/MackySoft.XPool.Timers.ITimer.html#MackySoft_XPool_Timers_ITimer_Tick_System_Single_
+  commentId: M:MackySoft.XPool.Timers.ITimer.Tick(System.Single)
+  fullName: MackySoft.XPool.Timers.ITimer.Tick(System.Single)
+  nameWithType: ITimer.Tick(Single)
+- uid: MackySoft.XPool.Timers.ITimer.Tick*
+  name: Tick
+  href: api/MackySoft.XPool.Timers.ITimer.html#MackySoft_XPool_Timers_ITimer_Tick_
+  commentId: Overload:MackySoft.XPool.Timers.ITimer.Tick
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.ITimer.Tick
+  nameWithType: ITimer.Tick
+- uid: MackySoft.XPool.Timers.PeriodicTimer
+  name: PeriodicTimer
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html
+  commentId: T:MackySoft.XPool.Timers.PeriodicTimer
+  fullName: MackySoft.XPool.Timers.PeriodicTimer
+  nameWithType: PeriodicTimer
+- uid: MackySoft.XPool.Timers.PeriodicTimer.#ctor
+  name: PeriodicTimer()
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer__ctor
+  commentId: M:MackySoft.XPool.Timers.PeriodicTimer.#ctor
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.PeriodicTimer()
+  nameWithType: PeriodicTimer.PeriodicTimer()
+- uid: MackySoft.XPool.Timers.PeriodicTimer.#ctor(System.Single)
+  name: PeriodicTimer(Single)
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer__ctor_System_Single_
+  commentId: M:MackySoft.XPool.Timers.PeriodicTimer.#ctor(System.Single)
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.PeriodicTimer(System.Single)
+  nameWithType: PeriodicTimer.PeriodicTimer(Single)
+- uid: MackySoft.XPool.Timers.PeriodicTimer.#ctor*
+  name: PeriodicTimer
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer__ctor_
+  commentId: Overload:MackySoft.XPool.Timers.PeriodicTimer.#ctor
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.PeriodicTimer
+  nameWithType: PeriodicTimer.PeriodicTimer
+- uid: MackySoft.XPool.Timers.PeriodicTimer.Interval
+  name: Interval
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer_Interval
+  commentId: P:MackySoft.XPool.Timers.PeriodicTimer.Interval
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.Interval
+  nameWithType: PeriodicTimer.Interval
+- uid: MackySoft.XPool.Timers.PeriodicTimer.Interval*
+  name: Interval
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer_Interval_
+  commentId: Overload:MackySoft.XPool.Timers.PeriodicTimer.Interval
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.Interval
+  nameWithType: PeriodicTimer.Interval
+- uid: MackySoft.XPool.Timers.PeriodicTimer.OnElapsed
+  name: OnElapsed
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer_OnElapsed
+  commentId: E:MackySoft.XPool.Timers.PeriodicTimer.OnElapsed
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.OnElapsed
+  nameWithType: PeriodicTimer.OnElapsed
+- uid: MackySoft.XPool.Timers.PeriodicTimer.Tick(System.Single)
+  name: Tick(Single)
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer_Tick_System_Single_
+  commentId: M:MackySoft.XPool.Timers.PeriodicTimer.Tick(System.Single)
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.Tick(System.Single)
+  nameWithType: PeriodicTimer.Tick(Single)
+- uid: MackySoft.XPool.Timers.PeriodicTimer.Tick*
+  name: Tick
+  href: api/MackySoft.XPool.Timers.PeriodicTimer.html#MackySoft_XPool_Timers_PeriodicTimer_Tick_
+  commentId: Overload:MackySoft.XPool.Timers.PeriodicTimer.Tick
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.PeriodicTimer.Tick
+  nameWithType: PeriodicTimer.Tick
+- uid: MackySoft.XPool.Timers.PeriodicTimerDrawer
+  name: PeriodicTimerDrawer
+  href: api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html
+  commentId: T:MackySoft.XPool.Timers.PeriodicTimerDrawer
+  fullName: MackySoft.XPool.Timers.PeriodicTimerDrawer
+  nameWithType: PeriodicTimerDrawer
+- uid: MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html#MackySoft_XPool_Timers_PeriodicTimerDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: PeriodicTimerDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html#MackySoft_XPool_Timers_PeriodicTimerDrawer_GetPropertyHeight_
+  commentId: Overload:MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.PeriodicTimerDrawer.GetPropertyHeight
+  nameWithType: PeriodicTimerDrawer.GetPropertyHeight
+- uid: MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html#MackySoft_XPool_Timers_PeriodicTimerDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: PeriodicTimerDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI*
+  name: OnGUI
+  href: api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html#MackySoft_XPool_Timers_PeriodicTimerDrawer_OnGUI_
+  commentId: Overload:MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.PeriodicTimerDrawer.OnGUI
+  nameWithType: PeriodicTimerDrawer.OnGUI
+- uid: MackySoft.XPool.Timers.Tests
+  name: MackySoft.XPool.Timers.Tests
+  href: api/MackySoft.XPool.Timers.Tests.html
+  commentId: N:MackySoft.XPool.Timers.Tests
+  fullName: MackySoft.XPool.Timers.Tests
+  nameWithType: MackySoft.XPool.Timers.Tests
+- uid: MackySoft.XPool.Timers.Tests.PeriodicTimerTest
+  name: PeriodicTimerTest
+  href: api/MackySoft.XPool.Timers.Tests.PeriodicTimerTest.html
+  commentId: T:MackySoft.XPool.Timers.Tests.PeriodicTimerTest
+  fullName: MackySoft.XPool.Timers.Tests.PeriodicTimerTest
+  nameWithType: PeriodicTimerTest
+- uid: MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed
+  name: Invoke_OnElapsed_when_interval_is_elapsed()
+  href: api/MackySoft.XPool.Timers.Tests.PeriodicTimerTest.html#MackySoft_XPool_Timers_Tests_PeriodicTimerTest_Invoke_OnElapsed_when_interval_is_elapsed
+  commentId: M:MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed
+  fullName: MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed()
+  nameWithType: PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed()
+- uid: MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed*
+  name: Invoke_OnElapsed_when_interval_is_elapsed
+  href: api/MackySoft.XPool.Timers.Tests.PeriodicTimerTest.html#MackySoft_XPool_Timers_Tests_PeriodicTimerTest_Invoke_OnElapsed_when_interval_is_elapsed_
+  commentId: Overload:MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.Tests.PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed
+  nameWithType: PeriodicTimerTest.Invoke_OnElapsed_when_interval_is_elapsed
+- uid: MackySoft.XPool.Timers.TimerTicker
+  name: TimerTicker
+  href: api/MackySoft.XPool.Timers.TimerTicker.html
+  commentId: T:MackySoft.XPool.Timers.TimerTicker
+  fullName: MackySoft.XPool.Timers.TimerTicker
+  nameWithType: TimerTicker
+- uid: MackySoft.XPool.Timers.TimerTicker.Instance
+  name: Instance
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Instance
+  commentId: P:MackySoft.XPool.Timers.TimerTicker.Instance
+  fullName: MackySoft.XPool.Timers.TimerTicker.Instance
+  nameWithType: TimerTicker.Instance
+- uid: MackySoft.XPool.Timers.TimerTicker.Instance*
+  name: Instance
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Instance_
+  commentId: Overload:MackySoft.XPool.Timers.TimerTicker.Instance
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.TimerTicker.Instance
+  nameWithType: TimerTicker.Instance
+- uid: MackySoft.XPool.Timers.TimerTicker.Register(MackySoft.XPool.Timers.ITimer)
+  name: Register(ITimer)
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Register_MackySoft_XPool_Timers_ITimer_
+  commentId: M:MackySoft.XPool.Timers.TimerTicker.Register(MackySoft.XPool.Timers.ITimer)
+  fullName: MackySoft.XPool.Timers.TimerTicker.Register(MackySoft.XPool.Timers.ITimer)
+  nameWithType: TimerTicker.Register(ITimer)
+- uid: MackySoft.XPool.Timers.TimerTicker.Register*
+  name: Register
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Register_
+  commentId: Overload:MackySoft.XPool.Timers.TimerTicker.Register
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.TimerTicker.Register
+  nameWithType: TimerTicker.Register
+- uid: MackySoft.XPool.Timers.TimerTicker.Subscribe(MackySoft.XPool.Timers.ITimer)
+  name: Subscribe(ITimer)
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Subscribe_MackySoft_XPool_Timers_ITimer_
+  commentId: M:MackySoft.XPool.Timers.TimerTicker.Subscribe(MackySoft.XPool.Timers.ITimer)
+  fullName: MackySoft.XPool.Timers.TimerTicker.Subscribe(MackySoft.XPool.Timers.ITimer)
+  nameWithType: TimerTicker.Subscribe(ITimer)
+- uid: MackySoft.XPool.Timers.TimerTicker.Subscribe*
+  name: Subscribe
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Subscribe_
+  commentId: Overload:MackySoft.XPool.Timers.TimerTicker.Subscribe
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.TimerTicker.Subscribe
+  nameWithType: TimerTicker.Subscribe
+- uid: MackySoft.XPool.Timers.TimerTicker.Unregister(MackySoft.XPool.Timers.ITimer)
+  name: Unregister(ITimer)
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Unregister_MackySoft_XPool_Timers_ITimer_
+  commentId: M:MackySoft.XPool.Timers.TimerTicker.Unregister(MackySoft.XPool.Timers.ITimer)
+  fullName: MackySoft.XPool.Timers.TimerTicker.Unregister(MackySoft.XPool.Timers.ITimer)
+  nameWithType: TimerTicker.Unregister(ITimer)
+- uid: MackySoft.XPool.Timers.TimerTicker.Unregister*
+  name: Unregister
+  href: api/MackySoft.XPool.Timers.TimerTicker.html#MackySoft_XPool_Timers_TimerTicker_Unregister_
+  commentId: Overload:MackySoft.XPool.Timers.TimerTicker.Unregister
+  isSpec: "True"
+  fullName: MackySoft.XPool.Timers.TimerTicker.Unregister
+  nameWithType: TimerTicker.Unregister
 - uid: MackySoft.XPool.Unity
   name: MackySoft.XPool.Unity
   href: api/MackySoft.XPool.Unity.html
