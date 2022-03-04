@@ -4,7 +4,7 @@ using UnityEngine;
 namespace MackySoft.XPool.Timers {
 
 	[Serializable]
-	public class PeriadicTimer : ITimer {
+	public class PeriodicTimer : ITimer {
 
 		[SerializeField]
 		float m_Interval = 1f;
@@ -13,10 +13,15 @@ namespace MackySoft.XPool.Timers {
 
 		public event Action OnElapsed;
 
-		public PeriadicTimer () {
+		public float Interval {
+			get => m_Interval;
+			set => m_Interval = (value > 0f) ? value : 0.01f;
 		}
 
-		public PeriadicTimer (float interval) {
+		public PeriodicTimer () {
+		}
+
+		public PeriodicTimer (float interval) {
 			m_Interval = interval;
 		}
 

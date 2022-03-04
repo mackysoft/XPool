@@ -63,7 +63,7 @@ namespace MackySoft.XPool {
 				throw Error.RequiredNonNegative(nameof(keep));
 			}
 
-			var timer = new PeriadicTimer(interval);
+			var timer = new PeriodicTimer(interval);
 
 			// Subscribe timer to the ticker.
 			IDisposable subscription = TimerTicker.Instance.Subscribe(timer);
