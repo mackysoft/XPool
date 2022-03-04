@@ -22,7 +22,7 @@ namespace MackySoft.XPool.Timers {
 		}
 
 		public PeriodicTimer (float interval) {
-			m_Interval = interval;
+			Interval = interval;
 		}
 
 		public bool Tick (float deltaTime) {
