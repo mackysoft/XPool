@@ -191,9 +191,9 @@ namespace MackySoft.XPool.Collections {
 			}
 		}
 
-		int IPool<T[]>.Capacity => throw Error.FunctionIsNotSupported();
+		int IPool.Capacity => throw Error.FunctionIsNotSupported();
 
-		int IPool<T[]>.Count => throw Error.FunctionIsNotSupported();
+		int IPool.Count => throw Error.FunctionIsNotSupported();
 
 		T[] IPool<T[]>.Rent () {
 			throw Error.FunctionIsNotSupported();

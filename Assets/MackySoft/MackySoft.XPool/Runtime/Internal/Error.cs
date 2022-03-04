@@ -25,6 +25,11 @@ namespace MackySoft.XPool.Internal {
 		}
 
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static ArgumentOutOfRangeException RequiredGreaterThanZero (string paramName) {
+			return new ArgumentOutOfRangeException(paramName,"The value must be greater than 0.");
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static NullReferenceException FactoryMustReturnNotNull () {
 			return new NullReferenceException("Factory method must return not null.");
 		}
