@@ -1,7 +1,7 @@
 {
 	"name": "com.mackysoft.xpool",
 	"displayName": "XPool",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"unity": "2020.1",
 	"description": "Object pooling system for Unity.",
 	"keywords": [ "XPool" ],
