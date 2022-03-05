@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using MackySoft.XPool.Internal;
 using UnityEngine;
+using MackySoft.XPool.Internal;
 using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity {
@@ -14,7 +14,7 @@ namespace MackySoft.XPool.Unity {
 
 		[Tooltip("The original object from which the pool will instantiate a new instance.")]
 		[SerializeField]
-		protected T m_Original;
+		protected DefaultUnityObjectFactory<T> m_Factory;
 
 		[Tooltip("Capacity to store instances in the pool.")]
 		[SerializeField]
@@ -30,7 +30,7 @@ namespace MackySoft.XPool.Unity {
 		/// <summary>
 		/// The original object from which the pool will instantiate a new instance.
 		/// </summary>
-		public T Original => m_Original;
+		public T Original => m_Factory.Original;
 
 		public int Capacity => m_Capacity;
 
@@ -57,6 +57,7 @@ namespace MackySoft.XPool.Unity {
 		public Action<T> OnRelease { set => SetCallback(ref m_OnRelease,value); }
 
 		public UnityObjectPool () {
+			m_Factory = new DefaultUnityObjectFactory<T>();
 		}
 
 		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
@@ -64,14 +65,14 @@ namespace MackySoft.XPool.Unity {
 		/// <exception cref="ArgumentNullException"></exception>
 		/// <exception cref="ArgumentOutOfRangeException"></exception>
 		public UnityObjectPool (T original,int capacity) {
-			m_Original = (original != null) ? original : throw Error.ArgumentNullException(nameof(original));
+			m_Factory = new DefaultUnityObjectFactory<T>(original);
 			m_Capacity = (capacity >= 0) ? capacity : throw Error.RequiredNonNegative(nameof(capacity));
 		}
 
 		public T Rent () {
 			T instance = GetPooledInstance();
 			if (instance == null) {
-				instance = UnityObject.Instantiate(m_Original);
+				instance = m_Factory.Factory();
 				m_OnCreate?.Invoke(instance);
 			}
 			m_OnRent?.Invoke(instance);

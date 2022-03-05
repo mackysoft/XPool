@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.XPool.Unity {
 
@@ -10,7 +9,7 @@ namespace MackySoft.XPool.Unity {
 	[Serializable]
 	public class ComponentPool<T> : UnityObjectPool<T>, IHierarchicalUnityObjectPool<T> where T : Component {
 
-		public ComponentPool () {
+		public ComponentPool () : base() {
 		}
 
 		/// <param name="original"> The original object from which the pool will instantiate a new instance. </param>
@@ -28,7 +27,7 @@ namespace MackySoft.XPool.Unity {
 				transform.SetPositionAndRotation(position,rotation);
 			}
 			else {
-				instance = UnityObject.Instantiate(m_Original,position,rotation,parent);
+				instance = m_Factory.Factory(position,rotation,parent);
 				m_OnCreate?.Invoke(instance);;
 			}
 			m_OnRent?.Invoke(instance);
@@ -41,7 +40,7 @@ namespace MackySoft.XPool.Unity {
 				instance.transform.SetParent(parent,worldPositionStays);
 			}
 			else {
-				instance = UnityObject.Instantiate(m_Original,parent,worldPositionStays);
+				instance = m_Factory.Factory(parent,worldPositionStays);
 				m_OnCreate?.Invoke(instance);
 			}
 			m_OnRent?.Invoke(instance);
