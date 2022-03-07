@@ -12,7 +12,7 @@ namespace MackySoft.XPool.Unity {
 			EditorGUI.BeginProperty(position,label,property);
 			EditorGUI.BeginDisabledGroup(Application.isPlaying);
 
-			SerializedProperty original = property.FindPropertyRelative("m_Original");
+			SerializedProperty original = property.FindPropertyRelative("m_Factory");
 			SerializedProperty capacity = property.FindPropertyRelative("m_Capacity");
 
 			// Draw prefix label
@@ -23,8 +23,8 @@ namespace MackySoft.XPool.Unity {
 			Rect propertyPosition = EditorGUI.IndentedRect(prefixLabelPosition);
 			propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 			using (new EditorGUI.IndentLevelScope()) {
-				// Draw original property
-				EditorGUI.PropertyField(propertyPosition,original);
+				// Draw factory property
+				EditorGUI.PropertyField(propertyPosition,original,true);
 
 				// Draw capacity property
 				propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
@@ -38,7 +38,7 @@ namespace MackySoft.XPool.Unity {
 				if (property.Copy().CountRemaining() > 2) {
 					propertyPosition.y += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 					foreach (var child in SerializedPropertyUtility.GetVisibleChildren(property)) {
-						if (child.name == "m_Original" || child.name == "m_Capacity") {
+						if (child.name == "m_Factory" || child.name == "m_Capacity") {
 							continue;
 						}
 						float height = EditorGUI.GetPropertyHeight(child);
