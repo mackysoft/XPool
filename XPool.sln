@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool", "MackySoft.XPool.csproj", "{74B3B2CE-DA6D-389E-C003-31F1BF1A8A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool.Editor", "MackySoft.XPool.Editor.csproj", "{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool.Tests.Editor", "MackySoft.XPool.Tests.Editor.csproj", "{D4684E2D-47E8-5FBE-043E-247A51A7388F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.XPool.Editor", "MackySoft.XPool.Editor.csproj", "{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1554AA8B-EAFD-6297-EA79-851161F4D6A0}"
 EndProject
@@ -19,14 +19,14 @@ Global
 		{74B3B2CE-DA6D-389E-C003-31F1BF1A8A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B3B2CE-DA6D-389E-C003-31F1BF1A8A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B3B2CE-DA6D-389E-C003-31F1BF1A8A2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4684E2D-47E8-5FBE-043E-247A51A7388F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26CF929-283A-B6C9-F1A4-CF7FC18C5A32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1554AA8B-EAFD-6297-EA79-851161F4D6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1554AA8B-EAFD-6297-EA79-851161F4D6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1554AA8B-EAFD-6297-EA79-851161F4D6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
