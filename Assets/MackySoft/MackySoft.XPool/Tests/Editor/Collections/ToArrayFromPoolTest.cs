@@ -19,9 +19,23 @@ namespace MackySoft.XPool.Collections.Tests {
 		public void Throw_if_argument_is_null () {
 			Unit[] source = Array.Empty<Unit>();
 			
+			// ToArrayFromPool(IEnumerable<T>,ArrayPool<T>,out int)
 			Assert.DoesNotThrow(() => ArrayPoolExtensions.ToArrayFromPool(source,m_Pool,out _));
 			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool(null,m_Pool,out _));
 			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool(source,null,out _));
+
+			// ToArrayFromPool(IEnumerable<T>,ArrayPool<T>)
+			Assert.DoesNotThrow(() => ArrayPoolExtensions.ToArrayFromPool(source,m_Pool));
+			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool(null,m_Pool));
+			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool(source,null));
+
+			// ToArrayFromPool(IEnumerable<T>,out int)
+			Assert.DoesNotThrow(() => ArrayPoolExtensions.ToArrayFromPool(source,out _));
+			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool<Unit>(null,out _));
+
+			// ToArrayFromPool(IEnumerable<T>)
+			Assert.DoesNotThrow(() => ArrayPoolExtensions.ToArrayFromPool(source));
+			Assert.Throws<ArgumentNullException>(() => ArrayPoolExtensions.ToArrayFromPool<Unit>(null));
 		}
 
 		[Test]
@@ -67,6 +81,18 @@ namespace MackySoft.XPool.Collections.Tests {
 			};
 
 			Unit[] result = ArrayPoolExtensions.ToArrayFromPool(new ReadOnlyCollection<Unit>(source),m_Pool,out int count);
+
+			Assert.AreEqual(source.Count,count);
+			CollectionAssert.AreEqual(source,result.Take(count));
+		}
+		
+		[Test]
+		public void Return_expected_array_from_IEnumerable () {
+			List<Unit> source = new List<Unit>() {
+				new Unit()
+			};
+
+			Unit[] result = ArrayPoolExtensions.ToArrayFromPool(new Enumerable<Unit>(source),m_Pool,out int count);
 
 			Assert.AreEqual(source.Count,count);
 			CollectionAssert.AreEqual(source,result.Take(count));
@@ -127,6 +153,19 @@ namespace MackySoft.XPool.Collections.Tests {
 			}
 
 			public int Count => m_Source.Count;
+
+			public IEnumerator<T> GetEnumerator () => m_Source.GetEnumerator();
+
+			IEnumerator IEnumerable.GetEnumerator () => m_Source.GetEnumerator();
+		}
+
+		class Enumerable<T> : IEnumerable<T> {
+
+			readonly List<T> m_Source;
+
+			public Enumerable (List<T> source) {
+				m_Source = source;
+			}
 
 			public IEnumerator<T> GetEnumerator () => m_Source.GetEnumerator();
 
