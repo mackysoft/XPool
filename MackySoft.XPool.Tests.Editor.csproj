@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Timers\PeriodicTimerTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Unit.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\PoolExtensions.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\TemporaryListTest.cs" />
@@ -64,7 +65,7 @@
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\TemporaryQueueTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ArrayPoolTest.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Unity\UnityObjectPoolTest.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Timers\PeriodicTimerTest.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\Collections\ToArrayFromPoolTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MackySoft\MackySoft.XPool\Tests\Editor\MackySoft.XPool.Tests.Editor.asmdef" />
@@ -303,9 +304,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
