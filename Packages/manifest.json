@@ -6,6 +6,7 @@
     "com.unity.ide.vscode": "1.2.4",
     "com.unity.test-framework": "1.1.29",
     "com.unity.test-framework.performance": "2.8.0-preview",
+    "com.unity.testtools.codecoverage": "1.1.1",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",

@@ -80,3 +80,6 @@ Documentation/api/
 Documentation/index.*
 _site/
 Assets/**/obj/
+
+# Code Coverage
+/[Cc]ode[Cc]overage/
