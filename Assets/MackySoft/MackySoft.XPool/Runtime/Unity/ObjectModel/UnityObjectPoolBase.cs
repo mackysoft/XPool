@@ -44,7 +44,8 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 				OnCreate(instance);
 			}
 			OnRent(instance);
-			return instance;
+
+			return (instance != null) ? instance : throw Error.InstanceDestroyed();
 		}
 
 		public void Return (T instance) {

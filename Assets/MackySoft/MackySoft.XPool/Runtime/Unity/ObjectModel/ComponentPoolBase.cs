@@ -1,4 +1,5 @@
 ﻿using System;
+using MackySoft.XPool.Internal;
 using UnityEngine;
 
 namespace MackySoft.XPool.Unity.ObjectModel {
@@ -30,7 +31,8 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 				OnCreate(instance);
 			}
 			OnRent(instance);
-			return instance;
+
+			return (instance != null) ? instance : throw Error.InstanceDestroyed();
 		}
 
 		public T Rent (Transform parent,bool worldPositionStays) {
@@ -43,7 +45,8 @@ namespace MackySoft.XPool.Unity.ObjectModel {
 				OnCreate(instance);
 			}
 			OnRent(instance);
-			return instance;
+
+			return (instance != null) ? instance : throw Error.InstanceDestroyed();
 		}
 
 	}
