@@ -2,385 +2,385 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ArrayPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ArrayPoolExtensions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ArrayPoolUtility.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.CollectionPoolUtility.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.DictionaryPool-2.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.HashSetPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ListPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.ObjectModel.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.QueuePool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.StackPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryArray-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryList-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryListExtensions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryQueue-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.TemporaryStack-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.TemporaryArrayTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.TemporaryQueueTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.TemporaryStackTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.Tests.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Collections.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.FactoryPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.IPool.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.IPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.ObjectModel.PoolBase-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.ObjectModel.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.PoolExtensions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.RentInstance-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Tests.FactoryPoolTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Tests.PoolExtensions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Tests.Unit.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Tests.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.IReadOnlyTimer.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.ITimer.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.PeriodicTimer.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.Tests.PeriodicTimerTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.Tests.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.TimerTicker.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Timers.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ComponentPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.DefaultFunctions.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.GameObjectPool.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.IUnityObjectPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ObjectModel.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.ParticleSystemPool.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.SerializedPropertyUtility.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.Tests.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.UnityObjectPool-1.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.Unity.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/api/MackySoft.XPool.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/changelog/CHANGELOG.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mackysoft.github.io/XPool/index.html</loc>
-    <lastmod>2022-05-04T03:09:50+00:00</lastmod>
+    <lastmod>2022-06-21T01:37:13+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
