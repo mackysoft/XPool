@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPool-1.html",
-          "hash": "pRs+KrU6D2cDc+hKB07npPSuw3MHOkik7OWl2HaNkTc="
+          "hash": "GQPJdlu9yBVz+b6+vYEUFXE7yx5JK48vOvoA+I7+bnY="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolExtensions.html",
-          "hash": "HPtIH7X7DrSWZLO/QnWGRSspzC9faDEAs/yUMdYby9M="
+          "hash": "8TO9mKiD35MHkXmE2zGFcA0I1Xtcwfy8pLjjmolwOUE="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ArrayPoolUtility.html",
-          "hash": "tD6WVQgrM2C4UEowJUUBhjXoeSLgXxucs83ny90g0uY="
+          "hash": "9hebmLxWO9mFXwYdysDX/mKHOK3QRBbOyWew4mxhn3M="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.CollectionPoolUtility.html",
-          "hash": "G/i+/KACcDr56yonRLvQz1cZo0JsxjVXm+2FThtwP8c="
+          "hash": "i06tTZDw9lcTTyGdnxkFVQ0CEz32dR2Fq8cTsO+KqtU="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.DictionaryPool-2.html",
-          "hash": "OBfVxouoGfMvPuzQKRYFXm/1k9OA4DCB7KvZP2ntYy0="
+          "hash": "GTmlZSBbTxJAqCKVdogBZLvCKOPMtDqs2q6V7OFfE5E="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.HashSetPool-1.html",
-          "hash": "bEGoOjlWsbqLiAI5ecRugtb3kQl2d2RgGYIaevKFyeY="
+          "hash": "OsHcUfgpNDoOi7Of/QHiSjnqIIqrDFOrSAYIO3wEYOg="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ListPool-1.html",
-          "hash": "vtNU9fZKCjWVC70BPfc+6dYFRYOoK3yIfKe3k2nU93U="
+          "hash": "EtJbTc4cIlTGpg8+YjyNvJNgNmrnB3sJLVD30zCe58Q="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.CollectionPoolBase-1.html",
-          "hash": "yk6E55PnaMa6cBNzh2rmTvE+J6fX/1DEf3X0Idfhamk="
+          "hash": "6IWZnFDMwRVYTkbsshnMq+IABVLg4ArMLgO7iyJNPOs="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.ObjectModel.html",
-          "hash": "VStA1YRYsUHNdpB+q5712lcjgGk+XDIxvu/o1ttBb/E="
+          "hash": "sxvB29YcbtvjbIa8D5QNr7HG4Isi6EB/mCSWNqSXazk="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.QueuePool-1.html",
-          "hash": "HLbfT0lZhuLnc+YaqnBI7gKJj4vehDXELjV5nR829mo="
+          "hash": "uNLRTwjq8hqOTc5sQ33Ndtp0JRT9Fq5cT2L0atPVrMw="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.StackPool-1.html",
-          "hash": "j2LipECNrOxSx12HaWdLTopL0VaNLDrADLCdbnsgEFw="
+          "hash": "5hRcGDo+9NtGa5E4B58CDWWUGHNU+k+kEQWsomaC78I="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryArray-1.html",
-          "hash": "4Zv79WtMemBmVlpxDpFSmhAp3JB1VFALnsHQi2ZvkLw="
+          "hash": "D8OCSEcqPoFfZpkToF0gwt8med43+6nnKOs9OOvYX/4="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryArrayExtensions.html",
-          "hash": "75U9trD9h2WIG1UGgFJHzPYoxyvZI9Gd/bYAIlr1qtY="
+          "hash": "Ibet0RcQP4HU3bIG0ijXcp5woP/QeKp9wQeqRF5Gmoo="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryList-1.html",
-          "hash": "9rcUbRAwNykHpbuddD+p4UZS9kR0I+UV7g7jjzQVK04="
+          "hash": "oZplwonH39Kgb9dLZKau5B3RDr8NaHL+ddOhvftuxBc="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryListExtensions.html",
-          "hash": "em+jovtlaqmxTLD+AKgiJGiDoL4Y+W1gvGYq5dL8UQ0="
+          "hash": "nhrczgtdymiHj8uKD9dP5CLRZ3eK7NIPnKWt1vobCvA="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryQueue-1.html",
-          "hash": "4CZvLDaLKySsisuY5wTAfgr9qwoG++FR96RxZtF3aCs="
+          "hash": "vMjoo1QKB9oXhIbWVJEctNgRxH6f5T8PmTExPp8iPQY="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.TemporaryStack-1.html",
-          "hash": "yskZOnLtRVkJ8XHZgXGEURp4vbNm9mkrypMxEUvi1xU="
+          "hash": "JsKZNFDBOAcBMHzZurdWwFx9U/vRkAVi6qtkW9/87tY="
         }
       },
       "is_incremental": false,
@@ -232,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.ArrayPoolTest.html",
-          "hash": "Ya42Kfp7+rLTVeeAJaccGeSC8O9Q7r1lFyWphwTRpPg="
+          "hash": "VBlD2pK6cgnXwoRAn8q61ZRZcET1JIANWqYxAeSn4zQ="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.CollectionPoolBaseTest.html",
-          "hash": "mDAYVXS+U5GlcaBnE2erbBHkPgULoHHl/+EkKRn7eB0="
+          "hash": "QxPbQc8IgoLxuPxqar/Q3a1AzjWbVMK5OtEkFftni34="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryArrayTest.html",
-          "hash": "3X0udP8RaLWVomBPopuaQ8iCvu6/uad26DSRkGqGnPo="
+          "hash": "+zOTH/D5SW9/kcmEhgQeqGQQTTs9eu2j6KvmSamqcOc="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryListTest.html",
-          "hash": "TtrMMxik//n8a5eirsx2zJWMOw0hBKtd7aSZ7d+fZH0="
+          "hash": "UJWLRT4IairPvXuDPFsjtC0YRMEu9eBqd0FoVwfwTkE="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryQueueTest.html",
-          "hash": "js6mPBMNrvWi+SE/D7J5ijWAHo/Nw22x7nvdaoOn3EQ="
+          "hash": "nR9eFLFZ+xQwdyHDYH3x9j5VKbvf59WSLcqRjpV0B9U="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.TemporaryStackTest.html",
-          "hash": "sZw/yq7BxteT9gd73rNFKlWNGSy8W0cmDvGAtGO2I0I="
+          "hash": "K+xGq1U9mrowCczOLyUL/0ZTotCfsRsD8A1RqGV5n6o="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.Tests.html",
-          "hash": "xzEjMgrH+Ua61omVJ+MGY8+5cvQm06hwXJmcN2dJ3Dc="
+          "hash": "5Lt+kE2b47V2e9mtI15ATwplRsRViVEYt/pYBmh4QfE="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Collections.html",
-          "hash": "beIwfQsvmc39kz07t4rNf5CrNG4Ejj2iixyuJZVnqIs="
+          "hash": "T4o6NgguSpMMz2igEQ6yIBev1Dk6cNw3aHAIkFY96ew="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.FactoryPool-1.html",
-          "hash": "FMQgk4ZUjCUg5evGadaDk+X7iPwb40OMzpfOrw+wk2w="
+          "hash": "mgpp3e4SfS3zTI+u0eCY4SrzgpdR1U1EMwQVJqpvfxg="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.IPool-1.html",
-          "hash": "2DNML7pOV19GVYsYSDtMbA1MISP9Wn5zCLaE89kLD7M="
+          "hash": "nw9t/dCZG8v9/JRlRU4knvp50Cyr/Qi8GrzTyV/n+ug="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.IPool.html",
-          "hash": "iy2tBDrvtHcjB0hcosoNeQIeEhsmV7dBHDMxYoOn4aQ="
+          "hash": "4cGCe2EKImXhBIiJDMvRYE8ws9O8Th3FmOgv/01af8o="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.ObjectModel.PoolBase-1.html",
-          "hash": "Pq1C7+UQi+gVxVQ1y4h3xx8MlRsai8LRmk6bmRNXKeA="
+          "hash": "koo9xy3jRHSfkF2dQYVL0kfeXsg1ZAQ0Sb+9o9Hx5/k="
         }
       },
       "is_incremental": false,
@@ -376,7 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.ObjectModel.html",
-          "hash": "9Ws7hEtCj4C65M5jeMHwww4Ru7zL2lWzPGYfrvdDSTk="
+          "hash": "OJRhLBsSh0xL797pMGxJy4PLnAljE1GfTPVFcmdYq98="
         }
       },
       "is_incremental": false,
@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.PoolExtensions.html",
-          "hash": "iVUU+Q+aQK1kh02kpbRJChV9I42+KQ8aLnB4LxCLn5o="
+          "hash": "mBlcbE6FKw8Z2e+ToimK4XJEwSuJfH/jJCNMQZ+HE7c="
         }
       },
       "is_incremental": false,
@@ -400,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.RentInstance-1.html",
-          "hash": "yPTaJsbsKh2pafsb/EkuO0LBHbYPVu0Yiag3Qg/JalU="
+          "hash": "gowzphjIIe65xTxx1z/CFd/FJ6B6RQs4UlbFKNsIDKo="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.FactoryPoolTest.html",
-          "hash": "ah5M63+qLKhpy1O8nH9zUi3ALYnQHx5NwPKau4QuywI="
+          "hash": "IlgDBjbu18yH9f+a1AsZG0KB3HyjC1kBOiZ+QSBnEhE="
         }
       },
       "is_incremental": false,
@@ -424,7 +424,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.PoolExtensions.html",
-          "hash": "ehko2JEpOqs3R/x/95+CPkiaFNfP/FkdReYe+yvegh8="
+          "hash": "pwZm8bkQJIrM6JWqp9UGwoueCrSy4kI090CuMHguCYU="
         }
       },
       "is_incremental": false,
@@ -436,7 +436,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.Unit.html",
-          "hash": "q8USXyyumugN+hOWMf40t7azV1muP135JIpjijrYOLU="
+          "hash": "gUlX3yt2/QfIOhMQq0QfBCjmRdydENlB82UdXd3UGHg="
         }
       },
       "is_incremental": false,
@@ -448,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Tests.html",
-          "hash": "i48XrrCgcW5NR/MShMvNr3S7cz5E6iMIhgN+jRyuPdM="
+          "hash": "0l4QY2E+LGHH8jKZ6ND5JmvUC+2z6KdrSa6wVRZOJTg="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.IReadOnlyTimer.html",
-          "hash": "OnXA7jdnMndRyiTA5PD4Mw1sVlyflDL7rX5jrRHwkiY="
+          "hash": "0GXRp9ODwiOnyQ5a1R+0X8JVvyL0AkaEg2wn7Pu9tmQ="
         }
       },
       "is_incremental": false,
@@ -472,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.ITimer.html",
-          "hash": "h72BQVurJTRf2HWzOg2mYhjBmG6zu6CYRLI0ktoaAok="
+          "hash": "DrVpbwiWZp6H4LzrvW6WSCIet5m+2jGoaR5VFWXS4mE="
         }
       },
       "is_incremental": false,
@@ -484,7 +484,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.PeriodicTimer.html",
-          "hash": "IivKZywKTnRH6XQotqWy/0l3+x0AFx7ZOAI2sfQcpFY="
+          "hash": "cQwx9nVOnvUj+xGT3okJ3f1wq/qC3bnf6YNQp5JaLJo="
         }
       },
       "is_incremental": false,
@@ -496,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.PeriodicTimerDrawer.html",
-          "hash": "ClNSTPPDQTlEYq8LggNsPS4FQiYZQCI+PbL9Z8MIyWE="
+          "hash": "XkLm4D/JcZXbxPDhTw94sxLxih1H8dIDkPH78eKpfo8="
         }
       },
       "is_incremental": false,
@@ -508,7 +508,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.Tests.PeriodicTimerTest.html",
-          "hash": "uJ3zh/yvOn6K47gXxfV2B6knZEsRx89DjD0PcsXI3sc="
+          "hash": "hH0TvV/2GGSYah2OGYMDLParu5w6uJVdADgtNCHYpqI="
         }
       },
       "is_incremental": false,
@@ -520,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.Tests.html",
-          "hash": "deNsT4SAZnurE5OfQn/ecxPZ1nbhMqrnDhRED45yVlw="
+          "hash": "ItDxbebc7i1yHSKQ9AV3TAe9O+XzV7CXPUgqYwen4rI="
         }
       },
       "is_incremental": false,
@@ -532,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.TimerTicker.html",
-          "hash": "Hm0n9kL64jYK2qYQk2XYekHW5zPCaLAgrqqkFoL3lNU="
+          "hash": "haHBlLu7zeSPnbQuEEB3rw2RF6pA+6fXcYHpyo/q9ew="
         }
       },
       "is_incremental": false,
@@ -544,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Timers.html",
-          "hash": "Xs0WYN6EUhc5QhL3HOM/Az7L7fNrAZdNeMzGQTcg04o="
+          "hash": "ve7ZUzkvi6u/5UVMm1a4JAnmUsQRQecQ659W/7fuba4="
         }
       },
       "is_incremental": false,
@@ -556,7 +556,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ComponentPool-1.html",
-          "hash": "NbPKL+6iPpnCkUOxcVoQvHrMyXNBtwU5QHxDNpMEgKA="
+          "hash": "7ECzIz4cgBIEf9B8xr3uLoPAesiMhw3bleTGNZLAfFc="
         }
       },
       "is_incremental": false,
@@ -568,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.DefaultFunctions.html",
-          "hash": "R0vIJ0Q/6wgkknIcmdJTfMPVtYbBasp83uRr/diVaV4="
+          "hash": "sxc1c+9jfNWB3z4cPzof/ZMyTcfgU92wTJ57j2KXEZM="
         }
       },
       "is_incremental": false,
@@ -580,7 +580,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.GameObjectPool.html",
-          "hash": "+CE404ooVIDJybuUJgyYZcwmTyqm57wCD2oaP6sxCtI="
+          "hash": "EM6z+5IgbZbzyFpWQg1rLSJ0L5GKPq256jCaubuiw0I="
         }
       },
       "is_incremental": false,
@@ -592,7 +592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IHierarchicalUnityObjectPool-1.html",
-          "hash": "bK7ogch9urG8IMzeHwj0jtG5BAjFAVjCo17FnUVWzk0="
+          "hash": "CqErvKZETuatgB44Ihb2CRwN8MtouazfbjxoSLZufjc="
         }
       },
       "is_incremental": false,
@@ -604,7 +604,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.IUnityObjectPool-1.html",
-          "hash": "0a+fMQDKrN7ZieYZIdPHIykbfILhut3ALcwoAypvwmg="
+          "hash": "hdrmY+TOWysCTJ48FFK5fsYOYpvupxHzPrcttf7JAM4="
         }
       },
       "is_incremental": false,
@@ -616,7 +616,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.ComponentPoolBase-1.html",
-          "hash": "MYJb5/GD3K3t9xI7SdS30jHo07MejqwMbSJy9UUex+Y="
+          "hash": "RhkXJ6DnKPy7rR6Gk+T99Zs20AfCc3L4n8LBOWHGVqE="
         }
       },
       "is_incremental": false,
@@ -628,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.UnityObjectPoolBase-1.html",
-          "hash": "AC3X9R1L4dDUDRcymV6idT12QxF6TlBwT/N1kuvfZ3A="
+          "hash": "wF29AOdf8gOFdhjUz/Y0sRL+KRMkyznr0IFIm5fRYIY="
         }
       },
       "is_incremental": false,
@@ -640,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ObjectModel.html",
-          "hash": "K32RR8wZp6O0flOYjOPRhPu5nSaCnl5nVuO04S4ZfyY="
+          "hash": "Ub0N/vsyEAuWySbR/fOEJdRUC7HVeqj52Keg5OHULBs="
         }
       },
       "is_incremental": false,
@@ -652,7 +652,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.ParticleSystemStoppedTrigger.html",
-          "hash": "cAEJvmKUMli3vgm/xOpPtnKCXirCoBGNRinGx80J+YY="
+          "hash": "1f+QWXtqIFmvit3DfiND0Dpt1heGuXl5aHF1VS3ozf0="
         }
       },
       "is_incremental": false,
@@ -664,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.ParticleSystemPool.html",
-          "hash": "w53xzo0ESMzpUBxAyfjMWmKG3Q7Vzo5wdEZdERDvXE4="
+          "hash": "uD+Mstoj9IC+iwLYxd04HHSjqJpwo2VgXd60FAY25jQ="
         }
       },
       "is_incremental": false,
@@ -676,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.SerializedPropertyUtility.html",
-          "hash": "QJGXOlwbNrhiNTVccNPWSkOu5TKKKQaLsFRvgPBi+20="
+          "hash": "2j6+aGBxZf/Fw1ZxbnFyEp7nNKB9ZLtGvwg0LeF52DU="
         }
       },
       "is_incremental": false,
@@ -688,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.Tests.UnityObjectPoolBaseTest.html",
-          "hash": "HqNjm2iKAdf783AFcxlhqhBaRlyMCM9lImQM6VlKEd8="
+          "hash": "/nouwn61qvIXRfhqUuOa9GsGA0NZMOlcYWJzFHwsno8="
         }
       },
       "is_incremental": false,
@@ -700,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.Tests.UnityObjectPoolTest.html",
-          "hash": "O0NH5QycqC/sRgQocignaKY0NMPpiNw9DnDox0UM/cs="
+          "hash": "bLs2ngrrY9+VQA0fgUL5Yo6C0nTrahmztytlN1nE+jU="
         }
       },
       "is_incremental": false,
@@ -712,7 +712,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.Tests.html",
-          "hash": "pZaYiBuEl3uFUiAjhdNBx+EjU9Xj998FYmxpkAwUGRE="
+          "hash": "QDvSIAzUuIMBKrOkFc3Q1jCaQZjG3Uqc4iTK2IFATWs="
         }
       },
       "is_incremental": false,
@@ -724,7 +724,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.UnityObjectPool-1.html",
-          "hash": "b4KDU/NHKwu6bua5cfyPVybKdh/cmsg2F3LB+N11Hnk="
+          "hash": "95I6Zj00T1Zi+cOwdMbK06yUsbHcVOTXKUtcg8NK+rc="
         }
       },
       "is_incremental": false,
@@ -736,7 +736,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.UnityObjectPoolDrawer.html",
-          "hash": "OEbWFKg5ZbGTqpTLXRK9h5mGWFHI+mJdg0N0d0aN5QY="
+          "hash": "cAwbdpTHssfaDqAwGVeuqovYE+DF/g7PTNDEHCsmXhM="
         }
       },
       "is_incremental": false,
@@ -748,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.Unity.html",
-          "hash": "Jn4jjBDWa6+995rsPROsI0t0TR+B1CuytteuEIB5q0A="
+          "hash": "Fd2fCfZ+qKdhuN04grdPjwtDWZdkgkkPx3WfnChzE4c="
         }
       },
       "is_incremental": false,
@@ -760,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.XPool.html",
-          "hash": "frF6ITRrTonxkZhhEnEkImq6pbnVNQOI2Y6sfdTtSrY="
+          "hash": "7hWiMSUIfjU4t/fAsVzrpyYcFwjZbvHcGOAb+Y48q7s="
         }
       },
       "is_incremental": false,
@@ -784,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "Rb9SRahUeDPvxOg2+YfktjT69dckcN7pj3PFa/aQUAo="
+          "hash": "Z7TszwMd563HKqWcHWaYP4urYtS5Esvf5CzQqUpjQO8="
         }
       },
       "is_incremental": false,
@@ -808,7 +808,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Z4C4UPTwgMV2MThzBLZF9/f8wUkyxjkwklGJzk4474Y="
+          "hash": "ln4g1UM0z79lX+RkMWQ6Y3Qe8UEhxgRrmYQkNyboUrg="
         }
       },
       "is_incremental": false,
